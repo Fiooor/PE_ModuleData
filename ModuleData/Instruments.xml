@@ -1,0 +1,17 @@
+<Instruments>
+    <Instrument>
+        <ItemId>pe_musical_instrument_cornu</ItemId>
+        <Animation>act_play_cornu_stand</Animation>
+        <MusicId>event:/music/musicians/empire/02</MusicId>
+    </Instrument>
+    <Instrument>
+        <ItemId>pe_musical_instrument_vielle</ItemId>
+        <Animation>act_play_celtic_harp_stand</Animation>
+        <MusicId>event:/music/musicians/sturgia/03</MusicId>
+    </Instrument>
+    <Instrument>
+        <ItemId>pe_musical_instrument_harp</ItemId>
+        <Animation>act_play_vielle_stand</Animation>
+        <MusicId>event:/music/musicians/battania/03</MusicId>
+    </Instrument>
+</Instruments>

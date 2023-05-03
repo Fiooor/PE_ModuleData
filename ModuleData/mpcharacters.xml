@@ -1,0 +1,1281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MPCharacters>
+
+
+<NPCCharacter id="pe_sea_raider"
+              default_group="Infantry"
+              level="25"
+              name="Sea Raider"
+              occupation="Soldier"
+              culture="Culture.vlandia">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="130" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="50" />
+      <skill id="Athletics" 
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+<NPCCharacter id="pe_crusader"
+              default_group="Infantry"
+              level="25"
+              name="Crusader"
+              occupation="Soldier"
+              culture="Culture.vlandia">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="130" />
+      <skill id="TwoHanded"
+             value="130" />
+      <skill id="Polearm"
+             value="130" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="60" />
+      <skill id="Athletics" 
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="pe_priest"
+                default_group="Infantry"
+                level="10"
+                name="Priest"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Medicine" 
+             value="120" />
+      <skill id="Endurance" 
+             value="30" />
+      <skill id="Athletics" 
+             value="75" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+
+
+  <NPCCharacter id="pe_master_crossbowman"
+                default_group="Infantry"
+                level="10"
+                name="Master Crossbowman"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="25" />
+      <skill id="Crossbow"
+             value="150" />
+      <skill id="Bow"
+             value="10" />
+      <skill id="Throwing"
+             value="10" />
+      <skill id="Endurance" 
+             value="40" />
+      <skill id="Athletics" 
+             value="70" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>    
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="pe_militia_cavalry"
+                default_group="Infantry"
+                level="10"
+                name="Militia Cavalry"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="75" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="40" />
+      <skill id="Athletics" 
+             value="60" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>    
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="pe_militia"
+                default_group="Infantry"
+                level="10"
+                name="Militia"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="75" />
+      <skill id="TwoHanded"
+             value="75" />
+      <skill id="Polearm"
+             value="75" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="40" />
+      <skill id="Athletics" 
+             value="75" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>    
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="pe_master_archer"
+                default_group="Infantry"
+                level="10"
+                name="Master Archer"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="25" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="150" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="40" />
+      <skill id="Athletics" 
+             value="70" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>    
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+
+
+
+
+
+  <NPCCharacter id="pe_mercenary"
+                default_group="Infantry"
+                level="10"
+                name="Mercenary"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="75" />
+      <skill id="TwoHanded"
+             value="75" />
+      <skill id="Polearm"
+             value="75" />
+      <skill id="Crossbow"
+             value="75" />
+      <skill id="Bow"
+             value="75" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="40" />
+      <skill id="Athletics" 
+             value="75" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>    
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="pe_combattest2"
+                default_group="Infantry"
+                level="10"
+                name="Admin"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="300" />
+      <skill id="OneHanded"
+             value="200" />
+      <skill id="TwoHanded"
+             value="200" />
+      <skill id="Polearm"
+             value="200" />
+      <skill id="Crossbow"
+             value="200" />
+      <skill id="Bow"
+             value="200" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Athletics" 
+             value="500" />
+      <skill id="Gathering" 
+             value="100" />
+      <skill id="Cooking" 
+             value="100" />
+      <skill id="Engineering" 
+             value="100" />
+      <skill id="Endurance" 
+             value="60" />
+      <skill id="Trade" 
+             value="60" />
+      <skill id="Medicine" 
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>    
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="pe_peasant"
+                default_group="Infantry"
+                level="10"
+                name="Peasant"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="1" />
+      <skill id="OneHanded"
+             value="1" />
+      <skill id="TwoHanded"
+             value="1" />
+      <skill id="Polearm"
+             value="1" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Gathering"
+             value="20" />
+      <skill id="Endurance" 
+             value="20" />
+      <skill id="Athletics" 
+             value="50" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+        <equipment slot="Body"
+                   id="Item.mp_tunic_with_shoulder_pads" />
+        <equipment slot="Leg"
+                   id="Item.mp_empire_horseman_boots" />
+        <equipment slot="Item1"
+                   id="Item.PE_peasant_hatchet_1_t1" />
+        <equipment slot="Item2"
+                   id="Item.PE_peasant_sickle_1_t1" />
+        <equipment slot="Item3"
+                   id="Item.pe_buildhammer" />
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="pe_serf"
+                default_group="Infantry"
+                level="10"
+                name="Serf"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="1" />
+      <skill id="OneHanded"
+             value="5" />
+      <skill id="TwoHanded"
+             value="5" />
+      <skill id="Polearm"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Gathering"
+             value="100" />
+      <skill id="Cooking" 
+             value="50" />
+      <skill id="Endurance" 
+             value="20" />
+      <skill id="Athletics" 
+             value="50" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+	  </NPCCharacter>
+
+  <NPCCharacter id="pe_traveller"
+                default_group="Infantry"
+                level="10"
+                name="Trader"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="100" />
+      <skill id="OneHanded"
+             value="5" />
+      <skill id="TwoHanded"
+             value="5" />
+      <skill id="Polearm"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Trade" 
+             value="100" />
+      <skill id="Endurance" 
+             value="20" />
+      <skill id="Athletics" 
+             value="70" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+	  </NPCCharacter>
+	
+  <NPCCharacter id="pe_lancer"
+                default_group="Infantry"
+                level="10"
+                name="Lancer"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="125" />
+      <skill id="OneHanded"
+             value="75" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="125" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Endurance" 
+             value="40" />
+      <skill id="Athletics" 
+             value="65" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+	  </NPCCharacter>
+	
+  <NPCCharacter id="pe_crossbowmilitia"
+                default_group="Infantry"
+                level="10"
+                name="Crossbow Militia"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="25" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="25" />
+      <skill id="Crossbow"
+             value="125" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Endurance" 
+             value="30" />
+      <skill id="Athletics" 
+             value="60" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="pe_huntsman"
+                default_group="Infantry"
+                level="10"
+                name="Huntsman"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="25" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="25" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="50" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Endurance" 
+             value="30" />
+      <skill id="Athletics" 
+             value="60" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+
+  <NPCCharacter id="pe_footman"
+                default_group="Infantry"
+                level="25"
+                name="Footman"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="110" />
+      <skill id="TwoHanded"
+             value="110" />
+      <skill id="Polearm"
+             value="110" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Endurance" 
+             value="50" />
+      <skill id="Athletics" 
+             value="85" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lv_raider"
+                default_group="Infantry"
+                level="25"
+                name="Raider"
+                occupation="Soldier"
+                culture="Culture.battania">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="125" />
+      <skill id="TwoHanded"
+             value="125" />
+      <skill id="Polearm"
+             value="125" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Endurance" 
+             value="50" />
+      <skill id="Athletics" 
+             value="125" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+    <NPCCharacter id="pe_archer"
+                default_group="Infantry"
+                level="25"
+                name="Archer"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="25" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="25" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="125" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Endurance" 
+             value="40" />
+      <skill id="Athletics" 
+             value="65" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+    <NPCCharacter id="pe_crossbowman"
+                default_group="Infantry"
+                level="25"
+                name="Crossbowman"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="25" />
+      <skill id="TwoHanded"
+             value="25" />
+      <skill id="Polearm"
+             value="25" />
+      <skill id="Crossbow"
+             value="125" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Endurance" 
+             value="40" />
+      <skill id="Athletics" 
+             value="65" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+     <NPCCharacter id="pe_manatarms"
+                default_group="Infantry"
+                level="25"
+                name="Man at arms"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="125" />
+      <skill id="OneHanded"
+             value="125" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="125" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="60" />
+      <skill id="Athletics" 
+             value="75" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  <NPCCharacter id="lv_master_craftsman"
+                default_group="Infantry"
+                level="10"
+                name="Master Craftsman"
+                occupation="Soldier"
+                culture="Culture.battania">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="5" />
+      <skill id="TwoHanded"
+             value="5" />
+      <skill id="Polearm"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Engineering"
+             value="150" />
+      <skill id="Endurance" 
+             value="20" />
+      <skill id="Athletics" 
+             value="60" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+  
+     <NPCCharacter id="lv_crusader"
+                default_group="Infantry"
+                level="25"
+                name="Crusader"
+                occupation="Soldier"
+                culture="Culture.battania">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="150" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="60" />
+      <skill id="Athletics" 
+             value="75" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+       <NPCCharacter id="pe_sergeant"
+                default_group="Infantry"
+                level="25"
+                name="Sergeant"
+                occupation="Soldier"
+                culture="Culture.vlandia">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="150" />
+      <skill id="TwoHanded"
+             value="150" />
+      <skill id="Polearm"
+             value="150" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="60" />
+      <skill id="Athletics" 
+             value="100" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lv_Paladin"
+                default_group="Infantry"
+                level="25"
+                name="Paladin"
+                occupation="Soldier"
+                culture="Culture.battania">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="175" />
+      <skill id="TwoHanded"
+             value="175" />
+      <skill id="Polearm"
+             value="175" />
+      <skill id="Crossbow"
+             value="1" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="50" />
+      <skill id="Endurance" 
+             value="60" />
+      <skill id="Athletics" 
+             value="105" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="pe_doctor"
+                default_group="Infantry"
+                level="10"
+                name="Doctor"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Medicine" 
+             value="100" />
+      <skill id="Endurance" 
+             value="30" />
+      <skill id="Athletics" 
+             value="65" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  <NPCCharacter id="lv_surgeon"
+                default_group="Infantry"
+                level="10"
+                name="Surgeon"
+                occupation="Soldier"
+                culture="Culture.battania">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="50" />
+      <skill id="TwoHanded"
+             value="50" />
+      <skill id="Polearm"
+             value="50" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Medicine" 
+             value="150" />
+      <skill id="Endurance" 
+             value="30" />
+      <skill id="Athletics" 
+             value="65" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+    <NPCCharacter id="pe_craftsman"
+                default_group="Infantry"
+                level="10"
+                name="Craftsman"
+                occupation="Soldier"
+                culture="Culture.empire">
+    <face>
+      <!--face_key value="44.99;0.3333;0.3333;880000001;50000;0;6000000007000;5500505000000;0;0;180000" max_value="79.28;0.7951;0.8858;11A80CC03C0010;FFFFFFFF887CFFFF;FFFFFFFF7FF0F7FF;FFFFFFFFFFFFFFFF;DCFF90DFFFFFF;0;0;385142" /-->
+      <BodyProperties version="4"
+                      age="34.99"
+                      weight="0.3333"
+                      build="0.3333"
+                      key="00000008800000010000000000050000000000000000000000060000000070000005500505000000000000000000000000000000000000000000000000500000" />
+      <BodyPropertiesMax version="4"
+                         age="49.28"
+                         weight="0.7951"
+                         build="0.8858"
+                         key="0011A80CC03C0010FFFFFFFF887CFFFFFFFFFFFF7FF0F7FFFFFFFFFFFFFFFFFF000DCFF90DFFFFFF000000000000000000000000000000000000000001185142" />
+    </face>
+    <skills>
+      <skill id="Riding"
+             value="10" />
+      <skill id="OneHanded"
+             value="5" />
+      <skill id="TwoHanded"
+             value="5" />
+      <skill id="Polearm"
+             value="5" />
+      <skill id="Crossbow"
+             value="5" />
+      <skill id="Bow"
+             value="1" />
+      <skill id="Throwing"
+             value="1" />
+      <skill id="Engineering"
+             value="100" />
+      <skill id="Endurance" 
+             value="20" />
+      <skill id="Athletics" 
+             value="60" />
+    </skills>
+    <Equipments>
+      <EquipmentRoster>
+
+      </EquipmentRoster>
+    </Equipments>
+  </NPCCharacter>
+  
+
+</MPCharacters>
