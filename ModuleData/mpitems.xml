@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Items>
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_armor_crate_t1"
     name="{=!}Armor Crate T1"
     is_merchandise="false"
@@ -46,7 +46,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_baby"
     name="{=!}Harold the Baby"
     is_merchandise="false"
@@ -92,7 +92,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_armor_crate_t2"
     name="{=!}Armor Crate T2"
     is_merchandise="false"
@@ -138,7 +138,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_armor_crate_t3"
     name="{=!}Armor Crate T3"
     is_merchandise="false"
@@ -184,7 +184,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_weapon_crate_t1"
     name="{=!}Weapon Crate T1"
     is_merchandise="false"
@@ -230,7 +230,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_weapon_crate_t2"
     name="{=!}Weapon Crate T2"
     is_merchandise="false"
@@ -276,7 +276,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_weapon_crate_t3"
     name="{=!}Weapon Crate T3"
     is_merchandise="false"
@@ -323,7 +323,7 @@
       DropOnAnyAction="false" />
   </Item>
 
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_trading_goods3"
     name="{=!}Trading Goods 3"
     is_merchandise="false"
@@ -369,7 +369,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_trading_goods2"
     name="{=!}Trading Goods 2"
     is_merchandise="false"
@@ -415,7 +415,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_trading_goods1"
     name="{=!}Trading Goods 1"
     is_merchandise="false"
@@ -463,7 +463,7 @@
   </Item>
 
 
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_fillt1"
     name="{=!}pe_fillt1"
     is_merchandise="false"
@@ -509,7 +509,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_fillt3"
     name="{=!}pe_fillt3"
     is_merchandise="false"
@@ -555,7 +555,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_fillt2"
     name="{=!}pe_fillt2"
     is_merchandise="false"
@@ -669,377 +669,376 @@
            Civilian="true" />
   </Item>
 		-->
-		
+
   <Item id="wq_fire"
-        name="{=wqfire}Magic fire(AOE)"
-        is_merchandise="true"
-        body_name="bo_projectile_rock"
-        holster_body_name="bo_axe_short"
-        holster_mesh=""
-		value="200000"	
-        difficulty="125"		
-		flying_mesh="torch_flame_base"
-        mesh="torch_flame_base"
-        weight="0.1"
-        appearance="0.1"
-        Type="Thrown"
-        item_holsters="">
+    name="{=wqfire}Magic fire(AOE)"
+    is_merchandise="true"
+    body_name="bo_projectile_rock"
+    holster_body_name="bo_axe_short"
+    holster_mesh=""
+    value="200000"
+    difficulty="125"
+    flying_mesh="torch_flame_base"
+    mesh="torch_flame_base"
+    weight="0.1"
+    appearance="0.1"
+    Type="Thrown"
+    item_holsters="">
     <ItemComponent>
       <Weapon weapon_class="Boulder"
-              ammo_class="Boulder"
-              stack_amount="20"
-              physics_material="boulder_stone"
-			  accuracy="100"
-              thrust_speed="100"
-              speed_rating="90"
-		      thrust_damage_type="Blunt"
-              missile_speed="100"
-              weapon_length="80"
-              thrust_damage="200"
-              item_usage="stone"
-			  flying_sound_code="event:/mission/combat/boulder/passby"
-              rotation="100,30,20"
-              trail_particle_name="psys_game_burning_agent"
-              rotation_speed="0, 0.0, 0">
+        ammo_class="Boulder"
+        stack_amount="20"
+        physics_material="boulder_stone"
+        accuracy="100"
+        thrust_speed="100"
+        speed_rating="90"
+        thrust_damage_type="Blunt"
+        missile_speed="100"
+        weapon_length="80"
+        thrust_damage="200"
+        item_usage="stone"
+        flying_sound_code="event:/mission/combat/boulder/passby"
+        rotation="100,30,20"
+        trail_particle_name="psys_game_burning_agent"
+        rotation_speed="0, 0.0, 0">
         <WeaponFlags RangedWeapon="true"
-		             AffectsAreaBig="true"
-                     UseHandAsThrowBase="true"
-                     MissileWithPhysics="true"
-					 CanPenetrateShield="true"
-                     Consumable="true"
-                     LeavesTrail="true"
-                     Burning="true"
-                     AmmoBreaksOnBounceBack="true"
-					 CanKnockDown="true"
-                     HasString="true" />
+          AffectsAreaBig="true"
+          UseHandAsThrowBase="true"
+          MissileWithPhysics="true"
+          CanPenetrateShield="true"
+          Consumable="true"
+          LeavesTrail="true"
+          Burning="true"
+          AmmoBreaksOnBounceBack="true"
+          CanKnockDown="true"
+          HasString="true" />
       </Weapon>
     </ItemComponent>
     <Flags Civilian="true" />
-  </Item> 
-  
-  <Item multiplayer_item="false"
-        id="pe_firepot"
-        name="{=HP1GzM8l}Fire Pot"
-        is_merchandise="false"
-        body_name="bo_projectile_rock"
-        holster_body_name="bo_axe_short"
-        flying_mesh="projectile_pot"
-        mesh="projectile_pot"
-        holster_mesh=""
-        subtype="arrows"
-        weight="15"
-        difficulty="0"
-        appearance="1"
-        Type="Thrown"
-        item_holsters="">
-    <ItemComponent>
-      <Weapon weapon_class="Boulder"
-              ammo_class="Boulder"
-              stack_amount="1"
-              position="0.05, -0.15, 0"
-              physics_material="burning_jar"
-              thrust_speed="100"
-              speed_rating="0"
-              missile_speed="8"
-              weapon_length="95"
-              thrust_damage="70"
-              item_usage="heavy_stone"
-              flying_sound_code="event:/mission/combat/boulder/passby"
-              trail_particle_name="psys_game_burning_jar_trail"
-              rotation_speed="2, 0.5, 0">
-        <WeaponFlags RangedWeapon="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true"
-                     CanPenetrateShield="true"
-                     MissileWithPhysics="true"
-                     UseHandAsThrowBase="true"
-                     Consumable="true"
-                     LeavesTrail="true"
-                     Burning="true"
-                     AffectsAreaBig="true"
-                     AmmoBreaksOnBounceBack="true" />
-      </Weapon>
-    </ItemComponent>
-    <Flags QuickFadeOut="true"
-           CannotBePickedUp="false"
-           DropOnWeaponChange="false"
-           DropOnAnyAction="false" />
   </Item>
 
-
- <Item multiplayer_item="false"
-        id="grapeshot_stack"
-        name="{=ZeU1fvdz}Grapeshot Stack"
-        is_merchandise="false"
-        body_name="bo_projectile_grapeshot_carry"
-        holster_body_name="bo_axe_short"
-        mesh="projectile_grapeshot_carry"
-        holster_mesh=""
-        subtype="arrows"
-        weight="15"
-        difficulty="0"
-        appearance="1"
-        Type="Thrown"
-        item_holsters="">
-    <ItemComponent>
-      <Weapon weapon_class="Boulder"
-              ammo_class="Boulder"
-              stack_amount="1"
-              position="0.05, -0.15, 0"
-              physics_material="burning_jar"
-              thrust_speed="100"
-              speed_rating="0"
-              missile_speed="8"
-              weapon_length="95"
-              thrust_damage="70"
-              item_usage="heavy_stone"
-              flying_sound_code="event:/mission/combat/boulder/passby"
-              rotation_speed="2, 0.5, 0">
-        <WeaponFlags RangedWeapon="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true"
-                     CanPenetrateShield="true"
-                     MissileWithPhysics="true"
-                     UseHandAsThrowBase="true"
-                     Consumable="true"
-                     LeavesTrail="false"
-                     Burning="false"
-                     AmmoBreaksOnBounceBack="true" />
-      </Weapon>
-    </ItemComponent>
-    <Flags QuickFadeOut="true"
-           CannotBePickedUp="false"
-           DropOnWeaponChange="false"
-           DropOnAnyAction="false" />
-  </Item>
   <Item multiplayer_item="false"
-        id="grapeshot_fire_stack"
-        name="Fire Grapeshot Stack"
-        is_merchandise="false"
-        body_name="bo_projectile_grapeshot_carry"
-        holster_body_name="bo_axe_short"
-        mesh="projectile_grapeshot_carry"
-        holster_mesh=""
-        subtype="arrows"
-        weight="15"
-        difficulty="0"
-        appearance="1"
-        Type="Thrown"
-        item_holsters="">
+    id="pe_firepot"
+    name="{=HP1GzM8l}Fire Pot"
+    is_merchandise="false"
+    body_name="bo_projectile_rock"
+    holster_body_name="bo_axe_short"
+    flying_mesh="projectile_pot"
+    mesh="projectile_pot"
+    holster_mesh=""
+    subtype="arrows"
+    weight="15"
+    difficulty="0"
+    appearance="1"
+    Type="Thrown"
+    item_holsters="">
     <ItemComponent>
       <Weapon weapon_class="Boulder"
-              ammo_class="Boulder"
-              stack_amount="1"
-              position="0.05, -0.15, 0"
-              center_of_mass="0,0,0"
-              physics_material="wood_weapon"
-              thrust_speed="100"
-              speed_rating="0"
-              missile_speed="8"
-              weapon_length="95"
-              thrust_damage="10"
-              item_usage="heavy_stone"
-              flying_sound_code="event:/mission/combat/boulder/passby"
-              rotation_speed="2, 0.5, 0">
+        ammo_class="Boulder"
+        stack_amount="1"
+        position="0.05, -0.15, 0"
+        physics_material="burning_jar"
+        thrust_speed="100"
+        speed_rating="0"
+        missile_speed="8"
+        weapon_length="95"
+        thrust_damage="70"
+        item_usage="heavy_stone"
+        flying_sound_code="event:/mission/combat/boulder/passby"
+        trail_particle_name="psys_game_burning_jar_trail"
+        rotation_speed="2, 0.5, 0">
         <WeaponFlags RangedWeapon="true"
-                     Consumable="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true"
-                     CanPenetrateShield="true"
-                     CanKnockDown="true"
-                     MissileWithPhysics="true"
-                     UseHandAsThrowBase="true"
-                     LeavesTrail="true"
-                     AmmoCanBreakOnBounceBack="true" />
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true"
+          CanPenetrateShield="true"
+          MissileWithPhysics="true"
+          UseHandAsThrowBase="true"
+          Consumable="true"
+          LeavesTrail="true"
+          Burning="true"
+          AffectsAreaBig="true"
+          AmmoBreaksOnBounceBack="true" />
       </Weapon>
     </ItemComponent>
     <Flags QuickFadeOut="true"
-           CannotBePickedUp="false"
-           DropOnWeaponChange="false"
-           DropOnAnyAction="false" />
+      CannotBePickedUp="false"
+      DropOnWeaponChange="false"
+      DropOnAnyAction="false" />
   </Item>
 
 
   <Item multiplayer_item="false"
-        id="grapeshot_projectile"
-        name="{=XGytILlt}Grapeshot Ammo"
-        is_merchandise="false"
-        body_name="bo_projectile_grapeshot_piece_a"
-        holster_body_name="bo_axe_short"
-        mesh="projectile_grapeshot_piece_a"
-        holster_mesh=""
-        subtype="arrows"
-        weight="15"
-        difficulty="0"
-        appearance="1"
-        Type="Thrown"
-        item_holsters="">
+    id="grapeshot_stack"
+    name="{=ZeU1fvdz}Grapeshot Stack"
+    is_merchandise="false"
+    body_name="bo_projectile_grapeshot_carry"
+    holster_body_name="bo_axe_short"
+    mesh="projectile_grapeshot_carry"
+    holster_mesh=""
+    subtype="arrows"
+    weight="15"
+    difficulty="0"
+    appearance="1"
+    Type="Thrown"
+    item_holsters="">
     <ItemComponent>
       <Weapon weapon_class="Boulder"
-              ammo_class="Boulder"
-              stack_amount="1"
-              position="0.05, -0.15, 0"
-              center_of_mass="0,0,0"
-              physics_material="boulder_stone"
-              thrust_speed="100"
-              speed_rating="0"
-              missile_speed="8"
-              weapon_length="95"
-              thrust_damage="11"
-              item_usage="heavy_stone"
-              flying_sound_code="event:/mission/combat/boulder/passby"
-              rotation_speed="2, 0.5, 0">
+        ammo_class="Boulder"
+        stack_amount="1"
+        position="0.05, -0.15, 0"
+        physics_material="burning_jar"
+        thrust_speed="100"
+        speed_rating="0"
+        missile_speed="8"
+        weapon_length="95"
+        thrust_damage="70"
+        item_usage="heavy_stone"
+        flying_sound_code="event:/mission/combat/boulder/passby"
+        rotation_speed="2, 0.5, 0">
         <WeaponFlags RangedWeapon="true"
-                     Consumable="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true"
-                     CanPenetrateShield="true"
-                     CanKnockDown="true"
-                     MissileWithPhysics="true"
-                     UseHandAsThrowBase="true"
-                     LeavesTrail="true"
-                     AmmoCanBreakOnBounceBack="true" />
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true"
+          CanPenetrateShield="true"
+          MissileWithPhysics="true"
+          UseHandAsThrowBase="true"
+          Consumable="true"
+          LeavesTrail="false"
+          Burning="false"
+          AmmoBreaksOnBounceBack="true" />
       </Weapon>
     </ItemComponent>
     <Flags QuickFadeOut="true"
-           CannotBePickedUp="true"
-           DropOnWeaponChange="true"
-           DropOnAnyAction="true" />
+      CannotBePickedUp="false"
+      DropOnWeaponChange="false"
+      DropOnAnyAction="false" />
   </Item>
   <Item multiplayer_item="false"
-        id="grapeshot_fire_projectile"
-        name="{=XGytILlt}Fire Grapeshot Ammo"
-        is_merchandise="false"
-        body_name="bo_projectile_grapeshot_piece_a"
-        holster_body_name="bo_axe_short"
-        mesh="projectile_grapeshot_piece_a"
-        holster_mesh=""
-        subtype="arrows"
-        weight="15"
-        difficulty="0"
-        appearance="1"
-        Type="Thrown"
-        item_holsters="">
+    id="grapeshot_fire_stack"
+    name="Fire Grapeshot Stack"
+    is_merchandise="false"
+    body_name="bo_projectile_grapeshot_carry"
+    holster_body_name="bo_axe_short"
+    mesh="projectile_grapeshot_carry"
+    holster_mesh=""
+    subtype="arrows"
+    weight="15"
+    difficulty="0"
+    appearance="1"
+    Type="Thrown"
+    item_holsters="">
     <ItemComponent>
       <Weapon weapon_class="Boulder"
-              ammo_class="Boulder"
-              stack_amount="1"
-              position="0.05, -0.15, 0"
-              center_of_mass="0,0,0"
-              physics_material="boulder_stone"
-              thrust_speed="100"
-              speed_rating="0"
-              missile_speed="8"
-              weapon_length="95"
-              thrust_damage="11"
-              item_usage="heavy_stone"
-              flying_sound_code="event:/mission/combat/boulder/passby"
-              trail_particle_name="mangonel_grapeshot_burning_projectile"
-              rotation_speed="2, 0.5, 0">
+        ammo_class="Boulder"
+        stack_amount="1"
+        position="0.05, -0.15, 0"
+        center_of_mass="0,0,0"
+        physics_material="wood_weapon"
+        thrust_speed="100"
+        speed_rating="0"
+        missile_speed="8"
+        weapon_length="95"
+        thrust_damage="10"
+        item_usage="heavy_stone"
+        flying_sound_code="event:/mission/combat/boulder/passby"
+        rotation_speed="2, 0.5, 0">
         <WeaponFlags RangedWeapon="true"
-                     Consumable="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true"
-                     CanPenetrateShield="true"
-                     CanKnockDown="true"
-                     MissileWithPhysics="true"
-                     UseHandAsThrowBase="true"
-                     LeavesTrail="true"
-                     Burning="true"
-					 AffectsAreaBig="true"
-                     AmmoCanBreakOnBounceBack="true" />
+          Consumable="true"
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true"
+          CanPenetrateShield="true"
+          CanKnockDown="true"
+          MissileWithPhysics="true"
+          UseHandAsThrowBase="true"
+          LeavesTrail="true"
+          AmmoCanBreakOnBounceBack="true" />
       </Weapon>
     </ItemComponent>
     <Flags QuickFadeOut="true"
-           CannotBePickedUp="true"
-           DropOnWeaponChange="true"
-           DropOnAnyAction="true" />
+      CannotBePickedUp="false"
+      DropOnWeaponChange="false"
+      DropOnAnyAction="false" />
+  </Item>
+
+
+  <Item multiplayer_item="false"
+    id="grapeshot_projectile"
+    name="{=XGytILlt}Grapeshot Ammo"
+    is_merchandise="false"
+    body_name="bo_projectile_grapeshot_piece_a"
+    holster_body_name="bo_axe_short"
+    mesh="projectile_grapeshot_piece_a"
+    holster_mesh=""
+    subtype="arrows"
+    weight="15"
+    difficulty="0"
+    appearance="1"
+    Type="Thrown"
+    item_holsters="">
+    <ItemComponent>
+      <Weapon weapon_class="Boulder"
+        ammo_class="Boulder"
+        stack_amount="1"
+        position="0.05, -0.15, 0"
+        center_of_mass="0,0,0"
+        physics_material="boulder_stone"
+        thrust_speed="100"
+        speed_rating="0"
+        missile_speed="8"
+        weapon_length="95"
+        thrust_damage="11"
+        item_usage="heavy_stone"
+        flying_sound_code="event:/mission/combat/boulder/passby"
+        rotation_speed="2, 0.5, 0">
+        <WeaponFlags RangedWeapon="true"
+          Consumable="true"
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true"
+          CanPenetrateShield="true"
+          CanKnockDown="true"
+          MissileWithPhysics="true"
+          UseHandAsThrowBase="true"
+          LeavesTrail="true"
+          AmmoCanBreakOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags QuickFadeOut="true"
+      CannotBePickedUp="true"
+      DropOnWeaponChange="true"
+      DropOnAnyAction="true" />
+  </Item>
+  <Item multiplayer_item="false"
+    id="grapeshot_fire_projectile"
+    name="{=XGytILlt}Fire Grapeshot Ammo"
+    is_merchandise="false"
+    body_name="bo_projectile_grapeshot_piece_a"
+    holster_body_name="bo_axe_short"
+    mesh="projectile_grapeshot_piece_a"
+    holster_mesh=""
+    subtype="arrows"
+    weight="15"
+    difficulty="0"
+    appearance="1"
+    Type="Thrown"
+    item_holsters="">
+    <ItemComponent>
+      <Weapon weapon_class="Boulder"
+        ammo_class="Boulder"
+        stack_amount="1"
+        position="0.05, -0.15, 0"
+        center_of_mass="0,0,0"
+        physics_material="boulder_stone"
+        thrust_speed="100"
+        speed_rating="0"
+        missile_speed="8"
+        weapon_length="95"
+        thrust_damage="11"
+        item_usage="heavy_stone"
+        flying_sound_code="event:/mission/combat/boulder/passby"
+        trail_particle_name="mangonel_grapeshot_burning_projectile"
+        rotation_speed="2, 0.5, 0">
+        <WeaponFlags RangedWeapon="true"
+          Consumable="true"
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true"
+          CanPenetrateShield="true"
+          CanKnockDown="true"
+          MissileWithPhysics="true"
+          UseHandAsThrowBase="true"
+          LeavesTrail="true"
+          Burning="true"
+          AffectsAreaBig="true"
+          AmmoCanBreakOnBounceBack="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags QuickFadeOut="true"
+      CannotBePickedUp="true"
+      DropOnWeaponChange="true"
+      DropOnAnyAction="true" />
   </Item>
   <!-- #endregion -->
 
 
-
-    <Item id="pe_rpg"
-        name="{=LAEaH3zB}Simple Light Crossbow"
-        body_name="bo_cross_bow_heavy"
-        mesh="pe_rpg"
-        culture="Culture.empire"
-        weight="1.0"
-        appearance="0.8"
-        difficulty="0"
-        Type="Crossbow"
-        AmmoOffset="0.0, 0.0, 0.06"
-        item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
-        holster_position_shift="0.02,0,-0.4">
+  <Item id="pe_rpg"
+    name="{=LAEaH3zB}Simple Light Crossbow"
+    body_name="bo_cross_bow_heavy"
+    mesh="pe_rpg"
+    culture="Culture.empire"
+    weight="1.0"
+    appearance="0.8"
+    difficulty="0"
+    Type="Crossbow"
+    AmmoOffset="0.0, 0.0, 0.06"
+    item_holsters="crossbow_back:bow_hip:mace_right_hip:bow_hip_2"
+    holster_position_shift="0.02,0,-0.4">
     <ItemComponent>
       <Weapon weapon_class="Crossbow"
-              ammo_class="Bolt"
-              missile_speed="100"
-              accuracy="100"
-              thrust_damage="1000"
-              thrust_speed="80"
-              speed_rating="70"
-              weapon_length="95"
-              ammo_limit="1"
-              thrust_damage_type="Pierce"
-              item_usage="crossbow_light"
-              reload_phase_count="2"
-              physics_material="boulder_stone"
-              center_of_mass="0,0,0.4"
-              modifier_group="crossbow">
+        ammo_class="Bolt"
+        missile_speed="100"
+        accuracy="100"
+        thrust_damage="1000"
+        thrust_speed="80"
+        speed_rating="70"
+        weapon_length="95"
+        ammo_limit="1"
+        thrust_damage_type="Pierce"
+        item_usage="crossbow_light"
+        reload_phase_count="2"
+        physics_material="boulder_stone"
+        center_of_mass="0,0,0.4"
+        modifier_group="crossbow">
         <WeaponFlags RangedWeapon="true"
-                     HasString="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true" />
+          HasString="true"
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true" />
       </Weapon>
     </ItemComponent>
   </Item>
-  
-     <Item multiplayer_item="true"
-		id="pe_rpgammo"
-        name="{=!}RPG ammo"
-        body_name="bo_projectile_rock"
-        holster_body_name="bo_axe_short"
-        mesh="pe_rpgammo"
-        holster_mesh="stone_holster"
-        holster_mesh_with_weapon="stone_holster"
-        flying_mesh="pe_rpgammo"
-        weight="0.01"
-        appearance="1"
-        Type="Bolts"
-        item_holsters=""
-        is_merchandise="true">
+
+  <Item multiplayer_item="true"
+    id="pe_rpgammo"
+    name="{=!}RPG ammo"
+    body_name="bo_projectile_rock"
+    holster_body_name="bo_axe_short"
+    mesh="pe_rpgammo"
+    holster_mesh="stone_holster"
+    holster_mesh_with_weapon="stone_holster"
+    flying_mesh="pe_rpgammo"
+    weight="0.01"
+    appearance="1"
+    Type="Bolts"
+    item_holsters=""
+    is_merchandise="true">
     <ItemComponent>
       <Weapon weapon_class="Bolt"
-              stack_amount="69"
-              thrust_speed="0"
-              speed_rating="0"
-              missile_speed="175"
-              thrust_damage="1"
-              thrust_damage_type="Pierce"
-              weapon_length="37"
-              item_usage=""
-              rotation="180, 0, 0"
-			  physics_material="burning_jar"
-              sticking_position="0,-0.37,0"
-              sticking_rotation="90,0,0"
-			  trail_particle_name="psys_game_burning_jar_trail"
-              flying_sound_code="event:/mission/combat/impact/boulder_stone/stone"
-              passby_sound_code="event:/mission/combat/missile/passby"
-              center_of_mass="0,0,-0.1">
+        stack_amount="69"
+        thrust_speed="0"
+        speed_rating="0"
+        missile_speed="175"
+        thrust_damage="1"
+        thrust_damage_type="Pierce"
+        weapon_length="37"
+        item_usage=""
+        rotation="180, 0, 0"
+        physics_material="burning_jar"
+        sticking_position="0,-0.37,0"
+        sticking_rotation="90,0,0"
+        trail_particle_name="psys_game_burning_jar_trail"
+        flying_sound_code="event:/mission/combat/impact/boulder_stone/stone"
+        passby_sound_code="event:/mission/combat/missile/passby"
+        center_of_mass="0,0,-0.1">
         <WeaponFlags AttachAmmoToVisual="true"
-					 Consumable="true"
-					 Burning="true"
-                     AmmoBreaksOnBounceBack="true"
-                     LeavesTrail="true"
-                     AffectsAreaBig="true"
-					 CanPenetrateShield="true"
-                     CanKnockDown="true" />
+          Consumable="true"
+          Burning="true"
+          AmmoBreaksOnBounceBack="true"
+          LeavesTrail="true"
+          AffectsAreaBig="true"
+          CanPenetrateShield="true"
+          CanKnockDown="true" />
       </Weapon>
     </ItemComponent>
   </Item>
   <!-- #region PE Resources 1 -->
-          <Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_goldore"
     name="{=!}Gold ore"
     is_merchandise="false"
@@ -1085,7 +1084,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-      <Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_beer_barrel"
     name="{=!}Beer Barrel"
     is_merchandise="false"
@@ -1131,7 +1130,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-     <Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_wine_barrel"
     name="{=!}Wine Barrel"
     is_merchandise="false"
@@ -1177,7 +1176,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-        <Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_beer"
     name="{=!}Cup of Beer"
     is_merchandise="false"
@@ -1223,7 +1222,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-        <Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_wine"
     name="{=!}Cup of Wine"
     is_merchandise="false"
@@ -1269,11 +1268,10 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-  
-   
-<!-- #region PE Resources 1 -->
-   <Item multiplayer_item="true"
+
+
+  <!-- #region PE Resources 1 -->
+  <Item multiplayer_item="true"
     id="pe_pizza"
     name="{=!}Pizza"
     is_merchandise="false"
@@ -1319,8 +1317,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_book"
     name="{=!}Book"
     is_merchandise="false"
@@ -1411,8 +1409,8 @@
       CannotBePickedUp="false"
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
-  </Item>  
-      <Item multiplayer_item="true"
+  </Item>
+  <Item multiplayer_item="true"
     id="pe_velvet"
     name="{=!}Velvet"
     is_merchandise="false"
@@ -1458,8 +1456,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_wool"
     name="{=!}Wool"
     is_merchandise="false"
@@ -1505,8 +1503,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_leather"
     name="{=!}Leather"
     is_merchandise="false"
@@ -1552,8 +1550,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_hides"
     name="{=!}Hides"
     is_merchandise="false"
@@ -1599,8 +1597,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_linen"
     name="{=!}Linen"
     is_merchandise="false"
@@ -1646,9 +1644,9 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-   
-   <Item multiplayer_item="true"
+
+
+  <Item multiplayer_item="true"
     id="pe_cloth"
     name="{=!}Cloth"
     is_merchandise="false"
@@ -1694,8 +1692,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-     <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_silk"
     name="{=!}Raw Silk"
     is_merchandise="false"
@@ -1741,11 +1739,11 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-   
+
+
   <!-- #region PE Resources 3 -->
-  
-   <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_meat_raw"
     name="{=!}Raw Meat"
     is_merchandise="false"
@@ -1791,8 +1789,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_chicken_raw"
     name="{=!}Raw Chicken"
     is_merchandise="false"
@@ -1838,8 +1836,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_chicken_roast"
     name="{=!}Roast Chicken"
     is_merchandise="false"
@@ -1885,8 +1883,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_meat_cooked"
     name="{=!}Cooked Meat"
     is_merchandise="false"
@@ -1932,8 +1930,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_pie_meat"
     name="{=!}Meat Pie"
     is_merchandise="false"
@@ -1979,8 +1977,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_pie_fruit"
     name="{=!}Fruit Pie"
     is_merchandise="false"
@@ -2026,8 +2024,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-  
+
+
   <!-- #region PE crafting resources -->
 
   <Item multiplayer_item="true"
@@ -2076,8 +2074,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_crude_iron"
     name="{=!}Crude Iron"
     is_merchandise="false"
@@ -2124,7 +2122,7 @@
       DropOnAnyAction="false" />
   </Item>
 
-      <Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_iron_ingot"
     name="{=!}Iron Ingot"
     is_merchandise="false"
@@ -2171,7 +2169,7 @@
       DropOnAnyAction="false" />
   </Item>
 
-      <Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_steel_ingot"
     name="{=!}Steel Ingot"
     is_merchandise="false"
@@ -2218,7 +2216,7 @@
       DropOnAnyAction="false" />
   </Item>
 
-      <Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_thamaskene_steel"
     name="{=!}Thamaskene Steel"
     is_merchandise="false"
@@ -2265,10 +2263,10 @@
       DropOnAnyAction="false" />
   </Item>
 
-      
- <!-- #region PE prefab unpacked -->
- 
-	<Item multiplayer_item="true"
+
+  <!-- #region PE prefab unpacked -->
+
+  <Item multiplayer_item="true"
     id="pe_cart_packed"
     name="{=!}Cart"
     is_merchandise="false"
@@ -2315,7 +2313,7 @@
       DropOnAnyAction="false" />
   </Item>
 
-	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_carriage_packed"
     name="{=!}Carriage"
     is_merchandise="false"
@@ -2362,7 +2360,7 @@
       DropOnAnyAction="false" />
   </Item>
 
-  	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_ship2_packed"
     name="{=!}Drakkar, The Longship"
     is_merchandise="false"
@@ -2409,7 +2407,7 @@
       DropOnAnyAction="false" />
   </Item>
 
-  	<Item multiplayer_item="true"
+  <Item multiplayer_item="true"
     id="pe_ship_packed"
     name="{=!}Ship"
     is_merchandise="false"
@@ -2455,8 +2453,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-   <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_boat_packed"
     name="{=!}Boat"
     is_merchandise="false"
@@ -2502,9 +2500,9 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-  
-     <Item multiplayer_item="true"
+
+
+  <Item multiplayer_item="true"
     id="pe_heli_packed"
     name="{=!}heli"
     is_merchandise="false"
@@ -2550,8 +2548,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-      <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_bigship_fly_packed"
     name="bigship fly packed"
     is_merchandise="false"
@@ -2597,8 +2595,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-       <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_bigship_packed"
     name="{=!}bigship packed"
     is_merchandise="false"
@@ -2644,8 +2642,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-  	<Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_mangonel_packed"
     name="{=!}Mangonel"
     is_merchandise="false"
@@ -2691,8 +2689,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-    <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_onager_packed"
     name="{=!}Onager"
     is_merchandise="false"
@@ -2738,8 +2736,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-  	<Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_siege_tower_packed"
     name="{=!}Siege Tower"
     is_merchandise="false"
@@ -2789,30 +2787,33 @@
 
   <!-- #region PE fishing -->
 
-  <Item multiplayer_item="true" body_name="bo_mace_a" id="PE_fishing_rod" name="{=!}Fishing Rod" prefab="" is_merchandise="false" Type="TwoHandedWeapon" recalculate_body="true" mesh="fishing_rod" culture="Culture.vlandia" using_tableau="false" weight="1" appearance="1" item_holsters="polearm_back:polearm_back_2">
+  <Item multiplayer_item="true" body_name="bo_mace_a" id="PE_fishing_rod" name="{=!}Fishing Rod"
+    prefab="" is_merchandise="false" Type="TwoHandedWeapon" recalculate_body="true"
+    mesh="fishing_rod" culture="Culture.vlandia" using_tableau="false" weight="1" appearance="1"
+    item_holsters="polearm_back:polearm_back_2">
     <ItemComponent>
-		<Weapon weapon_class="TwoHandedPolearm"
-              weapon_balance="100"
-              thrust_speed="80"
-              speed_rating="80"
-              physics_material="wood_weapon"
-              weapon_length="200"
-              swing_damage="100"
-              thrust_damage="100"
-              swing_damage_type="Blunt"
-              thrust_damage_type="Blunt"
-              item_usage="polearm_block_thrust"
-			  position="0.0, 0.0, -0.2">
+      <Weapon weapon_class="TwoHandedPolearm"
+        weapon_balance="100"
+        thrust_speed="80"
+        speed_rating="80"
+        physics_material="wood_weapon"
+        weapon_length="200"
+        swing_damage="100"
+        thrust_damage="100"
+        swing_damage_type="Blunt"
+        thrust_damage_type="Blunt"
+        item_usage="polearm_block_thrust"
+        position="0.0, 0.0, -0.2">
         <WeaponFlags MeleeWeapon="true"
-                     PenaltyWithShield="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true"
-                     WideGrip="true" />
-      </Weapon>	  
+          PenaltyWithShield="true"
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true"
+          WideGrip="true" />
+      </Weapon>
     </ItemComponent>
   </Item>
-  
-    <Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_fish"
     name="{=!}Fish"
     is_merchandise="false"
@@ -2858,8 +2859,8 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
-	<Item multiplayer_item="true"
+
+  <Item multiplayer_item="true"
     id="pe_fish_cooked"
     name="{=!}Fish"
     is_merchandise="false"
@@ -3091,7 +3092,7 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
+
   <Item multiplayer_item="true"
     id="pe_merchandise_flour"
     name="{=!}Flour"
@@ -3414,56 +3415,56 @@
       DropOnWeaponChange="false"
       DropOnAnyAction="false" />
   </Item>
-  
+
   <!-- #region PE Mineables -->
-  
-    <Item multiplayer_item="true"
-        id="pe_stone"
-        name="Stone"
-        is_merchandise="false"
-        body_name="bo_projectile_rock"
-        holster_body_name="bo_axe_short"
-        mesh="projectile_rock"
-        holster_mesh=""
-        subtype="arrows"
-        value="135"
-        weight="15"
-        difficulty="0"
-        appearance="0.5"
-        Type="Thrown"
-        item_holsters="">
+
+  <Item multiplayer_item="true"
+    id="pe_stone"
+    name="Stone"
+    is_merchandise="false"
+    body_name="bo_projectile_rock"
+    holster_body_name="bo_axe_short"
+    mesh="projectile_rock"
+    holster_mesh=""
+    subtype="arrows"
+    value="135"
+    weight="15"
+    difficulty="0"
+    appearance="0.5"
+    Type="Thrown"
+    item_holsters="">
     <ItemComponent>
       <Weapon weapon_class="Boulder"
-              ammo_class="Boulder"
-              stack_amount="1"
-              position="0.05, -0.15, 0"
-              center_of_mass="0,0,0"
-              physics_material="boulder_stone"
-              thrust_speed="100"
-              speed_rating="0"
-              missile_speed="8"
-              weapon_length="95"
-              thrust_damage="10"
-              item_usage="heavy_stone"
-              flying_sound_code="event:/mission/combat/boulder/passby"
-              rotation_speed="2, 0.5, 0">
+        ammo_class="Boulder"
+        stack_amount="1"
+        position="0.05, -0.15, 0"
+        center_of_mass="0,0,0"
+        physics_material="boulder_stone"
+        thrust_speed="100"
+        speed_rating="0"
+        missile_speed="8"
+        weapon_length="95"
+        thrust_damage="10"
+        item_usage="heavy_stone"
+        flying_sound_code="event:/mission/combat/boulder/passby"
+        rotation_speed="2, 0.5, 0">
         <WeaponFlags RangedWeapon="true"
-                     Consumable="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true"
-                     CanPenetrateShield="true"
-                     MissileWithPhysics="true"
-                     UseHandAsThrowBase="true"
-                     LeavesTrail="true"
-                     AmmoCanBreakOnBounceBack="true" />
+          Consumable="true"
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true"
+          CanPenetrateShield="true"
+          MissileWithPhysics="true"
+          UseHandAsThrowBase="true"
+          LeavesTrail="true"
+          AmmoCanBreakOnBounceBack="true" />
       </Weapon>
     </ItemComponent>
     <Flags QuickFadeOut="true"
-           CannotBePickedUp="false"
-           DropOnWeaponChange="false"
-           DropOnAnyAction="false" />
+      CannotBePickedUp="false"
+      DropOnWeaponChange="false"
+      DropOnAnyAction="false" />
   </Item>
-  
+
   <Item multiplayer_item="true"
     id="pe_silverore"
     name="{=!}Silver Ore"
@@ -3789,278 +3790,330 @@
   </Item>
 
   <!-- #region PE Banners -->
-  
-  <Item id="PE_Banner_test" multiplayer_item="true" name="Banner" is_merchandise="false" body_name="bo_spear_b" recalculate_body="true" mesh="empire_tier_3_banner" using_tableau="true" value="100" weight="4" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2">
+
+  <Item id="PE_Banner_test" multiplayer_item="true" name="Banner" is_merchandise="false"
+    body_name="bo_spear_b" recalculate_body="true" mesh="empire_tier_3_banner" using_tableau="true"
+    value="100" weight="4" appearance="1" Type="Banner" item_holsters="polearm_back:polearm_back_2">
     <ItemComponent>
-      <Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.3" physics_material="wood_weapon" weapon_length="104"></Weapon>
+      <Weapon weapon_class="Banner" speed_rating="82" item_usage="banner" position="0.0, 0.0, -0.3"
+        physics_material="wood_weapon" weapon_length="104"></Weapon>
     </ItemComponent>
-    <Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true" HasToBeHeldUp="true" Civilian="true" />
+    <Flags WoodenParry="true" ForceAttachOffHandPrimaryItemBone="true" HeldInOffHand="true"
+      HasToBeHeldUp="true" Civilian="true" />
   </Item>
-  
-    <Item multiplayer_item="true" id="pe_banner" name="{=!}Banner" is_merchandise="false" recalculate_body="true" mesh="vlandia_tier_3_banner" prefab="vlandia_tier_3_banner" Type="OneHandedWeapon" culture="Culture.vlandia" using_tableau="true" weight="1" appearance="1" item_holsters="polearm_back:polearm_back_2">
+
+  <Item multiplayer_item="true" id="pe_banner" name="{=!}Banner" is_merchandise="false"
+    recalculate_body="true" mesh="vlandia_tier_3_banner" prefab="vlandia_tier_3_banner"
+    Type="OneHandedWeapon" culture="Culture.vlandia" using_tableau="true" weight="1" appearance="1"
+    item_holsters="polearm_back:polearm_back_2">
     <ItemComponent>
-		<Weapon weapon_class="TwoHandedPolearm"
-              weapon_balance="100"
-              thrust_speed="80"
-              speed_rating="80"
-              physics_material="metal_weapon"
-              weapon_length="200"
-              swing_damage="100"
-              thrust_damage="100"
-              swing_damage_type="Blunt"
-              thrust_damage_type="Blunt"
-              item_usage="polearm_block_thrust"
-			  position="0.0, 0.0, -0.8">
+      <Weapon weapon_class="TwoHandedPolearm"
+        weapon_balance="100"
+        thrust_speed="80"
+        speed_rating="80"
+        physics_material="metal_weapon"
+        weapon_length="200"
+        swing_damage="100"
+        thrust_damage="100"
+        swing_damage_type="Blunt"
+        thrust_damage_type="Blunt"
+        item_usage="polearm_block_thrust"
+        position="0.0, 0.0, -0.8">
         <WeaponFlags MeleeWeapon="true"
-                     PenaltyWithShield="true"
-                     NotUsableWithOneHand="true"
-                     TwoHandIdleOnMount="true"
-                     WideGrip="true" />
-      </Weapon>	  
+          PenaltyWithShield="true"
+          NotUsableWithOneHand="true"
+          TwoHandIdleOnMount="true"
+          WideGrip="true" />
+      </Weapon>
     </ItemComponent>
   </Item>
 
-  
+
   <!-- #region BA Armors -->
-  
-	<Item id="PE_plategreaves" name="Plate Boots" mesh="ba_plategreaves" culture="Culture.vlandia" weight="2.5" difficulty="0" appearance="1" value="300000" Type="LegArmor">
-    <ItemComponent>
-      <Armor leg_armor="30" covers_legs="true" modifier_group="plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags />
-  </Item>
-  
-       <Item id="PE_platearmor" name="Full Plate Armor with Rondel" mesh="ba_platearmor" is_merchandise="true" subtype="body_armor" value="300000" culture="Culture.vlandia" weight="24" difficulty="0" appearance="3" Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="56" leg_armor="25" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags UseTeamColor="false" />
-  </Item> 
 
-       <Item id="PE_platearmor2" name="Full Plate Armor " mesh="ba_platearmor2" is_merchandise="true" subtype="body_armor" value="300000" culture="Culture.vlandia" weight="24" difficulty="0" appearance="3" Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="53" leg_armor="25" arm_armor="18" covers_body="true" modifier_group="plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags UseTeamColor="false" />
-  </Item> 
- 
- <Item id="PE_gorget" name="Plate Gorget" mesh="ba_gorget" is_merchandise="true" value="300000" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
-    <ItemComponent>
-      <Armor body_armor="20" arm_armor="0" modifier_group="plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags />
-  </Item>
-  
-  <Item id="PE_closehelm" name="Plate Close Helmet" subtype="head_armor" mesh="ba_closehelm" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="3000000" Type="HeadArmor">
-    <ItemComponent>
-      <Armor head_armor="58" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
-    </ItemComponent>
-    <Flags UseTeamColor="true" />	
-  </Item>
-  
-    <Item id="PE_bolzanogreathelmet" name="Great Helmet" subtype="head_armor" mesh="ba_bolzanogreathelmet" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="3000000" Type="HeadArmor">
-    <ItemComponent>
-      <Armor head_armor="56" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
-    </ItemComponent>
-    <Flags UseTeamColor="true" />	
-  </Item>
-
-  <Item id="PE_plategauntlet" name="Plate Gauntlets" mesh="ba_plategauntlet" is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="2.9" difficulty="0" appearance="1" Type="HandArmor">
-    <ItemComponent>
-    <Armor body_armor="0" leg_armor="0" arm_armor="30" covers_hands="true" modifier_group="Plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags UseTeamColor="false" />
-  </Item>  
-
-  <Item id="PE_plategauntletgold" name="Gold Plate Gauntlets" mesh="ba_plategauntletgold" is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="2.9" difficulty="0" appearance="1" Type="HandArmor">
-    <ItemComponent>
-    <Armor body_armor="0" leg_armor="0" arm_armor="30" covers_hands="true" modifier_group="Plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags UseTeamColor="false" />
-  </Item>  
-
-  <Item id="PE_closehelmgold" name="Gold Plate Close Helmet" subtype="head_armor" mesh="ba_closehelmgold" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="3000000" Type="HeadArmor">
-    <ItemComponent>
-      <Armor head_armor="58" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
-    </ItemComponent>
-    <Flags UseTeamColor="true" />	
-  </Item>
-
- <Item id="PE_gorgetgold" name="Gold Plate Gorget" mesh="ba_gorgetgold" is_merchandise="true" value="3000000" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
-    <ItemComponent>
-      <Armor body_armor="20" arm_armor="0" modifier_group="plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags />
-  </Item>
-
-       <Item id="PE_platearmor2gold" name="Gold Full Plate Armor " mesh="ba_platearmor2gold" is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="24" difficulty="0" appearance="3" Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="53" leg_armor="25" arm_armor="18" covers_body="true" modifier_group="plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags UseTeamColor="false" />
-  </Item> 
-
-       <Item id="PE_platearmorgold" name="Gold Full Plate Armor with Rondel" mesh="ba_platearmorgold" is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="24" difficulty="0" appearance="3" Type="BodyArmor">
-    <ItemComponent>
-      <Armor body_armor="56" leg_armor="25" arm_armor="20" covers_body="true" modifier_group="plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags UseTeamColor="false" />
-  </Item> 
-
-      <Item id="PE_plategreavesgold" name="Gold Plate Boots" mesh="ba_plategreavesgold" culture="Culture.vlandia" weight="2.5" difficulty="0" appearance="1" value="3000000" Type="LegArmor">
+  <Item id="PE_plategreaves" name="Plate Boots" mesh="ba_plategreaves" culture="Culture.vlandia"
+    weight="2.5" difficulty="0" appearance="1" value="300000" Type="LegArmor">
     <ItemComponent>
       <Armor leg_armor="30" covers_legs="true" modifier_group="plate" material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
 
-       <Item id="PE_platearmor2worn" name="Battered Full Plate Armor " mesh="ba_platearmor2worn" is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="25" difficulty="0" appearance="3" Type="BodyArmor">
+  <Item id="PE_platearmor" name="Full Plate Armor with Rondel" mesh="ba_platearmor"
+    is_merchandise="true" subtype="body_armor" value="300000" culture="Culture.vlandia" weight="24"
+    difficulty="0" appearance="3" Type="BodyArmor">
     <ItemComponent>
-      <Armor body_armor="49" leg_armor="24" arm_armor="16" covers_body="true" modifier_group="plate" material_type="Plate" />
+      <Armor body_armor="56" leg_armor="25" arm_armor="20" covers_body="true" modifier_group="plate"
+        material_type="Plate" />
     </ItemComponent>
     <Flags UseTeamColor="false" />
-  </Item> 
-
-  <Item id="PE_plategauntletworn" name="Battered Plate Gauntlets" mesh="ba_plategauntletworn" is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="2.9" difficulty="0" appearance="1" Type="HandArmor">
-    <ItemComponent>
-    <Armor body_armor="0" leg_armor="0" arm_armor="29" covers_hands="true" modifier_group="Plate" material_type="Plate" />
-    </ItemComponent>
-    <Flags UseTeamColor="false" />
-  </Item>  
-
-  <Item id="PE_openhelm2" name="Battered Open Sallet" subtype="head_armor" mesh="ba_openhelm2" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="3000000" Type="HeadArmor">
-    <ItemComponent>
-      <Armor head_armor="41" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="type3" />
-    </ItemComponent>
-    <Flags UseTeamColor="true" />	
   </Item>
 
-      <Item id="PE_plategreavesworn" name="BatteredPlate Boots" mesh="ba_plategreavesworn" culture="Culture.vlandia" weight="2.5" difficulty="0" appearance="1" value="3000000" Type="LegArmor">
+  <Item id="PE_platearmor2" name="Full Plate Armor " mesh="ba_platearmor2" is_merchandise="true"
+    subtype="body_armor" value="300000" culture="Culture.vlandia" weight="24" difficulty="0"
+    appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="53" leg_armor="25" arm_armor="18" covers_body="true" modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+
+  <Item id="PE_gorget" name="Plate Gorget" mesh="ba_gorget" is_merchandise="true" value="300000"
+    culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="0" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="PE_closehelm" name="Plate Close Helmet" subtype="head_armor" mesh="ba_closehelm"
+    culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="3000000"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="58" has_gender_variations="false" hair_cover_type="all"
+        modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+  <Item id="PE_bolzanogreathelmet" name="Great Helmet" subtype="head_armor"
+    mesh="ba_bolzanogreathelmet" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1"
+    value="3000000" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="56" has_gender_variations="false" hair_cover_type="all"
+        modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+  <Item id="PE_plategauntlet" name="Plate Gauntlets" mesh="ba_plategauntlet" is_merchandise="true"
+    subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="2.9" difficulty="0"
+    appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor body_armor="0" leg_armor="0" arm_armor="30" covers_hands="true" modifier_group="Plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+
+  <Item id="PE_plategauntletgold" name="Gold Plate Gauntlets" mesh="ba_plategauntletgold"
+    is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia"
+    weight="2.9" difficulty="0" appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor body_armor="0" leg_armor="0" arm_armor="30" covers_hands="true" modifier_group="Plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+
+  <Item id="PE_closehelmgold" name="Gold Plate Close Helmet" subtype="head_armor"
+    mesh="ba_closehelmgold" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1"
+    value="3000000" Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="58" has_gender_variations="false" hair_cover_type="all"
+        modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+  <Item id="PE_gorgetgold" name="Gold Plate Gorget" mesh="ba_gorgetgold" is_merchandise="true"
+    value="3000000" culture="Culture.vlandia" weight="3.6" appearance="2" Type="Cape">
+    <ItemComponent>
+      <Armor body_armor="20" arm_armor="0" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="PE_platearmor2gold" name="Gold Full Plate Armor " mesh="ba_platearmor2gold"
+    is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="24"
+    difficulty="0" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="53" leg_armor="25" arm_armor="18" covers_body="true" modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+
+  <Item id="PE_platearmorgold" name="Gold Full Plate Armor with Rondel" mesh="ba_platearmorgold"
+    is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="24"
+    difficulty="0" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="56" leg_armor="25" arm_armor="20" covers_body="true" modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+
+  <Item id="PE_plategreavesgold" name="Gold Plate Boots" mesh="ba_plategreavesgold"
+    culture="Culture.vlandia" weight="2.5" difficulty="0" appearance="1" value="3000000"
+    Type="LegArmor">
+    <ItemComponent>
+      <Armor leg_armor="30" covers_legs="true" modifier_group="plate" material_type="Plate" />
+    </ItemComponent>
+    <Flags />
+  </Item>
+
+  <Item id="PE_platearmor2worn" name="Battered Full Plate Armor " mesh="ba_platearmor2worn"
+    is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia" weight="25"
+    difficulty="0" appearance="3" Type="BodyArmor">
+    <ItemComponent>
+      <Armor body_armor="49" leg_armor="24" arm_armor="16" covers_body="true" modifier_group="plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+
+  <Item id="PE_plategauntletworn" name="Battered Plate Gauntlets" mesh="ba_plategauntletworn"
+    is_merchandise="true" subtype="body_armor" value="3000000" culture="Culture.vlandia"
+    weight="2.9" difficulty="0" appearance="1" Type="HandArmor">
+    <ItemComponent>
+      <Armor body_armor="0" leg_armor="0" arm_armor="29" covers_hands="true" modifier_group="Plate"
+        material_type="Plate" />
+    </ItemComponent>
+    <Flags UseTeamColor="false" />
+  </Item>
+
+  <Item id="PE_openhelm2" name="Battered Open Sallet" subtype="head_armor" mesh="ba_openhelm2"
+    culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="3000000"
+    Type="HeadArmor">
+    <ItemComponent>
+      <Armor head_armor="41" has_gender_variations="false" hair_cover_type="all"
+        modifier_group="plate" material_type="Plate" beard_cover_type="type3" />
+    </ItemComponent>
+    <Flags UseTeamColor="true" />
+  </Item>
+
+  <Item id="PE_plategreavesworn" name="BatteredPlate Boots" mesh="ba_plategreavesworn"
+    culture="Culture.vlandia" weight="2.5" difficulty="0" appearance="1" value="3000000"
+    Type="LegArmor">
     <ItemComponent>
       <Armor leg_armor="27" covers_legs="true" modifier_group="plate" material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
 
-  <Item id="PE_closehelmworn" name="Battered Close Helmet" subtype="head_armor" mesh="ba_closehelmworn" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1" value="3000000" Type="HeadArmor">
+  <Item id="PE_closehelmworn" name="Battered Close Helmet" subtype="head_armor"
+    mesh="ba_closehelmworn" culture="Culture.vlandia" weight="4" difficulty="0" appearance="1"
+    value="3000000" Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="55" has_gender_variations="false" hair_cover_type="all" modifier_group="plate" material_type="Plate" beard_cover_type="all" />
+      <Armor head_armor="55" has_gender_variations="false" hair_cover_type="all"
+        modifier_group="plate" material_type="Plate" beard_cover_type="all" />
     </ItemComponent>
-    <Flags UseTeamColor="true" />	
+    <Flags UseTeamColor="true" />
   </Item>
-  
-    <!-- #region PE music instruments -->   
 
- 
-     <Item id="pe_musical_instrument_cornu"
-        name="{=!}Cornu"
-        body_name="bo_musical_instrument_cornu"
-        shield_body_name="bo_kite_shield_a"
-        recalculate_body="false"
-        mesh="musical_instrument_cornu"
-        using_tableau="true"
-        weight="4.2"
-        appearance="0.3"
-        Type="Shield"
-        item_holsters="shield_kite:shield_2:shield_3:shield_4"
-        has_lower_holster_priority="true"
-        holster_position_shift="-0.1,0,-0.025">
-    <ItemComponent>
-      <Weapon weapon_class="LargeShield"
-              body_armor="1"
-              thrust_speed="82"
-              thrust_damage_type="Blunt"
-              speed_rating="82"
-              item_usage="shield"
-              position="0.0, 0.00, 0.00"
-              rotation="0.0,10.0,40.00"
-              physics_material="wood_shield"
-              weapon_length="170"
-              center_of_mass="0.0,0.05,0.05"
-              hit_points="10"
-              modifier_group="shield">
-        <WeaponFlags CanBlockRanged="true"
-                     HasHitPoints="true" />
-      </Weapon>
-    </ItemComponent>
-    <Flags WoodenParry="true"
-           HeldInOffHand="true"
-           ForceAttachOffHandSecondaryItemBone="true" />
-  </Item>
-  
+  <!-- #region PE music instruments -->
 
-  
-     <Item id="pe_musical_instrument_vielle"
-        name="{=!}Vielle"
-        body_name="bo_musical_instrument_vielle"
-        shield_body_name="bo_kite_shield_a"
-        recalculate_body="false"
-        mesh="musical_instrument_vielle"
-        using_tableau="true"
-        weight="4.2"
-        appearance="0.3"
-        Type="Shield"
-        item_holsters="shield_kite:shield_2:shield_3:shield_4"
-        has_lower_holster_priority="true"
-        holster_position_shift="-0.1,0,-0.025">
+
+  <Item id="pe_musical_instrument_cornu"
+    name="{=!}Cornu"
+    body_name="bo_musical_instrument_cornu"
+    shield_body_name="bo_kite_shield_a"
+    recalculate_body="false"
+    mesh="musical_instrument_cornu"
+    using_tableau="true"
+    weight="4.2"
+    appearance="0.3"
+    Type="Shield"
+    item_holsters="shield_kite:shield_2:shield_3:shield_4"
+    has_lower_holster_priority="true"
+    holster_position_shift="-0.1,0,-0.025">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="1"
-              thrust_speed="82"
-              thrust_damage_type="Blunt"
-              speed_rating="82"
-              item_usage="shield"
-              position="0.0, 0.00, 0.00"
-              rotation="0.0,10.0,40.00"
-              physics_material="wood_shield"
-              weapon_length="170"
-              center_of_mass="0.0,0.05,0.05"
-              hit_points="10"
-              modifier_group="shield">
+        body_armor="1"
+        thrust_speed="82"
+        thrust_damage_type="Blunt"
+        speed_rating="82"
+        item_usage="shield"
+        position="0.0, 0.00, 0.00"
+        rotation="0.0,10.0,40.00"
+        physics_material="wood_shield"
+        weapon_length="170"
+        center_of_mass="0.0,0.05,0.05"
+        hit_points="10"
+        modifier_group="shield">
         <WeaponFlags CanBlockRanged="true"
-                     HasHitPoints="true" />
+          HasHitPoints="true" />
       </Weapon>
     </ItemComponent>
     <Flags WoodenParry="true"
-           HeldInOffHand="true"
-           ForceAttachOffHandSecondaryItemBone="true" />
+      HeldInOffHand="true"
+      ForceAttachOffHandSecondaryItemBone="true" />
   </Item>
-  
-  
-   <Item id="pe_musical_instrument_harp"
-        name="{=!}Harp"
-        body_name="bo_musical_instrument_harp"
-        shield_body_name="bo_kite_shield_a"
-        recalculate_body="false"
-        mesh="musical_instrument_harp"
-        using_tableau="true"
-        weight="4.2"
-        appearance="0.3"
-        Type="Shield"
-        item_holsters="shield_kite:shield_2:shield_3:shield_4"
-        has_lower_holster_priority="true"
-        holster_position_shift="-0.1,0,-0.025">
+
+
+  <Item id="pe_musical_instrument_vielle"
+    name="{=!}Vielle"
+    body_name="bo_musical_instrument_vielle"
+    shield_body_name="bo_kite_shield_a"
+    recalculate_body="false"
+    mesh="musical_instrument_vielle"
+    using_tableau="true"
+    weight="4.2"
+    appearance="0.3"
+    Type="Shield"
+    item_holsters="shield_kite:shield_2:shield_3:shield_4"
+    has_lower_holster_priority="true"
+    holster_position_shift="-0.1,0,-0.025">
     <ItemComponent>
       <Weapon weapon_class="LargeShield"
-              body_armor="1"
-              thrust_speed="82"
-              thrust_damage_type="Blunt"
-              speed_rating="82"
-              item_usage="shield"
-              position="0.0, 0.00, 0.00"
-              rotation="0.0,10.0,40.00"
-              physics_material="wood_shield"
-              weapon_length="170"
-              center_of_mass="0.0,0.05,0.05"
-              hit_points="10"
-              modifier_group="shield">
+        body_armor="1"
+        thrust_speed="82"
+        thrust_damage_type="Blunt"
+        speed_rating="82"
+        item_usage="shield"
+        position="0.0, 0.00, 0.00"
+        rotation="0.0,10.0,40.00"
+        physics_material="wood_shield"
+        weapon_length="170"
+        center_of_mass="0.0,0.05,0.05"
+        hit_points="10"
+        modifier_group="shield">
         <WeaponFlags CanBlockRanged="true"
-                     HasHitPoints="true" />
+          HasHitPoints="true" />
       </Weapon>
     </ItemComponent>
     <Flags WoodenParry="true"
-           HeldInOffHand="true"
-           ForceAttachOffHandSecondaryItemBone="true" />
+      HeldInOffHand="true"
+      ForceAttachOffHandSecondaryItemBone="true" />
+  </Item>
+
+
+  <Item id="pe_musical_instrument_harp"
+    name="{=!}Harp"
+    body_name="bo_musical_instrument_harp"
+    shield_body_name="bo_kite_shield_a"
+    recalculate_body="false"
+    mesh="musical_instrument_harp"
+    using_tableau="true"
+    weight="4.2"
+    appearance="0.3"
+    Type="Shield"
+    item_holsters="shield_kite:shield_2:shield_3:shield_4"
+    has_lower_holster_priority="true"
+    holster_position_shift="-0.1,0,-0.025">
+    <ItemComponent>
+      <Weapon weapon_class="LargeShield"
+        body_armor="1"
+        thrust_speed="82"
+        thrust_damage_type="Blunt"
+        speed_rating="82"
+        item_usage="shield"
+        position="0.0, 0.00, 0.00"
+        rotation="0.0,10.0,40.00"
+        physics_material="wood_shield"
+        weapon_length="170"
+        center_of_mass="0.0,0.05,0.05"
+        hit_points="10"
+        modifier_group="shield">
+        <WeaponFlags CanBlockRanged="true"
+          HasHitPoints="true" />
+      </Weapon>
+    </ItemComponent>
+    <Flags WoodenParry="true"
+      HeldInOffHand="true"
+      ForceAttachOffHandSecondaryItemBone="true" />
   </Item>
 
 </Items>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="module_sound">
-  <module_sounds>
-  <!--
+<base xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema" type="module_sound">
+	<module_sounds>
+		<!--
   sound_categories are:
 	mission_ambient_bed
 	mission_ambient_3d_big
@@ -27,21 +28,25 @@
 	- Sounds that dont have valid categories wont be played!
 	
 	example:
-		int soundIndex = SoundEvent.GetEventIdFromString("example/voice/charge");//to avoid string operations in runtime soundIndex can be cached.
+		int soundIndex = SoundEvent.GetEventIdFromString("example/voice/charge");//to avoid string
+		operations in runtime soundIndex can be cached.
 		if (playOneshot)
 		{
-			MakeSound(soundIndex, MainAgent.Position, false, true, -1, -1);//plays oneshot sound at position with given parameters.
+			MakeSound(soundIndex, MainAgent.Position, false, true, -1, -1);//plays oneshot sound at position
+		with given parameters.
 		}
 		else
 		{
-			SoundEvent eventRef = SoundEvent.CreateEvent(soundIndex, Scene);//get a reference to sound and update parameters later.
+			SoundEvent eventRef = SoundEvent.CreateEvent(soundIndex, Scene);//get a reference to sound and
+		update parameters later.
 			eventRef.SetPosition(MainAgent.Position);
 			eventRef.Play();
 		}
   -->
-     <module_sound name="pe_eating_crunchy" sound_category="alert" path="pe_eating_crunchy.wav"/>
-	 <module_sound name="Duckie_Blackfyre" sound_category="mission_voice_shout" path="Duckie_Blackfyre.wav"/>
+		<module_sound name="pe_eating_crunchy" sound_category="alert" path="pe_eating_crunchy.wav" />
+		<module_sound name="Duckie_Blackfyre" sound_category="mission_voice_shout"
+			path="Duckie_Blackfyre.wav" />
 
-  </module_sounds>
+	</module_sounds>
 
 </base>

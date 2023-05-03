@@ -3,21 +3,20 @@
         <ItemId>pe_cart_packed</ItemId>
         <PrefabName>pe_cart</PrefabName>
     </SpawnItem>
-	<SpawnItem>
+    <SpawnItem>
         <ItemId>pe_onager_packed</ItemId>
         <PrefabName>pe_mangoneltest1</PrefabName>
     </SpawnItem>
-	<SpawnItem>
+    <SpawnItem>
         <ItemId>pe_mangonel_packed</ItemId>
         <PrefabName>pe_mangoneltest3</PrefabName>
     </SpawnItem>
-	<SpawnItem>
+    <SpawnItem>
         <ItemId>pe_carriage_packed</ItemId>
         <PrefabName>pe_carriage</PrefabName>
     </SpawnItem>
-	<SpawnItem>
+    <SpawnItem>
         <ItemId>pe_heli_packed</ItemId>
         <PrefabName>pon_prisoncart</PrefabName>
     </SpawnItem>
 </SpawnItems>
-

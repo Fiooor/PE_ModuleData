@@ -3,23 +3,23 @@
         <ItemId>pe_ship_packed</ItemId>
         <PrefabName>pe_testship1</PrefabName>
     </SpawnItem>
-	    <SpawnItem>
+    <SpawnItem>
         <ItemId>pe_ship2_packed</ItemId>
         <PrefabName>pe_shipwc</PrefabName>
     </SpawnItem>
-	    <SpawnItem>
+    <SpawnItem>
         <ItemId>pe_boat_packed</ItemId>
         <PrefabName>pe_ship_e</PrefabName>
     </SpawnItem>
-	<SpawnItem>
+    <SpawnItem>
         <ItemId>pe_heli_packed</ItemId>
         <PrefabName>pe_heli</PrefabName>
     </SpawnItem>
-	<SpawnItem>
+    <SpawnItem>
         <ItemId>pe_bigship_packed</ItemId>
         <PrefabName>pe_pinnace_demo</PrefabName>
     </SpawnItem>
-	<SpawnItem>
+    <SpawnItem>
         <ItemId>pe_bigship_fly_packed</ItemId>
         <PrefabName>pe_pinnace_demo_flying</PrefabName>
     </SpawnItem>
