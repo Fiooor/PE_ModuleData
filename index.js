@@ -3,6 +3,8 @@ const xml2js = require('xml2js');
 
 const parser = new xml2js.Parser();
 const fileNames = ['ModuleData/pe_head_armors.xml', 'ModuleData/pe_leg_armors.xml', 'ModuleData/pe_body_armors.xml', 'ModuleData/pe_arm_armors.xml', 'ModuleData/pe_shoulder_armors.xml', 'ModuleData/pe_ba_items.xml'];
+const marketFileNames = ['/ModuleData/Markets/armormarketall.xml'];
+
 
 const components = ['head_armor', 'body_armor', 'leg_armor', 'arm_armor', 'shoulder_armor'];
 const componentTypes = {
@@ -56,6 +58,44 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
 
 let itemsByCulture = {};
 let filesProcessed = 0;
+
+function generateXml(culture, tierData) {
+  const craftingTime = 10;
+  const defaultAmount = 1;
+  let xml = `<Recipies>\n`;
+
+  for (let tier = 1; tier <= 6; tier++) {
+    xml += `\t<Tier${tier}Craftings>\n\t\t`;
+
+    const allItems = [];
+    for (let component in tierData) {
+      tierData[component].forEach(item => {
+        if (item.tier === tier) {
+          const craftingRecipe = Object.entries(item.crafting_recipe)
+            .map(([material, amount]) => `${material}*${amount}`)
+            .join(',');
+          allItems.push(`${craftingTime}*${item.id}*${item.amount || defaultAmount}=${craftingRecipe}`);
+        }
+      });
+    }
+
+    xml += allItems.join('|') + `\n\t</Tier${tier}Craftings>\n`;
+  }
+
+  xml += `</Recipies>`;
+
+  return xml;
+}
+
+function writeToFile(culture, xmlData) {
+  fs.writeFile(`${culture}_recipies.xml`, xmlData, (err) => {
+    if (err) {
+      console.error(`Error writing to file for culture ${culture}: `, err);
+      return;
+    }
+    console.log(`Successfully wrote to file for culture ${culture}`);
+  });
+}
 
 fileNames.forEach((fileName) => {
   fs.readFile(fileName, function (err, data) {
@@ -132,6 +172,12 @@ fileNames.forEach((fileName) => {
               });
             });
           }
+        }
+
+        // CHANGE: Call generateXml and writeToFile for each culture
+        for (const culture in itemsJson) {
+          const xmlData = generateXml(culture, itemsJson[culture]);
+          writeToFile(culture, xmlData);
         }
 
         // Save JSON array to file
