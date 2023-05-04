@@ -25,7 +25,7 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
   }
 
   const clothMaterials = ['pe_linen', 'pe_linen', 'pe_cloth', 'pe_cloth', 'pe_velvet', 'pe_velvet'];
-  const metalMaterials = ['pe_iron_ingot', 'pe_iron_ingot', 'pe_steel_ingot', 'pe_steel_ingot', 'pe_silver_ingot', 'pe_thamaskene_steel'];
+  const metalMaterials = ['pe_iron_ingot', 'pe_iron_ingot', 'pe_steel_ingot', 'pe_steel_ingot', 'pe_silver', 'pe_thamaskene_steel'];
 
   const cloth = clothMaterials[tier - 1];
   const plateMaterial = metalMaterials[tier - 1];
