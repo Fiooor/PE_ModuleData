@@ -88,7 +88,7 @@ function generateXml(culture, tierData) {
 }
 
 function writeToFile(culture, xmlData) {
-  fs.writeFile(`${culture}_recipies.xml`, xmlData, (err) => {
+  fs.writeFile(`gen_craftingrecipies/${culture}_recipies.xml`, xmlData, (err) => {
     if (err) {
       console.error(`Error writing to file for culture ${culture}: `, err);
       return;
