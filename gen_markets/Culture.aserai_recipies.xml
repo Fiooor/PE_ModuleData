@@ -8,15 +8,6 @@
 	<Tier3Items>
 		PE_brass_aserai_helmet_leather*400*600|PE_pointed_skullcap_over_mail_coif*400*600|PE_brass_aserai_helmet_b_leather*400*600|PE_brass_aserai_helmet_open*400*600|PE_brass_aserai_helmet_b_open*400*600|PE_aserai_crown*400*600|PE_brass_aserai_helmet_closed*400*600|PE_brass_aserai_helmet_b_closed*400*600|PE_aserai_battle_crown*400*600|PE_desert_helmet_with_mail*400*600|PE_aserai_lord_helmet_a*400*600|PE_emirs_helmet*400*600|PE_desert_mail_coif*400*600|PE_southern_noble_helmet*400*600|PE_southern_lord_helmet*400*600|PE_closed_desert_helmet_with_mail*400*600|PE_long_padded_robe*400*600|PE_bandit_gambeson*400*600|PE_bandit_gambeson*400*600|PE_desert_padded_cloth*400*600|PE_ringed_desert_armor*400*600|PE_buckled_wildsman_armor*400*600|PE_buckled_wildsman_armor*400*600|PE_aserai_chain_plate_armor_c*400*600|PE_southern_lamellar_armor*400*600|PE_aserai_scale_armor_on_cloth*400*600|PE_leather_strips_over_padded_robe*400*600|PE_aserai_robe_c_chain*400*600|PE_desert_robe_over_mail*400*600|PE_aserai_armor_02*400*600|PE_aserai_archer_armor*400*600|PE_aserai_armor_02_b*400*600|PE_aserai_chain_plate_armor_b*400*600|PE_aserai_chain_plate_armor_d*400*600|PE_rough_fur_over_chain*400*600|PE_rough_fur_over_chain*400*600|PE_desert_lamellar*400*600|PE_aserai_chain_plate_armor_a*400*600|PE_stitched_leather_over_mail*400*600|PE_sturgia_cavalry_armor*400*600|PE_aserai_scale_armor_on_chain*400*600|PE_desert_scale_armor*400*600|PE_aserai_full_scale_armor_on_chain*400*600|PE_ragged_boots*400*600|PE_strapped_shoes*400*600|PE_a_aserai_scale_b_shoulder_a*400*600|PE_a_aserai_scale_b_shoulder_c*400*600|PE_aserai_scale_shoulder_b*400*600|PE_desert_scale_shoulders*400*600|PE_a_aserai_scale_b_shoulder_e*400*600
 	</Tier3Items>
-	<Tier4Items>
-		
-	</Tier4Items>
-	<Tier5Items>
-		
-	</Tier5Items>
-	<Tier6Items>
-		
-	</Tier6Items>
 	<CraftingBoxes>
 		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
 	</CraftingBoxes>

@@ -8,15 +8,6 @@
 	<Tier3Items>
 		PE_khuzait_noble_helmet_with_fur*400*600|PE_spiked_helmet*400*600|PE_khuzait_noble_helmet_with_feathers*400*600|PE_khuzait_noble_helmet_with_neckguard*400*600|PE_spiked_helmet_with_facemask*400*600|PE_eastern_vendel_helmet*400*600|PE_rough_fur_armor*400*600|PE_rough_fur_armor*400*600|PE_reinforced_suede_armor*400*600|PE_khuzait_fortified_armor*400*600|PE_khuzait_sturdy_armor*400*600|PE_bandit_gambeson*400*600|PE_bandit_gambeson*400*600|PE_crude_leather_armor*400*600|PE_belted_leather_cuirass*400*600|PE_studded_steppe_leather*400*600|PE_studded_leather_over_aketon*400*600|PE_khuzait_lamellar_strapped*400*600|PE_eastern_stitched_leather_coat*400*600|PE_eastern_plated_leather_vest*400*600|PE_buckled_wildsman_armor*400*600|PE_buckled_wildsman_armor*400*600|PE_leather_lamellar_armor*400*600|PE_rough_fur_over_chain*400*600|PE_rough_fur_over_chain*400*600|PE_eastern_lamellar_armor*400*600|PE_eastern_plated_leather*400*600|PE_brass_lamellar_over_mail*400*600|PE_eastern_leather_boots*400*600|PE_reinforced_suede_boots*400*600|PE_eastern_studded_shoulders*400*600|PE_lamellar_shoulders*400*600|PE_brass_lamellar_shoulder*400*600
 	</Tier3Items>
-	<Tier4Items>
-		
-	</Tier4Items>
-	<Tier5Items>
-		
-	</Tier5Items>
-	<Tier6Items>
-		
-	</Tier6Items>
 	<CraftingBoxes>
 		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
 	</CraftingBoxes>

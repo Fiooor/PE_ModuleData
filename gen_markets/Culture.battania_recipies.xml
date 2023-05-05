@@ -8,15 +8,6 @@
 	<Tier3Items>
 		PE_battania_earmuff_helmet_d_brnz*400*600|PE_battania_battle_crown*400*600|PE_battania_earmuff_helmet_d*400*600|PE_ridged_northernhelm*400*600|PE_battanian_plated_noble_helmet*400*600|PE_battanian_crowned_helmet*400*600|PE_battanian_noble_helmet_with_feather*400*600|PE_long_fur_coat*400*600|PE_padded_leather_overcoat*400*600|PE_padded_leather_overcoat*400*600|PE_rough_fur_armor*400*600|PE_rough_fur_armor*400*600|PE_battania_light_armor_a*400*600|PE_battania_woodland_outfit*400*600|PE_bandit_gambeson*400*600|PE_bandit_gambeson*400*600|PE_battanian_chainmail_armor_b*400*600|PE_scale_armor*400*600|PE_battanian_chainmail_armor_a*400*600|PE_battanian_scale_armor_b*400*600|PE_buckled_wildsman_armor*400*600|PE_buckled_wildsman_armor*400*600|PE_battanian_chainmail_armor_c*400*600|PE_battanian_chainmail_armor_d*400*600|PE_ranger_mail*400*600|PE_battania_woodland_chainmail*400*600|PE_rough_fur_over_chain*400*600|PE_rough_fur_over_chain*400*600|PE_western_scale_mail*400*600|PE_kilt_over_plated_leather*400*600|PE_battanian_scale_armor_a*400*600|PE_battania_warlord_armor*400*600|PE_battania_mercenary_armor*400*600|PE_battania_noble_armor*400*600|PE_turndown_leather_boots*400*600|PE_battania_warlord_boots*400*600|PE_highland_gloves*400*600|PE_rough_tied_bracers*400*600|PE_battania_noble_bracers*400*600|PE_battania_warlord_bracers*400*600|PE_battanian_chainmail_shoulder_b*400*600|PE_wolf_shoulder*400*600|PE_battania_shoulder_furr*400*600|PE_battania_cloak_furr*400*600|PE_bearskin*400*600|PE_armored_bearskin*400*600|PE_rough_bearskin*400*600|PE_battania_warlord_pauldrons*400*600
 	</Tier3Items>
-	<Tier4Items>
-		
-	</Tier4Items>
-	<Tier5Items>
-		
-	</Tier5Items>
-	<Tier6Items>
-		
-	</Tier6Items>
 	<CraftingBoxes>
 		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
 	</CraftingBoxes>

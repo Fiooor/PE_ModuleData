@@ -8,15 +8,6 @@
 	<Tier3Items>
 		PE_kettle_hat_over_mail_coif*400*600|PE_segmented_skullcap_over_mail_coif*400*600|PE_vlandian_faceguard_helmet_b*400*600|PE_vlandian_faceguard_helmet_a*400*600|PE_full_helm_over_arming_coif*400*600|PE_visored_helmet_over_padded_cloth*400*600|PE_visored_helmet_over_laced_coif*400*600|PE_full_helm_over_laced_coif*400*600|PE_full_helm_over_cloth_headwrap*400*600|PE_western_crowned_helmet*400*600|PE_visored_helmet_over_padded_coif*400*600|PE_full_helm_over_padded_cap*400*600|PE_full_helm_over_padded_cloth*400*600|PE_western_crowned_plated_helmet*400*600|PE_full_helm_over_mail_coif*400*600|PE_visored_helmet_over_mail_coif*400*600|PE_western_plated_helmet*400*600|ba_closehelmworn*400*600|PE_closehelmworn*400*600|ba_bolzanogreathelmet*400*600|PE_bolzanogreathelmet*400*600|ba_closehelm*400*600|ba_closehelmgold*400*600|PE_closehelm*400*600|PE_closehelmgold*400*600|PE_padded_leather_shirt*400*600|PE_leather_scale_armor*400*600|PE_sleeveless_padded_coat*400*600|PE_padded_coat*400*600|PE_gambeson_b*400*600|PE_buckled_wildsman_armor*400*600|PE_buckled_wildsman_armor*400*600|PE_banded_leather_over_mail*400*600|PE_veteran_mercenary_armor*400*600|PE_mail_shirt*400*600|PE_hauberk*400*600|PE_rough_fur_over_chain*400*600|PE_rough_fur_over_chain*400*600|PE_vlandia_chainmail*400*600|PE_white_coat_over_mail*400*600|PE_red_coat_over_mail*400*600|PE_plated_leather_coat*400*600|PE_coat_of_plates_over_mail*400*600|ba_platearmor2worn*400*600|PE_platearmor2worn*400*600|ba_platearmor2*400*600|ba_platearmor2gold*400*600|PE_platearmor2*400*600|PE_platearmor2gold*400*600|ba_platearmor*400*600|ba_platearmorgold*400*600|PE_platearmor*400*600|PE_platearmorgold*400*600|PE_plategreaves*400*600|PE_plategreavesgold*400*600|ba_plategauntlet*400*600|ba_plategauntletgold*400*600|PE_plategauntlet*400*600|PE_plategauntletgold*400*600|PE_noble_pauldron_with_cape*400*600|PE_noble_pauldron_with_scarf*400*600|PE_pauldron_over_scale_armor*400*600
 	</Tier3Items>
-	<Tier4Items>
-		
-	</Tier4Items>
-	<Tier5Items>
-		
-	</Tier5Items>
-	<Tier6Items>
-		
-	</Tier6Items>
 	<CraftingBoxes>
 		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
 	</CraftingBoxes>

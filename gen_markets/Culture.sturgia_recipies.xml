@@ -8,15 +8,6 @@
 	<Tier3Items>
 		PE_northern_goggled_helmet*400*600|PE_nordic_helmet*400*600|PE_closed_goggled_helmet*400*600|PE_goggled_helmet_over_full_mail*400*600|PE_sturgian_lord_helmet_b*400*600|PE_decorated_goggled_helmet*400*600|PE_sturgian_lord_helmet_c*400*600|PE_sturgian_helmet_closed*400*600|PE_lendman_helmet_over_full_mail*400*600|PE_sturgian_helmet_b_close*400*600|PE_padded_leather_overcoat*400*600|PE_padded_leather_overcoat*400*600|PE_rough_fur_armor*400*600|PE_rough_fur_armor*400*600|PE_bandit_gambeson*400*600|PE_bandit_gambeson*400*600|PE_northern_padded_gambeson*400*600|PE_northern_padded_cloth*400*600|PE_leather_and_iron_plate_armor*400*600|PE_northern_lamellar_armor*400*600|PE_sturgian_lamellar_gambeson*400*600|PE_northern_leather_tabard*400*600|PE_nordic_lamellar_vest*400*600|PE_buckled_wildsman_armor*400*600|PE_buckled_wildsman_armor*400*600|PE_decorated_nordic_hauberk*400*600|PE_nordic_hauberk*400*600|PE_nordic_lamellar_armor*400*600|PE_sturgian_chainmale_shortsleeve*400*600|PE_rough_fur_over_chain*400*600|PE_rough_fur_over_chain*400*600|PE_sturgian_lamellar_gambeson_heavy*400*600|PE_nordic_sloven_over_mail*400*600|PE_sturgian_chainmale_longsleeve*400*600|PE_northern_coat_of_plates*400*600|PE_sturgian_lamellar_base*400*600|PE_northern_brass_lamellar_over_mail*400*600|PE_sturgian_lamellar_fortified*400*600|PE_sturgian_fortified_armor*400*600|PE_northern_plated_boots*400*600|PE_mail_shoulders*400*600|PE_brass_lamellar_shoulder_white*400*600|PE_brass_scale_shoulders*400*600
 	</Tier3Items>
-	<Tier4Items>
-		
-	</Tier4Items>
-	<Tier5Items>
-		
-	</Tier5Items>
-	<Tier6Items>
-		
-	</Tier6Items>
 	<CraftingBoxes>
 		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
 	</CraftingBoxes>

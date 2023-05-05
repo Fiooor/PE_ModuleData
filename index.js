@@ -63,7 +63,7 @@ function generateXml(culture, tierData) {
   const craftingTime = 10;
   const defaultAmount = 1;
   let xml = `<Recipies>\n`;
-  
+
   // Update the loop to have only 3 merged tiers
   for (let tier = 1; tier <= 3; tier++) {
     xml += `\t<Tier${tier}Craftings>\n\t\t`;
@@ -71,9 +71,10 @@ function generateXml(culture, tierData) {
     const allItems = [];
     for (let component in tierData) {
       tierData[component].forEach(item => {
+        // Update the condition to match merged tiers
         if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
-          (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
-          (tier === 3 && (item.tier === 5 || item.tier === 6))) {
+            (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
+            (tier === 3 && (item.tier === 5 || item.tier === 6))) {
           const craftingRecipe = Object.entries(item.crafting_recipe)
             .map(([material, amount]) => `${material}*${amount}`)
             .join(',');
@@ -90,6 +91,7 @@ function generateXml(culture, tierData) {
   return xml;
 }
 
+
 function generateMarketXml(culture, marketData) {
 
   // Todo setting prices for items
@@ -99,7 +101,7 @@ function generateMarketXml(culture, marketData) {
 
   let xml = `<Market>\n`;
 
-  for (let tier = 1; tier <= 6; tier++) {
+  for (let tier = 1; tier <= 3; tier++) {
     xml += `\t<Tier${tier}Items>\n\t\t`;
 
     const allItems = [];
@@ -107,8 +109,8 @@ function generateMarketXml(culture, marketData) {
       marketData[component].forEach(item => {
         // Update the condition to match merged tiers
         if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
-          (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
-          (tier === 3 && (item.tier === 5 || item.tier === 6))) {
+            (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
+            (tier === 3 && (item.tier === 5 || item.tier === 6))) {
           allItems.push(`${item.id}*${item.sell_price || defaultSellPrice}*${item.buy_price || defaultBuyPrice}`);
         }
       });
