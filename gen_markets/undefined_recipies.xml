@@ -1,0 +1,23 @@
+<Market>
+	<Tier1Items>
+		
+	</Tier1Items>
+	<Tier2Items>
+		
+	</Tier2Items>
+	<Tier3Items>
+		
+	</Tier3Items>
+	<Tier4Items>
+		
+	</Tier4Items>
+	<Tier5Items>
+		
+	</Tier5Items>
+	<Tier6Items>
+		
+	</Tier6Items>
+	<CraftingBoxes>
+		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
+	</CraftingBoxes>
+</Market>
