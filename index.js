@@ -93,7 +93,7 @@ function generateMarketXml(culture, marketData) {
   const defaultSellPrice = 400;
   const defaultBuyPrice = 600;
   const craftingBoxesValues = "pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3";
- 
+
   let xml = `<Market>\n`;
 
   for (let tier = 1; tier <= 6; tier++) {
@@ -135,8 +135,14 @@ fileNames.forEach((fileName) => {
     parser.parseString(data, function (err, result) {
       const items = result.Items.Item;
       for (const item of items) {
+        const itemId = item.$.id;
         const culture = item.$.culture;
         const itemType = item.$.Type; // Get item type
+
+        // Remove Admin Armor from the Crafting Pool
+        if (itemId.startsWith("PE_dummy_")) {
+          continue;
+        }
 
         if (!itemsByCulture[culture]) {
           itemsByCulture[culture] = {};
@@ -173,6 +179,19 @@ fileNames.forEach((fileName) => {
 
       filesProcessed++;
       if (filesProcessed === fileNames.length) {
+        // Merge items from "Culture.looters" and "Culture.neutral" to other cultures
+        for (const sourceCulture of ["Culture.looters", "Culture.neutral"]) {
+          if (itemsByCulture[sourceCulture]) { // Check if the sourceCulture exists in itemsByCulture
+            for (const component of components) {
+              for (const targetCulture in itemsByCulture) {
+                if (targetCulture !== sourceCulture) {
+                  itemsByCulture[targetCulture][component] = itemsByCulture[targetCulture][component].concat(itemsByCulture[sourceCulture][component]);
+                }
+              }
+            }
+          }
+        }
+
         const itemsJson = {};
         for (const culture in itemsByCulture) {
           for (const component of components) {
