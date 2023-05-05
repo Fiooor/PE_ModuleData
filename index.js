@@ -87,8 +87,41 @@ function generateXml(culture, tierData) {
   return xml;
 }
 
-function writeToFile(culture, xmlData) {
-  fs.writeFile(`gen_craftingrecipies/${culture}_recipies.xml`, xmlData, (err) => {
+function generateMarketXml(culture, marketData) {
+  
+  // Todo setting prices for items
+  const defaultSellPrice = 400;
+  const defaultBuyPrice = 600;
+  const craftingBoxesValues = "pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3";
+ 
+  let xml = `<Market>\n`;
+
+  for (let tier = 1; tier <= 6; tier++) {
+    xml += `\t<Tier${tier}Items>\n\t\t`;
+
+    const allItems = [];
+    for (let component in marketData) {
+      marketData[component].forEach(item => {
+        if (item.tier === tier) {
+          allItems.push(`${item.id}*${item.sell_price || defaultSellPrice}*${item.buy_price || defaultBuyPrice}`);
+        }
+      });
+    }
+
+    xml += allItems.join('|') + `\n\t</Tier${tier}Items>\n`;
+  }
+
+  xml += `\t<CraftingBoxes>\n\t\t`;
+
+  xml += craftingBoxesValues + `\n\t</CraftingBoxes>\n`;
+
+  xml += `</Market>`;
+
+  return xml;
+}
+
+function writeToFile(folder, culture, xmlData) {
+  fs.writeFile(`${folder}/${culture}_recipies.xml`, xmlData, (err) => {
     if (err) {
       console.error(`Error writing to file for culture ${culture}: `, err);
       return;
@@ -177,7 +210,9 @@ fileNames.forEach((fileName) => {
         // CHANGE: Call generateXml and writeToFile for each culture
         for (const culture in itemsJson) {
           const xmlData = generateXml(culture, itemsJson[culture]);
-          writeToFile(culture, xmlData);
+          writeToFile("gen_craftingrecipies", culture, xmlData);
+          const marketXmlData = generateMarketXml(culture, itemsJson[culture]);
+          writeToFile("gen_markets", culture, marketXmlData);
         }
 
         // Save JSON array to file
