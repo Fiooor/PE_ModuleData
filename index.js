@@ -24,8 +24,8 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
     multiplier += 2; // Increase the material cost by 2 for tier 6
   }
 
-  const clothMaterials = ['pe_linen', 'pe_linen', 'pe_cloth', 'pe_cloth', 'pe_velvet', 'pe_velvet'];
-  const metalMaterials = ['pe_iron_ingot', 'pe_iron_ingot', 'pe_steel_ingot', 'pe_steel_ingot', 'pe_silver', 'pe_thamaskene_steel'];
+  const clothMaterials = ['pe_linen', 'pe_cloth', 'pe_velvet'];
+  const metalMaterials = ['pe_iron_ingot', 'pe_steel_ingot', 'pe_thamaskene_steel'];
 
   const cloth = clothMaterials[tier - 1];
   const plateMaterial = metalMaterials[tier - 1];
@@ -64,7 +64,7 @@ function generateXml(culture, tierData) {
   const defaultAmount = 1;
   let xml = `<Recipies>\n`;
 
-  for (let tier = 1; tier <= 6; tier++) {
+  for (let tier = 1; tier <= 3; tier++) {
     xml += `\t<Tier${tier}Craftings>\n\t\t`;
 
     const allItems = [];
@@ -88,7 +88,7 @@ function generateXml(culture, tierData) {
 }
 
 function generateMarketXml(culture, marketData) {
-  
+
   // Todo setting prices for items
   const defaultSellPrice = 400;
   const defaultBuyPrice = 600;
@@ -96,7 +96,7 @@ function generateMarketXml(culture, marketData) {
  
   let xml = `<Market>\n`;
 
-  for (let tier = 1; tier <= 6; tier++) {
+  for (let tier = 1; tier <= 3; tier++) {
     xml += `\t<Tier${tier}Items>\n\t\t`;
 
     const allItems = [];
@@ -177,7 +177,7 @@ fileNames.forEach((fileName) => {
         for (const culture in itemsByCulture) {
           for (const component of components) {
             itemsByCulture[culture][component].sort((a, b) => a.totalArmorValue - b.totalArmorValue);
-            const numTiers = 6;
+            const numTiers = 3;
             const itemsPerTier = Math.ceil(itemsByCulture[culture][component].length / numTiers);
 
             for (const [index, itemArmor] of itemsByCulture[culture][component].entries()) {
