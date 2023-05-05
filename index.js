@@ -64,17 +64,13 @@ function generateXml(culture, tierData) {
   const defaultAmount = 1;
   let xml = `<Recipies>\n`;
 
-  // Update the loop to have only 3 merged tiers
-  for (let tier = 1; tier <= 3; tier++) {
+  for (let tier = 1; tier <= 6; tier++) {
     xml += `\t<Tier${tier}Craftings>\n\t\t`;
 
     const allItems = [];
     for (let component in tierData) {
       tierData[component].forEach(item => {
-        // Update the condition to match merged tiers
-        if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
-            (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
-            (tier === 3 && (item.tier === 5 || item.tier === 6))) {
+        if (item.tier === tier) {
           const craftingRecipe = Object.entries(item.crafting_recipe)
             .map(([material, amount]) => `${material}*${amount}`)
             .join(',');
@@ -91,7 +87,6 @@ function generateXml(culture, tierData) {
   return xml;
 }
 
-
 function generateMarketXml(culture, marketData) {
 
   // Todo setting prices for items
@@ -101,16 +96,13 @@ function generateMarketXml(culture, marketData) {
 
   let xml = `<Market>\n`;
 
-  for (let tier = 1; tier <= 3; tier++) {
+  for (let tier = 1; tier <= 6; tier++) {
     xml += `\t<Tier${tier}Items>\n\t\t`;
 
     const allItems = [];
     for (let component in marketData) {
       marketData[component].forEach(item => {
-        // Update the condition to match merged tiers
-        if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
-            (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
-            (tier === 3 && (item.tier === 5 || item.tier === 6))) {
+        if (item.tier === tier) {
           allItems.push(`${item.id}*${item.sell_price || defaultSellPrice}*${item.buy_price || defaultBuyPrice}`);
         }
       });
@@ -188,7 +180,7 @@ fileNames.forEach((fileName) => {
       filesProcessed++;
       if (filesProcessed === fileNames.length) {
         // Merge items from "Culture.looters" and "Culture.neutral" to other cultures
-        for (const sourceCulture of ["Culture.looters", "Culture.neutral"]) {
+        for (const sourceCulture of ["Culture.looters", "Culture.neutral_culture"]) {
           if (itemsByCulture[sourceCulture]) { // Check if the sourceCulture exists in itemsByCulture
             for (const component of components) {
               for (const targetCulture in itemsByCulture) {
