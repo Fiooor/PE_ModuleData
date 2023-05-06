@@ -200,9 +200,11 @@ fileNames.forEach((fileName) => {
           if (itemsByCulture[sourceCulture]) { // Check if the sourceCulture exists in itemsByCulture
             for (const component of components) {
               for (const targetCulture in itemsByCulture) {
-                if (targetCulture !== sourceCulture && targetCulture !== "undefined" &&
-                  targetCulture !== "Culture.looters" && targetCulture !== "Culture.neutral_culture") {
-                  itemsByCulture[targetCulture][component] = itemsByCulture[targetCulture][component].concat(itemsByCulture[sourceCulture][component]);
+                if (targetCulture !== sourceCulture && targetCulture !== "undefined") {
+                  if (!((sourceCulture === "Culture.looters" && targetCulture === "Culture.neutral_culture") ||
+                    (sourceCulture === "Culture.neutral_culture" && targetCulture === "Culture.looters"))) {
+                    itemsByCulture[targetCulture][component] = itemsByCulture[targetCulture][component].concat(itemsByCulture[sourceCulture][component]);
+                  }
                 }
               }
             }
