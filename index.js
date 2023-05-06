@@ -279,18 +279,18 @@ fileNames.forEach((fileName) => {
 
             itemsByCulture[culture][component].forEach((itemArmor) => {
               const craftingRecipe = getCraftingRecipe(component, itemArmor.material_type, itemArmor.tier, itemArmor.totalArmorValue);
-              const { sellPrice, buyPrice } = calculateItemPrices(itemArmor);
-
+              const { sellPrice, buyPrice } = calculateItemPrices({...itemArmor, crafting_recipe: craftingRecipe});
+            
               itemsJson[culture][component].push({
                 id: itemArmor.id,
                 name: itemArmor.name,
                 totalArmorValue: itemArmor.totalArmorValue,
                 tier: itemArmor.tier,
                 material_type: itemArmor.material_type,
-                component_type: component, // Add component_type to the JSON array
+                component_type: component,
                 crafting_recipe: craftingRecipe,
-                sell_price: sellPrice, // Add calculated sell_price to the JSON array
-                buy_price: buyPrice // Add calculated buy_price to the JSON array
+                sell_price: sellPrice,
+                buy_price: buyPrice
               });
             });
           }
