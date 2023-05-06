@@ -96,8 +96,25 @@ function calculateItemPrices(item) {
   const basePrice = 100;
   const tierPriceMultiplier = 1000;
   const armorValueMultiplier = 100;
+  
+  // Define base values for each material
+  const materialBasePrices = {
+    'pe_linen': 100,
+    'pe_cloth': 225,
+    'pe_velvet': 475,
+    'pe_iron_ingot': 505,
+    'pe_steel_ingot': 760,
+    'pe_thamaskene_steel': 1520,
+    'pe_goldore': 10000,
+  };
 
-  const sellPrice = basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier);
+  // Calculate the total material cost for the item
+  let materialCost = 0;
+  for (const material in item.crafting_recipe) {
+    materialCost += materialBasePrices[material] * item.crafting_recipe[material];
+  }
+
+  const sellPrice = basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier) + materialCost;
   const buyPrice = sellPrice * 1.5;
 
   return { sellPrice, buyPrice };
