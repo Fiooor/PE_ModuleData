@@ -1,9 +1,9 @@
 <Market>
 	<Tier1Items>
-		PE_merchants_hat*1600*2080|PE_half_apron*1600*2080|PE_leather_apron*3025*3932|PE_ladys_shoe*900*1170|PE_leather_shoes*1350*1755|PE_ragged_boots*1800*2340|PE_strapped_shoes*1800*2340|PE_leather_gloves*1900*2470|PE_padded_vambrace*2200*2860|PE_female_hood*1200*1560|PE_scarf*1200*1560|PE_wrapped_scarf*1200*1560|PE_female_scarf*1800*2340|PE_empire_cape_a*2000*2600
+		PE_merchants_hat*1600*2000|PE_half_apron*1600*2000|PE_leather_apron*3025*3781|PE_ladys_shoe*900*1125|PE_leather_shoes*1350*1687|PE_ragged_boots*1800*2250|PE_strapped_shoes*1800*2250|PE_leather_gloves*1900*2375|PE_padded_vambrace*2200*2750|PE_female_hood*1200*1500|PE_scarf*1200*1500|PE_wrapped_scarf*1200*1500|PE_female_scarf*1800*2250|PE_empire_cape_a*2000*2500
 	</Tier1Items>
 	<Tier2Items>
-		PE_cloth_apron*4225*5492|PE_merchants_fur_coat*4325*5622
+		PE_cloth_apron*4225*5281|PE_merchants_fur_coat*4325*5406
 	</Tier2Items>
 	<Tier3Items>
 		

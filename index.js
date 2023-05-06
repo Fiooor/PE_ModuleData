@@ -115,7 +115,7 @@ function calculateItemPrices(item) {
   }
 
   const sellPrice = Math.floor(basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier) + materialCost);
-  const buyPrice = Math.floor(sellPrice * 1.3);
+  const buyPrice = Math.floor(sellPrice * 1.25);
 
   return { sellPrice, buyPrice };
 }
