@@ -73,8 +73,8 @@ function generateXml(culture, tierData) {
       tierData[component].forEach(item => {
         // Update the condition to match merged tiers
         if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
-            (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
-            (tier === 3 && (item.tier === 5 || item.tier === 6))) {
+          (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
+          (tier === 3 && (item.tier === 5 || item.tier === 6))) {
           const craftingRecipe = Object.entries(item.crafting_recipe)
             .map(([material, amount]) => `${material}*${amount}`)
             .join(',');
@@ -116,8 +116,8 @@ function generateMarketXml(culture, marketData) {
       marketData[component].forEach(item => {
         // Update the condition to match merged tiers
         if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
-            (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
-            (tier === 3 && (item.tier === 5 || item.tier === 6))) {
+          (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
+          (tier === 3 && (item.tier === 5 || item.tier === 6))) {
           const { sellPrice, buyPrice } = calculateItemPrices(item);
           allItems.push(`${item.id}*${sellPrice}*${buyPrice}`);
         }
@@ -195,12 +195,13 @@ fileNames.forEach((fileName) => {
 
       filesProcessed++;
       if (filesProcessed === fileNames.length) {
-        // Merge items from "Culture.looters" and "Culture.neutral" to other cultures
+        // Merge items from "Culture.looters" and "Culture.neutral_culture" to other cultures
         for (const sourceCulture of ["Culture.looters", "Culture.neutral_culture"]) {
           if (itemsByCulture[sourceCulture]) { // Check if the sourceCulture exists in itemsByCulture
             for (const component of components) {
               for (const targetCulture in itemsByCulture) {
-                if (targetCulture !== sourceCulture) {
+                if (targetCulture !== sourceCulture && targetCulture !== "undefined" &&
+                  targetCulture !== "Culture.looters" && targetCulture !== "Culture.neutral_culture") {
                   itemsByCulture[targetCulture][component] = itemsByCulture[targetCulture][component].concat(itemsByCulture[sourceCulture][component]);
                 }
               }
@@ -230,7 +231,7 @@ fileNames.forEach((fileName) => {
             itemsByCulture[culture][component].forEach((itemArmor) => {
               const craftingRecipe = getCraftingRecipe(component, itemArmor.material_type, itemArmor.tier, itemArmor.totalArmorValue);
               const { sellPrice, buyPrice } = calculateItemPrices(itemArmor);
-            
+
               itemsJson[culture][component].push({
                 id: itemArmor.id,
                 name: itemArmor.name,
