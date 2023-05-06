@@ -94,9 +94,9 @@ function generateXml(culture, tierData) {
 
 function calculateItemPrices(item) {
   const basePrice = 100;
-  const tierPriceMultiplier = 1000;
+  const tierPriceMultiplier = 500;
   const armorValueMultiplier = 100;
-  
+
   // Define base values for each material
   const materialBasePrices = {
     'pe_linen': 100,
@@ -111,11 +111,11 @@ function calculateItemPrices(item) {
   // Calculate the total material cost for the item
   let materialCost = 0;
   for (const material in item.crafting_recipe) {
-    materialCost += materialBasePrices[material] * item.crafting_recipe[material];
+    materialCost += item.crafting_recipe[material] * materialBasePrices[material];
   }
 
-  const sellPrice = basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier) + materialCost;
-  const buyPrice = sellPrice * 1.5;
+  const sellPrice = Math.floor(basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier) + materialCost);
+  const buyPrice = Math.floor(sellPrice * 1.3);
 
   return { sellPrice, buyPrice };
 }
@@ -135,7 +135,7 @@ function generateMarketXml(culture, marketData) {
         if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
           (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
           (tier === 3 && (item.tier === 5 || item.tier === 6))) {
-          const { sellPrice, buyPrice } = calculateItemPrices(item);
+          const { sellPrice, buyPrice } = calculateItemPrices(item); // Call calculateItemPrices() to get sellPrice and buyPrice
           allItems.push(`${item.id}*${sellPrice}*${buyPrice}`);
         }
       });
