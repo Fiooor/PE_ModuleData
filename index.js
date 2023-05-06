@@ -136,6 +136,28 @@ function generateMarketXml(culture, marketData) {
   return xml;
 }
 
+function calculateTierBreakpoints(itemsByComponent) {
+  const breakpoints = {};
+  for (const component of components) {
+    const allItems = [];
+    for (const culture in itemsByCulture) {
+      allItems.push(...itemsByCulture[culture][component]);
+    }
+    allItems.sort((a, b) => a.totalArmorValue - b.totalArmorValue);
+
+    const numTiers = 6;
+    const tierRange = Math.ceil(allItems.length / numTiers);
+    breakpoints[component] = [];
+
+    for (let i = 0; i < numTiers - 1; i++) {
+      const rangeStart = i * tierRange;
+      const rangeEnd = (i + 1) * tierRange;
+      breakpoints[component].push(allItems[rangeEnd - 1].totalArmorValue);
+    }
+  }
+  return breakpoints;
+}
+
 function writeToFile(folder, culture, xmlData) {
   fs.writeFile(`${folder}/${culture}_recipies.xml`, xmlData, (err) => {
     if (err) {
@@ -212,14 +234,22 @@ fileNames.forEach((fileName) => {
         }
 
         const itemsJson = {};
+        const tierBreakpoints = calculateTierBreakpoints(itemsByCulture); // Add this line to call the function
+
         for (const culture in itemsByCulture) {
           for (const component of components) {
             itemsByCulture[culture][component].sort((a, b) => a.totalArmorValue - b.totalArmorValue);
-            const numTiers = 6;
-            const itemsPerTier = Math.ceil(itemsByCulture[culture][component].length / numTiers);
 
             for (const [index, itemArmor] of itemsByCulture[culture][component].entries()) {
-              const tier = Math.min(Math.ceil((index + 1) / itemsPerTier), numTiers);
+              let tier = 1;
+              const breakpoints = tierBreakpoints[component];
+              for (const [tierIndex, breakpoint] of breakpoints.entries()) {
+                if (itemArmor.totalArmorValue > breakpoint) {
+                  tier = tierIndex + 2;
+                } else {
+                  break;
+                }
+              }
               itemArmor.tier = tier;
             }
 
