@@ -92,11 +92,18 @@ function generateXml(culture, tierData) {
 }
 
 
-function generateMarketXml(culture, marketData) {
+function calculateItemPrices(item) {
+  const basePrice = 100;
+  const tierPriceMultiplier = 1000;
+  const armorValueMultiplier = 100;
 
-  // Todo setting prices for items
-  const defaultSellPrice = 400;
-  const defaultBuyPrice = 600;
+  const sellPrice = basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier);
+  const buyPrice = sellPrice * 1.5;
+
+  return { sellPrice, buyPrice };
+}
+
+function generateMarketXml(culture, marketData) {
   const craftingBoxesValues = "pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3";
 
   let xml = `<Market>\n`;
@@ -111,7 +118,8 @@ function generateMarketXml(culture, marketData) {
         if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
             (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
             (tier === 3 && (item.tier === 5 || item.tier === 6))) {
-          allItems.push(`${item.id}*${item.sell_price || defaultSellPrice}*${item.buy_price || defaultBuyPrice}`);
+          const { sellPrice, buyPrice } = calculateItemPrices(item);
+          allItems.push(`${item.id}*${sellPrice}*${buyPrice}`);
         }
       });
     }
