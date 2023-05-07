@@ -18,11 +18,6 @@ const slotMultipliers = { head_armor: 4, body_armor: 5, leg_armor: 2, arm_armor:
 
 function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
   let multiplier = slotMultipliers[component];
-  if (tier === 5) {
-    multiplier += 1; // Increase the material cost by 1 for tier 5
-  } else if (tier === 6) {
-    multiplier += 2; // Increase the material cost by 2 for tier 6
-  }
 
   const clothMaterials = ['pe_linen', 'pe_linen', 'pe_cloth', 'pe_cloth', 'pe_velvet', 'pe_velvet'];
   const metalMaterials = ['pe_iron_ingot', 'pe_iron_ingot', 'pe_steel_ingot', 'pe_steel_ingot', 'pe_thamaskene_steel', 'pe_thamaskene_steel'];
@@ -30,10 +25,17 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
   const cloth = clothMaterials[tier - 1];
   const plateMaterial = metalMaterials[tier - 1];
 
-  const plateRecipe = { [cloth]: multiplier, [plateMaterial]: multiplier };
+  // Calculate the additional material amounts based on tier and totalArmorValue
+  const additionalMaterial = Math.floor((tier - 1) * 0.5 * totalArmorValue / 50);
+  multiplier += additionalMaterial;
+
+  const plateRecipe = { [cloth]: Math.floor(multiplier / 2), [plateMaterial]: multiplier };
 
   if (tier > 3 || totalArmorValue > 43) {
-    plateRecipe['pe_goldore'] = 1; // Add pe_goldore for tier 3 or higher with armor value greater than 50
+    const goldOreAmount = Math.floor(totalArmorValue / 43);
+    if (goldOreAmount > 0) {
+      plateRecipe['pe_goldore'] = goldOreAmount;
+    }
     if (tier >= 4) {
       for (const mat in plateRecipe) {
         if (mat !== 'pe_goldore') {
@@ -43,11 +45,18 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
     }
   }
 
+  // Cap the crafting materials at 10 for any material
+  for (const material in plateRecipe) {
+    if (plateRecipe[material] > 10) {
+      plateRecipe[material] = 10;
+    }
+  }
+
   switch (material_type) {
     case 'Cloth':
-      return { [cloth]: multiplier };
+      return { [cloth]: Math.min(multiplier, 10) };
     case 'Leather':
-      return { pe_cloth: multiplier };
+      return { [cloth]: Math.min(multiplier, 10) };
     case 'Chainmail':
     case 'Plate':
       return plateRecipe;
@@ -95,7 +104,7 @@ function generateXml(culture, tierData) {
 function calculateItemPrices(item) {
   const basePrice = 100;
   const tierPriceMultiplier = 500;
-  const armorValueMultiplier = 100;
+  const armorValueMultiplier = 50;
 
   // Define base values for each material
   const materialBasePrices = {
@@ -279,8 +288,8 @@ fileNames.forEach((fileName) => {
 
             itemsByCulture[culture][component].forEach((itemArmor) => {
               const craftingRecipe = getCraftingRecipe(component, itemArmor.material_type, itemArmor.tier, itemArmor.totalArmorValue);
-              const { sellPrice, buyPrice } = calculateItemPrices({...itemArmor, crafting_recipe: craftingRecipe});
-            
+              const { sellPrice, buyPrice } = calculateItemPrices({ ...itemArmor, crafting_recipe: craftingRecipe });
+
               itemsJson[culture][component].push({
                 id: itemArmor.id,
                 name: itemArmor.name,
