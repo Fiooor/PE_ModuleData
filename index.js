@@ -64,6 +64,8 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
   }
 }
 
+let combinedMarketData = {};
+let combinedCraftingData = {};
 let itemsByCulture = {};
 let filesProcessed = 0;
 
@@ -308,7 +310,26 @@ fileNames.forEach((fileName) => {
           writeToFile("gen_craftingrecipies", culture.replace('Culture.', 'crafting_armor_'), xmlData);
           const marketXmlData = generateMarketXml(culture, itemsJson[culture]);
           writeToFile("gen_markets", culture.replace('Culture.', 'market_armor_'), marketXmlData);
+
+          for (const component of components) {
+            if (!combinedMarketData[component]) {
+              combinedMarketData[component] = [];
+            }
+            if (!combinedCraftingData[component]) {
+              combinedCraftingData[component] = [];
+            }
+
+            combinedMarketData[component] = combinedMarketData[component].concat(itemsJson[culture][component]);
+            combinedCraftingData[component] = combinedCraftingData[component].concat(itemsJson[culture][component]);
+          }
         }
+        
+        const combinedMarketXmlData = generateMarketXml("all", combinedMarketData);
+        writeToFile("gen_markets", "market_armor_all", combinedMarketXmlData);
+
+        const combinedCraftingXmlData = generateXml("all", combinedCraftingData);
+        writeToFile("gen_craftingrecipies", "crafting_armor_all", combinedCraftingXmlData);
+
 
         // Save JSON array to file
         fs.writeFile("items.json", JSON.stringify(itemsJson), function (err) {
