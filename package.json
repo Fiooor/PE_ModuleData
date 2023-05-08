@@ -1,0 +1,27 @@
+{
+  "name": "pe-moduledata-generator",
+  "version": "1.0.0",
+  "description": "Generates crafting recipes and market configurations based on values",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "xml2js": "^0.4.23"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "PersistentEmpires"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ggs-dev/PE_ModuleData.git"
+  },
+  "author": {
+    "name": "Heavy Bob"
+  },
+  "license": ""
+}
