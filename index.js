@@ -308,9 +308,9 @@ fileNames.forEach((fileName) => {
         // CHANGE: Call generateXml and writeToFile for each culture
         for (const culture in itemsJson) {
           const xmlData = generateXml(culture, itemsJson[culture]);
-          writeToFile("gen_craftingrecipies", culture, xmlData);
+          writeToFile("gen_craftingrecipies", culture.replace('Culture.', 'crafting_'), xmlData);
           const marketXmlData = generateMarketXml(culture, itemsJson[culture]);
-          writeToFile("gen_markets", culture, marketXmlData);
+          writeToFile("gen_markets", culture.replace('Culture.', 'market_'), marketXmlData);
         }
 
         // Save JSON array to file
