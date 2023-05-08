@@ -3,8 +3,6 @@ const xml2js = require('xml2js');
 
 const parser = new xml2js.Parser();
 const fileNames = ['ModuleData/pe_head_armors.xml', 'ModuleData/pe_leg_armors.xml', 'ModuleData/pe_body_armors.xml', 'ModuleData/pe_arm_armors.xml', 'ModuleData/pe_shoulder_armors.xml', 'ModuleData/pe_ba_items.xml', 'ModuleData/mpitems.xml'];
-const marketFileNames = ['/ModuleData/Markets/armormarketall.xml'];
-
 
 const components = ['head_armor', 'body_armor', 'leg_armor', 'arm_armor', 'shoulder_armor'];
 const componentTypes = {
@@ -14,6 +12,7 @@ const componentTypes = {
   arm_armor: 'HandArmor',
   shoulder_armor: 'Cape',
 };
+
 const slotMultipliers = { head_armor: 4, body_armor: 5, leg_armor: 2, arm_armor: 4, shoulder_armor: 4 };
 
 function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
@@ -100,22 +99,69 @@ function generateXml(culture, tierData) {
   return xml;
 }
 
+const materialBasePrices = {
+  pe_linen: 100,
+  pe_cloth: 225,
+  pe_velvet: 475,
+  pe_iron_ingot: 505,
+  pe_steel_ingot: 760,
+  pe_thamaskene_steel: 1520,
+  pe_stone: 100,
+  pe_ironore: 250,
+  pe_silverore: 550,
+  pe_clay: 400,
+  pe_charcoal: 155,
+  pe_goldore: 10000,
+  pe_hardwood: 100,
+  pe_wooden_stick: 60,
+  pe_wooden_plank: 100,
+  pe_cart_packed: 1750,
+  pe_ship_packed: 6425,
+  pe_boat_packed: 1750,
+  pe_ship2_packed: 12400,
+  steppe_fur_harness: 550,
+  stripped_leather_harness: 550,
+  camel_saddle: 2630,
+  northern_noble_harness: 2630,
+  battania_horse_harness_scaled: 4525,
+  imperial_scale_barding: 8325,
+  mail_and_plate_barding: 8325,
+  chain_barding: 8325,
+  pe_merchandise_flax: 150,
+  pe_wheats_a: 150,
+  pe_kitchen_basket_grape_b: 150,
+  pe_foods_cabbage_a: 150,
+  pe_foods_basket_olive_a: 250,
+  pe_mi_spice_b: 175,
+  pe_beer_barrel: 850,
+  pe_wine_barrel: 875,
+  pe_beer: 85,
+  pe_wine: 87,
+  pe_pizza: 725,
+  pe_pie_meat: 365,
+  pe_pie_fruit: 350,
+  pe_merchandise_flour: 750,
+  pe_merchandise_grain: 350,
+  pe_kitchen_food_bread_a: 300,
+  pe_spice_sack: 400,
+  pe_bd_oil_lamp_for_table: 300,
+
+  // Not Implimented
+  pe_wool: 350,
+  pe_leather: 100,
+  pe_hides: 150,
+  pe_chicken_raw: 200,
+  pe_fish: 150,
+  pe_meat_raw: 200,
+  pe_chicken_roast: 450,
+  pe_meat_cooked: 250,
+  pe_fish_cooked: 175,
+};
 
 function calculateItemPrices(item) {
   const basePrice = 100;
   const tierPriceMultiplier = 500;
   const armorValueMultiplier = 50;
-
-  // Define base values for each material
-  const materialBasePrices = {
-    'pe_linen': 100,
-    'pe_cloth': 225,
-    'pe_velvet': 475,
-    'pe_iron_ingot': 505,
-    'pe_steel_ingot': 760,
-    'pe_thamaskene_steel': 1520,
-    'pe_goldore': 10000,
-  };
 
   // Calculate the total material cost for the item
   let materialCost = 0;
