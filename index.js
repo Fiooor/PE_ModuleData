@@ -109,52 +109,153 @@ const materialBasePrices = {
   'pe_steel_ingot': 760,
   'pe_thamaskene_steel': 1520,
   'pe_goldore': 10000,
+  'pe_hardwood': 100,
+  'pe_wooden_stick': 60,
+  'pe_wooden_plank': 100,
+  'pe_merchandise_flax': 150,
+  'pe_stone': 100,
+  'pe_clay': 400,
+  'pe_charcoal': 155,
+  'pe_cart_packed': 1750,
+  'pe_ship_packed': 6425,
+  'pe_boat_packed': 1750,
+  'pe_ship2_packed': 12400,
+  'steppe_fur_harness': 550,
+  'stripped_leather_harness': 550,
+  'camel_saddle': 2630,
+  'northern_noble_harness': 2630,
+  'battania_horse_harness_scaled': 4525,
+  'imperial_scale_barding': 8325,
+  'mail_and_plate_barding': 8325,
+  'chain_barding': 8325,
+  'pe_wheats_a': 150,
+  'pe_fish': 150,
+  'pe_meat_raw': 200,
+  'pe_chicken_raw': 400,
+  'pe_kitchen_basket_grape_b': 150,
+  'pe_foods_cabbage_a': 150,
+  'pe_foods_basket_olive_a': 250,
+  'pe_mi_spice_b': 175,
+  'pe_beer_barrel': 850,
+  'pe_wine_barrel': 875,
+  'pe_beer': 85,
+  'pe_wine': 87,
+  'pe_pizza': 725,
+  'pe_chicken_roast': 450,
+  'pe_meat_cooked': 250,
+  'pe_pie_meat': 365,
+  'pe_pie_fruit': 350,
+  'pe_fish_cooked': 175,
+  'pe_merchandise_flour': 750,
+  'pe_merchandise_grain': 350,
+  'pe_kitchen_food_bread_a': 300,
+  'pe_spice_sack': 400,
+  'pe_bd_oil_lamp_for_table': 300,
 };
 
-function calculateItemPrices(item) {
+function calculateItemPrices(item, isCustomMarket = false) {
   const basePrice = 100;
   const tierPriceMultiplier = 500;
   const armorValueMultiplier = 50;
 
-  // Calculate the total material cost for the item
   let materialCost = 0;
-  for (const material in item.crafting_recipe) {
-    materialCost += item.crafting_recipe[material] * materialBasePrices[material];
+
+  if (!isCustomMarket) {
+    // Calculate the total material cost for the item
+    for (const material in item.crafting_recipe) {
+      materialCost += item.crafting_recipe[material] * materialBasePrices[material];
+    }
+  } else {
+    materialCost = item.basePrice;
   }
 
-  const sellPrice = Math.floor(basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier) + materialCost);
+  const sellPrice = isCustomMarket ? Math.floor(materialCost) : Math.floor(basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier) + materialCost);
   const buyPrice = Math.floor(sellPrice * 1.25);
 
   return { sellPrice, buyPrice };
 }
 
-function generateMarketXml(culture, marketData) {
-  const craftingBoxesValues = "pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3";
+const shops = [
+  {
+    name: 'market_food_all',
+    items: [
+      'pe_wheats_a', 'pe_fish', 'pe_meat_raw', 'pe_chicken_raw', 'pe_kitchen_basket_grape_b', 'pe_foods_cabbage_a', 'pe_foods_basket_olive_a', 'pe_mi_spice_b', 'pe_beer_barrel', 'pe_wine_barrel', 'pe_beer', 'pe_wine', 'pe_pizza', 'pe_chicken_roast', 'pe_meat_cooked', 'pe_pie_meat', 'pe_pie_fruit', 'pe_fish_cooked', 'pe_merchandise_flour', 'pe_merchandise_grain', 'pe_kitchen_food_bread_a', 'pe_spice_sack', 'pe_bd_oil_lamp_for_table'
+    ]
+  },
+  {
+    name: 'market_general_all',
+    items: [
+      'pe_hardwood', 'pe_wooden_stick', 'pe_wooden_plank', 'pe_merchandise_flax', 'pe_linen', 'pe_cloth', 'pe_velvet', 'pe_stone', 'pe_ironore', 'pe_silverore', 'pe_goldore', 'pe_clay', 'pe_charcoal', 'pe_iron_ingot', 'pe_steel_ingot', 'pe_thamaskene_steel', 'pe_cart_packed', 'pe_ship_packed', 'pe_boat_packed', 'pe_ship2_packed', 'steppe_fur_harness', 'stripped_leather_harness', 'camel_saddle', 'northern_noble_harness', 'battania_horse_harness_scaled', 'imperial_scale_barding', 'mail_and_plate_barding', 'chain_barding'
+    ]
+  }
+];
 
+function generateMultipleCustomMarketXmls(shops, materialBasePrices) {
+  shops.forEach(shop => {
+    let customMarketItems = {};
+
+    shop.items.forEach(item => {
+      const material = item;
+      const basePrice = materialBasePrices[material];
+
+      if (basePrice) {
+        const minMultiplier = 0.9; // You can set your desired multiplier here
+        const maxMultiplier = 1.25; // You can set your desired multiplier here
+
+        customMarketItems[material] = {
+          id: material,
+          minPrice: Math.round(basePrice * minMultiplier),
+          maxPrice: Math.round(basePrice * maxMultiplier),
+          basePrice: basePrice,
+          tier: 1 // Set tier to 1 for custom market items
+        };
+      }
+    });
+
+    const marketXml = generateMarketXml(null, customMarketItems, true);
+    writeToFile('./gen_markets', shop.name, marketXml);
+  });
+}
+
+function generateMarketXml(culture, marketData, isCustomMarket = false) {
   let xml = `<Market>\n`;
 
   for (let tier = 1; tier <= 3; tier++) {
+    if (isCustomMarket && tier !== 1) break; // Skip tiers other than 1 for custom markets
+
     xml += `\t<Tier${tier}Items>\n\t\t`;
 
     const allItems = [];
-    for (let component in marketData) {
-      marketData[component].forEach(item => {
-        // Update the condition to match merged tiers
-        if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
-          (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
-          (tier === 3 && (item.tier === 5 || item.tier === 6))) {
-          const { sellPrice, buyPrice } = calculateItemPrices(item); // Call calculateItemPrices() to get sellPrice and buyPrice
-          allItems.push(`${item.id}*${sellPrice}*${buyPrice}`);
-        }
-      });
+
+    if (isCustomMarket) {
+      // Handle custom market items
+      for (let itemKey in marketData) {
+        const item = marketData[itemKey];
+        const { sellPrice, buyPrice } = calculateItemPrices(item, true); // Pass 'true' for custom markets
+        allItems.push(`${itemKey}*${sellPrice}*${buyPrice}`);
+      }
+    } else {
+      // Handle regular market items
+      for (let component in marketData) {
+        marketData[component].forEach(item => {
+          // Update the condition to match merged tiers
+          if ((tier === 1 && (item.tier === 1 || item.tier === 2)) ||
+            (tier === 2 && (item.tier === 3 || item.tier === 4)) ||
+            (tier === 3 && (item.tier === 5 || item.tier === 6))) {
+            const { sellPrice, buyPrice } = calculateItemPrices(item);
+            allItems.push(`${item.id}*${sellPrice}*${buyPrice}`);
+          }
+        });
+      }
     }
 
     xml += allItems.join('|') + `\n\t</Tier${tier}Items>\n`;
   }
 
-  xml += `\t<CraftingBoxes>\n\t\t`;
-
-  xml += craftingBoxesValues + `\n\t</CraftingBoxes>\n`;
+  if (!isCustomMarket) { // Add CraftingBoxes section only if it's not a custom market
+    xml += `\t<CraftingBoxes>\n\t\t`;
+    xml += "pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3" + `\n\t</CraftingBoxes>\n`;
+  }
 
   xml += `</Market>`;
 
@@ -323,12 +424,15 @@ fileNames.forEach((fileName) => {
             combinedCraftingData[component] = combinedCraftingData[component].concat(itemsJson[culture][component]);
           }
         }
-        
+
         const combinedMarketXmlData = generateMarketXml("all", combinedMarketData);
         writeToFile("gen_markets", "market_armor_all", combinedMarketXmlData);
 
         const combinedCraftingXmlData = generateXml("all", combinedCraftingData);
         writeToFile("gen_craftingrecipies", "crafting_armor_all", combinedCraftingXmlData);
+
+        // Generate the Custom Markets
+        generateMultipleCustomMarketXmls(shops, materialBasePrices);
 
 
         // Save JSON array to file
