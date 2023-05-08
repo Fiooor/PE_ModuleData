@@ -185,7 +185,7 @@ function calculateTierBreakpoints(itemsByComponent) {
 }
 
 function writeToFile(folder, culture, xmlData) {
-  fs.writeFile(`${folder}/${culture}_recipies.xml`, xmlData, (err) => {
+  fs.writeFile(`${folder}/${culture}.xml`, xmlData, (err) => {
     if (err) {
       console.error(`Error writing to file for culture ${culture}: `, err);
       return;
@@ -308,9 +308,9 @@ fileNames.forEach((fileName) => {
         // CHANGE: Call generateXml and writeToFile for each culture
         for (const culture in itemsJson) {
           const xmlData = generateXml(culture, itemsJson[culture]);
-          writeToFile("gen_craftingrecipies", culture.replace('Culture.', 'crafting_'), xmlData);
+          writeToFile("gen_craftingrecipies", culture.replace('Culture.', 'crafting_armor_'), xmlData);
           const marketXmlData = generateMarketXml(culture, itemsJson[culture]);
-          writeToFile("gen_markets", culture.replace('Culture.', 'market_'), marketXmlData);
+          writeToFile("gen_markets", culture.replace('Culture.', 'market_armor_'), marketXmlData);
         }
 
         // Save JSON array to file
