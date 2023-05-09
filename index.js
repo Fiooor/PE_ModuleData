@@ -2,7 +2,7 @@ const fs = require('fs');
 const xml2js = require('xml2js');
 
 const parser = new xml2js.Parser();
-const fileNames = ['ModuleData/pe_head_armors.xml', 'ModuleData/pe_leg_armors.xml', 'ModuleData/pe_body_armors.xml', 'ModuleData/pe_arm_armors.xml', 'ModuleData/pe_shoulder_armors.xml', 'ModuleData/pe_ba_items.xml', 'ModuleData/mpitems.xml'];
+const fileNames = ['ModuleData/pe_head_armors.xml', 'ModuleData/pe_leg_armors.xml', 'ModuleData/pe_body_armors.xml', 'ModuleData/pe_arm_armors.xml', 'ModuleData/pe_shoulder_armors.xml', 'ModuleData/mpitems.xml'];
 
 const components = ['head_armor', 'body_armor', 'leg_armor', 'arm_armor', 'shoulder_armor'];
 const componentTypes = {
@@ -30,8 +30,8 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
 
   const plateRecipe = { [cloth]: Math.floor(multiplier / 2), [plateMaterial]: multiplier };
 
-  if (tier > 3 || totalArmorValue > 43) {
-    const goldOreAmount = Math.floor(totalArmorValue / 43);
+  if (tier > 3 || totalArmorValue > 58) {
+    const goldOreAmount = Math.floor(totalArmorValue / 58);
     if (goldOreAmount > 0) {
       plateRecipe['pe_goldore'] = goldOreAmount;
     }
@@ -55,7 +55,6 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
     case 'Cloth':
       return { [cloth]: Math.min(multiplier, 10) };
     case 'Leather':
-      return { [cloth]: Math.min(multiplier, 10) };
     case 'Chainmail':
     case 'Plate':
       return plateRecipe;
@@ -155,8 +154,9 @@ const materialBasePrices = {
 
 function calculateItemPrices(item, isCustomMarket = false) {
   const basePrice = 100;
-  const tierPriceMultiplier = 500;
+  const tierPriceMultiplier = 100;
   const armorValueMultiplier = 50;
+  const sellMarkup = 0.40; // 10% markup on sell price
 
   let materialCost = 0;
 
@@ -170,7 +170,7 @@ function calculateItemPrices(item, isCustomMarket = false) {
   }
 
   const sellPrice = isCustomMarket ? Math.floor(materialCost) : Math.floor(basePrice + (item.tier * tierPriceMultiplier) + (item.totalArmorValue * armorValueMultiplier) + materialCost);
-  const buyPrice = Math.floor(sellPrice * 1.25);
+  const buyPrice = Math.floor(sellPrice * (1 + sellMarkup)); // Apply markup to sell price
 
   return { sellPrice, buyPrice };
 }
@@ -251,6 +251,9 @@ function generateMarketXml(culture, marketData, isCustomMarket = false) {
 
     xml += allItems.join('|') + `\n\t</Tier${tier}Items>\n`;
   }
+
+  xml += `\t<Tier4Items>\n\t\t`;
+  xml += `\n\t</Tier4Items>\n`;
 
   if (!isCustomMarket) { // Add CraftingBoxes section only if it's not a custom market
     xml += `\t<CraftingBoxes>\n\t\t`;
