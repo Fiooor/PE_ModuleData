@@ -2,9 +2,9 @@
   "name": "pe-moduledata-generator",
   "version": "1.0.0",
   "description": "Generates crafting recipes and market configurations based on values",
-  "main": "index.js",
+  "main": "",
   "scripts": {
-    "start": "node index.js"
+    "start": "node src/armor_script.js & node src/weapons_script.js"
   },
   "dependencies": {
     "fs": "^0.0.1-security",

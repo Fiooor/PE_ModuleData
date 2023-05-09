@@ -440,7 +440,7 @@ fileNames.forEach((fileName) => {
 
 
         // Save JSON array to file
-        fs.writeFile("items.json", JSON.stringify(itemsJson), function (err) {
+        fs.writeFile("gen_json_debug/items.json", JSON.stringify(itemsJson), function (err) {
           if (err) throw err;
           console.log("Items saved to items.json");
         });
