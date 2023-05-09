@@ -55,6 +55,7 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
     case 'Cloth':
       return { [cloth]: Math.min(multiplier, 10) };
     case 'Leather':
+      return { [cloth]: Math.min(multiplier, 10) };
     case 'Chainmail':
     case 'Plate':
       return plateRecipe;
