@@ -2,7 +2,7 @@
   "Tier1": [
     {
       "id": "pe_buildhammer",
-      "sell_price": 55,
+      "sell_price": 80,
       "buy_price": 100,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_stone": 1 },
       "count": 1,
@@ -10,7 +10,7 @@
     },
     {
       "id": "PE_fishing_rod",
-      "sell_price": 270,
+      "sell_price": 256,
       "buy_price": 320,
       "crafting_recipe": { "pe_wooden_stick": 2 },
       "count": 1,
@@ -18,7 +18,7 @@
     },
     {
       "id": "PE_peasant_pickaxe_1_t1",
-      "sell_price": 290,
+      "sell_price": 288,
       "buy_price": 360,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_stone": 1 },
       "count": 1,
@@ -26,7 +26,7 @@
     },
     {
       "id": "PE_peasant_hatchet_1_t1",
-      "sell_price": 55,
+      "sell_price": 80,
       "buy_price": 100,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_stone": 1 },
       "count": 1,
@@ -34,7 +34,7 @@
     },
     {
       "id": "PE_peasant_sickle_1_t1",
-      "sell_price": 55,
+      "sell_price": 80,
       "buy_price": 100,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_stone": 1 },
       "count": 1,
@@ -42,7 +42,7 @@
     },
     {
       "id": "pe_doctorscalpel",
-      "sell_price": 595,
+      "sell_price": 1016,
       "buy_price": 1270,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 2 },
       "count": 1,
@@ -50,7 +50,7 @@
     },
     {
       "id": "PE_wooden_2hsword_t1",
-      "sell_price": 345,
+      "sell_price": 368,
       "buy_price": 460,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_hardwood": 2 },
       "count": 1,
@@ -58,7 +58,7 @@
     },
     {
       "id": "PE_practice_spear_t1",
-      "sell_price": 345,
+      "sell_price": 368,
       "buy_price": 460,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_hardwood": 2 },
       "count": 1,
@@ -66,7 +66,7 @@
     },
     {
       "id": "PE_aserai_axe_1_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -74,7 +74,7 @@
     },
     {
       "id": "PE_aserai_axe_2_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -82,7 +82,7 @@
     },
     {
       "id": "PE_sturgia_axe_2_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -90,7 +90,7 @@
     },
     {
       "id": "PE_battania_axe_1_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -98,7 +98,7 @@
     },
     {
       "id": "PE_small_spurred_axe_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -106,7 +106,7 @@
     },
     {
       "id": "PE_southern_small_axe_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -114,7 +114,7 @@
     },
     {
       "id": "PE_small_bit_axe_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -122,7 +122,7 @@
     },
     {
       "id": "PE_battania_2haxe_1_t2",
-      "sell_price": 1240,
+      "sell_price": 2372,
       "buy_price": 2965,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_iron_ingot": 5 },
       "count": 1,
@@ -130,7 +130,7 @@
     },
     {
       "id": "PE_simple_sparth_axe_t2",
-      "sell_price": 1240,
+      "sell_price": 2372,
       "buy_price": 2965,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_iron_ingot": 5 },
       "count": 1,
@@ -138,7 +138,7 @@
     },
     {
       "id": "PE_western_spear_1_t2",
-      "sell_price": 665,
+      "sell_price": 1112,
       "buy_price": 1390,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_iron_ingot": 2 },
       "count": 1,
@@ -146,7 +146,7 @@
     },
     {
       "id": "PE_western_spear_2_t2",
-      "sell_price": 665,
+      "sell_price": 1112,
       "buy_price": 1390,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_iron_ingot": 2 },
       "count": 1,
@@ -154,7 +154,7 @@
     },
     {
       "id": "PE_eastern_spear_1_t2",
-      "sell_price": 665,
+      "sell_price": 1112,
       "buy_price": 1390,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_iron_ingot": 2 },
       "count": 1,
@@ -162,7 +162,7 @@
     },
     {
       "id": "PE_northern_spear_1_t2",
-      "sell_price": 665,
+      "sell_price": 1112,
       "buy_price": 1390,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_iron_ingot": 2 },
       "count": 1,
@@ -170,7 +170,7 @@
     },
     {
       "id": "PE_imperial_spear_t2",
-      "sell_price": 665,
+      "sell_price": 1112,
       "buy_price": 1390,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_iron_ingot": 2 },
       "count": 1,
@@ -178,7 +178,7 @@
     },
     {
       "id": "PE_highland_spear_t2",
-      "sell_price": 665,
+      "sell_price": 1112,
       "buy_price": 1390,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_iron_ingot": 2 },
       "count": 1,
@@ -186,7 +186,7 @@
     },
     {
       "id": "PE_military_fork_t2",
-      "sell_price": 665,
+      "sell_price": 1112,
       "buy_price": 1390,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_iron_ingot": 2 },
       "count": 1,
@@ -194,7 +194,7 @@
     },
     {
       "id": "PE_simple_pike_t2",
-      "sell_price": 735,
+      "sell_price": 1208,
       "buy_price": 1510,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_iron_ingot": 2 },
       "count": 1,
@@ -202,7 +202,7 @@
     },
     {
       "id": "PE_vlandia_sword_1_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -210,7 +210,7 @@
     },
     {
       "id": "PE_empire_sword_1_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -218,7 +218,7 @@
     },
     {
       "id": "PE_aserai_sword_1_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -226,7 +226,7 @@
     },
     {
       "id": "PE_aserai_sword_2_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -234,7 +234,7 @@
     },
     {
       "id": "PE_khuzait_sword_1_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -242,7 +242,7 @@
     },
     {
       "id": "PE_sturgia_sword_1_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -250,7 +250,7 @@
     },
     {
       "id": "PE_battania_sword_1_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -258,7 +258,7 @@
     },
     {
       "id": "PE_falchion_sword_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -266,7 +266,7 @@
     },
     {
       "id": "PE_simple_sabre_sword_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -274,7 +274,7 @@
     },
     {
       "id": "PE_simple_back_sword_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -282,7 +282,7 @@
     },
     {
       "id": "PE_iron_spatha_sword_t2",
-      "sell_price": 810,
+      "sell_price": 1468,
       "buy_price": 1835,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_iron_ingot": 3 },
       "count": 1,
@@ -290,7 +290,7 @@
     },
     {
       "id": "PE_battania_2hsword_1_t2",
-      "sell_price": 1240,
+      "sell_price": 2372,
       "buy_price": 2965,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_iron_ingot": 5 },
       "count": 1,
@@ -298,7 +298,7 @@
     },
     {
       "id": "PE_bastard_sword_t2",
-      "sell_price": 1240,
+      "sell_price": 2372,
       "buy_price": 2965,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_iron_ingot": 5 },
       "count": 1,
@@ -306,7 +306,7 @@
     },
     {
       "id": "PE_seax",
-      "sell_price": 595,
+      "sell_price": 1016,
       "buy_price": 1270,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 2 },
       "count": 1,
@@ -314,7 +314,7 @@
     },
     {
       "id": "PE_celtic_dagger",
-      "sell_price": 595,
+      "sell_price": 1016,
       "buy_price": 1270,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 2 },
       "count": 1,
@@ -322,7 +322,7 @@
     },
     {
       "id": "PE_pugio",
-      "sell_price": 595,
+      "sell_price": 1016,
       "buy_price": 1270,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 2 },
       "count": 1,
@@ -330,7 +330,7 @@
     },
     {
       "id": "PE_hooked_cleaver",
-      "sell_price": 595,
+      "sell_price": 1016,
       "buy_price": 1270,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 2 },
       "count": 1,
@@ -338,7 +338,7 @@
     },
     {
       "id": "PE_gladius_b",
-      "sell_price": 595,
+      "sell_price": 1016,
       "buy_price": 1270,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 2 },
       "count": 1,
@@ -346,7 +346,7 @@
     },
     {
       "id": "PE_vlandia_mace_1_t2",
-      "sell_price": 955,
+      "sell_price": 1824,
       "buy_price": 2280,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 4 },
       "count": 1,
@@ -354,7 +354,7 @@
     },
     {
       "id": "PE_empire_mace_1_t2",
-      "sell_price": 955,
+      "sell_price": 1824,
       "buy_price": 2280,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 4 },
       "count": 1,
@@ -362,7 +362,7 @@
     },
     {
       "id": "PE_aserai_mace_1_t2",
-      "sell_price": 955,
+      "sell_price": 1824,
       "buy_price": 2280,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 4 },
       "count": 1,
@@ -370,7 +370,7 @@
     },
     {
       "id": "PE_aserai_mace_2_t2",
-      "sell_price": 955,
+      "sell_price": 1824,
       "buy_price": 2280,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 4 },
       "count": 1,
@@ -378,7 +378,7 @@
     },
     {
       "id": "PE_khuzait_mace_1_t2",
-      "sell_price": 955,
+      "sell_price": 1824,
       "buy_price": 2280,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 4 },
       "count": 1,
@@ -386,7 +386,7 @@
     },
     {
       "id": "PE_battania_mace_1_t2",
-      "sell_price": 955,
+      "sell_price": 1824,
       "buy_price": 2280,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 4 },
       "count": 1,
@@ -394,7 +394,7 @@
     },
     {
       "id": "PE_battania_mace_2_t2",
-      "sell_price": 955,
+      "sell_price": 1824,
       "buy_price": 2280,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 4 },
       "count": 1,
@@ -402,7 +402,7 @@
     },
     {
       "id": "PE_hunting_bow",
-      "sell_price": 575,
+      "sell_price": 840,
       "buy_price": 1050,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -414,7 +414,7 @@
     },
     {
       "id": "PE_mountain_hunting_bow",
-      "sell_price": 575,
+      "sell_price": 840,
       "buy_price": 1050,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -426,7 +426,7 @@
     },
     {
       "id": "PE_steppe_bow",
-      "sell_price": 575,
+      "sell_price": 840,
       "buy_price": 1050,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -438,7 +438,7 @@
     },
     {
       "id": "PE_glen_ranger_bow",
-      "sell_price": 575,
+      "sell_price": 840,
       "buy_price": 1050,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -450,7 +450,7 @@
     },
     {
       "id": "PE_highland_ranger_bow",
-      "sell_price": 575,
+      "sell_price": 840,
       "buy_price": 1050,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -462,7 +462,7 @@
     },
     {
       "id": "PE_crossbow_a",
-      "sell_price": 575,
+      "sell_price": 840,
       "buy_price": 1050,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -474,7 +474,7 @@
     },
     {
       "id": "PE_vlandic_arrows",
-      "sell_price": 415,
+      "sell_price": 612,
       "buy_price": 765,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 1 },
       "count": 1,
@@ -482,7 +482,7 @@
     },
     {
       "id": "PE_arrow_emp_1_a",
-      "sell_price": 415,
+      "sell_price": 612,
       "buy_price": 765,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 1 },
       "count": 1,
@@ -490,7 +490,7 @@
     },
     {
       "id": "PE_steppe_arrows",
-      "sell_price": 415,
+      "sell_price": 612,
       "buy_price": 765,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 1 },
       "count": 1,
@@ -498,7 +498,7 @@
     },
     {
       "id": "PE_barbed_arrows",
-      "sell_price": 415,
+      "sell_price": 612,
       "buy_price": 765,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_iron_ingot": 1 },
       "count": 1,
@@ -506,7 +506,7 @@
     },
     {
       "id": "PE_sturgia_old_shield_b",
-      "sell_price": 605,
+      "sell_price": 924,
       "buy_price": 1155,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_iron_ingot": 1 },
       "count": 1,
@@ -514,7 +514,7 @@
     },
     {
       "id": "PE_heater_shield_with_cutout",
-      "sell_price": 605,
+      "sell_price": 924,
       "buy_price": 1155,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_iron_ingot": 1 },
       "count": 1,
@@ -522,7 +522,7 @@
     },
     {
       "id": "PE_small_heater_shield",
-      "sell_price": 605,
+      "sell_price": 924,
       "buy_price": 1155,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_iron_ingot": 1 },
       "count": 1,
@@ -530,7 +530,7 @@
     },
     {
       "id": "PE_bound_desert_round_shield",
-      "sell_price": 605,
+      "sell_price": 924,
       "buy_price": 1155,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_iron_ingot": 1 },
       "count": 1,
@@ -538,7 +538,7 @@
     },
     {
       "id": "PE_eastern_wicker_shield",
-      "sell_price": 605,
+      "sell_price": 924,
       "buy_price": 1155,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_iron_ingot": 1 },
       "count": 1,
@@ -548,7 +548,7 @@
   "Tier2": [
     {
       "id": "PE_northern_battle_axe_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -556,7 +556,7 @@
     },
     {
       "id": "PE_vlandia_axe_1_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -564,7 +564,7 @@
     },
     {
       "id": "PE_sturgia_axe_3_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -572,7 +572,7 @@
     },
     {
       "id": "PE_imperial_axe_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -580,7 +580,7 @@
     },
     {
       "id": "PE_woodland_axe_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -588,7 +588,7 @@
     },
     {
       "id": "PE_tzkurion_axe_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -596,7 +596,7 @@
     },
     {
       "id": "PE_large_franziskaa_axe_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -604,7 +604,7 @@
     },
     {
       "id": "PE_aserai_2haxe_1_t3",
-      "sell_price": 2390,
+      "sell_price": 3392,
       "buy_price": 4240,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_steel_ingot": 5 },
       "count": 1,
@@ -612,7 +612,7 @@
     },
     {
       "id": "PE_bearded_axe_t3",
-      "sell_price": 2390,
+      "sell_price": 3392,
       "buy_price": 4240,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_steel_ingot": 5 },
       "count": 1,
@@ -620,7 +620,7 @@
     },
     {
       "id": "PE_northern_axe_t3",
-      "sell_price": 2390,
+      "sell_price": 3392,
       "buy_price": 4240,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_steel_ingot": 5 },
       "count": 1,
@@ -628,7 +628,7 @@
     },
     {
       "id": "PE_western_spear_3_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -636,7 +636,7 @@
     },
     {
       "id": "PE_western_spear_4_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -644,7 +644,7 @@
     },
     {
       "id": "PE_eastern_spear_2_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -652,7 +652,7 @@
     },
     {
       "id": "PE_eastern_spear_3_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -660,7 +660,7 @@
     },
     {
       "id": "PE_highland_spear_3_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -668,7 +668,7 @@
     },
     {
       "id": "PE_southern_spear_3_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -676,7 +676,7 @@
     },
     {
       "id": "PE_southern_spear_4_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -684,7 +684,7 @@
     },
     {
       "id": "PE_northern_spear_2_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -692,7 +692,7 @@
     },
     {
       "id": "PE_eastern_throwing_spear_1_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -700,7 +700,7 @@
     },
     {
       "id": "PE_triangluar_spear_t3",
-      "sell_price": 1125,
+      "sell_price": 1520,
       "buy_price": 1900,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_steel_ingot": 2 },
       "count": 1,
@@ -708,7 +708,7 @@
     },
     {
       "id": "PE_military_fork_pike_t3",
-      "sell_price": 1195,
+      "sell_price": 1616,
       "buy_price": 2020,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_steel_ingot": 2 },
       "count": 1,
@@ -716,7 +716,7 @@
     },
     {
       "id": "PE_aserai_lance_1_t5",
-      "sell_price": 2425,
+      "sell_price": 3440,
       "buy_price": 4300,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_steel_ingot": 5 },
       "count": 1,
@@ -724,7 +724,7 @@
     },
     {
       "id": "PE_vlandia_lance_2_t4",
-      "sell_price": 2425,
+      "sell_price": 3440,
       "buy_price": 4300,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_steel_ingot": 5 },
       "count": 1,
@@ -732,7 +732,7 @@
     },
     {
       "id": "PE_empire_lance_2_t4",
-      "sell_price": 2425,
+      "sell_price": 3440,
       "buy_price": 4300,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_steel_ingot": 5 },
       "count": 1,
@@ -740,7 +740,7 @@
     },
     {
       "id": "PE_sturgia_lance_1_t4",
-      "sell_price": 2425,
+      "sell_price": 3440,
       "buy_price": 4300,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_steel_ingot": 5 },
       "count": 1,
@@ -748,7 +748,7 @@
     },
     {
       "id": "PE_khuzait_lance_2_t4",
-      "sell_price": 2425,
+      "sell_price": 3440,
       "buy_price": 4300,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_steel_ingot": 5 },
       "count": 1,
@@ -756,7 +756,7 @@
     },
     {
       "id": "PE_vlandia_sword_2_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -764,7 +764,7 @@
     },
     {
       "id": "PE_empire_sword_2_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -772,7 +772,7 @@
     },
     {
       "id": "PE_empire_sword_3_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -780,7 +780,7 @@
     },
     {
       "id": "PE_aserai_sword_3_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -788,7 +788,7 @@
     },
     {
       "id": "PE_khuzait_sword_2_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -796,7 +796,7 @@
     },
     {
       "id": "PE_khuzait_sword_3_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -804,7 +804,7 @@
     },
     {
       "id": "PE_sturgia_sword_2_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -812,7 +812,7 @@
     },
     {
       "id": "PE_sturgia_sword_3_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -820,7 +820,7 @@
     },
     {
       "id": "PE_battania_sword_2_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -828,7 +828,7 @@
     },
     {
       "id": "PE_battania_sword_3_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -836,7 +836,7 @@
     },
     {
       "id": "PE_star_falchion_sword_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -844,7 +844,7 @@
     },
     {
       "id": "PE_broad_falchion_sword_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -852,7 +852,7 @@
     },
     {
       "id": "PE_broad_ild_sword_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -860,7 +860,7 @@
     },
     {
       "id": "PE_short_sword_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -868,7 +868,7 @@
     },
     {
       "id": "PE_narrow_sword_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -876,7 +876,7 @@
     },
     {
       "id": "PE_cleaver_sword_t3",
-      "sell_price": 1500,
+      "sell_price": 2080,
       "buy_price": 2600,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_steel_ingot": 3 },
       "count": 1,
@@ -884,7 +884,7 @@
     },
     {
       "id": "PE_battania_2hsword_2_t3",
-      "sell_price": 2390,
+      "sell_price": 3392,
       "buy_price": 4240,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_steel_ingot": 5 },
       "count": 1,
@@ -892,7 +892,7 @@
     },
     {
       "id": "PE_battania_2hsword_3_t3",
-      "sell_price": 2390,
+      "sell_price": 3392,
       "buy_price": 4240,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_steel_ingot": 5 },
       "count": 1,
@@ -900,7 +900,7 @@
     },
     {
       "id": "PE_cleaver_2hsword_t3",
-      "sell_price": 2390,
+      "sell_price": 3392,
       "buy_price": 4240,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_steel_ingot": 5 },
       "count": 1,
@@ -908,7 +908,7 @@
     },
     {
       "id": "PE_western_2hsword_t3",
-      "sell_price": 2390,
+      "sell_price": 3392,
       "buy_price": 4240,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_steel_ingot": 5 },
       "count": 1,
@@ -916,7 +916,7 @@
     },
     {
       "id": "PE_kaskara_2hsword_t3",
-      "sell_price": 2390,
+      "sell_price": 3392,
       "buy_price": 4240,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_steel_ingot": 5 },
       "count": 1,
@@ -924,7 +924,7 @@
     },
     {
       "id": "PE_aserai_mace_3_t3",
-      "sell_price": 1875,
+      "sell_price": 2640,
       "buy_price": 3300,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_steel_ingot": 4 },
       "count": 1,
@@ -932,7 +932,7 @@
     },
     {
       "id": "PE_battania_mace_1_t3",
-      "sell_price": 1875,
+      "sell_price": 2640,
       "buy_price": 3300,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_steel_ingot": 4 },
       "count": 1,
@@ -940,7 +940,7 @@
     },
     {
       "id": "PE_light_mace_t3",
-      "sell_price": 1875,
+      "sell_price": 2640,
       "buy_price": 3300,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_steel_ingot": 4 },
       "count": 1,
@@ -948,7 +948,7 @@
     },
     {
       "id": "PE_steel_mace_t3",
-      "sell_price": 1875,
+      "sell_price": 2640,
       "buy_price": 3300,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_steel_ingot": 4 },
       "count": 1,
@@ -956,7 +956,7 @@
     },
     {
       "id": "PE_morningstar_mace_t3",
-      "sell_price": 1875,
+      "sell_price": 2640,
       "buy_price": 3300,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_steel_ingot": 4 },
       "count": 1,
@@ -964,7 +964,7 @@
     },
     {
       "id": "PE_composite_bow",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -976,7 +976,7 @@
     },
     {
       "id": "PE_composite_steppe_bow",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -988,7 +988,7 @@
     },
     {
       "id": "PE_steppe_heavy_bow",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1000,7 +1000,7 @@
     },
     {
       "id": "PE_nordic_shortbow",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1012,7 +1012,7 @@
     },
     {
       "id": "PE_lowland_longbow",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1024,7 +1024,7 @@
     },
     {
       "id": "PE_tribal_bow",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1036,7 +1036,7 @@
     },
     {
       "id": "PE_crossbow_b",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1048,7 +1048,7 @@
     },
     {
       "id": "PE_crossbow_c",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1060,7 +1060,7 @@
     },
     {
       "id": "PE_crossbow_e",
-      "sell_price": 930,
+      "sell_price": 1224,
       "buy_price": 1530,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1072,7 +1072,7 @@
     },
     {
       "id": "PE_bodkin_arrows_a",
-      "sell_price": 645,
+      "sell_price": 816,
       "buy_price": 1020,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_steel_ingot": 1 },
       "count": 1,
@@ -1080,7 +1080,7 @@
     },
     {
       "id": "PE_bolt_b",
-      "sell_price": 645,
+      "sell_price": 816,
       "buy_price": 1020,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_steel_ingot": 1 },
       "count": 1,
@@ -1088,7 +1088,7 @@
     },
     {
       "id": "PE_footmans_wicker_shield",
-      "sell_price": 775,
+      "sell_price": 1008,
       "buy_price": 1260,
       "crafting_recipe": { "pe_hardwood": 3, "pe_steel_ingot": 1 },
       "count": 1,
@@ -1096,7 +1096,7 @@
     },
     {
       "id": "PE_highland_riders_shield",
-      "sell_price": 775,
+      "sell_price": 1008,
       "buy_price": 1260,
       "crafting_recipe": { "pe_hardwood": 3, "pe_steel_ingot": 1 },
       "count": 1,
@@ -1104,7 +1104,7 @@
     },
     {
       "id": "PE_bracketed_heater_shield",
-      "sell_price": 775,
+      "sell_price": 1008,
       "buy_price": 1260,
       "crafting_recipe": { "pe_hardwood": 3, "pe_steel_ingot": 1 },
       "count": 1,
@@ -1112,7 +1112,7 @@
     },
     {
       "id": "PE_wide_heater_shield",
-      "sell_price": 775,
+      "sell_price": 1008,
       "buy_price": 1260,
       "crafting_recipe": { "pe_hardwood": 3, "pe_steel_ingot": 1 },
       "count": 1,
@@ -1120,7 +1120,7 @@
     },
     {
       "id": "PE_desert_oval_shield",
-      "sell_price": 775,
+      "sell_price": 1008,
       "buy_price": 1260,
       "crafting_recipe": { "pe_hardwood": 3, "pe_steel_ingot": 1 },
       "count": 1,
@@ -1128,18 +1128,17 @@
     },
     {
       "id": "PE_flat_heater_shield",
-      "sell_price": 775,
+      "sell_price": 1008,
       "buy_price": 1260,
       "crafting_recipe": { "pe_hardwood": 3, "pe_steel_ingot": 1 },
       "count": 1,
       "crafting_time": 4
-    },
-    { "id": "", "sell_price": null, "buy_price": null }
+    }
   ],
   "Tier3": [
     {
       "id": "PE_vlandia_axe_2_t4",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1147,7 +1146,7 @@
     },
     {
       "id": "PE_sturgia_axe_4_t4",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1155,7 +1154,7 @@
     },
     {
       "id": "PE_battania_axe_2_t4",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1163,7 +1162,7 @@
     },
     {
       "id": "PE_bamboo_axe_t4",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1171,7 +1170,7 @@
     },
     {
       "id": "PE_battle_axe_t4",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1179,7 +1178,7 @@
     },
     {
       "id": "PE_sturgia_axe_5_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1187,7 +1186,7 @@
     },
     {
       "id": "PE_battania_axe_3_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1195,7 +1194,7 @@
     },
     {
       "id": "PE_vlandia_2haxe_1_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1203,7 +1202,7 @@
     },
     {
       "id": "PE_aserai_2haxe_2_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1211,7 +1210,7 @@
     },
     {
       "id": "PE_sturgia_2haxe_1_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1219,7 +1218,7 @@
     },
     {
       "id": "PE_hooked_axe_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1227,7 +1226,7 @@
     },
     {
       "id": "PE_aserai_2haxe_3_t5",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1235,7 +1234,7 @@
     },
     {
       "id": "PE_sturgia_2haxe_2_t5",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1243,7 +1242,7 @@
     },
     {
       "id": "PE_western_spear_4_t4",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1251,7 +1250,7 @@
     },
     {
       "id": "PE_western_spear_5_t4",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1259,7 +1258,7 @@
     },
     {
       "id": "PE_eastern_spear_4_t4",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1267,7 +1266,7 @@
     },
     {
       "id": "PE_highland_spear_4_t4",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1275,7 +1274,7 @@
     },
     {
       "id": "PE_northern_spear_3_t4",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1283,7 +1282,7 @@
     },
     {
       "id": "PE_eastern_throwing_spear_2_t4",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1291,7 +1290,7 @@
     },
     {
       "id": "PE_imperial_throwing_spear_1_t4",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1299,7 +1298,7 @@
     },
     {
       "id": "PE_wide_leaf_spear_t4",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1307,7 +1306,7 @@
     },
     {
       "id": "PE_eastern_spear_5_t5",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1315,7 +1314,7 @@
     },
     {
       "id": "PE_northern_spear_4_t5",
-      "sell_price": 1735,
+      "sell_price": 2736,
       "buy_price": 3420,
       "crafting_recipe": { "pe_wooden_stick": 3, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1323,7 +1322,7 @@
     },
     {
       "id": "PE_fine_pike_t4",
-      "sell_price": 1805,
+      "sell_price": 2832,
       "buy_price": 3540,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1331,7 +1330,7 @@
     },
     {
       "id": "PE_vlandia_pike_1_t5",
-      "sell_price": 1805,
+      "sell_price": 2832,
       "buy_price": 3540,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1339,7 +1338,7 @@
     },
     {
       "id": "PE_thamaskene_pike_t4",
-      "sell_price": 1805,
+      "sell_price": 2832,
       "buy_price": 3540,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1347,7 +1346,7 @@
     },
     {
       "id": "PE_vlandia_lance_3_t5",
-      "sell_price": 1805,
+      "sell_price": 2832,
       "buy_price": 3540,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1355,7 +1354,7 @@
     },
     {
       "id": "PE_sturgia_lance_2_t5",
-      "sell_price": 1805,
+      "sell_price": 2832,
       "buy_price": 3540,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1363,7 +1362,7 @@
     },
     {
       "id": "PE_empire_lance_3_t5",
-      "sell_price": 1805,
+      "sell_price": 2832,
       "buy_price": 3540,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1371,7 +1370,7 @@
     },
     {
       "id": "PE_khuzait_lance_3_t5",
-      "sell_price": 1805,
+      "sell_price": 2832,
       "buy_price": 3540,
       "crafting_recipe": { "pe_wooden_stick": 5, "pe_thamaskene_steel": 2 },
       "count": 1,
@@ -1379,7 +1378,7 @@
     },
     {
       "id": "PE_vlandia_sword_5_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1387,7 +1386,7 @@
     },
     {
       "id": "PE_empire_sword_6_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1395,7 +1394,7 @@
     },
     {
       "id": "PE_aserai_sword_7_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1403,7 +1402,7 @@
     },
     {
       "id": "PE_sturgia_sword_5_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1411,7 +1410,7 @@
     },
     {
       "id": "PE_battania_sword_5_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1419,7 +1418,7 @@
     },
     {
       "id": "PE_vlandia_noble_sword_1_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1427,7 +1426,7 @@
     },
     {
       "id": "PE_vlandia_noble_sword_2_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1435,7 +1434,7 @@
     },
     {
       "id": "PE_vlandia_noble_sword_3_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1443,7 +1442,7 @@
     },
     {
       "id": "PE_vlandia_noble_sword_4_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1451,7 +1450,7 @@
     },
     {
       "id": "PE_empire_noble_sword_1_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1459,7 +1458,7 @@
     },
     {
       "id": "PE_empire_noble_sword_2_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1467,7 +1466,7 @@
     },
     {
       "id": "PE_empire_noble_sword_3_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1475,7 +1474,7 @@
     },
     {
       "id": "PE_aserai_noble_sword_1_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1483,7 +1482,7 @@
     },
     {
       "id": "PE_aserai_noble_sword_2_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1491,7 +1490,7 @@
     },
     {
       "id": "PE_aserai_noble_sword_3_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1499,7 +1498,7 @@
     },
     {
       "id": "PE_aserai_noble_sword_4_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1507,7 +1506,7 @@
     },
     {
       "id": "PE_khuzait_noble_sword_1_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1515,7 +1514,7 @@
     },
     {
       "id": "PE_khuzait_noble_sword_2_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1523,7 +1522,7 @@
     },
     {
       "id": "PE_khuzait_noble_sword_3_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1531,7 +1530,7 @@
     },
     {
       "id": "PE_sturgia_noble_sword_1_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1539,7 +1538,7 @@
     },
     {
       "id": "PE_sturgia_noble_sword_2_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1547,7 +1546,7 @@
     },
     {
       "id": "PE_sturgia_noble_sword_3_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1555,7 +1554,7 @@
     },
     {
       "id": "PE_sturgia_noble_sword_4_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1563,7 +1562,7 @@
     },
     {
       "id": "PE_battania_noble_sword_1_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1571,7 +1570,7 @@
     },
     {
       "id": "PE_battania_noble_sword_2_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1579,7 +1578,7 @@
     },
     {
       "id": "PE_battania_noble_sword_3_t5",
-      "sell_price": 2415,
+      "sell_price": 3904,
       "buy_price": 4880,
       "crafting_recipe": { "pe_wooden_stick": 2, "pe_thamaskene_steel": 3 },
       "count": 1,
@@ -1587,7 +1586,7 @@
     },
     {
       "id": "PE_battania_2hsword_4_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1595,7 +1594,7 @@
     },
     {
       "id": "PE_northern_2hsword_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1603,7 +1602,7 @@
     },
     {
       "id": "PE_battania_2hsword_5_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1611,7 +1610,7 @@
     },
     {
       "id": "PE_western_2hsword_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1619,7 +1618,7 @@
     },
     {
       "id": "PE_ridged_2hsword_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1627,7 +1626,7 @@
     },
     {
       "id": "PE_war_razor_2hsword_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1635,7 +1634,7 @@
     },
     {
       "id": "PE_southern_broad_2hsword_t4",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1643,7 +1642,7 @@
     },
     {
       "id": "PE_battania_2hsword_5_t5",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1651,7 +1650,7 @@
     },
     {
       "id": "PE_vlandia_2hsword_1_t5",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1659,7 +1658,7 @@
     },
     {
       "id": "PE_vlandia_2hsword_2_t5",
-      "sell_price": 3915,
+      "sell_price": 6432,
       "buy_price": 8040,
       "crafting_recipe": { "pe_wooden_stick": 4, "pe_thamaskene_steel": 5 },
       "count": 1,
@@ -1667,7 +1666,7 @@
     },
     {
       "id": "PE_vlandia_mace_2_t4",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1675,7 +1674,7 @@
     },
     {
       "id": "PE_empire_mace_2_t4",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1683,7 +1682,7 @@
     },
     {
       "id": "PE_empire_mace_3_t4",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1691,7 +1690,7 @@
     },
     {
       "id": "PE_aserai_mace_4_t4",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1699,7 +1698,7 @@
     },
     {
       "id": "PE_khuzait_mace_2_t4",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1707,7 +1706,7 @@
     },
     {
       "id": "PE_khuzait_mace_3_t4",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1715,7 +1714,7 @@
     },
     {
       "id": "PE_shishpar_mace_t4",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1723,7 +1722,7 @@
     },
     {
       "id": "PE_eastern_steel_mace_t4",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1731,7 +1730,7 @@
     },
     {
       "id": "PE_empire_mace_4_t5",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1739,7 +1738,7 @@
     },
     {
       "id": "PE_empire_mace_5_t5",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1747,7 +1746,7 @@
     },
     {
       "id": "PE_khuzait_mace_4_t5",
-      "sell_price": 3095,
+      "sell_price": 5072,
       "buy_price": 6340,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 4 },
       "count": 1,
@@ -1755,7 +1754,7 @@
     },
     {
       "id": "PE_steppe_war_bow",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1767,7 +1766,7 @@
     },
     {
       "id": "PE_woodland_yew_bow",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1779,7 +1778,7 @@
     },
     {
       "id": "PE_woodland_longbow",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1791,7 +1790,7 @@
     },
     {
       "id": "PE_longbow_recurve_desert_bow",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1803,7 +1802,7 @@
     },
     {
       "id": "PE_nomad_bow",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1815,7 +1814,7 @@
     },
     {
       "id": "PE_lowland_yew_bow",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1827,7 +1826,7 @@
     },
     {
       "id": "PE_noble_bow",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1839,7 +1838,7 @@
     },
     {
       "id": "PE_noble_long_bow",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1851,7 +1850,7 @@
     },
     {
       "id": "PE_crossbow_d",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1863,7 +1862,7 @@
     },
     {
       "id": "PE_crossbow_g",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1875,7 +1874,7 @@
     },
     {
       "id": "PE_crossbow_f",
-      "sell_price": 1360,
+      "sell_price": 2012,
       "buy_price": 2515,
       "crafting_recipe": {
         "pe_wooden_stick": 2,
@@ -1887,7 +1886,7 @@
     },
     {
       "id": "PE_piercing_arrows",
-      "sell_price": 950,
+      "sell_price": 1424,
       "buy_price": 1780,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 1 },
       "count": 1,
@@ -1895,7 +1894,7 @@
     },
     {
       "id": "PE_bolt_c",
-      "sell_price": 950,
+      "sell_price": 1424,
       "buy_price": 1780,
       "crafting_recipe": { "pe_wooden_stick": 1, "pe_thamaskene_steel": 1 },
       "count": 1,
@@ -1903,7 +1902,7 @@
     },
     {
       "id": "PE_pavise_shield",
-      "sell_price": 1140,
+      "sell_price": 1736,
       "buy_price": 2170,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_thamaskene_steel": 1 },
       "count": 1,
@@ -1911,7 +1910,7 @@
     },
     {
       "id": "PE_tall_heater_shield",
-      "sell_price": 1140,
+      "sell_price": 1736,
       "buy_price": 2170,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_thamaskene_steel": 1 },
       "count": 1,
@@ -1919,7 +1918,7 @@
     },
     {
       "id": "PE_stronger_reinforced_kite_shield",
-      "sell_price": 1140,
+      "sell_price": 1736,
       "buy_price": 2170,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_thamaskene_steel": 1 },
       "count": 1,
@@ -1927,7 +1926,7 @@
     },
     {
       "id": "PE_heavy_heater_shield",
-      "sell_price": 1140,
+      "sell_price": 1736,
       "buy_price": 2170,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_thamaskene_steel": 1 },
       "count": 1,
@@ -1935,7 +1934,7 @@
     },
     {
       "id": "PE_heavy_round_shield",
-      "sell_price": 1140,
+      "sell_price": 1736,
       "buy_price": 2170,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_thamaskene_steel": 1 },
       "count": 1,
@@ -1943,7 +1942,7 @@
     },
     {
       "id": "PE_fortified_kite_shield",
-      "sell_price": 1140,
+      "sell_price": 1736,
       "buy_price": 2170,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_thamaskene_steel": 1 },
       "count": 1,
@@ -1951,13 +1950,12 @@
     },
     {
       "id": "PE_emirs_oval_shield",
-      "sell_price": 1140,
+      "sell_price": 1736,
       "buy_price": 2170,
       "crafting_recipe": { "pe_wooden_plank": 3, "pe_thamaskene_steel": 1 },
       "count": 1,
       "crafting_time": 5
-    },
-    { "id": "", "sell_price": null, "buy_price": null }
+    }
   ],
-  "Tier4": [{ "id": "", "sell_price": null, "buy_price": null }]
+  "Tier4": []
 }

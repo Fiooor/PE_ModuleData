@@ -2,7 +2,7 @@ const fs = require('fs').promises;
 const xml2js = require('xml2js');
 
 const parser = new xml2js.Parser();
-const fileName = 'ModuleData/Markets/weaponmarketall.xml';
+const fileMarket = 'ModuleData/Markets/weaponmarketall.xml';
 const fileCrafting = 'ModuleData/CraftingRecipies/all_weapons.xml';
 
 function parseTierCraftings(tierCraftingsString) {
@@ -43,19 +43,21 @@ async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
     for (const tier in marketData) {
       for (const marketItem of marketData[tier]) {
         let mergedItem = null;
-        for (const craftingTier in craftingData) {
-          const craftingItem = craftingData[craftingTier].find((item) => item.id === marketItem.id);
-          if (craftingItem) {
-            mergedItem = {
-              ...marketItem,
-              ...craftingItem,
-            };
-            mergedData[craftingTier].push(mergedItem); // Push the item to the respective tier in mergedData
-            break;
+        if (marketItem.id) { // Exclude items without an "id" field
+          for (const craftingTier in craftingData) {
+            const craftingItem = craftingData[craftingTier].find((item) => item.id === marketItem.id);
+            if (craftingItem) {
+              mergedItem = {
+                ...marketItem,
+                ...craftingItem,
+              };
+              mergedData[craftingTier].push(mergedItem); // Push the item to the respective tier in mergedData
+              break;
+            }
           }
-        }
-        if (!mergedItem) {
-          mergedData[tier].push(marketItem); // Push the marketItem if no craftingItem was found
+          if (!mergedItem) {
+            mergedData[tier].push(marketItem); // Push the marketItem if no craftingItem was found
+          }
         }
       }
     }
@@ -69,12 +71,17 @@ async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
 
 function parseTierItems(tierItemsString) {
   const items = tierItemsString.split('|');
+  const sellPriceScale = 0.8; // You can set the desired scale value for the sell_price here
+
   const parsedItems = items.map((item) => {
     const [id, sell_price, buy_price] = item.split('*');
+    const buyPrice = Math.floor(parseInt(buy_price, 10));
+    const sellPrice = Math.floor(buyPrice * sellPriceScale); // Calculate the sell_price using the scale
+
     return {
       id: id.trim(),
-      sell_price: Math.floor(parseInt(sell_price, 10)),
-      buy_price: Math.floor(parseInt(buy_price, 10)),
+      sell_price: sellPrice,
+      buy_price: buyPrice,
     };
   });
   return parsedItems;
@@ -137,4 +144,4 @@ async function readfilenameXMLFile(inputFilePath) {
 }
 
 const outputFilePath = 'gen_json_debug/weapons.json';
-mergeData(fileCrafting, fileName, outputFilePath);
+mergeData(fileCrafting, fileMarket, outputFilePath);
