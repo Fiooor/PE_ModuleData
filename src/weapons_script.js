@@ -10,21 +10,20 @@ function parseTierCraftings(tierCraftingsString) {
   const parsedRecipes = recipes.map((recipe) => {
     const [craftingTimeString, craftingRecipeString] = recipe.split('=');
     const [craftingTime, itemId, amount = null] = craftingTimeString.split('*').map((part) => part.trim());
-    const ingredients = craftingRecipeString.split('*').map((ingredient) => ingredient.trim());
+    const ingredients = craftingRecipeString.split(',').map((ingredientPair) => {
+      const [ingredient, value] = ingredientPair.split('*').map((part) => part.trim());
+      return { [ingredient]: parseInt(value, 10) };
+    });
     return {
       id: itemId,
-      crafting_recipe: ingredients.reduce((obj, ingredient, index) => {
-        if (index % 2 !== 0) {
-          obj[ingredients[index - 1]] = parseInt(ingredient, 10);
-        }
-        return obj;
-      }, {}),
+      crafting_recipe: Object.assign({}, ...ingredients),
       count: amount ? parseInt(amount, 10) : null,
       crafting_time: parseInt(craftingTime, 10),
     };
   });
   return parsedRecipes;
 }
+
 
 
 async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
@@ -34,25 +33,31 @@ async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
       readfilenameXMLFile(inputFilePath2),
     ]);
 
-    const mergedData = {};
+    const mergedData = {
+      Tier1: [],
+      Tier2: [],
+      Tier3: [],
+      Tier4: [],
+    };
 
     for (const tier in marketData) {
-      mergedData[tier] = marketData[tier].map((marketItem) => {
+      for (const marketItem of marketData[tier]) {
+        let mergedItem = null;
         for (const craftingTier in craftingData) {
           const craftingItem = craftingData[craftingTier].find((item) => item.id === marketItem.id);
           if (craftingItem) {
-            return {
+            mergedItem = {
               ...marketItem,
               ...craftingItem,
-              tier: craftingTier,
             };
+            mergedData[craftingTier].push(mergedItem); // Push the item to the respective tier in mergedData
+            break;
           }
         }
-        return {
-          ...marketItem,
-          tier,
-        };
-      });
+        if (!mergedItem) {
+          mergedData[tier].push(marketItem); // Push the marketItem if no craftingItem was found
+        }
+      }
     }
 
     await saveJsonFile(outputFilePath, mergedData);
