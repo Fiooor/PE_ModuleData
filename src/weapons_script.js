@@ -5,15 +5,27 @@ const parser = new xml2js.Parser();
 const fileMarket = 'ModuleData/Markets/weaponmarketall.xml';
 const fileCrafting = 'ModuleData/CraftingRecipies/all_weapons.xml';
 
-function parseTierCraftings(tierCraftingsString) {
+function parseTierCraftings(tierCraftingsString, tier) {
   const recipes = tierCraftingsString.split('|');
+  const clothMaterials = ['pe_linen', 'pe_cloth', 'pe_velvet'];
+  const metalMaterials = ['pe_iron_ingot', 'pe_steel_ingot', 'pe_thamaskene_steel'];
+
   const parsedRecipes = recipes.map((recipe) => {
     const [craftingTimeString, craftingRecipeString] = recipe.split('=');
     const [craftingTime, itemId, amount = null] = craftingTimeString.split('*').map((part) => part.trim());
     const ingredients = craftingRecipeString.split(',').map((ingredientPair) => {
       const [ingredient, value] = ingredientPair.split('*').map((part) => part.trim());
-      return { [ingredient]: parseInt(value, 10) };
+
+      let replacedIngredient = ingredient;
+      if (ingredient === 'clothmaterial') {
+        replacedIngredient = clothMaterials[tier - 1];
+      } else if (ingredient === 'metalmaterial') {
+        replacedIngredient = metalMaterials[tier - 1];
+      }
+
+      return { [replacedIngredient]: parseInt(value, 10) };
     });
+
     return {
       id: itemId,
       crafting_recipe: Object.assign({}, ...ingredients),
@@ -21,10 +33,12 @@ function parseTierCraftings(tierCraftingsString) {
       crafting_time: parseInt(craftingTime, 10),
     };
   });
+
   return parsedRecipes;
 }
 
 
+const tierPriceMultiplier = 1000;
 
 async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
   try {
@@ -47,9 +61,14 @@ async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
           for (const craftingTier in craftingData) {
             const craftingItem = craftingData[craftingTier].find((item) => item.id === marketItem.id);
             if (craftingItem) {
+              const tierNumber = parseInt(craftingTier.replace('Tier', ''), 10);
+              const priceMultiplier = tierNumber * tierPriceMultiplier;
+
               mergedItem = {
                 ...marketItem,
                 ...craftingItem,
+                buy_price: marketItem.buy_price + priceMultiplier,
+                sell_price: Math.floor((marketItem.buy_price + priceMultiplier) * 0.8), // Calculate the sell_price using the scale
               };
               mergedData[craftingTier].push(mergedItem); // Push the item to the respective tier in mergedData
               break;
@@ -89,7 +108,7 @@ function parseTierItems(tierItemsString) {
 
 async function saveJsonFile(filePath, data) {
   try {
-    await fs.writeFile(filePath, JSON.stringify(data, null));
+    await fs.writeFile(filePath, JSON.stringify(data, null, 2));
     console.log(`Data saved to ${filePath}`);
   } catch (error) {
     console.error('Error writing JSON file:', error);
@@ -102,9 +121,9 @@ async function readCraftingXMLFile(inputFilePath) {
     const parsedData = await parser.parseStringPromise(xmlData);
 
     const recipiesData = parsedData.Recipies;
-    const tier1Craftings = parseTierCraftings(recipiesData.Tier1Craftings[0]);
-    const tier2Craftings = parseTierCraftings(recipiesData.Tier2Craftings[0]);
-    const tier3Craftings = parseTierCraftings(recipiesData.Tier3Craftings[0]);
+    const tier1Craftings = parseTierCraftings(recipiesData.Tier1Craftings[0], 1);
+    const tier2Craftings = parseTierCraftings(recipiesData.Tier2Craftings[0], 2);
+    const tier3Craftings = parseTierCraftings(recipiesData.Tier3Craftings[0], 3);
 
     const allCraftings = {
       Tier1: tier1Craftings,
