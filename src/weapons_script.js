@@ -88,9 +88,15 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePath3, outputF
         if (itemDetailsData[item.id]) {
           item.type = itemDetailsData[item.id].type || 'Unknown';
           item.culture = itemDetailsData[item.id].culture || 'Unknown';
+          item.name = itemDetailsData[item.id].name || 'Unknown';
+          item.crafting_template = itemDetailsData[item.id].crafting_template || 'Unknown';
+          item.modifier_group = itemDetailsData[item.id].modifier_group || 'Unknown';
         } else {
           item.type = 'Unknown';
           item.culture = 'Unknown';
+          item.name = 'Unknown';
+          item.crafting_template = 'Unknown';
+          item.modifier_group = 'Unknown';
         }
       }
     }
@@ -100,7 +106,6 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePath3, outputF
     console.error('Error merging data:', error);
   }
 }
-
 
 function parseTierItems(tierItemsString) {
   const items = tierItemsString.split('|');
@@ -155,12 +160,26 @@ async function readItemTypesXMLFile(inputFilePath) {
   try {
     const xmlData = await fs.readFile(inputFilePath, 'utf8');
     const parsedData = await parser.parseStringPromise(xmlData);
-    const itemsData = parsedData.Items.Item;
     const itemDetails = {};
 
+    const itemsData = parsedData.Items.Item || [];
+    const craftedItemsData = parsedData.Items.CraftedItem || [];
+
     for (const item of itemsData) {
+      const typeValue = item.$.Type || item.$.crafting_template || 'Unknown';
       itemDetails[item.$.id] = {
-        type: item.$.Type,
+        type: typeValue,
+        culture: item.$.culture || 'Unknown',
+        name: item.$.name || 'Unknown',
+        crafting_template: item.$.crafting_template || 'Unknown',
+        modifier_group: item.$.modifier_group || 'Unknown',
+      };
+    }
+
+    for (const item of craftedItemsData) {
+      const typeValue = item.$.crafting_template || 'Unknown';
+      itemDetails[item.$.id] = {
+        type: typeValue,
         culture: item.$.culture || 'Unknown',
         name: item.$.name || 'Unknown',
         crafting_template: item.$.crafting_template || 'Unknown',
@@ -173,7 +192,6 @@ async function readItemTypesXMLFile(inputFilePath) {
     console.error('Error reading or parsing XML file:', error);
   }
 }
-
 
 
 async function readfilenameXMLFile(inputFilePath) {
