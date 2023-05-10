@@ -9,7 +9,9 @@
         "pe_stone": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_fishing_rod",
@@ -19,7 +21,9 @@
         "pe_wooden_stick": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_peasant_pickaxe_1_t1",
@@ -30,7 +34,9 @@
         "pe_stone": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_peasant_hatchet_1_t1",
@@ -41,7 +47,9 @@
         "pe_stone": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_peasant_sickle_1_t1",
@@ -52,7 +60,9 @@
         "pe_stone": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "pe_doctorscalpel",
@@ -63,7 +73,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_wooden_2hsword_t1",
@@ -74,7 +86,9 @@
         "pe_hardwood": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_practice_spear_t1",
@@ -85,7 +99,9 @@
         "pe_hardwood": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_axe_1_t2",
@@ -96,7 +112,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_axe_2_t2",
@@ -107,7 +125,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_axe_2_t2",
@@ -118,7 +138,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_axe_1_t2",
@@ -129,7 +151,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_small_spurred_axe_t2",
@@ -140,7 +164,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_southern_small_axe_t2",
@@ -151,7 +177,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_small_bit_axe_t2",
@@ -162,7 +190,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_2haxe_1_t2",
@@ -173,7 +203,9 @@
         "pe_iron_ingot": 5
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_simple_sparth_axe_t2",
@@ -184,7 +216,9 @@
         "pe_iron_ingot": 5
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_western_spear_1_t2",
@@ -195,7 +229,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_western_spear_2_t2",
@@ -206,7 +242,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_spear_1_t2",
@@ -217,7 +255,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_northern_spear_1_t2",
@@ -228,7 +268,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_imperial_spear_t2",
@@ -239,7 +281,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_highland_spear_t2",
@@ -250,7 +294,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_military_fork_t2",
@@ -261,7 +307,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_simple_pike_t2",
@@ -272,7 +320,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_sword_1_t2",
@@ -283,7 +333,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_sword_1_t2",
@@ -294,7 +346,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_sword_1_t2",
@@ -305,7 +359,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_sword_2_t2",
@@ -316,7 +372,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_sword_1_t2",
@@ -327,7 +385,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_sword_1_t2",
@@ -338,7 +398,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_sword_1_t2",
@@ -349,7 +411,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_falchion_sword_t2",
@@ -360,7 +424,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_simple_sabre_sword_t2",
@@ -371,7 +437,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_simple_back_sword_t2",
@@ -382,7 +450,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_iron_spatha_sword_t2",
@@ -393,7 +463,9 @@
         "pe_iron_ingot": 3
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_2hsword_1_t2",
@@ -404,7 +476,9 @@
         "pe_iron_ingot": 5
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_bastard_sword_t2",
@@ -415,7 +489,9 @@
         "pe_iron_ingot": 5
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_seax",
@@ -426,7 +502,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_celtic_dagger",
@@ -437,7 +515,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_pugio",
@@ -448,7 +528,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_hooked_cleaver",
@@ -459,7 +541,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_gladius_b",
@@ -470,7 +554,9 @@
         "pe_iron_ingot": 2
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_mace_1_t2",
@@ -481,7 +567,9 @@
         "pe_iron_ingot": 4
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_mace_1_t2",
@@ -492,7 +580,9 @@
         "pe_iron_ingot": 4
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_mace_1_t2",
@@ -503,7 +593,9 @@
         "pe_iron_ingot": 4
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_mace_2_t2",
@@ -514,7 +606,9 @@
         "pe_iron_ingot": 4
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_mace_1_t2",
@@ -525,7 +619,9 @@
         "pe_iron_ingot": 4
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_mace_1_t2",
@@ -536,7 +632,9 @@
         "pe_iron_ingot": 4
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_mace_2_t2",
@@ -547,7 +645,9 @@
         "pe_iron_ingot": 4
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_hunting_bow",
@@ -559,7 +659,9 @@
         "pe_cloth": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Bow",
+      "culture": "Culture.battania"
     },
     {
       "id": "PE_mountain_hunting_bow",
@@ -571,7 +673,9 @@
         "pe_cloth": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Bow",
+      "culture": "Culture.battania"
     },
     {
       "id": "PE_steppe_bow",
@@ -583,7 +687,9 @@
         "pe_cloth": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Bow",
+      "culture": "Culture.khuzait"
     },
     {
       "id": "PE_glen_ranger_bow",
@@ -595,7 +701,9 @@
         "pe_cloth": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Bow",
+      "culture": "Culture.battania"
     },
     {
       "id": "PE_highland_ranger_bow",
@@ -607,7 +715,9 @@
         "pe_cloth": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Bow",
+      "culture": "Culture.battania"
     },
     {
       "id": "PE_crossbow_a",
@@ -619,7 +729,9 @@
         "pe_cloth": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Crossbow",
+      "culture": "Culture.empire"
     },
     {
       "id": "PE_vlandic_arrows",
@@ -630,7 +742,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Arrows",
+      "culture": "Unknown"
     },
     {
       "id": "PE_arrow_emp_1_a",
@@ -641,7 +755,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Arrows",
+      "culture": "Culture.empire"
     },
     {
       "id": "PE_steppe_arrows",
@@ -652,7 +768,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Arrows",
+      "culture": "Culture.khuzait"
     },
     {
       "id": "PE_barbed_arrows",
@@ -663,7 +781,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Arrows",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_old_shield_b",
@@ -674,7 +794,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_heater_shield_with_cutout",
@@ -685,7 +807,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_small_heater_shield",
@@ -696,7 +820,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_bound_desert_round_shield",
@@ -707,7 +833,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_wicker_shield",
@@ -718,7 +846,9 @@
         "pe_iron_ingot": 1
       },
       "count": 1,
-      "crafting_time": 3
+      "crafting_time": 3,
+      "type": "Unknown",
+      "culture": "Unknown"
     }
   ],
   "Tier2": [
@@ -731,7 +861,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_axe_1_t3",
@@ -742,7 +874,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_axe_3_t3",
@@ -753,7 +887,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_imperial_axe_t3",
@@ -764,7 +900,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_woodland_axe_t3",
@@ -775,7 +913,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_tzkurion_axe_t3",
@@ -786,7 +926,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_large_franziskaa_axe_t3",
@@ -797,7 +939,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_2haxe_1_t3",
@@ -808,7 +952,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_bearded_axe_t3",
@@ -819,7 +965,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_northern_axe_t3",
@@ -830,7 +978,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_western_spear_3_t3",
@@ -841,7 +991,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_western_spear_4_t3",
@@ -852,7 +1004,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_spear_2_t3",
@@ -863,7 +1017,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_spear_3_t3",
@@ -874,7 +1030,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_highland_spear_3_t3",
@@ -885,7 +1043,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_southern_spear_3_t3",
@@ -896,7 +1056,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_southern_spear_4_t3",
@@ -907,7 +1069,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_northern_spear_2_t3",
@@ -918,7 +1082,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_throwing_spear_1_t3",
@@ -929,7 +1095,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_triangluar_spear_t3",
@@ -940,7 +1108,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_military_fork_pike_t3",
@@ -951,7 +1121,9 @@
         "pe_steel_ingot": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_lance_1_t5",
@@ -962,7 +1134,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_lance_2_t4",
@@ -973,7 +1147,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_lance_2_t4",
@@ -984,7 +1160,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_lance_1_t4",
@@ -995,7 +1173,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_lance_2_t4",
@@ -1006,7 +1186,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_sword_2_t3",
@@ -1017,7 +1199,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_sword_2_t3",
@@ -1028,7 +1212,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_sword_3_t3",
@@ -1039,7 +1225,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_sword_3_t3",
@@ -1050,7 +1238,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_sword_2_t3",
@@ -1061,7 +1251,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_sword_3_t3",
@@ -1072,7 +1264,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_sword_2_t3",
@@ -1083,7 +1277,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_sword_3_t3",
@@ -1094,7 +1290,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_sword_2_t3",
@@ -1105,7 +1303,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_sword_3_t3",
@@ -1116,7 +1316,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_star_falchion_sword_t3",
@@ -1127,7 +1329,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_broad_falchion_sword_t3",
@@ -1138,7 +1342,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_broad_ild_sword_t3",
@@ -1149,7 +1355,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_short_sword_t3",
@@ -1160,7 +1368,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_narrow_sword_t3",
@@ -1171,7 +1381,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_cleaver_sword_t3",
@@ -1182,7 +1394,9 @@
         "pe_steel_ingot": 3
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_2hsword_2_t3",
@@ -1193,7 +1407,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_2hsword_3_t3",
@@ -1204,7 +1420,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_cleaver_2hsword_t3",
@@ -1215,7 +1433,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_western_2hsword_t3",
@@ -1226,7 +1446,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_kaskara_2hsword_t3",
@@ -1237,7 +1459,9 @@
         "pe_steel_ingot": 5
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_mace_3_t3",
@@ -1248,7 +1472,9 @@
         "pe_steel_ingot": 4
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_mace_1_t3",
@@ -1259,7 +1485,9 @@
         "pe_steel_ingot": 4
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_light_mace_t3",
@@ -1270,7 +1498,9 @@
         "pe_steel_ingot": 4
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_steel_mace_t3",
@@ -1281,7 +1511,9 @@
         "pe_steel_ingot": 4
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_morningstar_mace_t3",
@@ -1292,7 +1524,9 @@
         "pe_steel_ingot": 4
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_composite_bow",
@@ -1304,7 +1538,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Bow",
+      "culture": "Unknown"
     },
     {
       "id": "PE_composite_steppe_bow",
@@ -1316,7 +1552,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Bow",
+      "culture": "Culture.khuzait"
     },
     {
       "id": "PE_steppe_heavy_bow",
@@ -1328,7 +1566,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Bow",
+      "culture": "Culture.khuzait"
     },
     {
       "id": "PE_nordic_shortbow",
@@ -1340,7 +1580,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Bow",
+      "culture": "Culture.sturgia"
     },
     {
       "id": "PE_lowland_longbow",
@@ -1352,7 +1594,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Bow",
+      "culture": "Culture.vlandia"
     },
     {
       "id": "PE_tribal_bow",
@@ -1364,7 +1608,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Bow",
+      "culture": "Culture.aserai"
     },
     {
       "id": "PE_crossbow_b",
@@ -1376,7 +1622,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Crossbow",
+      "culture": "Culture.empire"
     },
     {
       "id": "PE_crossbow_c",
@@ -1388,7 +1636,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Crossbow",
+      "culture": "Culture.vlandia"
     },
     {
       "id": "PE_crossbow_e",
@@ -1400,7 +1650,9 @@
         "pe_cloth": 2
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Crossbow",
+      "culture": "Culture.vlandia"
     },
     {
       "id": "PE_bodkin_arrows_a",
@@ -1411,7 +1663,9 @@
         "pe_steel_ingot": 1
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Arrows",
+      "culture": "Unknown"
     },
     {
       "id": "PE_bolt_b",
@@ -1422,7 +1676,9 @@
         "pe_steel_ingot": 1
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Bolts",
+      "culture": "Culture.vlandia"
     },
     {
       "id": "PE_footmans_wicker_shield",
@@ -1433,7 +1689,9 @@
         "pe_steel_ingot": 1
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_highland_riders_shield",
@@ -1444,7 +1702,9 @@
         "pe_steel_ingot": 1
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_bracketed_heater_shield",
@@ -1455,7 +1715,9 @@
         "pe_steel_ingot": 1
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_wide_heater_shield",
@@ -1466,7 +1728,9 @@
         "pe_steel_ingot": 1
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_desert_oval_shield",
@@ -1477,7 +1741,9 @@
         "pe_steel_ingot": 1
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_flat_heater_shield",
@@ -1488,7 +1754,9 @@
         "pe_steel_ingot": 1
       },
       "count": 1,
-      "crafting_time": 4
+      "crafting_time": 4,
+      "type": "Unknown",
+      "culture": "Unknown"
     }
   ],
   "Tier3": [
@@ -1501,7 +1769,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_axe_4_t4",
@@ -1512,7 +1782,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_axe_2_t4",
@@ -1523,7 +1795,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_bamboo_axe_t4",
@@ -1534,7 +1808,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battle_axe_t4",
@@ -1545,7 +1821,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_axe_5_t5",
@@ -1556,7 +1834,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_axe_3_t5",
@@ -1567,7 +1847,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_2haxe_1_t4",
@@ -1578,7 +1860,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_2haxe_2_t4",
@@ -1589,7 +1873,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_2haxe_1_t4",
@@ -1600,7 +1886,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_hooked_axe_t4",
@@ -1611,7 +1899,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_2haxe_3_t5",
@@ -1622,7 +1912,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_2haxe_2_t5",
@@ -1633,7 +1925,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_western_spear_4_t4",
@@ -1644,7 +1938,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_western_spear_5_t4",
@@ -1655,7 +1951,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_spear_4_t4",
@@ -1666,7 +1964,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_highland_spear_4_t4",
@@ -1677,7 +1977,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_northern_spear_3_t4",
@@ -1688,7 +1990,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_throwing_spear_2_t4",
@@ -1699,7 +2003,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_imperial_throwing_spear_1_t4",
@@ -1710,7 +2016,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_wide_leaf_spear_t4",
@@ -1721,7 +2029,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_spear_5_t5",
@@ -1732,7 +2042,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_northern_spear_4_t5",
@@ -1743,7 +2055,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_fine_pike_t4",
@@ -1754,7 +2068,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_pike_1_t5",
@@ -1765,7 +2081,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_thamaskene_pike_t4",
@@ -1776,7 +2094,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_lance_3_t5",
@@ -1787,7 +2107,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_lance_2_t5",
@@ -1798,7 +2120,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_lance_3_t5",
@@ -1809,7 +2133,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_lance_3_t5",
@@ -1820,7 +2146,9 @@
         "pe_thamaskene_steel": 2
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_sword_5_t5",
@@ -1831,7 +2159,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_sword_6_t5",
@@ -1842,7 +2172,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_sword_7_t5",
@@ -1853,7 +2185,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_sword_5_t5",
@@ -1864,7 +2198,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_sword_5_t5",
@@ -1875,7 +2211,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_noble_sword_1_t5",
@@ -1886,7 +2224,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_noble_sword_2_t5",
@@ -1897,7 +2237,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_noble_sword_3_t5",
@@ -1908,7 +2250,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_noble_sword_4_t5",
@@ -1919,7 +2263,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_noble_sword_1_t5",
@@ -1930,7 +2276,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_noble_sword_2_t5",
@@ -1941,7 +2289,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_noble_sword_3_t5",
@@ -1952,7 +2302,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_noble_sword_1_t5",
@@ -1963,7 +2315,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_noble_sword_2_t5",
@@ -1974,7 +2328,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_noble_sword_3_t5",
@@ -1985,7 +2341,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_noble_sword_4_t5",
@@ -1996,7 +2354,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_noble_sword_1_t5",
@@ -2007,7 +2367,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_noble_sword_2_t5",
@@ -2018,7 +2380,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_noble_sword_3_t5",
@@ -2029,7 +2393,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_noble_sword_1_t5",
@@ -2040,7 +2406,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_noble_sword_2_t5",
@@ -2051,7 +2419,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_noble_sword_3_t5",
@@ -2062,7 +2432,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_sturgia_noble_sword_4_t5",
@@ -2073,7 +2445,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_noble_sword_1_t5",
@@ -2084,7 +2458,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_noble_sword_2_t5",
@@ -2095,7 +2471,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_noble_sword_3_t5",
@@ -2106,7 +2484,9 @@
         "pe_thamaskene_steel": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_2hsword_4_t4",
@@ -2117,7 +2497,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_northern_2hsword_t4",
@@ -2128,7 +2510,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_2hsword_5_t4",
@@ -2139,7 +2523,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_western_2hsword_t4",
@@ -2150,7 +2536,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_ridged_2hsword_t4",
@@ -2161,7 +2549,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_war_razor_2hsword_t4",
@@ -2172,7 +2562,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_southern_broad_2hsword_t4",
@@ -2183,7 +2575,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_battania_2hsword_5_t5",
@@ -2194,7 +2588,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_2hsword_1_t5",
@@ -2205,7 +2601,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_2hsword_2_t5",
@@ -2216,7 +2614,9 @@
         "pe_thamaskene_steel": 5
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_vlandia_mace_2_t4",
@@ -2227,7 +2627,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_mace_2_t4",
@@ -2238,7 +2640,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_mace_3_t4",
@@ -2249,7 +2653,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_aserai_mace_4_t4",
@@ -2260,7 +2666,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_mace_2_t4",
@@ -2271,7 +2679,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_mace_3_t4",
@@ -2282,7 +2692,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_shishpar_mace_t4",
@@ -2293,7 +2705,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_eastern_steel_mace_t4",
@@ -2304,7 +2718,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_mace_4_t5",
@@ -2315,7 +2731,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_empire_mace_5_t5",
@@ -2326,7 +2744,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_khuzait_mace_4_t5",
@@ -2337,7 +2757,9 @@
         "pe_thamaskene_steel": 4
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_steppe_war_bow",
@@ -2349,7 +2771,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bow",
+      "culture": "Culture.khuzait"
     },
     {
       "id": "PE_woodland_yew_bow",
@@ -2361,7 +2785,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bow",
+      "culture": "Culture.battania"
     },
     {
       "id": "PE_woodland_longbow",
@@ -2373,7 +2799,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bow",
+      "culture": "Culture.battania"
     },
     {
       "id": "PE_longbow_recurve_desert_bow",
@@ -2385,7 +2813,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bow",
+      "culture": "Culture.aserai"
     },
     {
       "id": "PE_nomad_bow",
@@ -2397,7 +2827,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bow",
+      "culture": "Culture.aserai"
     },
     {
       "id": "PE_lowland_yew_bow",
@@ -2409,7 +2841,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bow",
+      "culture": "Culture.vlandia"
     },
     {
       "id": "PE_noble_bow",
@@ -2421,7 +2855,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bow",
+      "culture": "Unknown"
     },
     {
       "id": "PE_noble_long_bow",
@@ -2433,7 +2869,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bow",
+      "culture": "Unknown"
     },
     {
       "id": "PE_crossbow_d",
@@ -2445,7 +2883,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Crossbow",
+      "culture": "Culture.empire"
     },
     {
       "id": "PE_crossbow_g",
@@ -2457,7 +2897,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Crossbow",
+      "culture": "Culture.vlandia"
     },
     {
       "id": "PE_crossbow_f",
@@ -2469,7 +2911,9 @@
         "pe_cloth": 3
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Crossbow",
+      "culture": "Culture.vlandia"
     },
     {
       "id": "PE_piercing_arrows",
@@ -2480,7 +2924,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Arrows",
+      "culture": "Unknown"
     },
     {
       "id": "PE_bolt_c",
@@ -2491,7 +2937,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Bolts",
+      "culture": "Culture.vlandia"
     },
     {
       "id": "PE_pavise_shield",
@@ -2502,7 +2950,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_tall_heater_shield",
@@ -2513,7 +2963,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_stronger_reinforced_kite_shield",
@@ -2524,7 +2976,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_heavy_heater_shield",
@@ -2535,7 +2989,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_heavy_round_shield",
@@ -2546,7 +3002,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_fortified_kite_shield",
@@ -2557,7 +3015,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     },
     {
       "id": "PE_emirs_oval_shield",
@@ -2568,7 +3028,9 @@
         "pe_thamaskene_steel": 1
       },
       "count": 1,
-      "crafting_time": 5
+      "crafting_time": 5,
+      "type": "Unknown",
+      "culture": "Unknown"
     }
   ],
   "Tier4": []

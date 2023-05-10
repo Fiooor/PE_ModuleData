@@ -4,6 +4,7 @@ const xml2js = require('xml2js');
 const parser = new xml2js.Parser();
 const fileMarket = 'ModuleData/Markets/weaponmarketall.xml';
 const fileCrafting = 'ModuleData/CraftingRecipies/all_weapons.xml';
+const fileItemTypes = 'ModuleData/pe_weapons.xml'
 
 function parseTierCraftings(tierCraftingsString, tier) {
   const recipes = tierCraftingsString.split('|');
@@ -40,11 +41,12 @@ function parseTierCraftings(tierCraftingsString, tier) {
 
 const tierPriceMultiplier = 1000;
 
-async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
+async function mergeData(inputFilePath1, inputFilePath2, inputFilePath3, outputFilePath) {
   try {
-    const [craftingData, marketData] = await Promise.all([
+    const [craftingData, marketData, itemDetailsData] = await Promise.all([
       readCraftingXMLFile(inputFilePath1),
       readfilenameXMLFile(inputFilePath2),
+      readItemTypesXMLFile(inputFilePath3),
     ]);
 
     const mergedData = {
@@ -77,6 +79,18 @@ async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
           if (!mergedItem) {
             mergedData[tier].push(marketItem); // Push the marketItem if no craftingItem was found
           }
+        }
+      }
+    }
+
+    for (const tier in mergedData) {
+      for (const item of mergedData[tier]) {
+        if (itemDetailsData[item.id]) {
+          item.type = itemDetailsData[item.id].type || 'Unknown';
+          item.culture = itemDetailsData[item.id].culture || 'Unknown';
+        } else {
+          item.type = 'Unknown';
+          item.culture = 'Unknown';
         }
       }
     }
@@ -137,6 +151,30 @@ async function readCraftingXMLFile(inputFilePath) {
   }
 }
 
+async function readItemTypesXMLFile(inputFilePath) {
+  try {
+    const xmlData = await fs.readFile(inputFilePath, 'utf8');
+    const parsedData = await parser.parseStringPromise(xmlData);
+    const itemsData = parsedData.Items.Item;
+    const itemDetails = {};
+
+    for (const item of itemsData) {
+      itemDetails[item.$.id] = {
+        type: item.$.Type,
+        culture: item.$.culture || 'Unknown',
+        name: item.$.name || 'Unknown',
+        crafting_template: item.$.crafting_template || 'Unknown',
+        modifier_group: item.$.modifier_group || 'Unknown',
+      };
+    }
+
+    return itemDetails;
+  } catch (error) {
+    console.error('Error reading or parsing XML file:', error);
+  }
+}
+
+
 
 async function readfilenameXMLFile(inputFilePath) {
   try {
@@ -163,4 +201,4 @@ async function readfilenameXMLFile(inputFilePath) {
 }
 
 const outputFilePath = 'gen_json_debug/weapons.json';
-mergeData(fileCrafting, fileMarket, outputFilePath);
+mergeData(fileCrafting, fileMarket, fileItemTypes, outputFilePath);
