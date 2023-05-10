@@ -3,6 +3,64 @@ const xml2js = require('xml2js');
 
 const parser = new xml2js.Parser();
 const fileName = 'ModuleData/Markets/weaponmarketall.xml';
+const fileCrafting = 'ModuleData/CraftingRecipies/all_weapons.xml';
+
+function parseTierCraftings(tierCraftingsString) {
+  const recipes = tierCraftingsString.split('|');
+  const parsedRecipes = recipes.map((recipe) => {
+    const [craftingTimeString, craftingRecipeString] = recipe.split('=');
+    const [craftingTime, itemId, amount = null] = craftingTimeString.split('*').map((part) => part.trim());
+    const ingredients = craftingRecipeString.split('*').map((ingredient) => ingredient.trim());
+    return {
+      id: itemId,
+      crafting_recipe: ingredients.reduce((obj, ingredient, index) => {
+        if (index % 2 !== 0) {
+          obj[ingredients[index - 1]] = parseInt(ingredient, 10);
+        }
+        return obj;
+      }, {}),
+      count: amount ? parseInt(amount, 10) : null,
+      crafting_time: parseInt(craftingTime, 10),
+    };
+  });
+  return parsedRecipes;
+}
+
+
+async function mergeData(inputFilePath1, inputFilePath2, outputFilePath) {
+  try {
+    const [craftingData, marketData] = await Promise.all([
+      readCraftingXMLFile(inputFilePath1),
+      readfilenameXMLFile(inputFilePath2),
+    ]);
+
+    const mergedData = {};
+
+    for (const tier in marketData) {
+      mergedData[tier] = marketData[tier].map((marketItem) => {
+        for (const craftingTier in craftingData) {
+          const craftingItem = craftingData[craftingTier].find((item) => item.id === marketItem.id);
+          if (craftingItem) {
+            return {
+              ...marketItem,
+              ...craftingItem,
+              tier: craftingTier,
+            };
+          }
+        }
+        return {
+          ...marketItem,
+          tier,
+        };
+      });
+    }
+
+    await saveJsonFile(outputFilePath, mergedData);
+  } catch (error) {
+    console.error('Error merging data:', error);
+  }
+}
+
 
 function parseTierItems(tierItemsString) {
   const items = tierItemsString.split('|');
@@ -26,7 +84,30 @@ async function saveJsonFile(filePath, data) {
   }
 }
 
-async function readXMLFile(inputFilePath, outputFilePath) {
+async function readCraftingXMLFile(inputFilePath) {
+  try {
+    const xmlData = await fs.readFile(inputFilePath, 'utf8');
+    const parsedData = await parser.parseStringPromise(xmlData);
+
+    const recipiesData = parsedData.Recipies;
+    const tier1Craftings = parseTierCraftings(recipiesData.Tier1Craftings[0]);
+    const tier2Craftings = parseTierCraftings(recipiesData.Tier2Craftings[0]);
+    const tier3Craftings = parseTierCraftings(recipiesData.Tier3Craftings[0]);
+
+    const allCraftings = {
+      Tier1: tier1Craftings,
+      Tier2: tier2Craftings,
+      Tier3: tier3Craftings,
+    };
+
+    return allCraftings;
+  } catch (error) {
+    console.error('Error reading or parsing XML file:', error);
+  }
+}
+
+
+async function readfilenameXMLFile(inputFilePath) {
   try {
     const xmlData = await fs.readFile(inputFilePath, 'utf8');
     const parsedData = await parser.parseStringPromise(xmlData);
@@ -44,13 +125,11 @@ async function readXMLFile(inputFilePath, outputFilePath) {
       Tier4: tier4Items,
     };
 
-    await saveJsonFile(outputFilePath, allItems);
+    return allItems;
   } catch (error) {
     console.error('Error reading or parsing XML file:', error);
   }
 }
 
-const inputFilePath = fileName;
 const outputFilePath = 'gen_json_debug/weapons.json';
-
-readXMLFile(inputFilePath, outputFilePath);
+mergeData(fileCrafting, fileName, outputFilePath);
