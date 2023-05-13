@@ -4,7 +4,7 @@ const xml2js = require('xml2js');
 const parser = new xml2js.Parser();
 const fileMarket = 'ModuleData/Markets/weaponmarketall.xml';
 const fileCrafting = 'ModuleData/CraftingRecipies/all_weapons.xml';
-const fileItemTypes = 'ModuleData/pe_weapons.xml'
+const fileItemTypes = ['ModuleData/pe_weapons.xml', 'ModuleData/pe_shields.xml']
 
 function parseTierCraftings(tierCraftingsString, tier) {
   const recipes = tierCraftingsString.split('|');
@@ -38,16 +38,19 @@ function parseTierCraftings(tierCraftingsString, tier) {
   return parsedRecipes;
 }
 
-
 const tierPriceMultiplier = 1000;
 
-async function mergeData(inputFilePath1, inputFilePath2, inputFilePath3, outputFilePath) {
+async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, outputFilePath) {
   try {
-    const [craftingData, marketData, itemDetailsData] = await Promise.all([
+    const itemDetailsPromises = inputFilePaths3.map(filePath => readItemTypesXMLFile(filePath));
+    const [craftingData, marketData, itemDetailsResults] = await Promise.all([
       readCraftingXMLFile(inputFilePath1),
       readfilenameXMLFile(inputFilePath2),
-      readItemTypesXMLFile(inputFilePath3),
+      Promise.all(itemDetailsPromises),
     ]);
+
+    // Merge the results of the item details files into a single object
+    const itemDetailsData = Object.assign({}, ...itemDetailsResults);
 
     const mergedData = {
       Tier1: [],
@@ -79,6 +82,33 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePath3, outputF
           if (!mergedItem) {
             mergedData[tier].push(marketItem); // Push the marketItem if no craftingItem was found
           }
+        }
+      }
+
+      mergedData['Undefined'] = [];
+
+      // Check for items not present in other tiers
+      for (const itemId in itemDetailsData) {
+        let found = false;
+        for (const tier in mergedData) {
+          if (mergedData[tier].find(item => item.id === itemId)) {
+            found = true;
+            break;
+          }
+        }
+
+        if (!found) {
+          const itemDetail = itemDetailsData[itemId];
+          mergedData['Undefined'].push({
+            id: itemId,
+            type: itemDetail.type || 'Unknown',
+            culture: itemDetail.culture || 'Unknown',
+            name: itemDetail.name || 'Unknown',
+            crafting_template: itemDetail.crafting_template || 'Unknown',
+            modifier_group: itemDetail.modifier_group || 'Unknown',
+            buy_price: 0,
+            sell_price: 0,
+          });
         }
       }
     }
