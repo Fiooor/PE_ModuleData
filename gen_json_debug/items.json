@@ -12002,6 +12002,13 @@
       }
     ]
   },
+  "undefined": {
+    "head_armor": [],
+    "body_armor": [],
+    "leg_armor": [],
+    "arm_armor": [],
+    "shoulder_armor": []
+  },
   "Culture.looters": {
     "head_armor": [
       {
@@ -12336,13 +12343,6 @@
         "buy_price": 24444
       }
     ],
-    "leg_armor": [],
-    "arm_armor": [],
-    "shoulder_armor": []
-  },
-  "undefined": {
-    "head_armor": [],
-    "body_armor": [],
     "leg_armor": [],
     "arm_armor": [],
     "shoulder_armor": []

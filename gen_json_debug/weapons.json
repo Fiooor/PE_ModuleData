@@ -1,101 +1,6 @@
 {
   "Tier1": [
     {
-      "id": "pe_buildhammer",
-      "sell_price": 880,
-      "buy_price": 1100,
-      "crafting_recipe": {
-        "pe_wooden_stick": 1,
-        "pe_stone": 1
-      },
-      "count": 1,
-      "crafting_time": 3,
-      "type": "PE_Mace",
-      "culture": "Unknown",
-      "name": "Build Hammer",
-      "crafting_template": "PE_Mace",
-      "modifier_group": "cheap_weapon"
-    },
-    {
-      "id": "PE_fishing_rod",
-      "sell_price": 1056,
-      "buy_price": 1320,
-      "crafting_recipe": {
-        "pe_wooden_stick": 2
-      },
-      "count": 1,
-      "crafting_time": 3,
-      "type": "Unknown",
-      "culture": "Unknown",
-      "name": "Unknown",
-      "crafting_template": "Unknown",
-      "modifier_group": "Unknown"
-    },
-    {
-      "id": "PE_peasant_pickaxe_1_t1",
-      "sell_price": 1088,
-      "buy_price": 1360,
-      "crafting_recipe": {
-        "pe_wooden_stick": 1,
-        "pe_stone": 1
-      },
-      "count": 1,
-      "crafting_time": 3,
-      "type": "PE_OneHandedAxe",
-      "culture": "Unknown",
-      "name": "{=zUFRE9y4}Pickaxe",
-      "crafting_template": "PE_OneHandedAxe",
-      "modifier_group": "cheap_weapon"
-    },
-    {
-      "id": "PE_peasant_hatchet_1_t1",
-      "sell_price": 880,
-      "buy_price": 1100,
-      "crafting_recipe": {
-        "pe_wooden_stick": 1,
-        "pe_stone": 1
-      },
-      "count": 1,
-      "crafting_time": 3,
-      "type": "PE_OneHandedAxe",
-      "culture": "Unknown",
-      "name": "{=GghHAbIT}Hatchet",
-      "crafting_template": "PE_OneHandedAxe",
-      "modifier_group": "cheap_weapon"
-    },
-    {
-      "id": "PE_peasant_sickle_1_t1",
-      "sell_price": 880,
-      "buy_price": 1100,
-      "crafting_recipe": {
-        "pe_wooden_stick": 1,
-        "pe_stone": 1
-      },
-      "count": 1,
-      "crafting_time": 3,
-      "type": "PE_OneHandedAxe",
-      "culture": "Unknown",
-      "name": "{=4wdgiTta}Sickle",
-      "crafting_template": "PE_OneHandedAxe",
-      "modifier_group": "cheap_weapon"
-    },
-    {
-      "id": "pe_doctorscalpel",
-      "sell_price": 1816,
-      "buy_price": 2270,
-      "crafting_recipe": {
-        "pe_wooden_stick": 1,
-        "pe_iron_ingot": 2
-      },
-      "count": 1,
-      "crafting_time": 3,
-      "type": "PE_Dagger",
-      "culture": "Unknown",
-      "name": "{=!}Doctor Scalpel",
-      "crafting_template": "PE_Dagger",
-      "modifier_group": "Unknown"
-    },
-    {
       "id": "PE_wooden_2hsword_t1",
       "sell_price": 1168,
       "buy_price": 1460,
@@ -3979,6 +3884,16 @@
       "sell_price": 0
     },
     {
+      "id": "pe_doctorscalpel",
+      "type": "PE_Dagger",
+      "culture": "Unknown",
+      "name": "{=!}Doctor Scalpel",
+      "crafting_template": "PE_Dagger",
+      "modifier_group": "Unknown",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
       "id": "PE_peasant_maul_t1",
       "type": "PE_TwoHandedMace",
       "culture": "Culture.battania",
@@ -3999,10 +3914,50 @@
       "sell_price": 0
     },
     {
+      "id": "PE_peasant_pickaxe_1_t1",
+      "type": "PE_OneHandedAxe",
+      "culture": "Unknown",
+      "name": "{=zUFRE9y4}Pickaxe",
+      "crafting_template": "PE_OneHandedAxe",
+      "modifier_group": "cheap_weapon",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "PE_peasant_hatchet_1_t1",
+      "type": "PE_OneHandedAxe",
+      "culture": "Unknown",
+      "name": "{=GghHAbIT}Hatchet",
+      "crafting_template": "PE_OneHandedAxe",
+      "modifier_group": "cheap_weapon",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "PE_peasant_sickle_1_t1",
+      "type": "PE_OneHandedAxe",
+      "culture": "Unknown",
+      "name": "{=4wdgiTta}Sickle",
+      "crafting_template": "PE_OneHandedAxe",
+      "modifier_group": "cheap_weapon",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
       "id": "PE_peasant_hammer_1_t1",
       "type": "PE_Mace",
       "culture": "Unknown",
       "name": "{=6WcZ5Tr0}Blacksmith Hammer",
+      "crafting_template": "PE_Mace",
+      "modifier_group": "cheap_weapon",
+      "buy_price": 0,
+      "sell_price": 0
+    },
+    {
+      "id": "pe_buildhammer",
+      "type": "PE_Mace",
+      "culture": "Unknown",
+      "name": "Build Hammer",
       "crafting_template": "PE_Mace",
       "modifier_group": "cheap_weapon",
       "buy_price": 0,
