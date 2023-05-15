@@ -291,16 +291,6 @@ function generateXml(tierData) {
   return xml;
 }
 
-async function saveJsonFile(filePath, data) {
-  try {
-    const jsonDebugPath = filePath.replace('.json', '').replace('gen_craftingrecipies', 'gen_json_debug');
-    await fs.writeFile(jsonDebugPath, JSON.stringify(data, null, 2));
-    console.log(`Data saved to ${jsonDebugPath}`);
-  } catch (error) {
-    console.error('Error writing JSON file:', error);
-  }
-}
-
 async function writeToFile(filePath, data) {
   try {
     await fs.writeFile(filePath, data);
