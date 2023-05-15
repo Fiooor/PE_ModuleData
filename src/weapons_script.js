@@ -52,6 +52,7 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, output
     // Merge the results of the item details files into a single object
     const itemDetailsData = Object.assign({}, ...itemDetailsResults);
 
+
     const mergedData = {
       Tier1: [],
       Tier2: [],
@@ -74,13 +75,17 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, output
                 ...craftingItem,
                 buy_price: marketItem.buy_price + priceMultiplier,
                 sell_price: Math.floor((marketItem.buy_price + priceMultiplier) * 0.8), // Calculate the sell_price using the scale
+                tier: tierNumber // Add the tier property here
               };
               mergedData[craftingTier].push(mergedItem); // Push the item to the respective tier in mergedData
               break;
             }
           }
           if (!mergedItem) {
-            mergedData[tier].push(marketItem); // Push the marketItem if no craftingItem was found
+            mergedData[tier].push({
+              ...marketItem,
+              tier: parseInt(tier.replace('Tier', ''), 10) // Add the tier property here
+            }); // Push the marketItem if no craftingItem was found
           }
         }
       }
@@ -131,7 +136,15 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, output
       }
     }
 
-    await saveJsonFile(outputFilePath, mergedData);
+    // Generate XML using the updated function
+    const xmlData = generateXml(mergedData);
+
+    // Save the XML data to a file
+    await writeToFile(outputFilePath, xmlData);
+
+    const jsonFilePath = outputFilePath.replace('.xml', '.json');
+    const jsonDebugFilePath = jsonFilePath.replace('gen_craftingrecipies', 'gen_json_debug');
+    await saveJsonFile(jsonDebugFilePath, mergedData);
   } catch (error) {
     console.error('Error merging data:', error);
   }
@@ -157,12 +170,14 @@ function parseTierItems(tierItemsString) {
 
 async function saveJsonFile(filePath, data) {
   try {
-    await fs.writeFile(filePath, JSON.stringify(data, null, 2));
-    console.log(`Data saved to ${filePath}`);
+    const jsonDebugPath = filePath.replace('.json', '').replace('gen_craftingrecipies', 'gen_json_debug/weapons.json');
+    await fs.writeFile(jsonDebugPath, JSON.stringify(data, null, 2));
+    console.log(`Data saved to ${jsonDebugPath}`);
   } catch (error) {
     console.error('Error writing JSON file:', error);
   }
 }
+
 
 async function readCraftingXMLFile(inputFilePath) {
   try {
@@ -248,5 +263,52 @@ async function readfilenameXMLFile(inputFilePath) {
   }
 }
 
-const outputFilePath = 'gen_json_debug/weapons.json';
+function generateXml(tierData) {
+  const craftingTime = 10;
+  const defaultAmount = 1;
+  let xml = `<Recipies>\n`;
+
+  for (let tier = 1; tier <= 3; tier++) {
+    xml += `\t<Tier${tier}Craftings>\n\t\t`;
+
+    const allItems = [];
+    for (const component in tierData) {
+      tierData[component].forEach(item => {
+        if (item.tier === tier) {
+          const craftingRecipe = Object.entries(item.crafting_recipe)
+            .map(([material, amount]) => `${material}*${amount}`)
+            .join(',');
+          allItems.push(`${craftingTime}*${item.id}*${item.amount || defaultAmount}=${craftingRecipe}`);
+        }
+      });
+    }
+
+    xml += allItems.join('|') + `\n\t</Tier${tier}Craftings>\n`;
+  }
+
+  xml += `</Recipies>`;
+
+  return xml;
+}
+
+async function saveJsonFile(filePath, data) {
+  try {
+    const jsonDebugPath = filePath.replace('.json', '').replace('gen_craftingrecipies', 'gen_json_debug');
+    await fs.writeFile(jsonDebugPath, JSON.stringify(data, null, 2));
+    console.log(`Data saved to ${jsonDebugPath}`);
+  } catch (error) {
+    console.error('Error writing JSON file:', error);
+  }
+}
+
+async function writeToFile(filePath, data) {
+  try {
+    await fs.writeFile(filePath, data);
+    console.log(`Data saved to ${filePath}`);
+  } catch (error) {
+    console.error('Error writing file:', error);
+  }
+}
+
+const outputFilePath = 'gen_craftingrecipies/crafting_weapons_all.xml';
 mergeData(fileCrafting, fileMarket, fileItemTypes, outputFilePath);
