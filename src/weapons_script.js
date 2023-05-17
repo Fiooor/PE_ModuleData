@@ -40,6 +40,35 @@ function parseTierCraftings(tierCraftingsString, tier) {
 
 const tierPriceMultiplier = 1000;
 
+async function createCultureFiles(cultureList, baseData, outputFilePathBase) {
+  try {
+    // Loop through each culture
+    for (const culture of cultureList) {
+      // Filter data based on culture
+      let cultureData = JSON.parse(JSON.stringify(baseData)); // Deep copy the base data
+      for (const tier in cultureData) {
+        cultureData[tier] = cultureData[tier].filter(item => item.culture === culture || item.culture === 'Unknown');
+
+        // If there are no items for this culture in this tier, delete the tier
+        if (cultureData[tier].length === 0) {
+          delete cultureData[tier];
+        }
+      }
+
+      // Generate the XML data
+      const xmlData = generateXml(cultureData);
+
+      // Generate the culture-specific file path
+      const outputFilePath = outputFilePathBase.replace('all', culture.replace('Culture.', ''));
+
+      // Save the XML data to a file
+      await writeToFile(outputFilePath, xmlData);
+    }
+  } catch (error) {
+    console.error('Error creating culture files:', error);
+  }
+}
+
 async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, outputFilePath) {
   try {
     const itemDetailsPromises = inputFilePaths3.map(filePath => readItemTypesXMLFile(filePath));
@@ -136,6 +165,8 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, output
       }
     }
 
+
+
     // Generate XML using the updated function
     const xmlData = generateXml(mergedData);
 
@@ -145,6 +176,20 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, output
     const jsonFilePath = outputFilePath.replace('.xml', '.json');
     const jsonDebugFilePath = jsonFilePath.replace('gen_craftingrecipies', 'gen_json_debug');
     await saveJsonFile(jsonDebugFilePath, mergedData);
+
+    // Extract unique cultures
+    const cultureSet = new Set();
+    for (const tier in mergedData) {
+      for (const item of mergedData[tier]) {
+        cultureSet.add(item.culture);
+      }
+    }
+
+    // Convert the Set to an Array
+    const cultureList = Array.from(cultureSet);
+
+    // Pass the culture list to the createCultureFiles function
+    createCultureFiles(cultureList, mergedData, outputFilePath);
   } catch (error) {
     console.error('Error merging data:', error);
   }
@@ -268,6 +313,8 @@ function generateXml(tierData) {
   const defaultAmount = 1;
   let xml = `<Recipies>\n`;
 
+  const constantLine = "pe_buildhammer*55*100|PE_fishing_rod*270*320|PE_peasant_pickaxe_1_t1*290*360|PE_peasant_hatchet_1_t1*55*100|PE_peasant_sickle_1_t1*55*100";
+
   for (let tier = 1; tier <= 3; tier++) {
     xml += `\t<Tier${tier}Craftings>\n\t\t`;
 
@@ -283,6 +330,10 @@ function generateXml(tierData) {
       });
     }
 
+    if (tier === 1) {
+      xml += constantLine + '|';
+    }
+
     xml += allItems.join('|') + `\n\t</Tier${tier}Craftings>\n`;
   }
 
@@ -290,7 +341,6 @@ function generateXml(tierData) {
 
   return xml;
 }
-
 async function writeToFile(filePath, data) {
   try {
     await fs.writeFile(filePath, data);
