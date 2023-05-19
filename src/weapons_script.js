@@ -354,6 +354,8 @@ function generateXml(tierData) {
 function generateMarketXml(culture, marketData) {
   let xml = `<Market>\n`;
 
+  const constantLine = "pe_buildhammer*55*100|PE_fishing_rod*270*320|PE_peasant_pickaxe_1_t1*290*360|PE_peasant_hatchet_1_t1*55*100|PE_peasant_sickle_1_t1*55*100";
+
   for (let tier = 1; tier <= 3; tier++) {
     xml += `\t<Tier${tier}Items>\n\t\t`;
 
@@ -365,6 +367,10 @@ function generateMarketXml(culture, marketData) {
           allItems.push(`${item.id}*${item.sell_price}*${item.buy_price}`);
         }
       });
+    }
+
+    if (tier === 1) {
+      xml += constantLine + '|';
     }
 
     xml += allItems.join('|') + `\n\t</Tier${tier}Items>\n`;
