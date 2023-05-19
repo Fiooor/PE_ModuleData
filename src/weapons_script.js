@@ -318,7 +318,7 @@ async function readfilenameXMLFile(inputFilePath) {
 }
 
 function generateXml(tierData) {
-  const craftingTime = 10;
+  const craftingTime = 3;
   const defaultAmount = 1;
   let xml = `<Recipies>\n`;
 
