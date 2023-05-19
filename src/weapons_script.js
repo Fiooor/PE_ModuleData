@@ -42,6 +42,8 @@ const tierPriceMultiplier = 1000;
 
 async function createCultureFiles(cultureList, baseData, outputFilePathBase) {
   try {
+    let allData = JSON.parse(JSON.stringify(baseData)); // Deep copy of base data for all items
+
     // Loop through each culture
     for (const culture of cultureList) {
       // Filter data based on culture
@@ -55,15 +57,22 @@ async function createCultureFiles(cultureList, baseData, outputFilePathBase) {
         }
       }
 
-      // Generate the XML data
-      const xmlData = generateXml(cultureData);
+      // Generate the XML data for crafting
+      const xmlDataCrafting = generateXml(cultureData);
+      const outputFilePathCrafting = outputFilePathBase.replace('all', culture.replace('Culture.', ''));
+      await writeToFile(outputFilePathCrafting, xmlDataCrafting);
 
-      // Generate the culture-specific file path
-      const outputFilePath = outputFilePathBase.replace('all', culture.replace('Culture.', ''));
-
-      // Save the XML data to a file
-      await writeToFile(outputFilePath, xmlData);
+      // Generate the XML data for market
+      const xmlDataMarket = generateMarketXml(culture, cultureData);
+      const outputFilePathMarket = `gen_markets/market_weapon_${culture.replace('Culture.', '')}.xml`;
+      await writeToFile(outputFilePathMarket, xmlDataMarket);
     }
+
+    // After generating files for all cultures, generate an additional file for all items
+    const xmlDataAll = generateMarketXml('all', allData);
+    const outputFilePathAll = `gen_markets/market_weapon_all.xml`;
+    await writeToFile(outputFilePathAll, xmlDataAll);
+
   } catch (error) {
     console.error('Error creating culture files:', error);
   }
@@ -313,7 +322,7 @@ function generateXml(tierData) {
   const defaultAmount = 1;
   let xml = `<Recipies>\n`;
 
-  const constantLine = "pe_buildhammer*55*100|PE_fishing_rod*270*320|PE_peasant_pickaxe_1_t1*290*360|PE_peasant_hatchet_1_t1*55*100|PE_peasant_sickle_1_t1*55*100";
+  const constantLine = "3*pe_buildhammer*1=pe_wooden_stick*1,pe_stone*1|3*PE_peasant_pickaxe_1_t1*1=pe_wooden_stick*1,pe_stone*1|3*PE_peasant_hatchet_1_t1*1=pe_wooden_stick*1,pe_stone*1|3*PE_peasant_sickle_1_t1*1=pe_wooden_stick*1,pe_stone*1|3*PE_fishing_rod*1=pe_wooden_stick*2";
 
   for (let tier = 1; tier <= 3; tier++) {
     xml += `\t<Tier${tier}Craftings>\n\t\t`;
@@ -341,6 +350,39 @@ function generateXml(tierData) {
 
   return xml;
 }
+
+function generateMarketXml(culture, marketData) {
+  let xml = `<Market>\n`;
+
+  for (let tier = 1; tier <= 3; tier++) {
+    xml += `\t<Tier${tier}Items>\n\t\t`;
+
+    const allItems = [];
+
+    for (let component in marketData) {
+      marketData[component].forEach(item => {
+        if (item.tier === tier) {
+          allItems.push(`${item.id}*${item.sell_price}*${item.buy_price}`);
+        }
+      });
+    }
+
+    xml += allItems.join('|') + `\n\t</Tier${tier}Items>\n`;
+  }
+
+  xml += `\t<Tier4Items>\n\t\t`;
+  xml += `\n\t</Tier4Items>\n`;
+
+  xml += `\t<CraftingBoxes>\n\t\t`;
+  xml += "pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3" + `\n\t</CraftingBoxes>\n`;
+
+  xml += `</Market>`;
+
+  return xml;
+}
+
+
+
 async function writeToFile(filePath, data) {
   try {
     await fs.writeFile(filePath, data);
