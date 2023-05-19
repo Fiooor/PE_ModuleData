@@ -380,7 +380,7 @@ function generateMarketXml(culture, marketData) {
   xml += `\n\t</Tier4Items>\n`;
 
   xml += `\t<CraftingBoxes>\n\t\t`;
-  xml += "pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3" + `\n\t</CraftingBoxes>\n`;
+  xml += "pe_weapon_crate_t1*1*1" + `\n\t</CraftingBoxes>\n`;
 
   xml += `</Market>`;
 

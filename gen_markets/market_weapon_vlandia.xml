@@ -12,6 +12,6 @@
 		
 	</Tier4Items>
 	<CraftingBoxes>
-		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
+		pe_weapon_crate_t1*1*1
 	</CraftingBoxes>
 </Market>
