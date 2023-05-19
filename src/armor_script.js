@@ -13,7 +13,7 @@ const componentTypes = {
   shoulder_armor: 'Cape',
 };
 
-const slotMultipliers = { head_armor: 4, body_armor: 5, leg_armor: 2, arm_armor: 4, shoulder_armor: 4 };
+const slotMultipliers = { head_armor: 4, body_armor: 5, leg_armor: 2, arm_armor: 2, shoulder_armor: 3 };
 
 function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
   let multiplier = slotMultipliers[component];
