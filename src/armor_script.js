@@ -13,7 +13,7 @@ const componentTypes = {
   shoulder_armor: 'Cape',
 };
 
-const slotMultipliers = { head_armor: 4, body_armor: 5, leg_armor: 2, arm_armor: 2, shoulder_armor: 3 };
+const slotMultipliers = { head_armor: 2, body_armor: 5, leg_armor: 2, arm_armor: 2, shoulder_armor: 3 };
 
 function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
   let multiplier = slotMultipliers[component];
@@ -70,7 +70,7 @@ let itemsByCulture = {};
 let filesProcessed = 0;
 
 function generateXml(culture, tierData) {
-  const craftingTime = 10;
+  const craftingTime = 5;
   const defaultAmount = 1;
   let xml = `<Recipies>\n`;
 
