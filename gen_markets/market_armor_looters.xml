@@ -1,12 +1,12 @@
 <Market>
 	<Tier1Items>
-		PE_vlandia_bandit_cape_b*1710*2394|PE_vlandia_bandit_cape_a*2010*2814|PE_vlandia_bandit_c*800*1120|PE_burlap_sack_dress*900*1260|PE_tattered_rags*900*1260|PE_bandit_envelope_dress_v2*900*1260|PE_ragged_robes*1000*1400|PE_bandit_leather_water_flask*1050*1470|PE_vlandia_bandit_b*1050*1470|PE_bandit_envelope_dress_v1*1200*1680|PE_fur_skirt*1200*1680|PE_torn_bandit_clothes*1250*1750|PE_fur_waistcoat_over_tunic*1300*1819
+		PE_vlandia_bandit_cape_b*800*1120|PE_vlandia_bandit_cape_a*1800*2520|PE_burlap_sack_dress*850*1190|PE_tattered_rags*1050*1470|PE_bandit_leather_water_flask*1050*1470|PE_torn_bandit_clothes*1050*1470|PE_bandit_envelope_dress_v1*1050*1470|PE_bandit_envelope_dress_v2*1050*1470|PE_fur_skirt*1050*1470|PE_ragged_robes*1050*1470|PE_vlandia_bandit_b*1050*1470|PE_vlandia_bandit_c*1050*1470|PE_fur_waistcoat_over_tunic*1350*1889
 	</Tier1Items>
 	<Tier2Items>
-		PE_fur_skirt_with_tunic*2125*2975|PE_bandit_fur_b*2325*3255|PE_bandit_fur_a*2425*3395|PE_studded_fur_armor*2475*3465|PE_sleeveless_fur_coat*2475*3465|PE_fur_coat_over_tunic*2475*3465|PE_vlandia_bandit_a*2475*3465|PE_padded_leather_overcoat*2675*3744|PE_rough_fur_armor*2725*3814|PE_bandit_gambeson*2825*3954
+		PE_studded_fur_armor*2475*3465|PE_bandit_fur_a*2475*3465|PE_bandit_fur_b*2475*3465|PE_fur_skirt_with_tunic*2475*3465|PE_sleeveless_fur_coat*2475*3465|PE_fur_coat_over_tunic*2475*3465|PE_padded_leather_overcoat*2475*3465|PE_vlandia_bandit_a*2475*3465|PE_bandit_gambeson*3125*4375|PE_rough_fur_armor*3125*4375
 	</Tier2Items>
 	<Tier3Items>
-		PE_buckled_wildsman_armor*15140*21196|PE_rough_fur_over_chain*17360*24304
+		PE_rough_fur_over_chain*27760*38864|PE_buckled_wildsman_armor*27760*38864
 	</Tier3Items>
 	<Tier4Items>
 		

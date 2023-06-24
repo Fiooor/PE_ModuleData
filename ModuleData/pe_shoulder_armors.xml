@@ -557,7 +557,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
+      <Armor body_armor="5"
+      arm_armor="3"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -573,7 +574,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="6"
+      <Armor body_armor="5"
+      arm_armor="3"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -589,7 +591,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="6"
+      <Armor body_armor="5"
+      arm_armor="3"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -603,8 +606,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="17"
-        arm_armor="4"
+      <Armor body_armor="12"
+        arm_armor="10"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -619,7 +622,7 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="10"
-        arm_armor="5"
+        arm_armor="6"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -633,7 +636,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="17"
+      <Armor body_armor="12"
+      arm_armor="10"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -647,8 +651,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
-        arm_armor="3"
+      <Armor body_armor="10"
+        arm_armor="6"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -664,8 +668,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="18"
-        arm_armor="4"
+      <Armor body_armor="20"
+        arm_armor="10"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -679,7 +683,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="10"
+      <Armor arm_armor="6"
+      body_armor="10"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -693,8 +698,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
-        arm_armor="6"
+      <Armor body_armor="20"
+        arm_armor="10"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -708,7 +713,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="5"
+      <Armor arm_armor="3"
+      body_armor="5"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -722,7 +728,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="8"
+      <Armor arm_armor="6"
+      body_armor="10"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -798,8 +805,8 @@
     appearance="1.6"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="12"
-        arm_armor="3"
+      <Armor body_armor="10"
+        arm_armor="6"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -813,7 +820,8 @@
     appearance="1.6"
     Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="8"
+      <Armor arm_armor="6"
+      body_armor="10"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -1277,7 +1285,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
+      <Armor body_armor="1"
+      arm_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -1293,6 +1302,7 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="3"
+      arm_armor="2"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -1309,7 +1319,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
+      <Armor body_armor="1"
+      arm_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -1326,7 +1337,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
+      <Armor body_armor="1"
+      arm_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
