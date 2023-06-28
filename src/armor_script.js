@@ -108,6 +108,8 @@ const materialBasePrices = {
   'pe_iron_ingot': 505,
   'pe_steel_ingot': 760,
   'pe_thamaskene_steel': 1520,
+  'pe_ironore': 250,
+  'pe_silverore': 550,
   'pe_goldore': 10000,
   'pe_hardwood': 100,
   'pe_wooden_stick': 60,
