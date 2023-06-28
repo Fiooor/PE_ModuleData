@@ -3068,7 +3068,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="7"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type1"
         modifier_group="leather"
@@ -3086,7 +3086,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="8"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type2"
         beard_cover_type="none"
@@ -3120,7 +3120,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="7"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type2"
         beard_cover_type="none"
@@ -3154,7 +3154,7 @@
     appearance="1.5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="23"
+      <Armor head_armor="26"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="none"
@@ -3188,7 +3188,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="22"
+      <Armor head_armor="26"
         has_gender_variations="false"
         hair_cover_type="type1"
         modifier_group="plate"
@@ -3206,7 +3206,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="20"
+      <Armor head_armor="26"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3244,7 +3244,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="39"
+      <Armor head_armor="46"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -3282,7 +3282,7 @@
     appearance="2.0"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="41"
+      <Armor head_armor="46"
         has_gender_variations="false"
         hair_cover_type="type1"
         modifier_group="plate"
@@ -3300,7 +3300,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="51"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3334,7 +3334,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="51"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3351,7 +3351,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="51"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3368,7 +3368,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="54"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3385,7 +3385,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="47"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="type1"
@@ -3404,7 +3404,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="50"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3423,7 +3423,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="51"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3442,7 +3442,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="53"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3459,7 +3459,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="33"
+      <Armor head_armor="37"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3476,7 +3476,7 @@
     appearance="3.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="50"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3493,7 +3493,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="48"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3510,7 +3510,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="50"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3527,7 +3527,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="53"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3544,7 +3544,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="49"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3561,7 +3561,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="35"
+      <Armor head_armor="37"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="none"
@@ -3578,7 +3578,7 @@
     appearance="3.4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="49"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3595,7 +3595,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="54"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3613,7 +3613,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="47"
+      <Armor head_armor="52"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -4648,7 +4648,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="12"
+      <Armor head_armor="26"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="plate"
@@ -4666,11 +4666,11 @@
     appearance="0.8"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="8"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="plate"
-        material_type="Plate" />
+        material_type="Leather" />
     </ItemComponent>
     <Flags />
   </Item>

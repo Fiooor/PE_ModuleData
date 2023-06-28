@@ -869,9 +869,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="11"
-                            leg_armor="5"
-                            arm_armor="3"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -2558,9 +2558,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2579,9 +2579,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2600,9 +2600,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2623,7 +2623,7 @@
               Type="BodyArmor">
               <ItemComponent>
                      <Armor body_armor="5"
-                            leg_armor="2"
+                            leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2640,8 +2640,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
@@ -2659,7 +2659,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -2679,8 +2679,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
                             covers_body="false"
@@ -2698,8 +2698,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+							arm_armor="1"
                             has_gender_variations="false"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -2716,7 +2717,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -2735,7 +2736,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -2754,8 +2755,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
-                            leg_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
                             covers_body="true"
@@ -2775,7 +2776,7 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -2798,7 +2799,7 @@
               <ItemComponent>
                      <Armor body_armor="6"
                             leg_armor="3"
-                            arm_armor="3"
+                            arm_armor="2"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2817,7 +2818,7 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
+                     <Armor body_armor="5"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -2840,7 +2841,7 @@
               <ItemComponent>
                      <Armor body_armor="6"
                             leg_armor="3"
-                            arm_armor="3"
+                            arm_armor="2"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2859,7 +2860,7 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -2880,9 +2881,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="4"
-                            arm_armor="3"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -2900,8 +2901,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
-                            leg_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
                             covers_body="true"
@@ -2919,9 +2920,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="6"
-                            arm_armor="3"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2940,9 +2941,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="15"
-                            leg_armor="7"
-                            arm_armor="7"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2959,7 +2960,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
+                     <Armor body_armor="6"
                             leg_armor="3"
                             arm_armor="2"
                             has_gender_variations="true"
@@ -2978,8 +2979,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="9"
-                            leg_armor="4"
+                     <Armor body_armor="6"
+                            leg_armor="3"
                             arm_armor="2"
                             has_gender_variations="true"
                             covers_body="true"
@@ -2999,9 +3000,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="5"
-                            arm_armor="3"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -3040,8 +3041,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="11"
-                            leg_armor="6"
+                     <Armor body_armor="6"
+                            leg_armor="3"
                             arm_armor="2"
                             covers_body="true"
                             modifier_group="leather"
@@ -3058,9 +3059,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="18"
-                            leg_armor="9"
-                            arm_armor="6"
+                     <Armor body_armor="12"
+                            leg_armor="5"
+                            arm_armor="2"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -3079,8 +3080,8 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="26"
-                            leg_armor="3"
+                     <Armor body_armor="12"
+                            leg_armor="5"
                             arm_armor="2"
                             has_gender_variations="true"
                             covers_body="true"
@@ -3099,9 +3100,9 @@
               appearance="2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="25"
-                            leg_armor="8"
-                            arm_armor="8"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3117,9 +3118,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="30"
-                            leg_armor="14"
-                            arm_armor="12"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3137,9 +3138,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="24"
-                            leg_armor="10"
-                            arm_armor="10"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3157,9 +3158,9 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="22"
-                            leg_armor="4"
-                            arm_armor="4"
+                     <Armor body_armor="18"
+                            leg_armor="7"
+                            arm_armor="5"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3174,9 +3175,9 @@
               appearance="2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="45"
-                            leg_armor="19"
-                            arm_armor="6"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3193,9 +3194,9 @@
               appearance="1.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="12"
-                            arm_armor="6"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -3211,9 +3212,9 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -3231,7 +3232,7 @@
               appearance="2.4"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="49"
+                     <Armor body_armor="55"
                             leg_armor="25"
                             arm_armor="20"
                             has_gender_variations="true"
@@ -3249,9 +3250,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="51"
-                            leg_armor="16"
-                            arm_armor="16"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3266,9 +3267,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="50"
-                            leg_armor="21"
-                            arm_armor="7"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3283,9 +3284,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="50"
+                     <Armor body_armor="55"
                             leg_armor="25"
-                            arm_armor="15"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3302,9 +3303,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="32"
-                            leg_armor="15"
-                            arm_armor="15"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3322,9 +3323,9 @@
               appearance="1.8"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="25"
-                            leg_armor="12"
-                            arm_armor="10"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3342,9 +3343,9 @@
               appearance="1.8"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="35"
-                            leg_armor="18"
-                            arm_armor="2"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -4153,7 +4154,7 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -4175,9 +4176,9 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
+                     <Armor body_armor="1"
                             leg_armor="1"
-                            arm_armor="0"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4195,9 +4196,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -4216,8 +4217,8 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
@@ -4237,9 +4238,9 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -4258,7 +4259,7 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -4278,8 +4279,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="6"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+							arm_armor="2"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4297,8 +4299,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="4"
+                     <Armor body_armor="11"
+                            leg_armor="3"
+							arm_armor="2"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4337,8 +4340,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
-                            leg_armor="6"
+                     <Armor body_armor="5"
+                            leg_armor="1"
+							arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="leather"
@@ -4357,8 +4361,8 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="6"
+                     <Armor body_armor="6"
+                            leg_armor="3"
                             arm_armor="2"
                             has_gender_variations="false"
                             covers_body="true"
@@ -4377,8 +4381,8 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -4397,9 +4401,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="leather"
@@ -4417,8 +4421,8 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="5"
+                     <Armor body_armor="6"
+                            leg_armor="3"
                             arm_armor="2"
                             covers_body="false"
                             modifier_group="leather"
@@ -4435,8 +4439,8 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="5"
+                     <Armor body_armor="6"
+                            leg_armor="3"
                             arm_armor="2"
                             covers_body="true"
                             has_gender_variations="true"
@@ -4456,9 +4460,9 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="7"
-                            arm_armor="3"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4475,9 +4479,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="5"
-                            arm_armor="3"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -4492,9 +4496,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="4"
-                            arm_armor="3"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -4510,7 +4514,7 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
+                     <Armor body_armor="6"
                             leg_armor="3"
                             arm_armor="2"
                             has_gender_variations="true"
@@ -4528,9 +4532,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
+                     <Armor body_armor="5"
                             leg_armor="1"
-                            arm_armor="2"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -4548,6 +4552,7 @@
               <ItemComponent>
                      <Armor body_armor="1"
                             leg_armor="1"
+							arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="leather"
@@ -4566,9 +4571,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="36"
-                            leg_armor="10"
-                            arm_armor="8"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -4585,9 +4590,9 @@
               appearance="0.8"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="4"
-                            arm_armor="8"
+                     <Armor body_armor="32"
+                            leg_armor="15"
+                            arm_armor="15"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -4606,8 +4611,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="5"
+                     <Armor body_armor="6"
+                            leg_armor="3"
                             arm_armor="2"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -4624,7 +4629,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
@@ -4642,9 +4647,9 @@
               appearance="0.7"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="4"
-                            arm_armor="4"
+                     <Armor body_armor="6"
+                            leg_armor="3"
+                            arm_armor="2"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -4663,9 +4668,9 @@
               appearance="0.4"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="5"
+                            leg_armor="1"
+                            arm_armor="1"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />

@@ -395,7 +395,7 @@
     appearance="1"
     Type="LegArmor">
     <ItemComponent>
-      <Armor leg_armor="6"
+      <Armor leg_armor="5"
         covers_legs="true"
         modifier_group="leather"
         material_type="Leather" />
@@ -410,7 +410,7 @@
     appearance="1"
     Type="LegArmor">
     <ItemComponent>
-      <Armor leg_armor="4"
+      <Armor leg_armor="3"
         covers_legs="true"
         modifier_group="leather"
         material_type="Leather" />
@@ -442,7 +442,7 @@
     appearance="3"
     Type="LegArmor">
     <ItemComponent>
-      <Armor leg_armor="18"
+      <Armor leg_armor="20"
         covers_legs="true"
         modifier_group="plate"
         material_type="Plate" />

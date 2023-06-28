@@ -340,7 +340,7 @@
     appearance="2"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="18"
+      <Armor arm_armor="20"
         covers_hands="true"
         modifier_group="plate"
         material_type="Plate" />
@@ -355,7 +355,7 @@
     appearance="1.6"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="22"
+      <Armor arm_armor="25"
         covers_hands="false"
         modifier_group="plate"
         material_type="Plate" />
