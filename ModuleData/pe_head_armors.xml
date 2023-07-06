@@ -5,865 +5,865 @@
   <!-- #region Aserai Head Armors -->
   <!-- #region Aserai Light Head Armors -->
   <Item id="PE_headscarf_d"
-    name="{=wW3iouiU}Hijab"
-    mesh="headscarf_d"
-    culture="Culture.aserai"
-    weight="0.5"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=wW3iouiU}Hijab"
+        mesh="headscarf_d"
+        culture="Culture.aserai"
+        weight="0.5"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="3"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth"
-        beard_cover_type="type3" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth"
+             beard_cover_type="type3" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_open_head_scarf"
-    name="{=qsVRoGUv}Open Head Scarf"
-    mesh="aserai_helmet_c"
-    culture="Culture.aserai"
-    weight="0.5"
-    appearance="1.4"
-    Type="HeadArmor">
+        name="{=qsVRoGUv}Open Head Scarf"
+        mesh="aserai_helmet_c"
+        culture="Culture.aserai"
+        weight="0.5"
+        appearance="1.4"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type3"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_woven_turban"
-    name="{=ArPvuBYK}Woven Turban"
-    subtype="head_armor"
-    mesh="aserai_helmet_h"
-    culture="Culture.aserai"
-    weight="0.8"
-    appearance="1.8"
-    difficulty="0"
-    Type="HeadArmor">
+        name="{=ArPvuBYK}Woven Turban"
+        subtype="head_armor"
+        mesh="aserai_helmet_h"
+        culture="Culture.aserai"
+        weight="0.8"
+        appearance="1.8"
+        difficulty="0"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth"
-        beard_cover_type="type4" />
+      <Armor head_armor="13"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth"
+             beard_cover_type="type4" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_turban"
-    name="{=8SNS2wF9}Turban"
-    mesh="aserai_helmet_i"
-    culture="Culture.aserai"
-    weight="0.5"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=8SNS2wF9}Turban"
+        mesh="aserai_helmet_i"
+        culture="Culture.aserai"
+        weight="0.5"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="4"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type3"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_desert_cap"
-    name="{=U0bVXSVs}Wrapped Cap"
-    mesh="aserai_helmet_m"
-    culture="Culture.aserai"
-    weight="0.4"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=U0bVXSVs}Wrapped Cap"
+        mesh="aserai_helmet_m"
+        culture="Culture.aserai"
+        weight="0.4"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
-        has_gender_variations="false"
-        hair_cover_type="type1"
-        beard_cover_type="none"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             beard_cover_type="none"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_wrapped_desert_cap"
-    name="{=3UxfT9Bu}Wrapped Leather Cap"
-    mesh="aserai_helmet_o"
-    culture="Culture.aserai"
-    weight="0.5"
-    appearance="0.8"
-    Type="HeadArmor">
+        name="{=3UxfT9Bu}Wrapped Leather Cap"
+        mesh="aserai_helmet_o"
+        culture="Culture.aserai"
+        weight="0.5"
+        appearance="0.8"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="12"
-        has_gender_variations="false"
-        hair_cover_type="type2"
-        beard_cover_type="type2"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="13"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             beard_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_villager_female_headdress"
-    name="{=2U17pNiY}Rural Headdress"
-    mesh="aserai_villager_female_headdress"
-    culture="Culture.aserai"
-    weight="0.2"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=2U17pNiY}Rural Headdress"
+        mesh="aserai_villager_female_headdress"
+        culture="Culture.aserai"
+        weight="0.2"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="3"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_tuareg"
-    name="{=nZ2MJWhM}Tribal Turban"
-    subtype="head_armor"
-    mesh="tuareg_b"
-    culture="Culture.aserai"
-    weight="0.6"
-    appearance="1.5"
-    difficulty="0"
-    Type="HeadArmor">
+        name="{=nZ2MJWhM}Tribal Turban"
+        subtype="head_armor"
+        mesh="tuareg_b"
+        culture="Culture.aserai"
+        weight="0.6"
+        appearance="1.5"
+        difficulty="0"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="7"
-        has_gender_variations="false"
-        hair_cover_type="type2"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="13"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_head_scarf"
-    name="{=Gzc0Ql3a}Colored Hijab"
-    mesh="head_scarf_b"
-    culture="Culture.aserai"
-    weight="0.1"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=Gzc0Ql3a}Colored Hijab"
+        mesh="head_scarf_b"
+        culture="Culture.aserai"
+        weight="0.1"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="2"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth"
-        beard_cover_type="type2" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth"
+             beard_cover_type="type2" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_desert_headdress"
-    name="{=4n6n3KL7}Desert Headdress"
-    mesh="aserai_female_costume_headdress"
-    culture="Culture.aserai"
-    weight="0.2"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=4n6n3KL7}Desert Headdress"
+        mesh="aserai_female_costume_headdress"
+        culture="Culture.aserai"
+        weight="0.2"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_female_head_wrap"
-    name="{=KhXnRIan}Female Headwrap"
-    mesh="female_peasant_cape_c"
-    culture="Culture.aserai"
-    weight="0.1"
-    appearance="0.8"
-    Type="HeadArmor">
+        name="{=KhXnRIan}Female Headwrap"
+        mesh="female_peasant_cape_c"
+        culture="Culture.aserai"
+        weight="0.1"
+        appearance="0.8"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="2"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_female_civil_hscarf"
-    name="{=NEupkuqV}Desert Headscarf"
-    mesh="aserai_female_civil_hscarf"
-    culture="Culture.aserai"
-    weight="0.3"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=NEupkuqV}Desert Headscarf"
+        mesh="aserai_female_civil_hscarf"
+        culture="Culture.aserai"
+        weight="0.3"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="3"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_female_civil_hscarf_b"
-    name="{=sc2x2QRe}Headscarf with Fez"
-    mesh="aserai_female_civil_hscarf_b"
-    culture="Culture.aserai"
-    weight="0.4"
-    appearance="2.45"
-    Type="HeadArmor">
+        name="{=sc2x2QRe}Headscarf with Fez"
+        mesh="aserai_female_civil_hscarf_b"
+        culture="Culture.aserai"
+        weight="0.4"
+        appearance="2.45"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="4"
-        has_gender_variations="false"
-        hair_cover_type="type2"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true" />
   </Item>
   <Item id="PE_aserai_civil_c_head"
-    name="{=ZFETxZKP}Keffiyeh with Silken Band"
-    mesh="aserai_civil_c_head"
-    culture="Culture.aserai"
-    weight="0.2"
-    appearance="2"
-    Type="HeadArmor">
+        name="{=ZFETxZKP}Keffiyeh with Silken Band"
+        mesh="aserai_civil_c_head"
+        culture="Culture.aserai"
+        weight="0.2"
+        appearance="2"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="4"
-        has_gender_variations="true"
-        hair_cover_type="type2"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="true"
+             hair_cover_type="type2"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_civil_f_cape"
-    name="{=AoJ4Ztl2}Bandit Leather Hood"
-    mesh="aserai_civil_f_cape"
-    culture="Culture.aserai"
-    weight="0.1"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=AoJ4Ztl2}Bandit Leather Hood"
+        mesh="aserai_civil_f_cape"
+        culture="Culture.aserai"
+        weight="0.1"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="5"
-        has_gender_variations="true"
-        hair_cover_type="type2"
-        beard_cover_type="type3"
-        modifier_group="leather"
-        material_type="Leather" />
+      <Armor head_armor="1"
+             has_gender_variations="true"
+             hair_cover_type="type2"
+             beard_cover_type="type3"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_civil_d_hscarf"
-    name="{=l91l1TJo}Colored Turban"
-    mesh="aserai_civil_d_hscarf"
-    culture="Culture.aserai"
-    weight="0.2"
-    appearance="2"
-    Type="HeadArmor">
+        name="{=l91l1TJo}Colored Turban"
+        mesh="aserai_civil_d_hscarf"
+        culture="Culture.aserai"
+        weight="0.2"
+        appearance="2"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="5"
-        has_gender_variations="true"
-        hair_cover_type="type1"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="true"
+             hair_cover_type="type1"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_civil_e_hscarf"
-    name="{=f2awUw9x}Colored Keffiyeh"
-    mesh="aserai_civil_e_hscarf"
-    culture="Culture.aserai"
-    weight="0.1"
-    appearance="2"
-    Type="HeadArmor">
+        name="{=f2awUw9x}Colored Keffiyeh"
+        mesh="aserai_civil_e_hscarf"
+        culture="Culture.aserai"
+        weight="0.1"
+        appearance="2"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="5"
-        has_gender_variations="true"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="true"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_civil_hscarf_b"
-    name="{=OrEgjXZ1}Roughspun Keffiyeh"
-    mesh="aserai_civil_hscarf_b"
-    culture="Culture.aserai"
-    weight="0.2"
-    appearance="1.7"
-    Type="HeadArmor">
+        name="{=OrEgjXZ1}Roughspun Keffiyeh"
+        mesh="aserai_civil_hscarf_b"
+        culture="Culture.aserai"
+        weight="0.2"
+        appearance="1.7"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
-        has_gender_variations="true"
-        hair_cover_type="all"
-        beard_cover_type="type3"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="true"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_civil_hscarf_a"
-    name="{=W8OGOfyt}Keffiyeh with Brown Band"
-    mesh="aserai_civil_hscarf_a"
-    culture="Culture.aserai"
-    weight="0.2"
-    appearance="1.8"
-    Type="HeadArmor">
+        name="{=W8OGOfyt}Keffiyeh with Brown Band"
+        mesh="aserai_civil_hscarf_a"
+        culture="Culture.aserai"
+        weight="0.2"
+        appearance="1.8"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="4"
-        has_gender_variations="true"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor head_armor="1"
+             has_gender_variations="true"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <!-- #endregion -->
   <!-- #region Aserai Medium Head Armors -->
   <Item id="PE_tied_head_wrapping"
-    name="{=ndfDy5B8}Tied Head Wrapping"
-    subtype="head_armor"
-    mesh="aserai_helmet_p"
-    culture="Culture.aserai"
-    weight="0.5"
-    appearance="1.3"
-    difficulty="0"
-    Type="HeadArmor">
+        name="{=ndfDy5B8}Tied Head Wrapping"
+        subtype="head_armor"
+        mesh="aserai_helmet_p"
+        culture="Culture.aserai"
+        weight="0.5"
+        appearance="1.3"
+        difficulty="0"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="5"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth"
-        beard_cover_type="type4" />
+      <Armor head_armor="1"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth"
+             beard_cover_type="type4" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_tight_head_scarf"
-    name="{=U4n0uSlg}Tight Head Scarf"
-    subtype="head_armor"
-    mesh="aserai_helmet_f"
-    culture="Culture.aserai"
-    weight="0.7"
-    appearance="2"
-    difficulty="0"
-    Type="HeadArmor">
+        name="{=U4n0uSlg}Tight Head Scarf"
+        subtype="head_armor"
+        mesh="aserai_helmet_f"
+        culture="Culture.aserai"
+        weight="0.7"
+        appearance="2"
+        difficulty="0"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="7"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth"
-        beard_cover_type="all" />
+      <Armor head_armor="13"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth"
+             beard_cover_type="all" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_closed_head_scarf"
-    name="{=gUTqDROO}Closed Head Scarf"
-    subtype="head_armor"
-    mesh="aserai_helmet_d"
-    culture="Culture.aserai"
-    weight="0.6"
-    appearance="2"
-    difficulty="0"
-    Type="HeadArmor">
+        name="{=gUTqDROO}Closed Head Scarf"
+        subtype="head_armor"
+        mesh="aserai_helmet_d"
+        culture="Culture.aserai"
+        weight="0.6"
+        appearance="2"
+        difficulty="0"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth"
-        beard_cover_type="all" />
+      <Armor head_armor="13"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth"
+             beard_cover_type="all" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_open_desert_helmet"
-    name="{=NB9bQt6O}Spiked Helmet with Open Turban"
-    subtype="head_armor"
-    mesh="aserai_helmet_a"
-    culture="Culture.aserai"
-    weight="1.3"
-    difficulty="0"
-    appearance="2"
-    Type="HeadArmor">
+        name="{=NB9bQt6O}Spiked Helmet with Open Turban"
+        subtype="head_armor"
+        mesh="aserai_helmet_a"
+        culture="Culture.aserai"
+        weight="1.3"
+        difficulty="0"
+        appearance="2"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="22"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="type3" />
+      <Armor head_armor="20"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="type3" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_closed_desert_helmet"
-    name="{=T6ObiB5P}Spiked Helmet with Closed Turban "
-    mesh="aserai_helmet_b"
-    culture="Culture.aserai"
-    weight="2.4"
-    appearance="1.4"
-    Type="HeadArmor">
+        name="{=T6ObiB5P}Spiked Helmet with Closed Turban "
+        mesh="aserai_helmet_b"
+        culture="Culture.aserai"
+        weight="2.4"
+        appearance="1.4"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="23"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="20"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_loose_wrapped_desert_helmet"
-    name="{=PVWsZleW}Helmet with Open Turban "
-    mesh="aserai_helmet_e"
-    culture="Culture.aserai"
-    weight="2.1"
-    appearance="1.5"
-    Type="HeadArmor">
+        name="{=PVWsZleW}Helmet with Open Turban "
+        mesh="aserai_helmet_e"
+        culture="Culture.aserai"
+        weight="2.1"
+        appearance="1.5"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type2"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="20"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_trailed_desert_helmet"
-    name="{=2N0ZP2GB}Helmet with Turban and Coif"
-    subtype="head_armor"
-    mesh="aserai_helmet_g"
-    culture="Culture.aserai"
-    weight="2.2"
-    difficulty="0"
-    appearance="1.4"
-    Type="HeadArmor">
+        name="{=2N0ZP2GB}Helmet with Turban and Coif"
+        subtype="head_armor"
+        mesh="aserai_helmet_g"
+        culture="Culture.aserai"
+        weight="2.2"
+        difficulty="0"
+        appearance="1.4"
+        Type="HeadArmor">
     <ItemComponent>
       <Armor head_armor="20"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type4"
-        modifier_group="plate"
-        material_type="Plate" />
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_desert_helmet_with_mail"
-    name="{=ebPu5G8o}Mamluke Helmet with Mail"
-    subtype="head_armor"
-    mesh="aserai_helmet_l"
-    culture="Culture.aserai"
-    weight="2.9"
-    difficulty="0"
-    appearance="1.2"
-    Type="HeadArmor">
+        name="{=ebPu5G8o}Mamluke Helmet with Mail"
+        subtype="head_armor"
+        mesh="aserai_helmet_l"
+        culture="Culture.aserai"
+        weight="2.9"
+        difficulty="0"
+        appearance="1.2"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="45"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_desert_helmet"
-    name="{=BryUh6yQ}Steel Cap"
-    mesh="aserai_helmet_n"
-    culture="Culture.aserai"
-    weight="1.2"
-    appearance="1"
-    Type="HeadArmor">
+        name="{=BryUh6yQ}Steel Cap"
+        mesh="aserai_helmet_n"
+        culture="Culture.aserai"
+        weight="1.2"
+        appearance="1"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="18"
-        has_gender_variations="false"
-        hair_cover_type="type1"
-        beard_cover_type="none"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="20"
+             has_gender_variations="false"
+             hair_cover_type="type1"
+             beard_cover_type="none"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_pointed_skullcap_over_mail"
-    name="{=py7VUj47}Pointed Skullcap over Gambeson"
-    mesh="vlandia_helmet_l_b"
-    culture="Culture.aserai"
-    weight="2.2"
-    appearance="2.5"
-    Type="HeadArmor">
+        name="{=py7VUj47}Pointed Skullcap over Gambeson"
+        mesh="vlandia_helmet_l_b"
+        culture="Culture.aserai"
+        weight="2.2"
+        appearance="2.5"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="32"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type2"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="27"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_pointed_skullcap_over_laced_coif"
-    name="{=6n44BIll}Pointed Skullcap over Laced Coif"
-    subtype="head_armor"
-    mesh="vlandia_helmet_l_c"
-    culture="Culture.aserai"
-    weight="2.2"
-    difficulty="0"
-    appearance="1.7"
-    Type="HeadArmor">
+        name="{=6n44BIll}Pointed Skullcap over Laced Coif"
+        subtype="head_armor"
+        mesh="vlandia_helmet_l_c"
+        culture="Culture.aserai"
+        weight="2.2"
+        difficulty="0"
+        appearance="1.7"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="32"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type2"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="27"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type2"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_pointed_skullcap_over_cloth_headwrap"
-    name="{=LqA9uBH9}Pointed Skullcap over Cloth Headwrap"
-    subtype="head_armor"
-    mesh="vlandia_helmet_l_d"
-    culture="Culture.aserai"
-    weight="2.1"
-    difficulty="0"
-    appearance="1.6"
-    Type="HeadArmor">
+        name="{=LqA9uBH9}Pointed Skullcap over Cloth Headwrap"
+        subtype="head_armor"
+        mesh="vlandia_helmet_l_d"
+        culture="Culture.aserai"
+        weight="2.1"
+        difficulty="0"
+        appearance="1.6"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="30"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="all" />
+      <Armor head_armor="27"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="all" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_crown"
-    name="{=6Dk7LClc}Luxury Turban Over Helmet"
-    mesh="aserai_crown"
-    culture="Culture.aserai"
-    weight="2.8"
-    appearance="8"
-    Type="HeadArmor">
+        name="{=6Dk7LClc}Luxury Turban Over Helmet"
+        mesh="aserai_crown"
+        culture="Culture.aserai"
+        weight="2.8"
+        appearance="8"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="42"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type4"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <!-- #endregion -->
   <!-- #region Aserai Heavy Head Armors -->
   <Item id="PE_pointed_skullcap_over_mail_coif"
-    name="{=ZOWdFaUi}Pointed Skullcap over Mail Coif"
-    mesh="vlandia_helmet_l_a"
-    culture="Culture.aserai"
-    weight="2.8"
-    appearance="2.7"
-    Type="HeadArmor">
+        name="{=ZOWdFaUi}Pointed Skullcap over Mail Coif"
+        mesh="vlandia_helmet_l_a"
+        culture="Culture.aserai"
+        weight="2.8"
+        appearance="2.7"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type3"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_closed_desert_helmet_with_mail"
-    name="{=SVTa5spB}Closed Steel Cap"
-    mesh="aserai_helmet_k"
-    culture="Culture.aserai"
-    weight="3.2"
-    appearance="2.5"
-    Type="HeadArmor">
+        name="{=SVTa5spB}Closed Steel Cap"
+        mesh="aserai_helmet_k"
+        culture="Culture.aserai"
+        weight="3.2"
+        appearance="2.5"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="all"
-        modifier_group="chain"
-        material_type="Chainmail" />
+      <Armor head_armor="40"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_emirs_helmet"
-    name="{=efW2XbK8}Emir Helmet"
-    subtype="head_armor"
-    mesh="aserai_helmet_r"
-    culture="Culture.aserai"
-    weight="3.0"
-    difficulty="0"
-    appearance="1.5"
-    Type="HeadArmor">
+        name="{=efW2XbK8}Emir Helmet"
+        subtype="head_armor"
+        mesh="aserai_helmet_r"
+        culture="Culture.aserai"
+        weight="3.0"
+        difficulty="0"
+        appearance="1.5"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="chain"
-        material_type="Chainmail"
-        beard_cover_type="type3" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="type3" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_desert_mail_coif"
-    name="{=RraboU6p}Wrapped Helmet with Mail Coif"
-    subtype="head_armor"
-    mesh="aserai_helmet_j"
-    culture="Culture.aserai"
-    weight="3.0"
-    difficulty="0"
-    appearance="3"
-    Type="HeadArmor">
+        name="{=RraboU6p}Wrapped Helmet with Mail Coif"
+        subtype="head_armor"
+        mesh="aserai_helmet_j"
+        culture="Culture.aserai"
+        weight="3.0"
+        difficulty="0"
+        appearance="3"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="chain"
-        material_type="Chainmail"
-        beard_cover_type="type4" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="type4" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_aserai_lord_helmet_a"
-    name="{=VBrLhqiJ}Noble Crowned Lord Helmet"
-    mesh="aserai_lord_helmet_a"
-    culture="Culture.aserai"
-    is_merchandise="false"
-    subtype="head_armor"
-    weight="3.4"
-    difficulty="0"
-    appearance="4.5"
-    Type="HeadArmor">
+        name="{=VBrLhqiJ}Noble Crowned Lord Helmet"
+        mesh="aserai_lord_helmet_a"
+        culture="Culture.aserai"
+        is_merchandise="false"
+        subtype="head_armor"
+        weight="3.4"
+        difficulty="0"
+        appearance="4.5"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="45"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type3"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_southern_noble_helmet"
-    name="{=Z95RglmZ}Noble Steel Cap"
-    mesh="aserai_lord_helmet_b"
-    culture="Culture.aserai"
-    subtype="head_armor"
-    weight="3.5"
-    difficulty="0"
-    appearance="5.4"
-    Type="HeadArmor">
+        name="{=Z95RglmZ}Noble Steel Cap"
+        mesh="aserai_lord_helmet_b"
+        culture="Culture.aserai"
+        subtype="head_armor"
+        weight="3.5"
+        difficulty="0"
+        appearance="5.4"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type3"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type3"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_southern_lord_helmet"
-    name="{=GdM7iaV9}Lordly Steel Cap"
-    mesh="aserai_lord_helmet_c"
-    culture="Culture.aserai"
-    subtype="head_armor"
-    weight="2.9"
-    difficulty="0"
-    appearance="4.2"
-    Type="HeadArmor">
+        name="{=GdM7iaV9}Lordly Steel Cap"
+        mesh="aserai_lord_helmet_c"
+        culture="Culture.aserai"
+        subtype="head_armor"
+        weight="2.9"
+        difficulty="0"
+        appearance="4.2"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        beard_cover_type="type4"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             beard_cover_type="type4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_pointed_skullcap_with_mail"
-    name="{=3DV3GoHb}Pointed Skullcap with Mail"
-    subtype="head_armor"
-    mesh="vlandia_helmet_l_v"
-    culture="Culture.aserai"
-    weight="2.6"
-    difficulty="0"
-    appearance="2.4"
-    Type="HeadArmor">
+        name="{=3DV3GoHb}Pointed Skullcap with Mail"
+        subtype="head_armor"
+        mesh="vlandia_helmet_l_v"
+        culture="Culture.aserai"
+        weight="2.6"
+        difficulty="0"
+        appearance="2.4"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="35"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="type2" />
+      <Armor head_armor="27"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="type2" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_aserai_battle_crown"
-    name="{=fBAf3OWb}Ornate Desert Battle Crown"
-    subtype="head_armor"
-    mesh="aserai_battle_crown"
-    culture="Culture.aserai"
-    is_merchandise="false"
-    weight="2.8"
-    difficulty="0"
-    appearance="9"
-    Type="HeadArmor">
+        name="{=fBAf3OWb}Ornate Desert Battle Crown"
+        subtype="head_armor"
+        mesh="aserai_battle_crown"
+        culture="Culture.aserai"
+        is_merchandise="false"
+        weight="2.8"
+        difficulty="0"
+        appearance="9"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="44"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="type3" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="type3" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_brass_aserai_helmet_closed"
-    name="{=pxTmx2ka}Brass Southern Closed Helmet"
-    subtype="head_armor"
-    mesh="brass_aserai_helmet_closed"
-    culture="Culture.aserai"
-    is_merchandise="false"
-    weight="2.5"
-    difficulty="0"
-    appearance="7"
-    Type="HeadArmor">
+        name="{=pxTmx2ka}Brass Southern Closed Helmet"
+        subtype="head_armor"
+        mesh="brass_aserai_helmet_closed"
+        culture="Culture.aserai"
+        is_merchandise="false"
+        weight="2.5"
+        difficulty="0"
+        appearance="7"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="42"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="all" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="all" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_brass_aserai_helmet_b_closed"
-    name="{=HrLupYXP}Brass Southern Closed Helmet with Turban"
-    subtype="head_armor"
-    mesh="brass_aserai_helmet_b_closed"
-    culture="Culture.aserai"
-    is_merchandise="false"
-    weight="2.55"
-    difficulty="0"
-    appearance="8"
-    Type="HeadArmor">
+        name="{=HrLupYXP}Brass Southern Closed Helmet with Turban"
+        subtype="head_armor"
+        mesh="brass_aserai_helmet_b_closed"
+        culture="Culture.aserai"
+        is_merchandise="false"
+        weight="2.55"
+        difficulty="0"
+        appearance="8"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="43"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="all" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="all" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_brass_aserai_helmet_open"
-    name="{=uRsU67qC}Brass Southern Helmet"
-    subtype="head_armor"
-    mesh="brass_aserai_helmet_open"
-    culture="Culture.aserai"
-    is_merchandise="false"
-    weight="2.2"
-    difficulty="0"
-    appearance="7"
-    Type="HeadArmor">
+        name="{=uRsU67qC}Brass Southern Helmet"
+        subtype="head_armor"
+        mesh="brass_aserai_helmet_open"
+        culture="Culture.aserai"
+        is_merchandise="false"
+        weight="2.2"
+        difficulty="0"
+        appearance="7"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="38"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="none" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="none" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_brass_aserai_helmet_b_open"
-    name="{=ahN0UNxw}Brass Southern Helmet with Turban"
-    subtype="head_armor"
-    mesh="brass_aserai_helmet_b_open"
-    culture="Culture.aserai"
-    is_merchandise="false"
-    weight="2.3"
-    difficulty="0"
-    appearance="8"
-    Type="HeadArmor">
+        name="{=ahN0UNxw}Brass Southern Helmet with Turban"
+        subtype="head_armor"
+        mesh="brass_aserai_helmet_b_open"
+        culture="Culture.aserai"
+        is_merchandise="false"
+        weight="2.3"
+        difficulty="0"
+        appearance="8"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="39"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="none" />
+      <Armor head_armor="34"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="none" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_brass_aserai_helmet_leather"
-    name="{=dHv9Dbkp}Brass Southern Helmet with Leather Flaps"
-    subtype="head_armor"
-    mesh="brass_aserai_helmet_leather"
-    culture="Culture.aserai"
-    is_merchandise="false"
-    weight="1.8"
-    difficulty="0"
-    appearance="6"
-    Type="HeadArmor">
+        name="{=dHv9Dbkp}Brass Southern Helmet with Leather Flaps"
+        subtype="head_armor"
+        mesh="brass_aserai_helmet_leather"
+        culture="Culture.aserai"
+        is_merchandise="false"
+        weight="1.8"
+        difficulty="0"
+        appearance="6"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="none" />
+      <Armor head_armor="27"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="none" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_brass_aserai_helmet_b_leather"
-    name="{=E5b3gc6R}Brass Turbaned Helmet with Leather Flaps"
-    subtype="head_armor"
-    mesh="brass_aserai_helmet_b_leather"
-    culture="Culture.aserai"
-    is_merchandise="false"
-    weight="1.9"
-    difficulty="0"
-    appearance="7"
-    Type="HeadArmor">
+        name="{=E5b3gc6R}Brass Turbaned Helmet with Leather Flaps"
+        subtype="head_armor"
+        mesh="brass_aserai_helmet_b_leather"
+        culture="Culture.aserai"
+        is_merchandise="false"
+        weight="1.9"
+        difficulty="0"
+        appearance="7"
+        Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
-        has_gender_variations="false"
-        hair_cover_type="all"
-        modifier_group="plate"
-        material_type="Plate"
-        beard_cover_type="none" />
+      <Armor head_armor="27"
+             has_gender_variations="false"
+             hair_cover_type="all"
+             modifier_group="plate"
+             material_type="Plate"
+             beard_cover_type="none" />
     </ItemComponent>
     <Flags />
   </Item>
@@ -880,7 +880,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="9"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="leather"
@@ -898,7 +898,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="5"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth_unarmoured"
@@ -917,7 +917,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="8"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type1"
         modifier_group="leather"
@@ -935,7 +935,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type3"
         modifier_group="cloth_unarmoured"
@@ -953,7 +953,7 @@
     appearance="1.5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="16"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="leather"
@@ -991,7 +991,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="24"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="leather"
@@ -1009,7 +1009,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="12"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="leather"
@@ -1027,7 +1027,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="10"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="leather"
@@ -1045,7 +1045,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -1064,7 +1064,7 @@
     appearance="8.5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="8"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="none"
         beard_cover_type="none"
@@ -1085,7 +1085,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="type3"
         modifier_group="plate"
@@ -1103,7 +1103,7 @@
     appearance="1.1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="22"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="leather"
@@ -1122,7 +1122,7 @@
     appearance="5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="50"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1141,7 +1141,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="53"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1160,7 +1160,7 @@
     appearance="3.8"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1179,7 +1179,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1198,7 +1198,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="35"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1217,7 +1217,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="32"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1236,7 +1236,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="31"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1255,7 +1255,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="38"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1274,7 +1274,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1293,7 +1293,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="35"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1312,7 +1312,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="41"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1374,7 +1374,7 @@
     appearance="1.4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="10"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="leather"
@@ -1392,7 +1392,7 @@
     appearance="1.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="12"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type3"
         modifier_group="leather"
@@ -1426,7 +1426,7 @@
     appearance="1.7"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="4"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type1"
         beard_cover_type="none"
@@ -1443,7 +1443,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type1"
         beard_cover_type="none"
@@ -1462,7 +1462,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="cloth_unarmoured"
@@ -1480,7 +1480,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="7"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="type1"
         modifier_group="leather"
@@ -1498,7 +1498,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="12"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="cloth_unarmoured"
@@ -1517,7 +1517,7 @@
     appearance="8"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="22"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="type1"
         beard_cover_type="none"
@@ -1538,7 +1538,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="24"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="plate"
@@ -1556,7 +1556,7 @@
     appearance="2.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="31"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -1572,7 +1572,7 @@
     appearance="3.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="32"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="none"
@@ -1591,7 +1591,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="33"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="plate"
@@ -1611,7 +1611,7 @@
     appearance="2.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="plate"
@@ -1629,7 +1629,7 @@
     appearance="2.4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="51"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -1648,7 +1648,7 @@
     appearance="2.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="48"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -1665,7 +1665,7 @@
     appearance="3.55"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="51"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="all"
@@ -1684,7 +1684,7 @@
     appearance="4.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="48"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1703,7 +1703,7 @@
     appearance="3.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="45"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type4"
@@ -1722,7 +1722,7 @@
     appearance="3.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="48"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type4"
@@ -1742,7 +1742,7 @@
     appearance="4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -1764,7 +1764,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="18"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth"
@@ -1783,7 +1783,7 @@
     appearance="1.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="14"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth"
@@ -1802,7 +1802,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="14"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth"
@@ -1822,7 +1822,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="6"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth_unarmoured"
@@ -1841,7 +1841,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="11"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type3"
         modifier_group="cloth"
@@ -1860,7 +1860,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="9"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type3"
         modifier_group="cloth_unarmoured"
@@ -1878,7 +1878,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="14"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth"
@@ -1896,7 +1896,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="3"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth_unarmoured"
@@ -1929,7 +1929,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="3"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth_unarmoured"
@@ -1947,7 +1947,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="3"
+      <Armor head_armor="1"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="cloth_unarmoured"
@@ -1991,16 +1991,21 @@
       UseTeamColor="true" />
     <!-- wrapped very tight: maidservants, not for aristocrats -->
   </Item>
-  <!--<Item
-  id="PE_arming_cap" name="Arming Cap" subtype="head_armor" mesh="arming_cap_a"
-  culture="Culture.vlandia" value="24" weight="0.5" difficulty="0">
+  <Item id="PE_arming_cap"
+        name="Arming Cap"
+        subtype="head_armor"
+        mesh="arming_cap_a"
+        culture="Culture.vlandia"
+        value="24"
+        weight="0.5"
+        difficulty="0">
     <ItemComponent>
-      <Armor head_armor="7" has_gender_variations="false" hair_cover_type="all" />
+      <Armor head_armor="1" has_gender_variations="false" hair_cover_type="all" />
     </ItemComponent>
     <flags>
       <flag name="type" value="HeadArmor" />
     </flags>
-  </Item>-->
+  </Item>
   <!-- #endregion -->
   <!-- #region Vlandia Medium Head Armors -->
   <Item id="PE_cervelliere_over_arming_coif"
@@ -2011,7 +2016,7 @@
     appearance="1.25"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="19"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="type2"
         beard_cover_type="none"
@@ -2030,7 +2035,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="33"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2049,7 +2054,7 @@
     appearance="1.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type3"
@@ -2068,7 +2073,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="35"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2087,7 +2092,7 @@
     appearance="1.4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="33"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="plate"
@@ -2105,7 +2110,7 @@
     appearance="1.3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="33"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2122,7 +2127,7 @@
     appearance="1.9"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type3"
@@ -2141,7 +2146,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="34"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2160,7 +2165,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="33"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2179,7 +2184,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2198,7 +2203,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="32"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2217,7 +2222,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2234,7 +2239,7 @@
     appearance="1.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="29"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2251,7 +2256,7 @@
     appearance="1.4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="29"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type1"
@@ -2268,7 +2273,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="17"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2287,7 +2292,7 @@
     appearance="2.8"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="28"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2306,7 +2311,7 @@
     appearance="1.8"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2324,7 +2329,7 @@
     appearance="1.8"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2343,7 +2348,7 @@
     appearance="1.4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="28"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2381,7 +2386,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="29"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2415,7 +2420,7 @@
     appearance="1.5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="25"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2432,7 +2437,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="28"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2451,7 +2456,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="22"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="plate"
@@ -2469,11 +2474,11 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="11"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type2"
-        modifier_group="plate"
-        material_type="Plate" />
+        modifier_group="leather"
+        material_type="Leather" />
     </ItemComponent>
     <Flags />
   </Item>
@@ -2485,7 +2490,7 @@
     appearance="1.3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="32"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="none"
@@ -2504,7 +2509,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="42"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type3"
@@ -2521,7 +2526,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type4"
@@ -2538,7 +2543,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="38"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type3"
@@ -2557,7 +2562,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="type2"
         beard_cover_type="all"
@@ -2576,7 +2581,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2595,7 +2600,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="48"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2612,7 +2617,7 @@
     appearance="1.4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="24"
+      <Armor head_armor="27"
         has_gender_variations="false"
         beard_cover_type="type2"
         modifier_group="plate"
@@ -2631,7 +2636,7 @@
     appearance="1.9"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="34"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2648,7 +2653,7 @@
     appearance="2.8"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="42"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -2665,7 +2670,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type4"
@@ -2682,7 +2687,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2699,7 +2704,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="38"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type4"
@@ -2718,7 +2723,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="50"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -2737,7 +2742,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -2754,7 +2759,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -2773,7 +2778,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="48"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type3"
@@ -2790,7 +2795,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="48"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -2809,7 +2814,7 @@
     appearance="1.5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="28"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2826,7 +2831,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="40"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2843,7 +2848,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2860,7 +2865,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="42"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type4"
@@ -2877,7 +2882,7 @@
     appearance="1.9"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="40"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2894,7 +2899,7 @@
     appearance="1.45"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -2914,7 +2919,7 @@
     appearance="5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type3"
@@ -2933,7 +2938,7 @@
     appearance="4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type3"
@@ -2952,7 +2957,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="30"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -2972,7 +2977,7 @@
     appearance="4.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="48"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type4"
@@ -2991,7 +2996,7 @@
     appearance="1.5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="36"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -3009,7 +3014,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="45"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3028,7 +3033,7 @@
     appearance="1.5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="44"
+      <Armor head_armor="60"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3103,7 +3108,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="9"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type2"
         beard_cover_type="none"
@@ -3137,7 +3142,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="none"
@@ -3154,7 +3159,7 @@
     appearance="1.5"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="none"
@@ -3171,7 +3176,7 @@
     appearance="3.8"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3188,7 +3193,7 @@
     appearance="2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="type1"
         modifier_group="plate"
@@ -3206,7 +3211,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3225,7 +3230,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3244,7 +3249,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         modifier_group="plate"
@@ -3262,7 +3267,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="18"
+      <Armor head_armor="20"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type3"
@@ -3282,7 +3287,7 @@
     appearance="2.0"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
         has_gender_variations="false"
         hair_cover_type="type1"
         modifier_group="plate"
@@ -3300,7 +3305,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3317,7 +3322,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3334,7 +3339,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3351,7 +3356,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="all"
@@ -3385,7 +3390,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="type1"
@@ -3404,7 +3409,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3423,7 +3428,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3459,7 +3464,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3476,7 +3481,7 @@
     appearance="3.2"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3493,7 +3498,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3510,7 +3515,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3544,7 +3549,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3561,7 +3566,7 @@
     appearance="1.6"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
         has_gender_variations="false"
         hair_cover_type="type3"
         beard_cover_type="none"
@@ -3578,7 +3583,7 @@
     appearance="3.4"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="type2"
@@ -3613,7 +3618,7 @@
     appearance="3"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
         has_gender_variations="false"
         hair_cover_type="all"
         beard_cover_type="none"
@@ -3637,7 +3642,7 @@
         appearance="0.6"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="8"
+      <Armor head_armor="13"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="cloth"
@@ -3674,7 +3679,7 @@
         appearance="0.5"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="8"
+      <Armor head_armor="13"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="leather"
@@ -3712,7 +3717,7 @@
         appearance="1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="8"
+      <Armor head_armor="13"
              has_gender_variations="false"
              hair_cover_type="type3"
              beard_cover_type="type2"
@@ -3724,7 +3729,7 @@
   <Item id="PE_pilgrim_hood"
         name="{=VXFwEF3M}Pilgrim Hood"
         mesh="sneak_costume_head"
-        culture="Culture.empire"
+        culture="Culture.looters"
         weight="0.2"
         difficulty="0"
         appearance="0.3"
@@ -3752,7 +3757,7 @@
         appearance="2.6"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="type3"
              modifier_group="plate"
@@ -3770,7 +3775,7 @@
         appearance="1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="chain"
@@ -3789,7 +3794,7 @@
         appearance="3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -3807,7 +3812,7 @@
         appearance="2.6"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -3823,7 +3828,7 @@
         appearance="2"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -3842,7 +3847,7 @@
         appearance="1.5"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="type2"
              modifier_group="plate"
@@ -3860,7 +3865,7 @@
         appearance="1.5"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -3879,7 +3884,7 @@
         appearance="1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -3897,7 +3902,7 @@
         appearance="1.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -3913,7 +3918,7 @@
         appearance="1.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="none"
@@ -3930,7 +3935,7 @@
         appearance="1.1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="none"
@@ -3947,7 +3952,7 @@
         appearance="2"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type3"
@@ -3966,7 +3971,7 @@
         appearance="1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="chain"
@@ -3985,7 +3990,7 @@
         appearance="1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="chain"
@@ -4004,7 +4009,7 @@
         appearance="1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4021,7 +4026,7 @@
         appearance="1.35"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="20"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="none"
@@ -4039,7 +4044,7 @@
         appearance="6"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="type2"
              beard_cover_type="none"
@@ -4149,7 +4154,7 @@
         appearance="2"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -4165,7 +4170,7 @@
         appearance="2.8"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type3"
@@ -4182,7 +4187,7 @@
         appearance="2"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4200,7 +4205,7 @@
         appearance="2"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4219,7 +4224,7 @@
         appearance="2.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4238,7 +4243,7 @@
         appearance="1.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -4257,7 +4262,7 @@
         appearance="3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -4276,7 +4281,7 @@
         appearance="2"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4294,7 +4299,7 @@
         appearance="1.65"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4313,7 +4318,7 @@
         appearance="1.6"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="type2"
              modifier_group="plate"
@@ -4331,7 +4336,7 @@
         appearance="2"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type3"
@@ -4348,7 +4353,7 @@
         appearance="2.1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -4364,7 +4369,7 @@
         appearance="3.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="none"
@@ -4381,7 +4386,7 @@
         appearance="2.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4400,7 +4405,7 @@
         appearance="1.1"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4419,7 +4424,7 @@
         appearance="1.65"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4436,7 +4441,7 @@
         appearance="1.2"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4455,7 +4460,7 @@
         appearance="1.9"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="37"
+      <Armor head_armor="27"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4474,7 +4479,7 @@
         appearance="5"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type4"
@@ -4531,7 +4536,7 @@
         appearance="3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type4"
@@ -4550,7 +4555,7 @@
         appearance="2.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              modifier_group="plate"
@@ -4567,7 +4572,7 @@
         appearance="2.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="46"
+      <Armor head_armor="34"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type1"
@@ -4586,7 +4591,7 @@
         appearance="3.3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
              has_gender_variations="false"
              hair_cover_type="type3"
              modifier_group="plate"
@@ -4605,7 +4610,7 @@
         appearance="3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4625,7 +4630,7 @@
         appearance="3"
         Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="52"
+      <Armor head_armor="40"
              has_gender_variations="false"
              hair_cover_type="all"
              beard_cover_type="type2"
@@ -4648,7 +4653,7 @@
     appearance="1"
     Type="HeadArmor">
     <ItemComponent>
-      <Armor head_armor="26"
+      <Armor head_armor="13"
         has_gender_variations="false"
         hair_cover_type="type2"
         modifier_group="plate"

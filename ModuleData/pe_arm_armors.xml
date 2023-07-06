@@ -11,7 +11,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="9"
+      <Armor arm_armor="11"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
@@ -31,7 +31,7 @@
     appearance="0.3"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="3"
+      <Armor arm_armor="1"
         covers_hands="false"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
@@ -48,7 +48,7 @@
     appearance="0.3"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="3"
+      <Armor arm_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -63,7 +63,7 @@
     appearance="0.4"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="7"
+      <Armor arm_armor="11"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
@@ -77,7 +77,7 @@
     appearance="0.3"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="9"
+      <Armor arm_armor="11"
         covers_hands="false"
         modifier_group="cloth"
         material_type="Cloth" />
@@ -92,7 +92,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="4"
+      <Armor arm_armor="11"
         covers_hands="false"
         modifier_group="leather"
         material_type="Leather" />
@@ -107,7 +107,7 @@
     appearance="0.4"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="5"
+      <Armor arm_armor="11"
         covers_hands="false"
         modifier_group="leather"
         material_type="Leather" />
@@ -122,7 +122,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="3"
+      <Armor arm_armor="1"
         covers_hands="false"
         modifier_group="leather"
         material_type="Leather" />
@@ -138,7 +138,7 @@
     appearance="3"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="18"
+      <Armor arm_armor="20"
         covers_hands="true"
         modifier_group="leather"
         material_type="Leather" />
@@ -154,7 +154,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="8"
+      <Armor arm_armor="11"
         covers_hands="true"
         modifier_group="leather"
         material_type="Leather" />
@@ -188,7 +188,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="3"
+      <Armor arm_armor="1"
         covers_hands="false"
         modifier_group="cloth"
         material_type="Cloth" />
@@ -234,7 +234,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="5"
+      <Armor arm_armor="11"
         covers_hands="false"
         modifier_group="leather"
         material_type="Leather" />
@@ -251,7 +251,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="24"
+      <Armor arm_armor="25"
         covers_hands="false"
         modifier_group="plate"
         material_type="Plate" />
@@ -291,7 +291,7 @@
     appearance="3"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="23"
+      <Armor arm_armor="25"
         covers_hands="true"
         modifier_group="chain"
         material_type="Chainmail" />
@@ -306,7 +306,7 @@
     appearance="3"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="24"
+      <Armor arm_armor="25"
         covers_hands="true"
         modifier_group="chain"
         material_type="Chainmail" />
@@ -376,7 +376,7 @@
         appearance="1"
         Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="7"
+      <Armor arm_armor="11"
              covers_hands="false"
              modifier_group="leather"
              material_type="Leather" />
@@ -392,7 +392,7 @@
         appearance="1"
         Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="9"
+      <Armor arm_armor="11"
              covers_hands="true"
              modifier_group="cloth"
              material_type="Cloth" />
@@ -491,7 +491,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="4"
+      <Armor arm_armor="11"
         covers_hands="true"
         modifier_group="leather"
         material_type="Leather" />
@@ -507,7 +507,7 @@
     appearance="1"
     Type="HandArmor">
     <ItemComponent>
-      <Armor arm_armor="7"
+      <Armor arm_armor="11"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
