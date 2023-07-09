@@ -5,245 +5,248 @@
   <!-- #region Aserai Shoulder Armors -->
   <!-- #region Aserai Light Shoulder Armors -->
   <Item id="PE_southern_shawl"
-    name="{=1EhlbySK}Short Cloak"
-    mesh="aserai_female_costume_cloak"
-    culture="Culture.aserai"
-    weight="0.4"
-    appearance="1"
-    Type="Cape">
+        name="{=1EhlbySK}Short Cloak"
+        mesh="aserai_female_costume_cloak"
+        culture="Culture.aserai"
+        weight="0.4"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor body_armor="1"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <Item id="PE_desert_fabric_shoulderpad"
-    name="{=EyQTfFS6}Woven Shoulder Pad"
-    mesh="aserai_bigchain_shoulder_fabric"
-    culture="Culture.aserai"
-    weight="1.8"
-    appearance="1"
-    Type="Cape">
+        name="{=EyQTfFS6}Woven Shoulder Pad"
+        mesh="aserai_bigchain_shoulder_fabric"
+        culture="Culture.aserai"
+        weight="1.8"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
-        modifier_group="cloth_unarmoured"
-        material_type="Cloth" />
+      <Armor body_armor="1"
+             modifier_group="cloth_unarmoured"
+             material_type="Cloth" />
     </ItemComponent>
     <Flags Civilian="true"
-      UseTeamColor="true" />
+           UseTeamColor="true" />
   </Item>
   <!-- #endregion -->
   <!-- #region Aserai Medium Shoulder Armors -->
   <Item id="PE_aserai_horseman_shoulder"
-    name="{=5gsp0xUN}Ringmail Shoulder Guard"
-    mesh="aserai_horseman_shoulder"
-    culture="Culture.aserai"
-    subtype="body_armor"
-    weight="2.5"
-    difficulty="0"
-    appearance="1"
-    Type="Cape">
+        name="{=5gsp0xUN}Ringmail Shoulder Guard"
+        mesh="aserai_horseman_shoulder"
+        culture="Culture.aserai"
+        subtype="body_armor"
+        weight="2.5"
+        difficulty="0"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="11"
-        modifier_group="leather"
-        material_type="Leather" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_leopard_pelt"
-    name="{=QxzcuhmA}Leopard Pelt"
-    mesh="leopard_pelt"
-    culture="Culture.aserai"
-    weight="2.0"
-    appearance="4"
-    Type="Cape">
+        name="{=QxzcuhmA}Leopard Pelt"
+        mesh="leopard_pelt"
+        culture="Culture.aserai"
+        weight="2.0"
+        appearance="4"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="4"
-        modifier_group="leather"
-        material_type="Leather" />
+      <Armor body_armor="6"
+             arm_armor="4"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags Civilian="true" />
   </Item>
   <Item id="PE_desert_leather_shoulderpad"
-    name="{=9w40yGlZ}Leather Shoulder Guard"
-    mesh="aserai_bigchain_shoulder"
-    culture="Culture.aserai"
-    weight="1.8"
-    appearance="1"
-    Type="Cape">
+        name="{=9w40yGlZ}Leather Shoulder Guard"
+        mesh="aserai_bigchain_shoulder"
+        culture="Culture.aserai"
+        weight="1.8"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="5"
-        modifier_group="leather"
-        material_type="Leather" />
+      <Armor body_armor="6"
+             arm_armor="4"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags />
   </Item>
   <!-- #endregion -->
   <!-- #region Aserai Heavy Shoulder Armors -->
   <Item id="PE_desert_scale_shoulders"
-    name="{=sbbNL1qF}Reinforced Scale Pauldrons"
-    mesh="aserai_scale_b_shoulder"
-    culture="Culture.aserai"
-    weight="4.2"
-    appearance="3"
-    Type="Cape">
+        name="{=sbbNL1qF}Reinforced Scale Pauldrons"
+        mesh="aserai_scale_b_shoulder"
+        culture="Culture.aserai"
+        weight="4.2"
+        appearance="3"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="18"
-        arm_armor="8"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="20"
+             arm_armor="10"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_a_aserai_scale_b_shoulder_a"
-    name="{=FQdTo5ay}Scale Shoulder Guards"
-    mesh="aserai_scale_b_shoulder_a"
-    culture="Culture.aserai"
-    weight="4"
-    appearance="3"
-    Type="Cape">
+        name="{=FQdTo5ay}Scale Shoulder Guards"
+        mesh="aserai_scale_b_shoulder_a"
+        culture="Culture.aserai"
+        weight="4"
+        appearance="3"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="14"
-        arm_armor="7"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_a_aserai_scale_b_shoulder_b"
-    name="{=U0zBG3F9}Scale Pauldrons"
-    mesh="aserai_scale_b_shoulder_b"
-    culture="Culture.aserai"
-    weight="2"
-    appearance="3"
-    Type="Cape">
+        name="{=U0zBG3F9}Scale Pauldrons"
+        mesh="aserai_scale_b_shoulder_b"
+        culture="Culture.aserai"
+        weight="2"
+        appearance="3"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
-        arm_armor="8"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="6"
+             arm_armor="4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_a_aserai_scale_b_shoulder_c"
-    name="{=imHoaCGi}Bronze Scale Shoulder Guards"
-    mesh="aserai_scale_b_shoulder_c"
-    culture="Culture.aserai"
-    weight="4.4"
-    appearance="3"
-    Type="Cape">
+        name="{=imHoaCGi}Bronze Scale Shoulder Guards"
+        mesh="aserai_scale_b_shoulder_c"
+        culture="Culture.aserai"
+        weight="4.4"
+        appearance="3"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="14"
-        arm_armor="7"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_a_aserai_scale_b_shoulder_d"
-    name="{=SIdCIRfG}Brass Scale Pauldrons"
-    mesh="aserai_scale_b_shoulder_d"
-    culture="Culture.aserai"
-    weight="2.2"
-    appearance="3"
-    Type="Cape">
+        name="{=SIdCIRfG}Brass Scale Pauldrons"
+        mesh="aserai_scale_b_shoulder_d"
+        culture="Culture.aserai"
+        weight="2.2"
+        appearance="3"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
-        arm_armor="7"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="6"
+             arm_armor="4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_a_aserai_scale_b_shoulder_e"
-    name="{=LePDTpFD}Reinforced Bronze Scale Shoulder Guards"
-    mesh="aserai_scale_b_shoulder_e"
-    culture="Culture.aserai"
-    weight="6.8"
-    appearance="3"
-    Type="Cape">
+        name="{=LePDTpFD}Reinforced Bronze Scale Shoulder Guards"
+        mesh="aserai_scale_b_shoulder_e"
+        culture="Culture.aserai"
+        weight="6.8"
+        appearance="3"
+        Type="Cape">
     <ItemComponent>
       <Armor body_armor="20"
-        arm_armor="12"
-        modifier_group="plate"
-        material_type="Plate" />
+             arm_armor="10"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_aserai_scale_shoulder_a"
-    name="{=imHoaCGi}Bronze Scale Shoulder Guards"
-    mesh="aserai_scale_shoulder_a"
-    culture="Culture.aserai"
-    weight="1.8"
-    appearance="5"
-    Type="Cape">
+        name="{=imHoaCGi}Bronze Scale Shoulder Guards"
+        mesh="aserai_scale_shoulder_a"
+        culture="Culture.aserai"
+        weight="1.8"
+        appearance="5"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
-        arm_armor="4"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="14"
+             arm_armor="6"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_aserai_scale_shoulder_b"
-    name="{=z4nryDlp}Long Sleeved Bronze Scale Shoulder Guards"
-    mesh="aserai_scale_shoulder_b"
-    culture="Culture.aserai"
-    weight="2.2"
-    appearance="5"
-    Type="Cape">
+        name="{=z4nryDlp}Long Sleeved Bronze Scale Shoulder Guards"
+        mesh="aserai_scale_shoulder_b"
+        culture="Culture.aserai"
+        weight="2.2"
+        appearance="5"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
-        arm_armor="8"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_aserai_scale_shoulder_c"
-    name="{=k9ouZ59X}Bronze Scale Pauldrons"
-    mesh="aserai_scale_shoulder_c"
-    culture="Culture.aserai"
-    weight="1.9"
-    appearance="6"
-    Type="Cape">
+        name="{=k9ouZ59X}Bronze Scale Pauldrons"
+        mesh="aserai_scale_shoulder_c"
+        culture="Culture.aserai"
+        weight="1.9"
+        appearance="6"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
-        arm_armor="10"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_aserai_scale_shoulder_d"
-    name="{=KrzAIXgG}Decorated Bronze Scale Pauldrons"
-    mesh="aserai_scale_shoulder_d"
-    culture="Culture.aserai"
-    weight="2.4"
-    appearance="7"
-    Type="Cape">
+        name="{=KrzAIXgG}Decorated Bronze Scale Pauldrons"
+        mesh="aserai_scale_shoulder_d"
+        culture="Culture.aserai"
+        weight="2.4"
+        appearance="7"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="6"
-        arm_armor="8"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_aserai_scale_shoulder_e"
-    name="{=dIgaajLB}Decorated Long Sleeve Bronze Scale Pauldrons"
-    mesh="aserai_scale_shoulder_e"
-    culture="Culture.aserai"
-    weight="2.8"
-    appearance="7"
-    Type="Cape">
+        name="{=dIgaajLB}Decorated Long Sleeve Bronze Scale Pauldrons"
+        mesh="aserai_scale_shoulder_e"
+        culture="Culture.aserai"
+        weight="2.8"
+        appearance="7"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="6"
-        arm_armor="10"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
@@ -257,7 +260,7 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="4"
+      <Armor body_armor="1"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -271,7 +274,8 @@
     appearance="1.5"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="7"
+      <Armor body_armor="6"
+        arm_armor="4"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -285,7 +289,7 @@
     appearance="1.2"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -300,7 +304,6 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="1"
-        arm_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -317,7 +320,7 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="6"
-        arm_armor="2"
+        arm_armor="4"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -333,7 +336,7 @@
     appearance="1.5"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="4"
+      <Armor body_armor="1"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -349,7 +352,8 @@
     appearance="3"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="14"
+      <Armor body_armor="6"
+             arm_armor="4"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -365,7 +369,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
+      <Armor body_armor="14"
+             arm_armor="6"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
@@ -379,8 +384,8 @@
     appearance="3"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
-        arm_armor="3"
+      <Armor body_armor="17"
+        arm_armor="8"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -413,7 +418,7 @@
     appearance="1.5"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -429,7 +434,7 @@
     appearance="1.5"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="4"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -444,8 +449,7 @@
     appearance="1.5"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="3"
-        arm_armor="1"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -460,7 +464,8 @@
     appearance="1.5"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="9"
+      <Armor body_armor="6"
+             arm_armor="4"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -474,8 +479,8 @@
     appearance="3"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
-        arm_armor="4"
+      <Armor body_armor="14"
+        arm_armor="6"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -491,7 +496,7 @@
     appearance="1.5"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="6"
+      <Armor body_armor="1"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
@@ -507,7 +512,8 @@
     appearance="1.8"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="7"
+      <Armor body_armor="6"
+             arm_armor="4"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
@@ -524,6 +530,7 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="6"
+             arm_armor="4"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
@@ -539,7 +546,8 @@
     appearance="1.8"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="5"
+      <Armor body_armor="6"
+        arm_armor="4"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
@@ -557,7 +565,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
+      <Armor body_armor="6"
+             arm_armor="4"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -574,6 +583,7 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="6"
+             arm_armor="4"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -590,6 +600,7 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="6"
+             arm_armor="4"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -604,7 +615,7 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="17"
-        arm_armor="4"
+        arm_armor="8"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -618,8 +629,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="10"
-        arm_armor="5"
+      <Armor body_armor="17"
+        arm_armor="8"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -633,7 +644,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="17"
+      <Armor body_armor="14"
+             arm_armor="6"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -647,8 +659,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
-        arm_armor="3"
+      <Armor body_armor="17"
+        arm_armor="8"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -664,8 +676,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="18"
-        arm_armor="4"
+      <Armor body_armor="17"
+        arm_armor="8"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -693,7 +705,7 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
+      <Armor body_armor="14"
         arm_armor="6"
         modifier_group="plate"
         material_type="Plate" />
@@ -708,7 +720,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="5"
+      <Armor body_armor="6"
+          arm_armor="4"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -736,8 +749,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
-        arm_armor="6"
+      <Armor body_armor="17"
+             arm_armor="8"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -751,9 +764,10 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="6"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="6"
+		        arm_armor="4"
+            modifier_group="plate"
+            material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
@@ -765,7 +779,8 @@
     appearance="2"
     Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="10"
+      <Armor body_armor="17"
+		    arm_armor="8"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -784,7 +799,7 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="3"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -798,8 +813,8 @@
     appearance="1.6"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="12"
-        arm_armor="3"
+      <Armor body_armor="10"
+        arm_armor="5"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -829,7 +844,7 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="3"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -844,8 +859,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
-        arm_armor="4"
+      <Armor body_armor="17"
+        arm_armor="8"
         modifier_group="cloth"
         material_type="Cloth" />
     </ItemComponent>
@@ -859,8 +874,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="15"
-        arm_armor="4"
+      <Armor body_armor="14"
+        arm_armor="6"
         modifier_group="chain"
         material_type="Chainmail" />
     </ItemComponent>
@@ -874,7 +889,7 @@
     appearance="7"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
+      <Armor body_armor="17"
         arm_armor="8"
         modifier_group="plate"
         material_type="Plate" />
@@ -889,8 +904,8 @@
     appearance="7"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="15"
-        arm_armor="12"
+      <Armor body_armor="20"
+        arm_armor="10"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -905,7 +920,7 @@
     Type="Cape">
     <ItemComponent>
       <Armor body_armor="20"
-        arm_armor="12"
+        arm_armor="10"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -919,8 +934,8 @@
     appearance="7"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="22"
-        arm_armor="12"
+      <Armor body_armor="20"
+        arm_armor="10"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -934,7 +949,7 @@
     appearance="6"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="8"
+      <Armor body_armor="17"
         arm_armor="8"
         modifier_group="plate"
         material_type="Plate" />
@@ -949,7 +964,7 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
+      <Armor body_armor="17"
         arm_armor="8"
         modifier_group="plate"
         material_type="Plate" />
@@ -968,7 +983,8 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="7"
+      <Armor body_armor="6"
+		    arm_armor="4"
         modifier_group="leather"
         material_type="Leather" />
     </ItemComponent>
@@ -984,7 +1000,8 @@
     appearance="1.6"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="11"
+      <Armor body_armor="17"
+		arm_armor="8"
         modifier_group="chain"
         material_type="Chainmail" />
     </ItemComponent>
@@ -998,8 +1015,8 @@
     appearance="0.9"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="18"
-        arm_armor="4"
+      <Armor body_armor="17"
+             arm_armor="8"
         modifier_group="plate"
         material_type="Plate" />
     </ItemComponent>
@@ -1010,257 +1027,261 @@
   <!-- #region Empire Shoulder Armors -->
   <!-- #region Empire Light Shoulder Armors -->
   <Item id="PE_pauldron_cape_a"
-    name="{=pGmYxauO}Legionary Cape"
-    mesh="pauldron_cape_a"
-    culture="Culture.empire"
-    weight="3.5"
-    appearance="4"
-    Type="Cape">
+        name="{=pGmYxauO}Legionary Cape"
+        mesh="pauldron_cape_a"
+        culture="Culture.empire"
+        weight="3.5"
+        appearance="4"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
-        arm_armor="4"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_a_pauldron_cape_b"
-    name="{=URZVE5aK}Bronze Pauldrons with Neck Guard"
-    mesh="pauldron_cape_b"
-    culture="Culture.empire"
-    weight="3.5"
-    appearance="4"
-    Type="Cape">
+        name="{=URZVE5aK}Bronze Pauldrons with Neck Guard"
+        mesh="pauldron_cape_b"
+        culture="Culture.empire"
+        weight="3.5"
+        appearance="4"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="13"
-        arm_armor="6"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_a_pauldron_cape_c"
-    name="{=jQKVnVNR}Bronze Pauldrons "
-    mesh="pauldron_cape_c"
-    culture="Culture.empire"
-    weight="2.5"
-    appearance="4"
-    Type="Cape">
+        name="{=jQKVnVNR}Bronze Pauldrons "
+        mesh="pauldron_cape_c"
+        culture="Culture.empire"
+        weight="2.5"
+        appearance="4"
+        Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="6"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="6"
+             arm_armor="4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <!-- #endregion -->
   <!-- #region Empire Medium Shoulder Armors -->
   <Item id="PE_empire_warrior_padded_armor_shoulder"
-    name="{=WDNKhjca}Legionary Padded Straps"
-    mesh="empire_warrior_padded_armor_shoulder"
-    culture="Culture.empire"
-    weight="1.6"
-    appearance="1"
-    Type="Cape">
+        name="{=WDNKhjca}Legionary Padded Straps"
+        mesh="empire_warrior_padded_armor_shoulder"
+        culture="Culture.empire"
+        weight="1.6"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="9"
-        arm_armor="4"
-        modifier_group="leather"
-        material_type="Leather" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_woven_leather_shoulders"
-    name="{=c7UNJSNi}Woven Leather Shoulders"
-    mesh="vlandia_leather_stripes_shoulders"
-    culture="Culture.empire"
-    weight="1.6"
-    appearance="1"
-    Type="Cape">
+        name="{=c7UNJSNi}Woven Leather Shoulders"
+        mesh="vlandia_leather_stripes_shoulders"
+        culture="Culture.empire"
+        weight="1.6"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
       <Armor body_armor="6"
-        arm_armor="4"
-        modifier_group="leather"
-        material_type="Leather" />
+             arm_armor="4"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_imperial_studded_strip_shoulders"
-    name="{=s7siCSsh}Legionary Reinforced Studded Harness"
-    mesh="empire_plated_shoulder"
-    culture="Culture.empire"
-    weight="3.9"
-    appearance="1"
-    Type="Cape">
+        name="{=s7siCSsh}Legionary Reinforced Studded Harness"
+        mesh="empire_plated_shoulder"
+        culture="Culture.empire"
+        weight="3.9"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="7"
-        arm_armor="6"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_a_empire_plated_shoulder_a"
-    name="{=TS7NjgyH}Legionary Studded Harness"
-    mesh="empire_plated_shoulder_a"
-    culture="Culture.empire"
-    weight="3.6"
-    appearance="1"
-    Type="Cape">
+        name="{=TS7NjgyH}Legionary Studded Harness"
+        mesh="empire_plated_shoulder_a"
+        culture="Culture.empire"
+        weight="3.6"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="7"
-        arm_armor="4"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_a_empire_plated_shoulder_b"
-    name="{=gA8mOXrC}Plate Pauldrons"
-    mesh="empire_plated_shoulder_b"
-    culture="Culture.empire"
-    weight="2.2"
-    appearance="1"
-    Type="Cape">
+        name="{=gA8mOXrC}Plate Pauldrons"
+        mesh="empire_plated_shoulder_b"
+        culture="Culture.empire"
+        weight="2.2"
+        appearance="1"
+        Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="8"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="6"
+             arm_armor="4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_varangian_bra_basic"
-    name="{=564PHXk3}Decorated Leather Harness"
-    mesh="varangian_bra_basic"
-    culture="Culture.empire"
-    weight="2.5"
-    appearance="4"
-    Type="Cape">
+        name="{=564PHXk3}Decorated Leather Harness"
+        mesh="varangian_bra_basic"
+        culture="Culture.empire"
+        weight="2.5"
+        appearance="4"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="4"
-        arm_armor="7"
-        modifier_group="leather"
-        material_type="Leather" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_varangian_bra_royal"
-    name="{=RXDyumYz}Caped Leather Harness"
-    mesh="varangian_bra_royal"
-    culture="Culture.empire"
-    weight="2.7"
-    appearance="7"
-    Type="Cape">
+        name="{=RXDyumYz}Caped Leather Harness"
+        mesh="varangian_bra_royal"
+        culture="Culture.empire"
+        weight="2.7"
+        appearance="7"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="5"
-        arm_armor="7"
-        modifier_group="leather"
-        material_type="Leather" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <Item id="PE_varangian_bra_padded"
-    name="{=qaKGuHSt}Decorated Leather Harness with Padding"
-    mesh="varangian_bra_padded"
-    culture="Culture.empire"
-    weight="3.2"
-    appearance="3"
-    Type="Cape">
+        name="{=qaKGuHSt}Decorated Leather Harness with Padding"
+        mesh="varangian_bra_padded"
+        culture="Culture.empire"
+        weight="3.2"
+        appearance="3"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="10"
-        arm_armor="8"
-        modifier_group="leather"
-        material_type="Leather" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="leather"
+             material_type="Leather" />
     </ItemComponent>
     <Flags UseTeamColor="true" />
   </Item>
   <!-- #endregion -->
   <!-- #region Empire Heavy Shoulder Armors -->
   <Item id="PE_imperial_lamellar_shoulders"
-    name="{=Ie0EazLn}Heavy Lamellar Pauldrons"
-    mesh="imperial_shoulders"
-    culture="Culture.empire"
-    weight="3.5"
-    appearance="3"
-    Type="Cape">
+        name="{=Ie0EazLn}Heavy Lamellar Pauldrons"
+        mesh="imperial_shoulders"
+        culture="Culture.empire"
+        weight="3.5"
+        appearance="3"
+        Type="Cape">
     <ItemComponent>
       <Armor body_armor="17"
-        arm_armor="9"
-        modifier_group="plate"
-        material_type="Plate" />
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_studded_imperial_neckguard"
-    name="{=kjzCaoMK}Neckguard with Bronze Plate Pauldrons"
-    mesh="empire_plate_armor_shoulder"
-    culture="Culture.empire"
-    weight="3.6"
-    appearance="2"
-    Type="Cape">
+        name="{=kjzCaoMK}Neckguard with Bronze Plate Pauldrons"
+        mesh="empire_plate_armor_shoulder"
+        culture="Culture.empire"
+        weight="3.6"
+        appearance="2"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="14"
-        arm_armor="7"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="17"
+             arm_armor="8"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_empire_plate_armor_shoulder_a"
-    name="{=P96J2c61}Bronze Plate Pauldrons"
-    mesh="empire_plate_armor_shoulder_a"
-    culture="Culture.empire"
-    weight="2.4"
-    appearance="2"
-    Type="Cape">
+        name="{=P96J2c61}Bronze Plate Pauldrons"
+        mesh="empire_plate_armor_shoulder_a"
+        culture="Culture.empire"
+        weight="2.4"
+        appearance="2"
+        Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="7"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="6"
+             arm_armor="4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_empire_plate_armor_shoulder_b"
-    name="{=27GO9o9K}Iron Plate Pauldrons"
-    mesh="empire_plate_armor_shoulder_b"
-    culture="Culture.empire"
-    weight="2.2"
-    appearance="2"
-    Type="Cape">
+        name="{=27GO9o9K}Iron Plate Pauldrons"
+        mesh="empire_plate_armor_shoulder_b"
+        culture="Culture.empire"
+        weight="2.2"
+        appearance="2"
+        Type="Cape">
     <ItemComponent>
-      <Armor arm_armor="8"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="6"
+             arm_armor="4"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_varangian_bra_mail"
-    name="{=P0FmQHgF}Decorated Leather Harness over Mail"
-    mesh="varangian_bra_mail"
-    culture="Culture.empire"
-    weight="13.2"
-    appearance="4"
-    Type="Cape">
+        name="{=P0FmQHgF}Decorated Leather Harness over Mail"
+        mesh="varangian_bra_mail"
+        culture="Culture.empire"
+        weight="13.2"
+        appearance="4"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="16"
-        arm_armor="10"
-        modifier_group="chain"
-        material_type="Chainmail" />
+      <Armor body_armor="20"
+             arm_armor="10"
+             modifier_group="chain"
+             material_type="Chainmail" />
     </ItemComponent>
     <Flags />
   </Item>
   <Item id="PE_varangian_bra_scale"
-    name="{=eN1eFdhF}Decorated Leather Harness over Scale"
-    mesh="varangian_bra_scale"
-    culture="Culture.empire"
-    weight="14"
-    appearance="6"
-    Type="Cape">
+        name="{=eN1eFdhF}Decorated Leather Harness over Scale"
+        mesh="varangian_bra_scale"
+        culture="Culture.empire"
+        weight="14"
+        appearance="6"
+        Type="Cape">
     <ItemComponent>
-      <Armor body_armor="19"
-        arm_armor="12"
-        modifier_group="plate"
-        material_type="Plate" />
+      <Armor body_armor="20"
+             arm_armor="10"
+             modifier_group="plate"
+             material_type="Plate" />
     </ItemComponent>
     <Flags />
   </Item>
@@ -1277,7 +1298,7 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -1292,7 +1313,7 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="3"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -1309,7 +1330,7 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -1326,7 +1347,7 @@
     appearance="1"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="2"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>
@@ -1343,8 +1364,7 @@
     appearance="3"
     Type="Cape">
     <ItemComponent>
-      <Armor body_armor="3"
-        arm_armor="2"
+      <Armor body_armor="1"
         modifier_group="cloth_unarmoured"
         material_type="Cloth" />
     </ItemComponent>

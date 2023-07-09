@@ -5,15 +5,15 @@
        <!-- #region Aserai Body Armors -->
        <!-- #region Aserai Light Body Armors -->
        <Item id="PE_long_desert_robe"
-              name="{=bKBa7ahF}Long Simple Robe"
-              mesh="aserai_tunic_long"
-              culture="Culture.aserai"
-              weight="1.6"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=bKBa7ahF}Long Simple Robe"
+             mesh="aserai_tunic_long"
+             culture="Culture.aserai"
+             weight="1.6"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
                             covers_body="true"
@@ -24,17 +24,17 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_layered_robe"
-              name="{=fk42FxCE}Layered Robe"
-              lod_atlas_index="6"
-              mesh="aserai_robe_c"
-              culture="Culture.aserai"
-              weight="2.0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=fk42FxCE}Layered Robe"
+             lod_atlas_index="6"
+             mesh="aserai_robe_c"
+             culture="Culture.aserai"
+             weight="2.0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -44,18 +44,18 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_desert_robe"
-              name="{=K2JbjKLG}Simple Kaftan"
-              subtype="body_armor"
-              mesh="aserai_tunic_long"
-              culture="Culture.aserai"
-              weight="1.6"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=K2JbjKLG}Simple Kaftan"
+             subtype="body_armor"
+             mesh="aserai_tunic_long"
+             culture="Culture.aserai"
+             weight="1.6"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -65,16 +65,16 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_aserai_tunic_waistcoat"
-              name="{=whiQg21b}Luxury Kaftan"
-              mesh="aserai_tunic_waistcoat"
-              culture="Culture.aserai"
-              weight="0.8"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=whiQg21b}Luxury Kaftan"
+             mesh="aserai_tunic_waistcoat"
+             culture="Culture.aserai"
+             weight="0.8"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -84,16 +84,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_thick_sleeved_robe"
-              name="{=MKT5IzWm}Thick Sleeved Robe"
-              mesh="aserai_robe_b"
-              culture="Culture.aserai"
-              weight="1.0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=MKT5IzWm}Thick Sleeved Robe"
+             mesh="aserai_robe_b"
+             culture="Culture.aserai"
+             weight="1.0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -103,14 +103,14 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_villager_female_dress"
-              name="{=tuEQnm2r}Villager Short Dress"
-              mesh="aserai_villager_female_dress"
-              culture="Culture.aserai"
-              weight="0.5"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=tuEQnm2r}Villager Short Dress"
+             mesh="aserai_villager_female_dress"
+             culture="Culture.aserai"
+             weight="0.5"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -123,16 +123,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_fine_southern_dress"
-              name="{=atu9tCq8}Tailored Dress"
-              mesh="aserai_female_costume"
-              culture="Culture.aserai"
-              weight="0.7"
-              appearance="3"
-              Type="BodyArmor">
+             name="{=atu9tCq8}Tailored Dress"
+             mesh="aserai_female_costume"
+             culture="Culture.aserai"
+             weight="0.7"
+             appearance="3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="false"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -143,15 +143,15 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_female_civil_a"
-              name="{=qi1lkMqk}Feminine Kaftan"
-              mesh="aserai_female_civil_a"
-              culture="Culture.aserai"
-              weight="0.9"
-              appearance="2"
-              Type="BodyArmor">
+             name="{=qi1lkMqk}Feminine Kaftan"
+             mesh="aserai_female_civil_a"
+             culture="Culture.aserai"
+             weight="0.9"
+             appearance="2"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="3"
+                     <Armor body_armor="10"
+                            leg_armor="5"
                             arm_armor="3"
                             has_gender_variations="false"
                             covers_body="true"
@@ -163,15 +163,15 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_female_civil_b"
-              name="{=i6QMSiut}Kaftan with Waistband"
-              mesh="aserai_female_civil_b"
-              culture="Culture.aserai"
-              weight="0.8"
-              appearance="3"
-              Type="BodyArmor">
+             name="{=i6QMSiut}Kaftan with Waistband"
+             mesh="aserai_female_civil_b"
+             culture="Culture.aserai"
+             weight="0.8"
+             appearance="3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
@@ -183,16 +183,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_civil_a"
-              name="{=HXNb6Cqz}Luxury Kaftan with Waistband"
-              mesh="aserai_civil_a"
-              culture="Culture.aserai"
-              weight="0.8"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=HXNb6Cqz}Luxury Kaftan with Waistband"
+             mesh="aserai_civil_a"
+             culture="Culture.aserai"
+             weight="0.8"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="4"
-                            arm_armor="4"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -202,16 +202,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_civil_b"
-              name="{=v4THTk5O}Kaftan with Leather Belt"
-              mesh="aserai_civil_b"
-              culture="Culture.aserai"
-              weight="1.1"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=v4THTk5O}Kaftan with Leather Belt"
+             mesh="aserai_civil_b"
+             culture="Culture.aserai"
+             weight="1.1"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -221,16 +221,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_civil_c"
-              name="{=CBUdkmIw}Colored Kaftan"
-              mesh="aserai_civil_c"
-              culture="Culture.aserai"
-              weight="0.9"
-              appearance="2"
-              Type="BodyArmor">
+             name="{=CBUdkmIw}Colored Kaftan"
+             mesh="aserai_civil_c"
+             culture="Culture.aserai"
+             weight="0.9"
+             appearance="2"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -240,16 +240,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_civil_d"
-              name="{=SW3lkPHe}Colored Bisht"
-              mesh="aserai_civil_d"
-              culture="Culture.aserai"
-              weight="1.0"
-              appearance="0.6"
-              Type="BodyArmor">
+             name="{=SW3lkPHe}Colored Bisht"
+             mesh="aserai_civil_d"
+             culture="Culture.aserai"
+             weight="1.0"
+             appearance="0.6"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -259,16 +259,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_civil_e"
-              name="{=FAPHmzxQ}Thawb"
-              mesh="aserai_civil_e"
-              culture="Culture.aserai"
-              weight="1.1"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=FAPHmzxQ}Thawb"
+             mesh="aserai_civil_e"
+             culture="Culture.aserai"
+             weight="1.1"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -278,16 +278,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_civil_f"
-              name="{=bLgnonyc}Simple Peasant Robe"
-              mesh="aserai_civil_f"
-              culture="Culture.aserai"
-              weight="1.1"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=bLgnonyc}Simple Peasant Robe"
+             mesh="aserai_civil_f"
+             culture="Culture.aserai"
+             weight="1.1"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -297,16 +297,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_tassled_southern_robes"
-              name="{=cMdtLfGB}Tassled Robes"
-              mesh="aserai_thobe"
-              culture="Culture.aserai"
-              weight="0.9"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=cMdtLfGB}Tassled Robes"
+             mesh="aserai_thobe"
+             culture="Culture.aserai"
+             weight="0.9"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -316,15 +316,15 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_eastern_silk_clothing"
-              name="{=XiwTesky}Silk Kaftan"
-              mesh="aserai_crowd_costume"
-              culture="Culture.aserai"
-              weight="0.4"
-              appearance="4"
-              Type="BodyArmor">
+             name="{=XiwTesky}Silk Kaftan"
+             mesh="aserai_crowd_costume"
+             culture="Culture.aserai"
+             weight="0.4"
+             appearance="4"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
+                     <Armor body_armor="10"
+                            leg_armor="5"
                             arm_armor="3"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -334,19 +334,19 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_short_padded_robe"
-              name="{=QzAvlan7}Short Padded Robe"
-              subtype="body_armor"
-              lod_atlas_index="11"
-              mesh="sarranid_gambeson_v3"
-              culture="Culture.aserai"
-              weight="1.3"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=QzAvlan7}Short Padded Robe"
+             subtype="body_armor"
+             lod_atlas_index="11"
+             mesh="sarranid_gambeson_v3"
+             culture="Culture.aserai"
+             weight="1.3"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="6"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth"
@@ -356,17 +356,17 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_desert_padded_cloth"
-              name="{=wWqavjat}Light Long Padded Armor"
-              lod_atlas_index="4"
-              mesh="aserai_fabric_armor"
-              culture="Culture.aserai"
-              weight="1.3"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=wWqavjat}Light Long Padded Armor"
+             lod_atlas_index="4"
+             mesh="aserai_fabric_armor"
+             culture="Culture.aserai"
+             weight="1.3"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="8"
-                            arm_armor="6"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -375,17 +375,17 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_studded_leather_coat"
-              name="{=XkL1Re8b}Studded Leather Coat"
-              lod_atlas_index="12"
-              mesh="bandit_leather_a"
-              culture="Culture.aserai"
-              weight="1.6"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=XkL1Re8b}Studded Leather Coat"
+             lod_atlas_index="12"
+             mesh="bandit_leather_a"
+             culture="Culture.aserai"
+             weight="1.6"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="10"
-                            leg_armor="5"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -396,19 +396,19 @@
        <!-- #endregion -->
        <!-- #region Aserai Medium Body Armors -->
        <Item id="PE_leather_strips_over_padded_robe"
-              name="{=iVataLxL}Leather Strips over Padded Robe"
-              lod_atlas_index="9"
-              subtype="body_armor"
-              mesh="sarranid_gambeson_v1"
-              culture="Culture.aserai"
-              weight="5.5"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=iVataLxL}Leather Strips over Padded Robe"
+             lod_atlas_index="9"
+             subtype="body_armor"
+             mesh="sarranid_gambeson_v1"
+             culture="Culture.aserai"
+             weight="5.5"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="36"
-                            leg_armor="6"
-                            arm_armor="7"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth"
@@ -418,16 +418,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_robe_c_chain"
-              name="{=gSWtpl8a}Robe over Mail Shirt"
-              lod_atlas_index="5"
-              mesh="aserai_robe_c_chain"
-              culture="Culture.aserai"
-              weight="8.2"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=gSWtpl8a}Robe over Mail Shirt"
+             lod_atlas_index="5"
+             mesh="aserai_robe_c_chain"
+             culture="Culture.aserai"
+             weight="8.2"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="25"
-                            leg_armor="12"
+                     <Armor body_armor="30"
+                            leg_armor="14"
                             arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
@@ -437,17 +437,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_long_padded_robe"
-              name="{=0SsLGsXk}Long Padded Robe"
-              lod_atlas_index="10"
-              mesh="sarranid_gambeson_v2"
-              culture="Culture.aserai"
-              weight="3.9"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=0SsLGsXk}Long Padded Robe"
+             lod_atlas_index="10"
+             mesh="sarranid_gambeson_v2"
+             culture="Culture.aserai"
+             weight="3.9"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="7"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth"
@@ -457,19 +457,19 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_aserai_horseman_armor"
-              name="{=NTaol1uQ}Ring Mail"
-              subtype="body_armor"
-              mesh="aserai_horseman"
-              lod_atlas_index="2"
-              culture="Culture.aserai"
-              weight="4.4"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=NTaol1uQ}Ring Mail"
+             subtype="body_armor"
+             mesh="aserai_horseman"
+             lod_atlas_index="2"
+             culture="Culture.aserai"
+             weight="4.4"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="13"
-                            leg_armor="2"
-                            arm_armor="3"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -478,16 +478,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_ringed_desert_armor"
-              name="{=7EAEIUIY}Heavy Ring Mail"
-              mesh="aserai_bigchain_armor"
-              culture="Culture.aserai"
-              weight="10.5"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=7EAEIUIY}Heavy Ring Mail"
+             mesh="aserai_bigchain_armor"
+             culture="Culture.aserai"
+             weight="10.5"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="20"
-                            leg_armor="10"
-                            arm_armor="8"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -495,19 +495,19 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_archer_armor"
-              name="{=2cSOn9qb}Gambeson over Mail Armor"
-              lod_atlas_index="1"
-              subtype="body_armor"
-              mesh="aserai_archer_armor"
-              culture="Culture.aserai"
-              weight="11.0"
-              difficulty="0"
-              appearance="2"
-              Type="BodyArmor">
+             name="{=2cSOn9qb}Gambeson over Mail Armor"
+             lod_atlas_index="1"
+             subtype="body_armor"
+             mesh="aserai_archer_armor"
+             culture="Culture.aserai"
+             weight="11.0"
+             difficulty="0"
+             appearance="2"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="29"
-                            leg_armor="15"
-                            arm_armor="8"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -516,16 +516,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_desert_robe_over_mail"
-              name="{=k71X3WNK}Robe over Mail Hauberk"
-              lod_atlas_index="8"
-              mesh="aserai_chain_tunic_a"
-              culture="Culture.aserai"
-              weight="8.9"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=k71X3WNK}Robe over Mail Hauberk"
+             lod_atlas_index="8"
+             mesh="aserai_chain_tunic_a"
+             culture="Culture.aserai"
+             weight="8.9"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="25"
-                            leg_armor="12"
+                     <Armor body_armor="30"
+                            leg_armor="14"
                             arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
@@ -534,17 +534,18 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_desert_lamellar"
-              name="{=xlLoyxXT}Light Lamellar Armor"
-              subtype="body_armor"
-              mesh="aserai_cavalry_armor"
-              culture="Culture.aserai"
-              weight="16.5"
-              difficulty="0"
-              appearance="1.5"
-              Type="BodyArmor">
+             name="{=xlLoyxXT}Light Lamellar Armor"
+             subtype="body_armor"
+             mesh="aserai_cavalry_armor"
+             culture="Culture.aserai"
+             weight="16.5"
+             difficulty="0"
+             appearance="1.5"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="48"
-                            arm_armor="14"
+                     <Armor body_armor="30"
+                            arm_armor="12"
+                            leg_armor="14"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -553,18 +554,18 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_sturgia_cavalry_armor"
-              name="{=ALbtxxyC}Cavalry Lamellar Armor"
-              subtype="body_armor"
-              mesh="sturgia_cavalry_armor"
-              culture="Culture.aserai"
-              weight="18"
-              difficulty="0"
-              appearance="1.5"
-              Type="BodyArmor">
+             name="{=ALbtxxyC}Cavalry Lamellar Armor"
+             subtype="body_armor"
+             mesh="sturgia_cavalry_armor"
+             culture="Culture.aserai"
+             weight="18"
+             difficulty="0"
+             appearance="1.5"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="46"
-                            leg_armor="16"
-                            arm_armor="14"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -573,17 +574,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_desert_scale_armor"
-              name="{=VkRIefyW}Luxury Scale Armor"
-              lod_atlas_index="3"
-              mesh="aserai_scale_armor_b"
-              culture="Culture.aserai"
-              weight="20.0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=VkRIefyW}Luxury Scale Armor"
+             lod_atlas_index="3"
+             mesh="aserai_scale_armor_b"
+             culture="Culture.aserai"
+             weight="20.0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="47"
-                            leg_armor="23"
-                            arm_armor="14"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -591,17 +592,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_stitched_leather_over_mail"
-              name="{=omLMiX89}Stitched Leather over Mail"
-              lod_atlas_index="7"
-              mesh="aserai_plated_skirt"
-              culture="Culture.aserai"
-              weight="15.1"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=omLMiX89}Stitched Leather over Mail"
+             lod_atlas_index="7"
+             mesh="aserai_plated_skirt"
+             culture="Culture.aserai"
+             weight="15.1"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="36"
+                     <Armor body_armor="30"
                             leg_armor="14"
-                            arm_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -609,18 +610,18 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_southern_lamellar_armor"
-              name="{=3lauB1HH}Bronze Lamellar Vest over Gambeson"
-              subtype="body_armor"
-              mesh="sturgia_costume_i_yellow"
-              culture="Culture.aserai"
-              weight="9.5"
-              difficulty="0"
-              appearance="1.5"
-              Type="BodyArmor">
+             name="{=3lauB1HH}Bronze Lamellar Vest over Gambeson"
+             subtype="body_armor"
+             mesh="sturgia_costume_i_yellow"
+             culture="Culture.aserai"
+             weight="9.5"
+             difficulty="0"
+             appearance="1.5"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="37"
-                            leg_armor="8"
-                            arm_armor="2"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -629,17 +630,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_armor_02"
-              name="{=eDMDUUfw}Aserai Chain Mail"
-              lod_atlas_index="3"
-              mesh="aserai_armor_02"
-              culture="Culture.aserai"
-              weight="17.0"
-              appearance="2"
-              Type="BodyArmor">
+             name="{=eDMDUUfw}Aserai Chain Mail"
+             lod_atlas_index="3"
+             mesh="aserai_armor_02"
+             culture="Culture.aserai"
+             weight="17.0"
+             appearance="2"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="25"
-                            leg_armor="13"
-                            arm_armor="13"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -647,17 +648,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_armor_02_b"
-              name="{=dAgxHUsJ}Southern Decorated Chain Mail"
-              lod_atlas_index="3"
-              mesh="aserai_armor_02_b"
-              culture="Culture.aserai"
-              weight="18.0"
-              appearance="4"
-              Type="BodyArmor">
+             name="{=dAgxHUsJ}Southern Decorated Chain Mail"
+             lod_atlas_index="3"
+             mesh="aserai_armor_02_b"
+             culture="Culture.aserai"
+             weight="18.0"
+             appearance="4"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="27"
-                            leg_armor="13"
-                            arm_armor="13"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -665,17 +666,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_scale_armor_on_cloth"
-              name="{=JbV0WoO7}Mastercrafted Southern Scale Mail"
-              lod_atlas_index="3"
-              mesh="aserai_scale_armor_on_cloth"
-              culture="Culture.aserai"
-              weight="18.0"
-              appearance="6"
-              Type="BodyArmor">
+             name="{=JbV0WoO7}Mastercrafted Southern Scale Mail"
+             lod_atlas_index="3"
+             mesh="aserai_scale_armor_on_cloth"
+             culture="Culture.aserai"
+             weight="18.0"
+             appearance="6"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="35"
-                            leg_armor="6"
-                            arm_armor="7"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -683,17 +684,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_full_scale_armor_on_chain"
-              name="{=U7WGaQ45}Mastercrafted Southern Scale over Chain Hauberk"
-              lod_atlas_index="3"
-              mesh="aserai_full_scale_armor_on_chain"
-              culture="Culture.aserai"
-              weight="28.0"
-              appearance="7"
-              Type="BodyArmor">
+             name="{=U7WGaQ45}Mastercrafted Southern Scale over Chain Hauberk"
+             lod_atlas_index="3"
+             mesh="aserai_full_scale_armor_on_chain"
+             culture="Culture.aserai"
+             weight="28.0"
+             appearance="7"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="51"
+                     <Armor body_armor="55"
                             leg_armor="25"
-                            arm_armor="16"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -701,17 +702,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_scale_armor_on_chain"
-              name="{=2VZ10uRa}Mastercrafted Southern Scale over Chain Mail"
-              lod_atlas_index="3"
-              mesh="aserai_scale_armor_on_chain"
-              culture="Culture.aserai"
-              weight="22.0"
-              appearance="6"
-              Type="BodyArmor">
+             name="{=2VZ10uRa}Mastercrafted Southern Scale over Chain Mail"
+             lod_atlas_index="3"
+             mesh="aserai_scale_armor_on_chain"
+             culture="Culture.aserai"
+             weight="22.0"
+             appearance="6"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="51"
-                            leg_armor="16"
-                            arm_armor="16"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -719,17 +720,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_chain_plate_armor_a"
-              name="{=YTST4rdh}Southern Reinforced Mail Armor"
-              lod_atlas_index="3"
-              mesh="aserai_chain_plate_armor_a"
-              culture="Culture.aserai"
-              weight="22.0"
-              appearance="4"
-              Type="BodyArmor">
+             name="{=YTST4rdh}Southern Reinforced Mail Armor"
+             lod_atlas_index="3"
+             mesh="aserai_chain_plate_armor_a"
+             culture="Culture.aserai"
+             weight="22.0"
+             appearance="4"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="16"
-                            arm_armor="16"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -737,17 +738,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_chain_plate_armor_b"
-              name="{=EvW5Xzt2}Southern Reinforced Sleeveless Mail Armor"
-              lod_atlas_index="3"
-              mesh="aserai_chain_plate_armor_b"
-              culture="Culture.aserai"
-              weight="19.0"
-              appearance="6"
-              Type="BodyArmor">
+             name="{=EvW5Xzt2}Southern Reinforced Sleeveless Mail Armor"
+             lod_atlas_index="3"
+             mesh="aserai_chain_plate_armor_b"
+             culture="Culture.aserai"
+             weight="19.0"
+             appearance="6"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="16"
-                            arm_armor="6"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -755,17 +756,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_chain_plate_armor_c"
-              name="{=Mm1QAtPx}Southern Reinforced Mail Vest"
-              lod_atlas_index="3"
-              mesh="aserai_chain_plate_armor_c"
-              culture="Culture.aserai"
-              weight="15.0"
-              appearance="4"
-              Type="BodyArmor">
+             name="{=Mm1QAtPx}Southern Reinforced Mail Vest"
+             lod_atlas_index="3"
+             mesh="aserai_chain_plate_armor_c"
+             culture="Culture.aserai"
+             weight="15.0"
+             appearance="4"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="6"
-                            arm_armor="6"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -773,17 +774,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_aserai_chain_plate_armor_d"
-              name="{=zVieddxB}Southern Reinforced Short Mail Armor"
-              lod_atlas_index="3"
-              mesh="aserai_chain_plate_armor_d"
-              culture="Culture.aserai"
-              weight="18.0"
-              appearance="4"
-              Type="BodyArmor">
+             name="{=zVieddxB}Southern Reinforced Short Mail Armor"
+             lod_atlas_index="3"
+             mesh="aserai_chain_plate_armor_d"
+             culture="Culture.aserai"
+             weight="18.0"
+             appearance="4"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="6"
-                            arm_armor="16"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -806,8 +807,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="3"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             covers_body="false"
                             has_gender_variations="false"
                             modifier_group="leather"
@@ -827,9 +829,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="6"
-                            arm_armor="0"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             covers_body="false"
                             has_gender_variations="false"
                             modifier_group="leather"
@@ -848,9 +850,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="11"
-                            leg_armor="5"
-                            arm_armor="0"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="false"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -869,9 +871,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="11"
-                            leg_armor="5"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -889,8 +891,8 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -909,9 +911,9 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="6"
-                            arm_armor="4"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -928,9 +930,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="false"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -948,9 +950,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="false"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -968,9 +970,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -987,9 +989,9 @@
               appearance="0.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -1005,9 +1007,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="10"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -1023,9 +1025,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="4"
-                            arm_armor="6"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -1041,9 +1043,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -1060,9 +1062,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -1081,9 +1083,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="5"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -1101,9 +1103,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="3"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -1121,9 +1123,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="6"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -1141,9 +1143,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="9"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -1162,8 +1164,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
-                            leg_armor="5"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
                             covers_body="false"
@@ -1184,9 +1186,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="32"
-                            leg_armor="16"
-                            arm_armor="14"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -1203,9 +1205,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="42"
-                            leg_armor="23"
-                            arm_armor="3"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -1222,9 +1224,9 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="13"
-                            arm_armor="10"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -1242,9 +1244,9 @@
               appearance="2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="32"
-                            leg_armor="8"
-                            arm_armor="8"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -1261,9 +1263,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="53"
-                            leg_armor="18"
-                            arm_armor="10"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -1281,9 +1283,9 @@
               appearance="1.4"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="7"
-                            arm_armor="0"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="plate"
@@ -1301,9 +1303,9 @@
               appearance="1.5"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="8"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -1321,9 +1323,9 @@
               appearance="1.8"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="23"
-                            leg_armor="4"
-                            arm_armor="4"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -1341,9 +1343,9 @@
               appearance="1.7"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="32"
-                            leg_armor="8"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -1361,9 +1363,9 @@
               appearance="1.7"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="34"
-                            leg_armor="8"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -1383,9 +1385,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="48"
-                            leg_armor="22"
-                            arm_armor="12"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -1403,9 +1405,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="37"
-                            leg_armor="18"
-                            arm_armor="16"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -1423,9 +1425,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="42"
-                            leg_armor="15"
-                            arm_armor="12"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -1443,9 +1445,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="6"
-                            arm_armor="3"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -1484,9 +1486,9 @@
               appearance="1.7"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="5"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -1506,9 +1508,9 @@
               appearance="1.7"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
-                            leg_armor="3"
-                            arm_armor="0"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="chain"
@@ -1527,9 +1529,9 @@
               appearance="1.7"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="0"
-                            leg_armor="4"
-                            arm_armor="0"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="false"
                             covers_body="false"
                             modifier_group="chain"
@@ -1549,9 +1551,9 @@
               appearance="1.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="9"
-                            arm_armor="0"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth"
@@ -1575,9 +1577,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -1595,9 +1597,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -1613,9 +1615,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="3"
-                            arm_armor="0"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="leather"
@@ -1633,9 +1635,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -1652,9 +1654,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -1671,9 +1673,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="4"
-                            arm_armor="4"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -1690,9 +1692,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -1709,9 +1711,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -1730,9 +1732,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="5"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth"
@@ -1750,8 +1752,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="7"
+                     <Armor body_armor="15"
+                            leg_armor="8"
                             arm_armor="6"
                             has_gender_variations="false"
                             covers_body="true"
@@ -1768,9 +1770,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="19"
-                            leg_armor="4"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -1786,8 +1788,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="13"
-                            leg_armor="6"
+                     <Armor body_armor="15"
+                            leg_armor="8"
                             arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
@@ -1804,8 +1806,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="3"
+                     <Armor body_armor="10"
+                            leg_armor="5"
                             arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
@@ -1825,9 +1827,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="5"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -1845,8 +1847,8 @@
               Type="BodyArmor">
               <ItemComponent>
                      <Armor body_armor="15"
-                            leg_armor="7"
-                            arm_armor="2"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -1879,9 +1881,9 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="24"
-                            leg_armor="12"
-                            arm_armor="6"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -1896,9 +1898,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="7"
-                            arm_armor="7"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -1913,9 +1915,9 @@
               appearance="2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="39"
-                            leg_armor="10"
-                            arm_armor="7"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -1930,9 +1932,9 @@
               appearance="1.4"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="24"
-                            leg_armor="8"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="plate"
@@ -1950,9 +1952,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="34"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -1967,9 +1969,9 @@
               appearance="2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="46"
-                            leg_armor="14"
-                            arm_armor="14"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -1984,9 +1986,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="36"
-                            leg_armor="14"
-                            arm_armor="14"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -2008,7 +2010,7 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
@@ -2027,7 +2029,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
@@ -2045,9 +2047,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -2065,7 +2067,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
@@ -2083,7 +2085,7 @@
               appearance="4"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -2103,7 +2105,7 @@
               appearance="2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -2123,8 +2125,8 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
@@ -2142,9 +2144,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -2160,9 +2162,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
+                     <Armor body_armor="15"
                             leg_armor="8"
-                            arm_armor="4"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -2180,9 +2182,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="7"
-                            arm_armor="7"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2201,9 +2203,9 @@
               Type="BodyArmor"
               multiplayer_item="false">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -2219,9 +2221,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="18"
-                            leg_armor="9"
-                            arm_armor="9"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2238,9 +2240,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="13"
-                            leg_armor="3"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -2279,8 +2281,8 @@
               Type="BodyArmor">
               <ItemComponent>
                      <Armor body_armor="15"
-                            leg_armor="7"
-                            arm_armor="2"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2299,9 +2301,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="18"
-                            leg_armor="9"
-                            arm_armor="2"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2318,8 +2320,8 @@
               Type="BodyArmor">
               <ItemComponent>
                      <Armor body_armor="15"
-                            leg_armor="2"
-                            arm_armor="7"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2340,8 +2342,8 @@
               Type="BodyArmor"
               multiplayer_item="false">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="6"
+                     <Armor body_armor="15"
+                            leg_armor="8"
                             arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
@@ -2360,7 +2362,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="11"
+                     <Armor body_armor="10"
                             leg_armor="5"
                             arm_armor="3"
                             has_gender_variations="true"
@@ -2378,9 +2380,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="14"
-                            arm_armor="14"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="chain"
@@ -2398,9 +2400,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="27"
-                            leg_armor="14"
-                            arm_armor="12"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -2418,8 +2420,8 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="34"
-                            leg_armor="12"
+                     <Armor body_armor="30"
+                            leg_armor="14"
                             arm_armor="12"
                             has_gender_variations="false"
                             covers_body="true"
@@ -2438,8 +2440,8 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="34"
-                            leg_armor="12"
+                     <Armor body_armor="30"
+                            leg_armor="14"
                             arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
@@ -2457,9 +2459,9 @@
               appearance="1.4"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="24"
+                     <Armor body_armor="25"
                             leg_armor="13"
-                            arm_armor="12"
+                            arm_armor="10"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -2481,7 +2483,7 @@
               <ItemComponent>
                      <Armor body_armor="25"
                             leg_armor="13"
-                            arm_armor="11"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -2498,9 +2500,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="38"
-                            leg_armor="19"
-                            arm_armor="19"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -2518,9 +2520,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="50"
-                            leg_armor="16"
-                            arm_armor="14"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -2535,9 +2537,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="29"
-                            leg_armor="10"
-                            arm_armor="8"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -2558,9 +2560,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2579,9 +2581,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2600,9 +2602,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2622,9 +2624,9 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -2640,8 +2642,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
@@ -2659,7 +2661,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -2679,8 +2681,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
                             covers_body="false"
@@ -2698,8 +2700,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+							arm_armor="1"
                             has_gender_variations="false"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -2716,7 +2719,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -2735,7 +2738,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -2754,9 +2757,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2775,7 +2778,7 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -2796,9 +2799,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2817,9 +2820,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="1"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2838,9 +2841,9 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2859,7 +2862,7 @@
               appearance="0.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -2880,9 +2883,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="4"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -2900,9 +2903,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -2919,9 +2922,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="6"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2941,8 +2944,8 @@
               Type="BodyArmor">
               <ItemComponent>
                      <Armor body_armor="15"
-                            leg_armor="7"
-                            arm_armor="7"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2959,9 +2962,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -2978,9 +2981,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="9"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -2999,9 +3002,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="5"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -3019,8 +3022,8 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="11"
-                            leg_armor="3"
+                     <Armor body_armor="10"
+                            leg_armor="5"
                             arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
@@ -3040,9 +3043,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="11"
-                            leg_armor="6"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -3058,9 +3061,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="18"
-                            leg_armor="9"
-                            arm_armor="6"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -3079,9 +3082,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="26"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="cloth"
@@ -3099,9 +3102,9 @@
               appearance="2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="25"
-                            leg_armor="8"
-                            arm_armor="8"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3137,9 +3140,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="24"
-                            leg_armor="10"
-                            arm_armor="10"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3157,9 +3160,9 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="22"
-                            leg_armor="4"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3174,9 +3177,9 @@
               appearance="2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="45"
-                            leg_armor="19"
-                            arm_armor="6"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3193,9 +3196,9 @@
               appearance="1.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="12"
-                            arm_armor="6"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -3211,9 +3214,9 @@
               appearance="1.2"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -3231,7 +3234,7 @@
               appearance="2.4"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="49"
+                     <Armor body_armor="55"
                             leg_armor="25"
                             arm_armor="20"
                             has_gender_variations="true"
@@ -3249,9 +3252,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="51"
-                            leg_armor="16"
-                            arm_armor="16"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3266,9 +3269,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="50"
-                            leg_armor="21"
-                            arm_armor="7"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3283,9 +3286,9 @@
               appearance="3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="50"
+                     <Armor body_armor="55"
                             leg_armor="25"
-                            arm_armor="15"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3302,9 +3305,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="32"
-                            leg_armor="15"
-                            arm_armor="15"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3322,9 +3325,9 @@
               appearance="1.8"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="25"
-                            leg_armor="12"
-                            arm_armor="10"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3342,9 +3345,9 @@
               appearance="1.8"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="35"
-                            leg_armor="18"
-                            arm_armor="2"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -3362,9 +3365,9 @@
               appearance="1.8"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="plate"
@@ -3375,17 +3378,18 @@
        <!-- #endregion -->
        <!-- #endregion -->
        <!-- #region Empire Body Armors -->
+       <!-- #region Empire Body Armors -->
        <!-- #region Empire Light Body Armors -->
        <Item id="PE_peasant_costume"
-              name="{=gbRVBOLH}Commoner Clothes"
-              mesh="peasant_costume_a"
-              culture="Culture.empire"
-              weight="0.5"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=gbRVBOLH}Commoner Clothes"
+             mesh="peasant_costume_a"
+             culture="Culture.empire"
+             weight="0.5"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
                             covers_body="true"
@@ -3396,14 +3400,34 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_fine_town_tunic"
-              name="{=vbPBXiPC}Rich Tunic"
-              mesh="casual_02"
-              culture="Culture.empire"
-              weight="0.4"
-              appearance="2"
-              Type="BodyArmor">
+             name="{=vbPBXiPC}Rich Tunic"
+             mesh="casual_02"
+             culture="Culture.empire"
+             weight="0.4"
+             appearance="2"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
+                            covers_body="true"
+                            modifier_group="cloth_unarmoured"
+                            material_type="Cloth" />
+              </ItemComponent>
+              <Flags UseTeamColor="true"
+                     Civilian="true" />
+       </Item>
+       <Item id="PE_hemp_tunic"
+             name="{=yTWOMSmv}Hemp Tunic"
+             mesh="armor_hemp_tunic"
+             culture="Culture.empire"
+             subtype="body_armor"
+             weight="0.4"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
+              <ItemComponent>
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
@@ -3413,37 +3437,17 @@
               <Flags UseTeamColor="true"
                      Civilian="true" />
        </Item>
-       <Item id="PE_hemp_tunic"
-              name="{=yTWOMSmv}Hemp Tunic"
-              mesh="armor_hemp_tunic"
-              culture="Culture.empire"
-              subtype="body_armor"
-              weight="0.4"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
-              <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="1"
-                            covers_body="true"
-                            modifier_group="cloth_unarmoured"
-                            material_type="Cloth" />
-              </ItemComponent>
-              <Flags UseTeamColor="true"
-                     Civilian="true" />
-       </Item>
        <Item id="PE_tied_cloth_tunic"
-              name="{=MQ8LCvCE}Tied Cloth Tunic"
-              mesh="roman_cloth_tunic_a"
-              culture="Culture.empire"
-              subtype="body_armor"
-              weight="0.4"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=MQ8LCvCE}Tied Cloth Tunic"
+             mesh="roman_cloth_tunic_a"
+             culture="Culture.empire"
+             subtype="body_armor"
+             weight="0.4"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
@@ -3454,14 +3458,14 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_vlandian_dress"
-              name="{=eRZK8Kbp}Rich Dress"
-              mesh="vlandian_dress"
-              culture="Culture.empire"
-              weight="0.5"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=eRZK8Kbp}Rich Dress"
+             mesh="vlandian_dress"
+             culture="Culture.empire"
+             weight="0.5"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="false"
@@ -3473,16 +3477,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_dress"
-              name="{=JsmnUp0T}Ladies Dress"
-              mesh="empire_dress"
-              culture="Culture.empire"
-              weight="0.7"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=JsmnUp0T}Ladies Dress"
+             mesh="empire_dress"
+             culture="Culture.empire"
+             weight="0.7"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="7"
-                            leg_armor="4"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -3492,16 +3496,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_dress_b"
-              name="{=VqFV9LS4}Red Dress"
-              mesh="empire_dress_b"
-              culture="Culture.empire"
-              weight="0.6"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=VqFV9LS4}Red Dress"
+             mesh="empire_dress_b"
+             culture="Culture.empire"
+             weight="0.6"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -3511,18 +3515,18 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_footmans_tunic"
-              name="{=2AcfBbCR}Military Tunic"
-              mesh="armor_roman_military_tunic"
-              culture="Culture.empire"
-              subtype="body_armor"
-              weight="0.6"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=2AcfBbCR}Military Tunic"
+             mesh="armor_roman_military_tunic"
+             culture="Culture.empire"
+             subtype="body_armor"
+             weight="0.6"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -3531,16 +3535,16 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_tunic_with_shoulder_pads"
-              name="{=y3oIzUEp}Tunic with Shoulder Pads"
-              mesh="roman_cloth_tunic_b"
-              culture="Culture.empire"
-              weight="0.6"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=y3oIzUEp}Tunic with Shoulder Pads"
+             mesh="roman_cloth_tunic_b"
+             culture="Culture.empire"
+             weight="0.6"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="5"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -3549,18 +3553,18 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_tunic_with_rolled_cloth"
-              name="{=QaysED62}Tunic with Rolled Cloth"
-              mesh="armor_tunic_with_rolled_cloth"
-              culture="Culture.empire"
-              subtype="body_armor"
-              weight="0.7"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=QaysED62}Tunic with Rolled Cloth"
+             mesh="armor_tunic_with_rolled_cloth"
+             culture="Culture.empire"
+             subtype="body_armor"
+             weight="0.7"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -3569,16 +3573,16 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_imperial_robes"
-              name="{=R45H8quo}Toga"
-              mesh="empire_outfit_a"
-              culture="Culture.empire"
-              weight="0.9"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=R45H8quo}Toga"
+             mesh="empire_outfit_a"
+             culture="Culture.empire"
+             weight="0.9"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="3"
-                            arm_armor="4"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -3588,18 +3592,18 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_padded_cloth_with_strips"
-              name="{=JKRQ8RDA}Padded Cloth with Strips"
-              mesh="empire_armor_a"
-              culture="Culture.empire"
-              subtype="body_armor"
-              weight="2.2"
-              difficulty="0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=JKRQ8RDA}Padded Cloth with Strips"
+             mesh="empire_armor_a"
+             culture="Culture.empire"
+             subtype="body_armor"
+             weight="2.2"
+             difficulty="0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="7"
-                            arm_armor="2"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3607,16 +3611,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_leather_tunic"
-              name="{=ZqTFQeai}Leather Tunic"
-              mesh="leather_tunic"
-              culture="Culture.empire"
-              weight="2.1"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=ZqTFQeai}Leather Tunic"
+             mesh="leather_tunic"
+             culture="Culture.empire"
+             weight="2.1"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="7"
-                            arm_armor="2"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -3626,17 +3630,17 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_patched_gambeson"
-              name="{=Jhshwa48}Patched Gambeson"
-              mesh="bandit_4"
-              culture="Culture.empire"
-              weight="2.4"
-              difficulty="0"
-              appearance="0.8"
-              Type="BodyArmor">
+             name="{=Jhshwa48}Patched Gambeson"
+             mesh="bandit_4"
+             culture="Culture.empire"
+             weight="2.4"
+             difficulty="0"
+             appearance="0.8"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="7"
-                            arm_armor="3"
+                     <Armor body_armor="20"
+                            leg_armor="10"
+                            arm_armor="8"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth"
@@ -3646,16 +3650,16 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_imperial_padded_cloth"
-              name="{=CqMQXzUd}Infantryman Rough Gambeson"
-              mesh="empire_fabric_armor"
-              culture="Culture.empire"
-              weight="2.8"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=CqMQXzUd}Infantryman Rough Gambeson"
+             mesh="empire_fabric_armor"
+             culture="Culture.empire"
+             weight="2.8"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="8"
-                            arm_armor="6"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3664,16 +3668,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_khuzait_leather_stitched"
-              name="{=z7oMeRl3}Thick Brigandine Vest"
-              mesh="khuzait_leather_stitch_a"
-              culture="Culture.empire"
-              weight="4.5"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=z7oMeRl3}Thick Brigandine Vest"
+             mesh="khuzait_leather_stitch_a"
+             culture="Culture.empire"
+             weight="4.5"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="34"
-                            leg_armor="8"
-                            arm_armor="2"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="leather"
@@ -3683,16 +3687,16 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_empire_warrior_padded_armor_a"
-              name="{=aJLikenm}Infantryman Gambeson"
-              mesh="empire_warrior_padded_armor_a"
-              culture="Culture.empire"
-              weight="2.1"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=aJLikenm}Infantryman Gambeson"
+             mesh="empire_warrior_padded_armor_a"
+             culture="Culture.empire"
+             weight="2.1"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="15"
-                            leg_armor="7"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3701,16 +3705,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_warrior_padded_armor_c"
-              name="{=cEhDJAQp}Infantryman Gambeson with Skirts"
-              mesh="empire_warrior_padded_armor_c"
-              culture="Culture.empire"
-              weight="2.0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=cEhDJAQp}Infantryman Gambeson with Skirts"
+             mesh="empire_warrior_padded_armor_c"
+             culture="Culture.empire"
+             weight="2.0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="8"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3719,16 +3723,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_warrior_padded_armor_d"
-              name="{=CLTk2CMs}Infantryman Gambeson with Straps"
-              mesh="empire_warrior_padded_armor_d"
-              culture="Culture.empire"
-              weight="1.6"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=CLTk2CMs}Infantryman Gambeson with Straps"
+             mesh="empire_warrior_padded_armor_d"
+             culture="Culture.empire"
+             weight="1.6"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="8"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3737,16 +3741,16 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_warrior_padded_armor_e"
-              name="{=1BXuUR3s}Infantryman Long Gambeson"
-              mesh="empire_warrior_padded_armor_e"
-              culture="Culture.empire"
-              weight="1.5"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=1BXuUR3s}Infantryman Long Gambeson"
+             mesh="empire_warrior_padded_armor_e"
+             culture="Culture.empire"
+             weight="1.5"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="8"
-                            arm_armor="5"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3755,16 +3759,16 @@
                      Civilian="true" />
        </Item>
        <Item id="PE_empire_warrior_padded_armor_f"
-              name="{=GTaxqBcv}Auxiliary Armor"
-              mesh="empire_warrior_padded_armor_f"
-              culture="Culture.empire"
-              weight="1.9"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=GTaxqBcv}Auxiliary Armor"
+             mesh="empire_warrior_padded_armor_f"
+             culture="Culture.empire"
+             weight="1.9"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="17"
-                            leg_armor="8"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3772,16 +3776,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_warrior_padded_armor_g"
-              name="{=T2POVRtg}Auxiliary Armor with Straps"
-              mesh="empire_warrior_padded_armor_g"
-              culture="Culture.empire"
-              weight="2.0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=T2POVRtg}Auxiliary Armor with Straps"
+             mesh="empire_warrior_padded_armor_g"
+             culture="Culture.empire"
+             weight="2.0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="18"
-                            leg_armor="8"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3791,16 +3795,16 @@
        <!-- #endregion -->
        <!-- #region Empire Medium Body Armors -->
        <Item id="PE_eastern_studded_leather"
-              name="{=n7e0y95m}Cured Studded Leather Armor"
-              mesh="khuzait_leather_armor_b"
-              culture="Culture.empire"
-              weight="3.0"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=n7e0y95m}Cured Studded Leather Armor"
+             mesh="khuzait_leather_armor_b"
+             culture="Culture.empire"
+             weight="3.0"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="18"
-                            leg_armor="8"
-                            arm_armor="6"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -3808,16 +3812,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_basic_imperial_leather_armor"
-              name="{=LSaIs3DB}Leather Armor"
-              mesh="empire_leather_armor"
-              culture="Culture.empire"
-              weight="3.1"
-              appearance="1.3"
-              Type="BodyArmor">
+             name="{=LSaIs3DB}Leather Armor"
+             mesh="empire_leather_armor"
+             culture="Culture.empire"
+             weight="3.1"
+             appearance="1.3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="22"
-                            leg_armor="6"
-                            arm_armor="6"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -3825,16 +3829,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_woven_leather_coat"
-              name="{=wE7RWmIF}Boarskin Leather Coat"
-              mesh="vlandia_leather_stripes"
-              culture="Culture.empire"
-              weight="5.1"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=wE7RWmIF}Boarskin Leather Coat"
+             mesh="vlandia_leather_stripes"
+             culture="Culture.empire"
+             weight="5.1"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="7"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -3842,16 +3846,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_warrior_padded_armor_b"
-              name="{=XNQPPIaA}Infantryman Gambeson over Leather Jacket"
-              mesh="empire_warrior_padded_armor_b"
-              culture="Culture.empire"
-              weight="1.8"
-              appearance="1"
-              Type="BodyArmor">
+             name="{=XNQPPIaA}Infantryman Gambeson over Leather Jacket"
+             mesh="empire_warrior_padded_armor_b"
+             culture="Culture.empire"
+             weight="1.8"
+             appearance="1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="16"
-                            leg_armor="8"
-                            arm_armor="4"
+                     <Armor body_armor="25"
+                            leg_armor="13"
+                            arm_armor="10"
                             covers_body="true"
                             modifier_group="cloth"
                             material_type="Cloth" />
@@ -3860,18 +3864,18 @@
                      UseTeamColor="true" />
        </Item>
        <Item id="PE_imperial_mail_over_stripped_leather"
-              name="{=zadVVah1}Infantryman Mail over Striped Leather"
-              mesh="empire_armor_d"
-              culture="Culture.empire"
-              subtype="body_armor"
-              weight="10.2"
-              difficulty="0"
-              appearance="1.3"
-              Type="BodyArmor">
+             name="{=zadVVah1}Infantryman Mail over Striped Leather"
+             mesh="empire_armor_d"
+             culture="Culture.empire"
+             subtype="body_armor"
+             weight="10.2"
+             difficulty="0"
+             appearance="1.3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="6"
-                            arm_armor="6"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -3879,18 +3883,18 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_horseman_armor"
-              name="{=wJ4Y9IFc}Cavalryman Mail Shirt"
-              subtype="body_armor"
-              mesh="empire_horseman_armor"
-              culture="Culture.empire"
-              weight="8.3"
-              difficulty="0"
-              appearance="1.3"
-              Type="BodyArmor">
+             name="{=wJ4Y9IFc}Cavalryman Mail Shirt"
+             subtype="body_armor"
+             mesh="empire_horseman_armor"
+             culture="Culture.empire"
+             weight="8.3"
+             difficulty="0"
+             appearance="1.3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="27"
-                            leg_armor="11"
-                            arm_armor="10"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="chain"
@@ -3899,16 +3903,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_imperial_mail_over_leather"
-              name="{=l5PPS5lG}Infantryman Mail over Leather"
-              mesh="empire_armor_c"
-              culture="Culture.empire"
-              weight="8.6"
-              appearance="10.1"
-              Type="BodyArmor">
+             name="{=l5PPS5lG}Infantryman Mail over Leather"
+             mesh="empire_armor_c"
+             culture="Culture.empire"
+             weight="8.6"
+             appearance="10.1"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="31"
-                            leg_armor="6"
-                            arm_armor="6"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -3916,17 +3920,17 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_imperial_mail_vest"
-              name="{=Kr8b1bxY}Infantryman Mail Vest"
-              mesh="empire_armor_e"
-              culture="Culture.empire"
-              subtype="body_armor"
-              weight="9.8"
-              difficulty="0"
-              appearance="1.5"
-              Type="BodyArmor">
+             name="{=Kr8b1bxY}Infantryman Mail Vest"
+             mesh="empire_armor_e"
+             culture="Culture.empire"
+             subtype="body_armor"
+             weight="9.8"
+             difficulty="0"
+             appearance="1.5"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="26"
-                            leg_armor="12"
+                     <Armor body_armor="30"
+                            leg_armor="14"
                             arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
@@ -3937,18 +3941,18 @@
        <!-- #endregion -->
        <!-- #region Empire Heavy Body Armors -->
        <Item id="PE_imperial_scale_armor"
-              name="{=VQSdhQE3}Heavy Scale Armor over Mail Hauberk"
-              mesh="imperial_lamellar_b"
-              subtype="body_armor"
-              culture="Culture.empire"
-              weight="21.40"
-              difficulty="0"
-              appearance="3"
-              Type="BodyArmor">
+             name="{=VQSdhQE3}Heavy Scale Armor over Mail Hauberk"
+             mesh="imperial_lamellar_b"
+             subtype="body_armor"
+             culture="Culture.empire"
+             weight="21.40"
+             difficulty="0"
+             appearance="3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="57"
-                            leg_armor="20"
-                            arm_armor="16"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3956,16 +3960,16 @@
               <Flags />
        </Item>
        <Item id="PE_imperial_lamellar_over_leather"
-              name="{=x3lcf2Do}Luxury Lamellar Vest over Leather"
-              mesh="empire_plate_armor"
-              culture="Culture.empire"
-              weight="15.0"
-              appearance="1.3"
-              Type="BodyArmor">
+             name="{=x3lcf2Do}Luxury Lamellar Vest over Leather"
+             mesh="empire_plate_armor"
+             culture="Culture.empire"
+             weight="15.0"
+             appearance="1.3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="33"
-                            leg_armor="7"
-                            arm_armor="6"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3973,16 +3977,16 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_lamellar_with_scale_skirt"
-              name="{=zGXZJFOb}Lamellar with Scale Skirt"
-              mesh="imperial_lamellar_c"
-              culture="Culture.empire"
-              weight="24.10"
-              appearance="3"
-              Type="BodyArmor">
+             name="{=zGXZJFOb}Lamellar with Scale Skirt"
+             mesh="imperial_lamellar_c"
+             culture="Culture.empire"
+             weight="24.10"
+             appearance="3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="52"
-                            leg_armor="23"
-                            arm_armor="16"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -3990,18 +3994,18 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_legionary_mail"
-              name="{=PTKyNh2O}Legionary Mail"
-              mesh="empire_armor_b"
-              culture="Culture.empire"
-              subtype="body_armor"
-              weight="19"
-              difficulty="0"
-              appearance="1.3"
-              Type="BodyArmor">
+             name="{=PTKyNh2O}Legionary Mail"
+             mesh="empire_armor_b"
+             culture="Culture.empire"
+             subtype="body_armor"
+             weight="19"
+             difficulty="0"
+             appearance="1.3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="34"
-                            leg_armor="18"
-                            arm_armor="15"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -4009,18 +4013,18 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_imperial_lamellar"
-              name="{=LMo6MaQS}Cataphract Lamellar Armor"
-              mesh="imperial_lamellar_a"
-              subtype="body_armor"
-              culture="Culture.empire"
-              weight="22.1"
-              difficulty="0"
-              appearance="3"
-              Type="BodyArmor">
+             name="{=LMo6MaQS}Cataphract Lamellar Armor"
+             mesh="imperial_lamellar_a"
+             subtype="body_armor"
+             culture="Culture.empire"
+             weight="22.1"
+             difficulty="0"
+             appearance="3"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="48"
-                            leg_armor="24"
-                            arm_armor="14"
+                     <Armor body_armor="55"
+                            leg_armor="25"
+                            arm_armor="20"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -4028,18 +4032,18 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_legion_a"
-              name="{=mBVCyRY5}Decorated Legionary Mail"
-              mesh="empire_legion_a"
-              subtype="body_armor"
-              culture="Culture.empire"
-              weight="22.0"
-              difficulty="0"
-              appearance="5.5"
-              Type="BodyArmor">
+             name="{=mBVCyRY5}Decorated Legionary Mail"
+             mesh="empire_legion_a"
+             subtype="body_armor"
+             culture="Culture.empire"
+             weight="22.0"
+             difficulty="0"
+             appearance="5.5"
+             Type="BodyArmor">
               <ItemComponent>
                      <Armor body_armor="30"
-                            leg_armor="18"
-                            arm_armor="8"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -4047,18 +4051,18 @@
               <Flags UseTeamColor="true" />
        </Item>
        <Item id="PE_empire_legion_b"
-              name="{=7HbspP6x}Ornate Legionary Scale Mail"
-              mesh="empire_legion_b"
-              subtype="body_armor"
-              culture="Culture.empire"
-              weight="28.0"
-              difficulty="0"
-              appearance="6.0"
-              Type="BodyArmor">
+             name="{=7HbspP6x}Ornate Legionary Scale Mail"
+             mesh="empire_legion_b"
+             subtype="body_armor"
+             culture="Culture.empire"
+             weight="28.0"
+             difficulty="0"
+             appearance="6.0"
+             Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="36"
-                            leg_armor="18"
-                            arm_armor="8"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="plate"
                             material_type="Plate" />
@@ -4069,80 +4073,6 @@
        <!-- #endregion -->
        <!-- #region Looters Body Armors -->
        <!-- #region Looters Light Body Armors -->
-       <Item id="PE_dummy_armor_min"
-              name="{=Zx4h7jDy}Dummy Min Armor"
-              mesh="gambeson_b"
-              culture="Culture.looters"
-              is_merchandise="false"
-              weight="10"
-              Type="BodyArmor">
-              <ItemComponent>
-                     <Armor body_armor="0"
-                            leg_armor="0"
-                            head_armor="0"
-                            arm_armor="0"
-                            has_gender_variations="false"
-                            covers_body="true"
-                            modifier_group="cloth"
-                            material_type="Cloth" />
-              </ItemComponent>
-              <Flags UseTeamColor="true" />
-       </Item>
-       <Item id="PE_dummy_armor_lower_average"
-              name="{=K2xGw3Oo}Dummy Lower Average"
-              mesh="sturgia_costume_m"
-              culture="Culture.looters"
-              is_merchandise="false"
-              weight="20"
-              Type="BodyArmor">
-              <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="12"
-                            head_armor="12"
-                            arm_armor="12"
-                            has_gender_variations="true"
-                            covers_body="true"
-                            modifier_group="leather"
-                            material_type="Leather" />
-              </ItemComponent>
-              <Flags UseTeamColor="true" />
-       </Item>
-       <Item id="PE_dummy_armor_higher_average"
-              name="{=gT8WENO3}Dummy Higher Average"
-              mesh="vlandia_leather_armor"
-              culture="Culture.looters"
-              is_merchandise="false"
-              weight="30"
-              Type="BodyArmor">
-              <ItemComponent>
-                     <Armor body_armor="37"
-                            leg_armor="37"
-                            head_armor="37"
-                            arm_armor="37"
-                            covers_body="true"
-                            modifier_group="chain"
-                            material_type="Chainmail" />
-              </ItemComponent>
-              <Flags UseTeamColor="true" />
-       </Item>
-       <Item id="PE_dummy_armor_max"
-              name="{=wSUN0Dmo}Dummy Max Armor"
-              mesh="vlandia_scale_armor"
-              culture="Culture.looters"
-              is_merchandise="false"
-              weight="40"
-              Type="BodyArmor">
-              <ItemComponent>
-                     <Armor body_armor="55"
-                            leg_armor="55"
-                            head_armor="55"
-                            arm_armor="55"
-                            covers_body="true"
-                            modifier_group="plate"
-                            material_type="Plate" />
-              </ItemComponent>
-              <Flags UseTeamColor="true" />
-       </Item>
        <Item id="PE_burlap_sack_dress"
               name="{=IuD9SaQM}Burlap Dress"
               mesh="burlap_sack_dress"
@@ -4152,7 +4082,7 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -4174,9 +4104,9 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
+                     <Armor body_armor="1"
                             leg_armor="1"
-                            arm_armor="0"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4194,9 +4124,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -4215,9 +4145,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
-                            arm_armor="1"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -4236,9 +4166,9 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="false"
                             body_mesh_type="shoulders"
@@ -4257,7 +4187,7 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             has_gender_variations="true"
@@ -4277,8 +4207,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="6"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+							              arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4296,8 +4227,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="4"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+							              arm_armor="3"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4315,8 +4247,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="0"
+                     <Armor body_armor="1"
+                            leg_armor="1"
+                            arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4336,8 +4269,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="2"
-                            leg_armor="6"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+							              arm_armor="3"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="leather"
@@ -4356,9 +4290,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="6"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="leather"
@@ -4376,8 +4310,8 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
-                            leg_armor="2"
+                     <Armor body_armor="1"
+                            leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
@@ -4396,9 +4330,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="6"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="false"
                             covers_body="true"
                             modifier_group="leather"
@@ -4416,9 +4350,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="5"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="false"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -4434,9 +4368,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="12"
-                            leg_armor="5"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             has_gender_variations="true"
                             modifier_group="leather"
@@ -4455,9 +4389,9 @@
               appearance="0.3"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="7"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="cloth_unarmoured"
@@ -4474,9 +4408,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="5"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -4491,9 +4425,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="4"
-                            arm_armor="3"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -4509,9 +4443,9 @@
               appearance="0.1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="14"
-                            leg_armor="3"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -4527,9 +4461,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="1"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             has_gender_variations="true"
                             covers_body="true"
                             modifier_group="leather"
@@ -4547,6 +4481,7 @@
               <ItemComponent>
                      <Armor body_armor="1"
                             leg_armor="1"
+							arm_armor="1"
                             has_gender_variations="true"
                             covers_body="false"
                             modifier_group="leather"
@@ -4565,9 +4500,9 @@
               appearance="1.6"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="36"
-                            leg_armor="10"
-                            arm_armor="8"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -4584,9 +4519,9 @@
               appearance="0.8"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="28"
-                            leg_armor="4"
-                            arm_armor="8"
+                     <Armor body_armor="30"
+                            leg_armor="14"
+                            arm_armor="12"
                             covers_body="true"
                             modifier_group="chain"
                             material_type="Chainmail" />
@@ -4605,9 +4540,9 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="5"
-                            arm_armor="2"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="cloth_unarmoured"
                             material_type="Cloth" />
@@ -4623,7 +4558,7 @@
               appearance="1"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="3"
+                     <Armor body_armor="1"
                             leg_armor="1"
                             arm_armor="1"
                             covers_body="true"
@@ -4641,9 +4576,9 @@
               appearance="0.7"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="8"
-                            leg_armor="4"
-                            arm_armor="4"
+                     <Armor body_armor="15"
+                            leg_armor="8"
+                            arm_armor="6"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
@@ -4662,9 +4597,9 @@
               appearance="0.4"
               Type="BodyArmor">
               <ItemComponent>
-                     <Armor body_armor="4"
-                            leg_armor="2"
-                            arm_armor="2"
+                     <Armor body_armor="10"
+                            leg_armor="5"
+                            arm_armor="3"
                             covers_body="true"
                             modifier_group="leather"
                             material_type="Leather" />
