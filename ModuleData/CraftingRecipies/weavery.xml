@@ -6,6 +6,6 @@
         2*pe_cloth*5=pe_linen*10|1*pe_velvet*1=pe_cloth*2
     </Tier2Craftings>
     <Tier3Craftings>
-        2*pe_velvet*5=pe_cloth*10
+        5*pe_cloth*10=pe_linen*20|2*pe_velvet*5=pe_cloth*10
     </Tier3Craftings>
 </Recipies>

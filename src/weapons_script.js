@@ -38,7 +38,7 @@ function parseTierCraftings(tierCraftingsString, tier) {
   return parsedRecipes;
 }
 
-const tierPriceMultiplier = 1000;
+const tierPriceMultiplier = 500;
 
 async function createCultureFiles(cultureList, baseData, outputFilePathBase) {
   try {
@@ -112,7 +112,7 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, output
                 ...marketItem,
                 ...craftingItem,
                 buy_price: marketItem.buy_price + priceMultiplier,
-                sell_price: Math.floor((marketItem.buy_price + priceMultiplier) * 0.8), // Calculate the sell_price using the scale
+                sell_price: Math.floor((marketItem.buy_price + priceMultiplier) * 0.9), // Calculate the sell_price using the scale
                 tier: tierNumber // Add the tier property here
               };
               mergedData[craftingTier].push(mergedItem); // Push the item to the respective tier in mergedData
@@ -206,7 +206,7 @@ async function mergeData(inputFilePath1, inputFilePath2, inputFilePaths3, output
 
 function parseTierItems(tierItemsString) {
   const items = tierItemsString.split('|');
-  const sellPriceScale = 0.8; // You can set the desired scale value for the sell_price here
+  const sellPriceScale = 0.9; // You can set the desired scale value for the sell_price here
 
   const parsedItems = items.map((item) => {
     const [id, sell_price, buy_price] = item.split('*');

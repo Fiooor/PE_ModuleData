@@ -6,6 +6,6 @@
     7*pe_charcoal*10=pe_wooden_stick*10|7*pe_charcoal*10=pe_hardwood*5|7*pe_iron_ingot*5=pe_ironore*5,pe_charcoal*2|7*pe_steel_ingot*1=pe_iron_ingot*1,pe_charcoal*1|7*pe_iron_ingot*1=pe_steel_ingot*1,pe_charcoal*1
   </Tier2Craftings>
   <Tier3Craftings>
-    14*pe_charcoal*20=pe_wooden_stick*20|14*pe_charcoal*20=pe_hardwood*10|3*pe_steel_ingot*5=pe_iron_ingot*5,pe_charcoal*3|1*pe_thamaskene_steel*1=pe_steel_ingot*1,pe_silverore*1,pe_charcoal*1
+    14*pe_charcoal*20=pe_wooden_stick*20|14*pe_charcoal*20=pe_hardwood*10|3*pe_steel_ingot*5=pe_iron_ingot*5,pe_charcoal*3|7*pe_steel_ingot*10=pe_iron_ingot*10,pe_charcoal*4|1*pe_thamaskene_steel*1=pe_steel_ingot*1,pe_silverore*1,pe_charcoal*1|5*pe_thamaskene_steel*10=pe_steel_ingot*10,pe_silverore*10,pe_charcoal*10
   </Tier3Craftings>
 </Recipes>

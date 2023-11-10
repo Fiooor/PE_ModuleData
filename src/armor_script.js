@@ -13,7 +13,7 @@ const componentTypes = {
   shoulder_armor: 'Cape',
 };
 
-const slotMultipliers = { head_armor: 2, body_armor: 5, leg_armor: 2, arm_armor: 2, shoulder_armor: 3 };
+const slotMultipliers = { head_armor: 1, body_armor: 2.5, leg_armor: 1, arm_armor: 1, shoulder_armor: 1.5 };
 
 function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
   let multiplier = slotMultipliers[component];
@@ -25,24 +25,10 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
   const plateMaterial = metalMaterials[tier - 1];
 
   // Calculate the additional material amounts based on tier and totalArmorValue
-  const additionalMaterial = Math.floor((tier - 1) * 0.5 * totalArmorValue / 50);
+  const additionalMaterial = Math.round((tier - 1) * 0.5 * totalArmorValue / 50);
   multiplier += additionalMaterial;
 
-  const plateRecipe = { [cloth]: Math.floor(multiplier / 2), [plateMaterial]: multiplier };
-
-  if (tier > 3 || totalArmorValue > 58) {
-    const goldOreAmount = Math.floor(totalArmorValue / 58);
-    if (goldOreAmount > 0) {
-      plateRecipe['pe_goldore'] = goldOreAmount;
-    }
-    if (tier >= 4) {
-      for (const mat in plateRecipe) {
-        if (mat !== 'pe_goldore') {
-          plateRecipe[mat] += 1;
-        }
-      }
-    }
-  }
+  const plateRecipe = { [cloth]: Math.round(multiplier / 2), [plateMaterial]: Math.round(multiplier) };
 
   // Cap the crafting materials at 10 for any material
   for (const material in plateRecipe) {
@@ -53,9 +39,9 @@ function getCraftingRecipe(component, material_type, tier, totalArmorValue) {
 
   switch (material_type) {
     case 'Cloth':
-      return { [cloth]: Math.min(multiplier, 10) };
+      return { [cloth]: Math.min(Math.round(multiplier), 10) };
     case 'Leather':
-      return { [cloth]: Math.min(multiplier, 10) };
+      return { [cloth]: Math.min(Math.round(multiplier), 10) };
     case 'Chainmail':
     case 'Plate':
       return plateRecipe;
@@ -156,10 +142,10 @@ const materialBasePrices = {
 };
 
 function calculateItemPrices(item, isCustomMarket = false) {
-  const basePrice = 100;
-  const tierPriceMultiplier = 100;
-  const armorValueMultiplier = 50;
-  const sellMarkup = 0.40; // 10% markup on sell price
+  const basePrice = 50;
+  const tierPriceMultiplier = 50;
+  const armorValueMultiplier = 25;
+  const sellMarkup = 0.1; // 10% markup on sell price
 
   let materialCost = 0;
 
@@ -349,22 +335,6 @@ fileNames.forEach((fileName) => {
 
       filesProcessed++;
       if (filesProcessed === fileNames.length) {
-        // Merge items from "Culture.looters" and "Culture.neutral_culture" to other cultures
-        for (const sourceCulture of ["Culture.looters", "Culture.neutral_culture"]) {
-          if (itemsByCulture[sourceCulture]) { // Check if the sourceCulture exists in itemsByCulture
-            for (const component of components) {
-              for (const targetCulture in itemsByCulture) {
-                if (targetCulture !== sourceCulture && targetCulture !== "undefined") {
-                  if (!((sourceCulture === "Culture.looters" && targetCulture === "Culture.neutral_culture") ||
-                    (sourceCulture === "Culture.neutral_culture" && targetCulture === "Culture.looters"))) {
-                    itemsByCulture[targetCulture][component] = itemsByCulture[targetCulture][component].concat(itemsByCulture[sourceCulture][component]);
-                  }
-                }
-              }
-            }
-          }
-        }
-
         const itemsJson = {};
         const tierBreakpoints = calculateTierBreakpoints(itemsByCulture); // Add this line to call the function
 

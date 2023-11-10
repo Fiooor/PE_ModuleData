@@ -3,7 +3,9 @@
         3*pe_wine*10=pe_wine_barrel*1|3*pe_beer*10=pe_beer_barrel*1|3*pe_beer_barrel*1=pe_merchandise_grain*5|3*pe_wine_barrel*1=pe_kitchen_basket_grape_b*5|3*pe_spice_sack*1=pe_mi_spice_b*2|3*pe_merchandise_flour*1=pe_merchandise_grain*2|3*pe_merchandise_grain*1=pe_wheats_a*2|3*pe_bd_oil_lamp_for_table*2=pe_foods_basket_olive_a*1
     </Tier1Craftings>
     <Tier2Craftings>
+        5*pe_merchandise_flour*5=pe_merchandise_grain*10|5*pe_merchandise_grain*5=pe_wheats_a*10
     </Tier2Craftings>
     <Tier3Craftings>
+        7*pe_merchandise_flour*10=pe_merchandise_grain*20|7*pe_merchandise_grain*10=pe_wheats_a*20
     </Tier3Craftings>
 </Recipies>

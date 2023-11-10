@@ -1,11 +1,11 @@
 <Recipies>
     <Tier1Craftings>
-        1*pe_kitchen_food_bread_a*3=pe_merchandise_flour*1|1*pe_pie_fruit*3=pe_merchandise_flour*1,pe_kitchen_basket_grape_b*1|1*pe_pizza*2=pe_merchandise_flour*1,pe_meat_raw*1,pe_spice_sack*1|1*pe_pie_meat*3=pe_merchandise_flour*1,pe_meat_raw*1|1*pe_meat_cooked*1=pe_meat_raw*1|1*pe_chicken_roast*1=pe_chicken_raw*1|1*pe_fish_cooked*1=pe_fish*1
+        3*pe_kitchen_food_bread_a*3=pe_merchandise_flour*1|3*pe_pie_fruit*3=pe_merchandise_flour*1,pe_kitchen_basket_grape_b*1|1*pe_pizza*2=pe_merchandise_flour*1,pe_meat_raw*1,pe_spice_sack*1|1*pe_pie_meat*3=pe_merchandise_flour*1,pe_meat_raw*1|1*pe_meat_cooked*1=pe_meat_raw*1|1*pe_chicken_roast*1=pe_chicken_raw*1|1*pe_fish_cooked*1=pe_fish*1
     </Tier1Craftings>
     <Tier2Craftings>
-
+        5*pe_kitchen_food_bread_a*15=pe_merchandise_flour*5|5*pe_pie_fruit*15=pe_merchandise_flour*5,pe_kitchen_basket_grape_b*5|5*pe_fish_cooked*5=pe_fish*5
     </Tier2Craftings>
     <Tier3Craftings>
-
+        10*pe_kitchen_food_bread_a*30=pe_merchandise_flour*10|10*pe_pie_fruit*30=pe_merchandise_flour*10,pe_kitchen_basket_grape_b*10|10*pe_fish_cooked*10=pe_fish*10
     </Tier3Craftings>
 </Recipies>
