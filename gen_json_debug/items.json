@@ -3763,6 +3763,1857 @@
       }
     ]
   },
+  "Culture.vlandia": {
+    "head_armor": [
+      {
+        "id": "PE_cloth_headwrap",
+        "name": "{=frwBm3Oh}Cloth Headwrap",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_head_piece",
+        "name": "{=oa2XYnHC}Female Rural Scarf",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_head_wrapped",
+        "name": "{=SugbcP3D}Female Rural Headwrap",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_headscarf",
+        "name": "{=9efOcFRL}Loose Head Scarf",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_headscarf_c",
+        "name": "{=ZhcOdFgK}Luxurious Head Scarf",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_womens_headwrap_c",
+        "name": "{=Qyg2bJLX}Rural Head Wrap",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_head_wrapping",
+        "name": "{=sDKfIQbO}Peasant Head Wrapping",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_arming_cap",
+        "name": "{=SV1pTR2P}Padded Coif",
+        "totalArmorValue": 13,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 525,
+        "buy_price": 577
+      },
+      {
+        "id": "PE_padded_coif",
+        "name": "{=zQv3w264}Padded Half Coif",
+        "totalArmorValue": 13,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 525,
+        "buy_price": 577
+      },
+      {
+        "id": "PE_laced_coif",
+        "name": "{=qFL0VxZX}Laced Coif",
+        "totalArmorValue": 13,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 525,
+        "buy_price": 577
+      },
+      {
+        "id": "PE_padded_cap",
+        "name": "{=Dc4ia4m9}Padded Cap",
+        "totalArmorValue": 13,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 525,
+        "buy_price": 577
+      },
+      {
+        "id": "PE_arming_coif",
+        "name": "{=mlJKNbbn}Leather Coif",
+        "totalArmorValue": 13,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 525,
+        "buy_price": 577
+      },
+      {
+        "id": "PE_open_padded_coif",
+        "name": "{=WUArer5A}Open Padded Coif",
+        "totalArmorValue": 13,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 525,
+        "buy_price": 577
+      },
+      {
+        "id": "PE_padded_leather_cape",
+        "name": "{=SHZ0P7Iu}Padded Leather Cape",
+        "totalArmorValue": 13,
+        "tier": 1,
+        "material_type": "Leather",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 525,
+        "buy_price": 577
+      },
+      {
+        "id": "PE_cervelliere_over_arming_coif",
+        "name": "{=7dAy51ln}Cervelliere over Arming Coif",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_kettle_helmet_with_leather",
+        "name": "{=ZV1bKLUn}Kettle Helmet with Leather",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_kettle_helmet_over_padded_cap",
+        "name": "{=2qisE5ys}Kettle Helmet over Padded Cap",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_kettle_helmet_over_padded_cloth",
+        "name": "{=VcbEaV7T}Kettle Helmet over Padded Cloth",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_nasal_helmet_over_cloth_headwrap",
+        "name": "{=olamAwhb}Nasal Helmet over Cloth Headwrap",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_nasal_helmet_over_padded_cloth",
+        "name": "{=bubcrmTC}Nasal Helmet over Padded Cloth",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_segmented_skullcap_over_padded_cloth",
+        "name": "{=b1pqUQju}Segmented Skullcap over Padded Cloth",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_peaked_helmet_over_padded_cloth",
+        "name": "{=TFT2Xapz}Peaked Helmet over Padded Cloth",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_segmented_cervelliere_over_padded_cloth",
+        "name": "{=vsavMoLZ}Segmented Cervelliere over Padded Cloth",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_cervelliere_over_cloth_headwrap",
+        "name": "{=e9BpfZ9L}Cervelliere over Cloth Headwrap",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_cervelliere_over_padded_cap",
+        "name": "{=wG582fzT}Cervelliere over Padded Cap",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_nasal_cervelliere_over_padded_cap",
+        "name": "{=4BfbPgkY}Nasal Cervelliere over Padded Cap",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_kettle_helmet_over_arming_coif",
+        "name": "{=3iq3rOh8}Kettle Helmet over Arming Coif",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_kettle_hat_over_padded_cloth",
+        "name": "{=wBfGpcCO}Kettle Hat over Padded Cloth",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_vlandia_lord_helmet_b2",
+        "name": "{=o67ySkfH}Plated Helmet",
+        "totalArmorValue": 20,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1255,
+        "buy_price": 1380
+      },
+      {
+        "id": "PE_kettle_helmet_over_padded_coif",
+        "name": "{=1GpTOIqU}Kettle Helmet over Padded Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_kettle_helmet_over_laced_coif",
+        "name": "{=AB1mV5Pg}Kettle Helmet over Laced Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_kettle_hat_over_padded_coif",
+        "name": "{=2MdVVkVL}Kettle Hat over Padded Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_guards_kettle_over_padded_coif",
+        "name": "{=YQd9C8u2}Kettle over Padded Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_guards_kettle_over_laced_coif",
+        "name": "{=20moIxs1}Kettle over Laced Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_nasal_helmet_over_padded_coif",
+        "name": "{=Tp7zXWGa}Nasal Helmet over Padded Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_nasal_helmet_over_laced_coif",
+        "name": "{=FWFDkjBk}Nasal Helmet over Laced Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_segmented_skullcap_over_padded_coif",
+        "name": "{=zAvb7WKe}Segmented Skullcap over Padded Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_segmented_skullcap_over_laced_coif",
+        "name": "{=VylHwqVq}Segmented Skullcap over Laced Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_peaked_helmet_over_laced_coif",
+        "name": "{=Rhfp7ath}Peaked Helmet over Laced Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_cervelliere_over_laced_coif",
+        "name": "{=bfFNYaiU}Cervelliere over Laced Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_nasal_cervelliere_over_padded_coif",
+        "name": "{=JjLQ2VdT}Nasal Cervelliere over Padded Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_nasal_cervelliere_over_laced_coif",
+        "name": "{=h6UXvU3B}Nasal Cervelliere over Laced Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_segmented_cervelliere_over_laced_coif",
+        "name": "{=GnkKOx5H}Segmented Cervelliere over Laced Coif",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_segmented_cervelliere_over_mail",
+        "name": "{=bdpjqoGe}Segmented Cervelliere over Mail",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_kettle_helmet_with_mail",
+        "name": "{=UsOgGylA}Kettle Helmet with Mail",
+        "totalArmorValue": 27,
+        "tier": 2,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_linen": 1,
+          "pe_iron_ingot": 1
+        },
+        "sell_price": 1430,
+        "buy_price": 1573
+      },
+      {
+        "id": "PE_peaked_helmet_over_mail_coif",
+        "name": "{=AdafHtud}Peaked Helmet over Mail Coif",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_nasal_cervelliere_over_mail_coif",
+        "name": "{=mRGIxvYh}Nasal Cervelliere over Mail Coif",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_guards_kettle_over_mail_coif",
+        "name": "{=S1SUK8zk}Kettle over Mail Coif",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_full_helm_over_arming_coif",
+        "name": "{=WYytQbvS}Full Helm over Arming Coif",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_visored_helmet_over_padded_cloth",
+        "name": "{=A8MJWbhf}Visored Helmet over Padded Cloth",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_kettle_hat_over_mail_coif",
+        "name": "{=tMLH04n4}Kettle Hat over Mail Coif",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Chainmail",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_nasal_helmet_over_mail_coif",
+        "name": "{=PVgSGCYK}Nasal Helmet over Mail Coif",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_full_helm_over_cloth_headwrap",
+        "name": "{=SYvBTD0p}Full Helm over Cloth Headwrap",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_full_helm_over_padded_cap",
+        "name": "{=qVj5NqrL}Full Helm over Padded Cap",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_full_helm_over_padded_cloth",
+        "name": "{=xnoAJwoy}Full Helm over Padded Cloth",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_segmented_cervelliere_over_mail_coif",
+        "name": "{=WMqHlEvb}Segmented Cervelliere over Mail Coif",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_kettle_helmet_over_mail",
+        "name": "{=zZ2G7uIO}Kettle Helmet over Mail",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_nasal_helmet_over_mail",
+        "name": "{=tpQLvMSM}Nasal Helmet over Mail",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_segmented_skullcap_over_mail_coif",
+        "name": "{=P8GrNSkF}Segmented Skullcap over Mail Coif",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_peaked_helmet_over_mail",
+        "name": "{=JvhvtKsT}Peaked Helmet over Mail",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_western_crowned_helmet",
+        "name": "{=EPaqJLSg}Crowned Helmet",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "PE_visored_helmet_over_padded_coif",
+        "name": "{=agqzAXa9}Visored Helmet over Padded Coif",
+        "totalArmorValue": 40,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2995,
+        "buy_price": 3294
+      },
+      {
+        "id": "PE_visored_helmet_over_laced_coif",
+        "name": "{=51EcVnzd}Visored Helmet over Laced Coif",
+        "totalArmorValue": 40,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2995,
+        "buy_price": 3294
+      },
+      {
+        "id": "PE_full_helm_over_laced_coif",
+        "name": "{=wEfZyccm}Full Helm over Laced Coif",
+        "totalArmorValue": 40,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2995,
+        "buy_price": 3294
+      },
+      {
+        "id": "PE_western_plated_helmet",
+        "name": "{=9j9fb5pR}Plated Helmet with Sideguards",
+        "totalArmorValue": 40,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2995,
+        "buy_price": 3294
+      },
+      {
+        "id": "PE_openhelm2",
+        "name": "Battered Open Sallet",
+        "totalArmorValue": 41,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6835,
+        "buy_price": 7518
+      },
+      {
+        "id": "PE_closehelmworn",
+        "name": "Battered Close Helmet",
+        "totalArmorValue": 55,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 7185,
+        "buy_price": 7903
+      },
+      {
+        "id": "PE_bolzanogreathelmet",
+        "name": "Great Helmet",
+        "totalArmorValue": 56,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 7210,
+        "buy_price": 7931
+      },
+      {
+        "id": "PE_closehelm",
+        "name": "Plate Close Helmet",
+        "totalArmorValue": 58,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 7260,
+        "buy_price": 7986
+      },
+      {
+        "id": "PE_closehelmgold",
+        "name": "Gold Plate Close Helmet",
+        "totalArmorValue": 58,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 7260,
+        "buy_price": 7986
+      },
+      {
+        "id": "PE_visored_helmet_over_mail_coif",
+        "name": "{=d8DrtmwP}Visored Helmet over Mail Coif",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "PE_full_helm_over_mail_coif",
+        "name": "{=FsDZC8Yl}Full Helm over Mail Coif",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "PE_western_crowned_plated_helmet",
+        "name": "{=uz24W7s4}Crowned Plate Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "PE_vlandian_faceguard_helmet_a",
+        "name": "{=axaK9y6E}Closed Knight Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "PE_vlandian_faceguard_helmet_b",
+        "name": "{=ArbBALwc}Knight Helmet with Bronze Faceguard",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      }
+    ],
+    "body_armor": [
+      {
+        "id": "PE_sackcloth_tunic",
+        "name": "{=smKogclC}Sackcloth Tunic",
+        "totalArmorValue": 3,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      },
+      {
+        "id": "PE_cloth_tunic",
+        "name": "{=OJIRIm4j}Simple Cloth Tunic",
+        "totalArmorValue": 3,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      },
+      {
+        "id": "PE_long_hemp_tunic",
+        "name": "{=NUHzapSv}Long Hemp Tunic",
+        "totalArmorValue": 3,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      },
+      {
+        "id": "PE_long_woolen_tunic",
+        "name": "{=U8QfF3Gw}Long Woolen Tunic",
+        "totalArmorValue": 3,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      },
+      {
+        "id": "PE_vlandian_noble_woman_dress",
+        "name": "{=pbxbCnVy}Silken Noble Dress",
+        "totalArmorValue": 3,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      },
+      {
+        "id": "PE_vlandian_woman_dress",
+        "name": "{=qPm3xaiP}Aproned Dress",
+        "totalArmorValue": 3,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      },
+      {
+        "id": "PE_vlandian_corset_dress",
+        "name": "{=4eSEJor3}Corseted Dress",
+        "totalArmorValue": 3,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      },
+      {
+        "id": "PE_monk_robe",
+        "name": "{=QuaE76ua}Scholar Robe",
+        "totalArmorValue": 18,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 850,
+        "buy_price": 935
+      },
+      {
+        "id": "PE_leather_coat_over_cloth",
+        "name": "{=wKucIANJ}Leather Coat over Cloth",
+        "totalArmorValue": 18,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 850,
+        "buy_price": 935
+      },
+      {
+        "id": "PE_leather_coat",
+        "name": "{=ZqTFQeai}Leather Tunic",
+        "totalArmorValue": 18,
+        "tier": 1,
+        "material_type": "Leather",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 850,
+        "buy_price": 935
+      },
+      {
+        "id": "PE_woven_leather_vest",
+        "name": "{=LgftnHPs}Woven Leather Vest",
+        "totalArmorValue": 18,
+        "tier": 1,
+        "material_type": "Leather",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 850,
+        "buy_price": 935
+      },
+      {
+        "id": "PE_padded_leather_shirt",
+        "name": "{=tiTTWhpW}Padded Leather Shirt",
+        "totalArmorValue": 29,
+        "tier": 2,
+        "material_type": "Leather",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 1175,
+        "buy_price": 1292
+      },
+      {
+        "id": "PE_padded_coat",
+        "name": "{=QbfOXJas}Padded Footman Coat",
+        "totalArmorValue": 29,
+        "tier": 2,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 1175,
+        "buy_price": 1292
+      },
+      {
+        "id": "PE_aketon",
+        "name": "{=7b8Cwogx}Aketon",
+        "totalArmorValue": 29,
+        "tier": 2,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 1175,
+        "buy_price": 1292
+      },
+      {
+        "id": "PE_sleeveless_padded_short_coat",
+        "name": "{=bz5lXkHS}Sleeveless Padded Short Coat",
+        "totalArmorValue": 29,
+        "tier": 2,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 1175,
+        "buy_price": 1292
+      },
+      {
+        "id": "PE_padded_short_coat",
+        "name": "{=4pqIsPhp}Padded Short Coat",
+        "totalArmorValue": 29,
+        "tier": 2,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 1175,
+        "buy_price": 1292
+      },
+      {
+        "id": "PE_leather_scale_armor",
+        "name": "{=PL5SG9hI}Leather Scale Armor",
+        "totalArmorValue": 29,
+        "tier": 2,
+        "material_type": "Leather",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 1175,
+        "buy_price": 1292
+      },
+      {
+        "id": "PE_gambeson_b",
+        "name": "{=aQN4Dlx2}Heavy Aketon",
+        "totalArmorValue": 48,
+        "tier": 4,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 4
+        },
+        "sell_price": 2350,
+        "buy_price": 2585
+      },
+      {
+        "id": "PE_sleeveless_padded_coat",
+        "name": "{=lZ93DOrn}Sleeveless Padded Coat",
+        "totalArmorValue": 48,
+        "tier": 4,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 4
+        },
+        "sell_price": 2350,
+        "buy_price": 2585
+      },
+      {
+        "id": "PE_vlandia_chainmail",
+        "name": "{=atSRQkCE}Heavy Mail Hauberk",
+        "totalArmorValue": 48,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 2,
+          "pe_steel_ingot": 4
+        },
+        "sell_price": 4940,
+        "buy_price": 5434
+      },
+      {
+        "id": "PE_hauberk",
+        "name": "{=CZvGrvzY}Heavy Mail Shirt",
+        "totalArmorValue": 48,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 2,
+          "pe_steel_ingot": 4
+        },
+        "sell_price": 4940,
+        "buy_price": 5434
+      },
+      {
+        "id": "PE_veteran_mercenary_armor",
+        "name": "{=EezWSI6v}Fortified Mercenary Armor",
+        "totalArmorValue": 48,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 2,
+          "pe_steel_ingot": 4
+        },
+        "sell_price": 4940,
+        "buy_price": 5434
+      },
+      {
+        "id": "PE_mail_shirt",
+        "name": "{=GzgUzrFY}Mail Shirt",
+        "totalArmorValue": 48,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 2,
+          "pe_steel_ingot": 4
+        },
+        "sell_price": 4940,
+        "buy_price": 5434
+      },
+      {
+        "id": "PE_banded_leather_over_mail",
+        "name": "{=iAWzr8Q0}Banded Leather over Mail",
+        "totalArmorValue": 48,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 2,
+          "pe_steel_ingot": 4
+        },
+        "sell_price": 4940,
+        "buy_price": 5434
+      },
+      {
+        "id": "PE_white_coat_over_mail",
+        "name": "{=YxglkaXU}White Tabard over Mail Hauberk",
+        "totalArmorValue": 56,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 2,
+          "pe_steel_ingot": 5
+        },
+        "sell_price": 5900,
+        "buy_price": 6490
+      },
+      {
+        "id": "PE_red_coat_over_mail",
+        "name": "{=aM2EPdXj}Red Tabard over Mail Hauberk",
+        "totalArmorValue": 56,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 2,
+          "pe_steel_ingot": 5
+        },
+        "sell_price": 5900,
+        "buy_price": 6490
+      },
+      {
+        "id": "PE_plated_leather_coat",
+        "name": "{=OvlG2Vu1}Rough Brigandine",
+        "totalArmorValue": 56,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_cloth": 2,
+          "pe_steel_ingot": 5
+        },
+        "sell_price": 5900,
+        "buy_price": 6490
+      },
+      {
+        "id": "PE_platearmor2worn",
+        "name": "Battered Full Plate Armor ",
+        "totalArmorValue": 89,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14590,
+        "buy_price": 16049
+      },
+      {
+        "id": "PE_platearmor2",
+        "name": "Full Plate Armor ",
+        "totalArmorValue": 96,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14765,
+        "buy_price": 16241
+      },
+      {
+        "id": "PE_platearmor2gold",
+        "name": "Gold Full Plate Armor ",
+        "totalArmorValue": 96,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14765,
+        "buy_price": 16241
+      },
+      {
+        "id": "PE_coat_of_plates_over_mail",
+        "name": "{=PtfbqMeg}Brigandine over Mail",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Chainmail",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
+      },
+      {
+        "id": "PE_platearmor",
+        "name": "Full Plate Armor with Rondel",
+        "totalArmorValue": 101,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 4,
+          "pe_thamaskene_steel": 8
+        },
+        "sell_price": 16935,
+        "buy_price": 18628
+      },
+      {
+        "id": "PE_platearmorgold",
+        "name": "Gold Full Plate Armor with Rondel",
+        "totalArmorValue": 101,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 4,
+          "pe_thamaskene_steel": 8
+        },
+        "sell_price": 16935,
+        "buy_price": 18628
+      }
+    ],
+    "leg_armor": [
+      {
+        "id": "PE_leather_cavalier_boots",
+        "name": "{=oEvhhNNR}Leather Cavalier Boots",
+        "totalArmorValue": 9,
+        "tier": 3,
+        "material_type": "Leather",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1
+        },
+        "sell_price": 650,
+        "buy_price": 715
+      },
+      {
+        "id": "PE_mail_cavalier_boots",
+        "name": "{=tWfAPrPa}Mail Cavalier Boots",
+        "totalArmorValue": 15,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 1
+        },
+        "sell_price": 1610,
+        "buy_price": 1771
+      },
+      {
+        "id": "PE_mail_chausses",
+        "name": "{=DoiwC1Qa}Mail Chausses",
+        "totalArmorValue": 20,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2495,
+        "buy_price": 2744
+      },
+      {
+        "id": "PE_strapped_mail_chausses",
+        "name": "{=aYoIrpe0}Strapped Mail Chausses",
+        "totalArmorValue": 20,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2495,
+        "buy_price": 2744
+      },
+      {
+        "id": "PE_plategreavesworn",
+        "name": "BatteredPlate Boots",
+        "totalArmorValue": 27,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 2
+        },
+        "sell_price": 4490,
+        "buy_price": 4939
+      },
+      {
+        "id": "PE_plategreaves",
+        "name": "Plate Boots",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 2
+        },
+        "sell_price": 4565,
+        "buy_price": 5021
+      },
+      {
+        "id": "PE_plategreavesgold",
+        "name": "Gold Plate Boots",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 2
+        },
+        "sell_price": 4565,
+        "buy_price": 5021
+      }
+    ],
+    "arm_armor": [
+      {
+        "id": "PE_mail_mitten",
+        "name": "{=g51zVsKU}Mail Mittens",
+        "totalArmorValue": 20,
+        "tier": 3,
+        "material_type": "Chainmail",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 1
+        },
+        "sell_price": 1685,
+        "buy_price": 1853
+      },
+      {
+        "id": "PE_reinforced_leather_vambraces",
+        "name": "{=2Ilvjlz9}Splint Vambraces",
+        "totalArmorValue": 20,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 1
+        },
+        "sell_price": 1685,
+        "buy_price": 1853
+      },
+      {
+        "id": "PE_reinforced_mail_mitten",
+        "name": "{=dPQGxmJ7}Reinforced Mail Mittens",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2620,
+        "buy_price": 2882
+      },
+      {
+        "id": "PE_lordly_mail_mitten",
+        "name": "{=VDMkVMxt}Heavy Mail Mittens",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Chainmail",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2620,
+        "buy_price": 2882
+      },
+      {
+        "id": "PE_plategauntletworn",
+        "name": "Battered Plate Gauntlets",
+        "totalArmorValue": 29,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 2
+        },
+        "sell_price": 4540,
+        "buy_price": 4994
+      },
+      {
+        "id": "PE_plategauntlet",
+        "name": "Plate Gauntlets",
+        "totalArmorValue": 30,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6610,
+        "buy_price": 7271
+      },
+      {
+        "id": "PE_plategauntletgold",
+        "name": "Gold Plate Gauntlets",
+        "totalArmorValue": 30,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6610,
+        "buy_price": 7271
+      }
+    ],
+    "shoulder_armor": [
+      {
+        "id": "PE_green_hood",
+        "name": "{=UvOa4elc}Green Hood",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_linen": 2
+        },
+        "sell_price": 325,
+        "buy_price": 357
+      },
+      {
+        "id": "PE_hood",
+        "name": "{=lbVB6KPl}Hood",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_linen": 2
+        },
+        "sell_price": 325,
+        "buy_price": 357
+      },
+      {
+        "id": "PE_gorget",
+        "name": "Plate Gorget",
+        "totalArmorValue": 20,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2445,
+        "buy_price": 2689
+      },
+      {
+        "id": "PE_gorgetgold",
+        "name": "Gold Plate Gorget",
+        "totalArmorValue": 20,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2445,
+        "buy_price": 2689
+      },
+      {
+        "id": "PE_chainmail_shoulder_armor",
+        "name": "{=P9wiCrIU}Reinforced Mail Shoulders",
+        "totalArmorValue": 20,
+        "tier": 3,
+        "material_type": "Chainmail",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2445,
+        "buy_price": 2689
+      },
+      {
+        "id": "PE_padded_leather_shoulders",
+        "name": "{=Bl72Ribb}Padded Leather Shoulders",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Cloth",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_cloth": 3
+        },
+        "sell_price": 1550,
+        "buy_price": 1705
+      },
+      {
+        "id": "PE_noble_pauldron",
+        "name": "{=NJSYumaV}Ornate Pauldrons",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 3
+        },
+        "sell_price": 3380,
+        "buy_price": 3718
+      },
+      {
+        "id": "PE_pauldron_with_cape",
+        "name": "{=re2oRFLW}Pauldrons with Cape",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 3
+        },
+        "sell_price": 3380,
+        "buy_price": 3718
+      },
+      {
+        "id": "PE_scale_shoulder_armor",
+        "name": "{=aChUcrRt}Scale Shoulderguards",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 3
+        },
+        "sell_price": 3380,
+        "buy_price": 3718
+      },
+      {
+        "id": "PE_noble_pauldron_with_cape",
+        "name": "{=SRyvwNd1}Ornate Pauldrons with Cape",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "PE_noble_pauldron_with_scarf",
+        "name": "{=wMsbMc2T}Reinforced Ornate Pauldrons",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "PE_pauldron_over_scale_armor",
+        "name": "{=C6f64ZyJ}Reinforced Ornate Pauldrons over Scale",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      }
+    ]
+  },
   "Culture.sturgia": {
     "head_armor": [
       {
@@ -4967,1857 +6818,6 @@
         },
         "sell_price": 3380,
         "buy_price": 3718
-      }
-    ]
-  },
-  "Culture.vlandia": {
-    "head_armor": [
-      {
-        "id": "PE_cloth_headwrap",
-        "name": "{=frwBm3Oh}Cloth Headwrap",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_head_piece",
-        "name": "{=oa2XYnHC}Female Rural Scarf",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_head_wrapped",
-        "name": "{=SugbcP3D}Female Rural Headwrap",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_headscarf",
-        "name": "{=9efOcFRL}Loose Head Scarf",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_headscarf_c",
-        "name": "{=ZhcOdFgK}Luxurious Head Scarf",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_womens_headwrap_c",
-        "name": "{=Qyg2bJLX}Rural Head Wrap",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_head_wrapping",
-        "name": "{=sDKfIQbO}Peasant Head Wrapping",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_arming_cap",
-        "name": "{=SV1pTR2P}Padded Coif",
-        "totalArmorValue": 13,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 525,
-        "buy_price": 577
-      },
-      {
-        "id": "PE_padded_coif",
-        "name": "{=zQv3w264}Padded Half Coif",
-        "totalArmorValue": 13,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 525,
-        "buy_price": 577
-      },
-      {
-        "id": "PE_laced_coif",
-        "name": "{=qFL0VxZX}Laced Coif",
-        "totalArmorValue": 13,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 525,
-        "buy_price": 577
-      },
-      {
-        "id": "PE_padded_cap",
-        "name": "{=Dc4ia4m9}Padded Cap",
-        "totalArmorValue": 13,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 525,
-        "buy_price": 577
-      },
-      {
-        "id": "PE_arming_coif",
-        "name": "{=mlJKNbbn}Leather Coif",
-        "totalArmorValue": 13,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 525,
-        "buy_price": 577
-      },
-      {
-        "id": "PE_open_padded_coif",
-        "name": "{=WUArer5A}Open Padded Coif",
-        "totalArmorValue": 13,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 525,
-        "buy_price": 577
-      },
-      {
-        "id": "PE_padded_leather_cape",
-        "name": "{=SHZ0P7Iu}Padded Leather Cape",
-        "totalArmorValue": 13,
-        "tier": 1,
-        "material_type": "Leather",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 525,
-        "buy_price": 577
-      },
-      {
-        "id": "PE_cervelliere_over_arming_coif",
-        "name": "{=7dAy51ln}Cervelliere over Arming Coif",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_kettle_helmet_with_leather",
-        "name": "{=ZV1bKLUn}Kettle Helmet with Leather",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_kettle_helmet_over_padded_cap",
-        "name": "{=2qisE5ys}Kettle Helmet over Padded Cap",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_kettle_helmet_over_padded_cloth",
-        "name": "{=VcbEaV7T}Kettle Helmet over Padded Cloth",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_nasal_helmet_over_cloth_headwrap",
-        "name": "{=olamAwhb}Nasal Helmet over Cloth Headwrap",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_nasal_helmet_over_padded_cloth",
-        "name": "{=bubcrmTC}Nasal Helmet over Padded Cloth",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_segmented_skullcap_over_padded_cloth",
-        "name": "{=b1pqUQju}Segmented Skullcap over Padded Cloth",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_peaked_helmet_over_padded_cloth",
-        "name": "{=TFT2Xapz}Peaked Helmet over Padded Cloth",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_segmented_cervelliere_over_padded_cloth",
-        "name": "{=vsavMoLZ}Segmented Cervelliere over Padded Cloth",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_cervelliere_over_cloth_headwrap",
-        "name": "{=e9BpfZ9L}Cervelliere over Cloth Headwrap",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_cervelliere_over_padded_cap",
-        "name": "{=wG582fzT}Cervelliere over Padded Cap",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_nasal_cervelliere_over_padded_cap",
-        "name": "{=4BfbPgkY}Nasal Cervelliere over Padded Cap",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_kettle_helmet_over_arming_coif",
-        "name": "{=3iq3rOh8}Kettle Helmet over Arming Coif",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_kettle_hat_over_padded_cloth",
-        "name": "{=wBfGpcCO}Kettle Hat over Padded Cloth",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_vlandia_lord_helmet_b2",
-        "name": "{=o67ySkfH}Plated Helmet",
-        "totalArmorValue": 20,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1255,
-        "buy_price": 1380
-      },
-      {
-        "id": "PE_kettle_helmet_over_padded_coif",
-        "name": "{=1GpTOIqU}Kettle Helmet over Padded Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_kettle_helmet_over_laced_coif",
-        "name": "{=AB1mV5Pg}Kettle Helmet over Laced Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_kettle_hat_over_padded_coif",
-        "name": "{=2MdVVkVL}Kettle Hat over Padded Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_guards_kettle_over_padded_coif",
-        "name": "{=YQd9C8u2}Kettle over Padded Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_guards_kettle_over_laced_coif",
-        "name": "{=20moIxs1}Kettle over Laced Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_nasal_helmet_over_padded_coif",
-        "name": "{=Tp7zXWGa}Nasal Helmet over Padded Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_nasal_helmet_over_laced_coif",
-        "name": "{=FWFDkjBk}Nasal Helmet over Laced Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_segmented_skullcap_over_padded_coif",
-        "name": "{=zAvb7WKe}Segmented Skullcap over Padded Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_segmented_skullcap_over_laced_coif",
-        "name": "{=VylHwqVq}Segmented Skullcap over Laced Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_peaked_helmet_over_laced_coif",
-        "name": "{=Rhfp7ath}Peaked Helmet over Laced Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_cervelliere_over_laced_coif",
-        "name": "{=bfFNYaiU}Cervelliere over Laced Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_nasal_cervelliere_over_padded_coif",
-        "name": "{=JjLQ2VdT}Nasal Cervelliere over Padded Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_nasal_cervelliere_over_laced_coif",
-        "name": "{=h6UXvU3B}Nasal Cervelliere over Laced Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_segmented_cervelliere_over_laced_coif",
-        "name": "{=GnkKOx5H}Segmented Cervelliere over Laced Coif",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_segmented_cervelliere_over_mail",
-        "name": "{=bdpjqoGe}Segmented Cervelliere over Mail",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_kettle_helmet_with_mail",
-        "name": "{=UsOgGylA}Kettle Helmet with Mail",
-        "totalArmorValue": 27,
-        "tier": 2,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1,
-          "pe_iron_ingot": 1
-        },
-        "sell_price": 1430,
-        "buy_price": 1573
-      },
-      {
-        "id": "PE_peaked_helmet_over_mail_coif",
-        "name": "{=AdafHtud}Peaked Helmet over Mail Coif",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_nasal_cervelliere_over_mail_coif",
-        "name": "{=mRGIxvYh}Nasal Cervelliere over Mail Coif",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_guards_kettle_over_mail_coif",
-        "name": "{=S1SUK8zk}Kettle over Mail Coif",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_full_helm_over_arming_coif",
-        "name": "{=WYytQbvS}Full Helm over Arming Coif",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_visored_helmet_over_padded_cloth",
-        "name": "{=A8MJWbhf}Visored Helmet over Padded Cloth",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_kettle_hat_over_mail_coif",
-        "name": "{=tMLH04n4}Kettle Hat over Mail Coif",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Chainmail",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_nasal_helmet_over_mail_coif",
-        "name": "{=PVgSGCYK}Nasal Helmet over Mail Coif",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_full_helm_over_cloth_headwrap",
-        "name": "{=SYvBTD0p}Full Helm over Cloth Headwrap",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_full_helm_over_padded_cap",
-        "name": "{=qVj5NqrL}Full Helm over Padded Cap",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_full_helm_over_padded_cloth",
-        "name": "{=xnoAJwoy}Full Helm over Padded Cloth",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_segmented_cervelliere_over_mail_coif",
-        "name": "{=WMqHlEvb}Segmented Cervelliere over Mail Coif",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_kettle_helmet_over_mail",
-        "name": "{=zZ2G7uIO}Kettle Helmet over Mail",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_nasal_helmet_over_mail",
-        "name": "{=tpQLvMSM}Nasal Helmet over Mail",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_segmented_skullcap_over_mail_coif",
-        "name": "{=P8GrNSkF}Segmented Skullcap over Mail Coif",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_peaked_helmet_over_mail",
-        "name": "{=JvhvtKsT}Peaked Helmet over Mail",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_western_crowned_helmet",
-        "name": "{=EPaqJLSg}Crowned Helmet",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "PE_visored_helmet_over_padded_coif",
-        "name": "{=agqzAXa9}Visored Helmet over Padded Coif",
-        "totalArmorValue": 40,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2995,
-        "buy_price": 3294
-      },
-      {
-        "id": "PE_visored_helmet_over_laced_coif",
-        "name": "{=51EcVnzd}Visored Helmet over Laced Coif",
-        "totalArmorValue": 40,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2995,
-        "buy_price": 3294
-      },
-      {
-        "id": "PE_full_helm_over_laced_coif",
-        "name": "{=wEfZyccm}Full Helm over Laced Coif",
-        "totalArmorValue": 40,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2995,
-        "buy_price": 3294
-      },
-      {
-        "id": "PE_western_plated_helmet",
-        "name": "{=9j9fb5pR}Plated Helmet with Sideguards",
-        "totalArmorValue": 40,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2995,
-        "buy_price": 3294
-      },
-      {
-        "id": "PE_openhelm2",
-        "name": "Battered Open Sallet",
-        "totalArmorValue": 41,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6835,
-        "buy_price": 7518
-      },
-      {
-        "id": "PE_closehelmworn",
-        "name": "Battered Close Helmet",
-        "totalArmorValue": 55,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 7185,
-        "buy_price": 7903
-      },
-      {
-        "id": "PE_bolzanogreathelmet",
-        "name": "Great Helmet",
-        "totalArmorValue": 56,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 7210,
-        "buy_price": 7931
-      },
-      {
-        "id": "PE_closehelm",
-        "name": "Plate Close Helmet",
-        "totalArmorValue": 58,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8830,
-        "buy_price": 9713
-      },
-      {
-        "id": "PE_closehelmgold",
-        "name": "Gold Plate Close Helmet",
-        "totalArmorValue": 58,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8830,
-        "buy_price": 9713
-      },
-      {
-        "id": "PE_visored_helmet_over_mail_coif",
-        "name": "{=d8DrtmwP}Visored Helmet over Mail Coif",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "PE_full_helm_over_mail_coif",
-        "name": "{=FsDZC8Yl}Full Helm over Mail Coif",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "PE_western_crowned_plated_helmet",
-        "name": "{=uz24W7s4}Crowned Plate Helmet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "PE_vlandian_faceguard_helmet_a",
-        "name": "{=axaK9y6E}Closed Knight Helmet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "PE_vlandian_faceguard_helmet_b",
-        "name": "{=ArbBALwc}Knight Helmet with Bronze Faceguard",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      }
-    ],
-    "body_armor": [
-      {
-        "id": "PE_sackcloth_tunic",
-        "name": "{=smKogclC}Sackcloth Tunic",
-        "totalArmorValue": 3,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_cloth_tunic",
-        "name": "{=OJIRIm4j}Simple Cloth Tunic",
-        "totalArmorValue": 3,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_long_hemp_tunic",
-        "name": "{=NUHzapSv}Long Hemp Tunic",
-        "totalArmorValue": 3,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_long_woolen_tunic",
-        "name": "{=U8QfF3Gw}Long Woolen Tunic",
-        "totalArmorValue": 3,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_vlandian_noble_woman_dress",
-        "name": "{=pbxbCnVy}Silken Noble Dress",
-        "totalArmorValue": 3,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_vlandian_woman_dress",
-        "name": "{=qPm3xaiP}Aproned Dress",
-        "totalArmorValue": 3,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_vlandian_corset_dress",
-        "name": "{=4eSEJor3}Corseted Dress",
-        "totalArmorValue": 3,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_monk_robe",
-        "name": "{=QuaE76ua}Scholar Robe",
-        "totalArmorValue": 18,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 850,
-        "buy_price": 935
-      },
-      {
-        "id": "PE_leather_coat_over_cloth",
-        "name": "{=wKucIANJ}Leather Coat over Cloth",
-        "totalArmorValue": 18,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 850,
-        "buy_price": 935
-      },
-      {
-        "id": "PE_leather_coat",
-        "name": "{=ZqTFQeai}Leather Tunic",
-        "totalArmorValue": 18,
-        "tier": 1,
-        "material_type": "Leather",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 850,
-        "buy_price": 935
-      },
-      {
-        "id": "PE_woven_leather_vest",
-        "name": "{=LgftnHPs}Woven Leather Vest",
-        "totalArmorValue": 18,
-        "tier": 1,
-        "material_type": "Leather",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 850,
-        "buy_price": 935
-      },
-      {
-        "id": "PE_padded_leather_shirt",
-        "name": "{=tiTTWhpW}Padded Leather Shirt",
-        "totalArmorValue": 29,
-        "tier": 2,
-        "material_type": "Leather",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 1175,
-        "buy_price": 1292
-      },
-      {
-        "id": "PE_padded_coat",
-        "name": "{=QbfOXJas}Padded Footman Coat",
-        "totalArmorValue": 29,
-        "tier": 2,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 1175,
-        "buy_price": 1292
-      },
-      {
-        "id": "PE_aketon",
-        "name": "{=7b8Cwogx}Aketon",
-        "totalArmorValue": 29,
-        "tier": 2,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 1175,
-        "buy_price": 1292
-      },
-      {
-        "id": "PE_sleeveless_padded_short_coat",
-        "name": "{=bz5lXkHS}Sleeveless Padded Short Coat",
-        "totalArmorValue": 29,
-        "tier": 2,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 1175,
-        "buy_price": 1292
-      },
-      {
-        "id": "PE_padded_short_coat",
-        "name": "{=4pqIsPhp}Padded Short Coat",
-        "totalArmorValue": 29,
-        "tier": 2,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 1175,
-        "buy_price": 1292
-      },
-      {
-        "id": "PE_leather_scale_armor",
-        "name": "{=PL5SG9hI}Leather Scale Armor",
-        "totalArmorValue": 29,
-        "tier": 2,
-        "material_type": "Leather",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 1175,
-        "buy_price": 1292
-      },
-      {
-        "id": "PE_gambeson_b",
-        "name": "{=aQN4Dlx2}Heavy Aketon",
-        "totalArmorValue": 48,
-        "tier": 4,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 4
-        },
-        "sell_price": 2350,
-        "buy_price": 2585
-      },
-      {
-        "id": "PE_sleeveless_padded_coat",
-        "name": "{=lZ93DOrn}Sleeveless Padded Coat",
-        "totalArmorValue": 48,
-        "tier": 4,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 4
-        },
-        "sell_price": 2350,
-        "buy_price": 2585
-      },
-      {
-        "id": "PE_vlandia_chainmail",
-        "name": "{=atSRQkCE}Heavy Mail Hauberk",
-        "totalArmorValue": 48,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 2,
-          "pe_steel_ingot": 4
-        },
-        "sell_price": 4940,
-        "buy_price": 5434
-      },
-      {
-        "id": "PE_hauberk",
-        "name": "{=CZvGrvzY}Heavy Mail Shirt",
-        "totalArmorValue": 48,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 2,
-          "pe_steel_ingot": 4
-        },
-        "sell_price": 4940,
-        "buy_price": 5434
-      },
-      {
-        "id": "PE_veteran_mercenary_armor",
-        "name": "{=EezWSI6v}Fortified Mercenary Armor",
-        "totalArmorValue": 48,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 2,
-          "pe_steel_ingot": 4
-        },
-        "sell_price": 4940,
-        "buy_price": 5434
-      },
-      {
-        "id": "PE_mail_shirt",
-        "name": "{=GzgUzrFY}Mail Shirt",
-        "totalArmorValue": 48,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 2,
-          "pe_steel_ingot": 4
-        },
-        "sell_price": 4940,
-        "buy_price": 5434
-      },
-      {
-        "id": "PE_banded_leather_over_mail",
-        "name": "{=iAWzr8Q0}Banded Leather over Mail",
-        "totalArmorValue": 48,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 2,
-          "pe_steel_ingot": 4
-        },
-        "sell_price": 4940,
-        "buy_price": 5434
-      },
-      {
-        "id": "PE_white_coat_over_mail",
-        "name": "{=YxglkaXU}White Tabard over Mail Hauberk",
-        "totalArmorValue": 56,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 2,
-          "pe_steel_ingot": 5
-        },
-        "sell_price": 5900,
-        "buy_price": 6490
-      },
-      {
-        "id": "PE_red_coat_over_mail",
-        "name": "{=aM2EPdXj}Red Tabard over Mail Hauberk",
-        "totalArmorValue": 56,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 2,
-          "pe_steel_ingot": 5
-        },
-        "sell_price": 5900,
-        "buy_price": 6490
-      },
-      {
-        "id": "PE_plated_leather_coat",
-        "name": "{=OvlG2Vu1}Rough Brigandine",
-        "totalArmorValue": 56,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_cloth": 2,
-          "pe_steel_ingot": 5
-        },
-        "sell_price": 5900,
-        "buy_price": 6490
-      },
-      {
-        "id": "PE_platearmor2worn",
-        "name": "Battered Full Plate Armor ",
-        "totalArmorValue": 89,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14590,
-        "buy_price": 16049
-      },
-      {
-        "id": "PE_platearmor2",
-        "name": "Full Plate Armor ",
-        "totalArmorValue": 96,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14765,
-        "buy_price": 16241
-      },
-      {
-        "id": "PE_platearmor2gold",
-        "name": "Gold Full Plate Armor ",
-        "totalArmorValue": 96,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14765,
-        "buy_price": 16241
-      },
-      {
-        "id": "PE_coat_of_plates_over_mail",
-        "name": "{=PtfbqMeg}Brigandine over Mail",
-        "totalArmorValue": 100,
-        "tier": 5,
-        "material_type": "Chainmail",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14865,
-        "buy_price": 16351
-      },
-      {
-        "id": "PE_platearmor",
-        "name": "Full Plate Armor with Rondel",
-        "totalArmorValue": 101,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 4,
-          "pe_thamaskene_steel": 8
-        },
-        "sell_price": 16935,
-        "buy_price": 18628
-      },
-      {
-        "id": "PE_platearmorgold",
-        "name": "Gold Full Plate Armor with Rondel",
-        "totalArmorValue": 101,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 4,
-          "pe_thamaskene_steel": 8
-        },
-        "sell_price": 16935,
-        "buy_price": 18628
-      }
-    ],
-    "leg_armor": [
-      {
-        "id": "PE_leather_cavalier_boots",
-        "name": "{=oEvhhNNR}Leather Cavalier Boots",
-        "totalArmorValue": 9,
-        "tier": 3,
-        "material_type": "Leather",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1
-        },
-        "sell_price": 650,
-        "buy_price": 715
-      },
-      {
-        "id": "PE_mail_cavalier_boots",
-        "name": "{=tWfAPrPa}Mail Cavalier Boots",
-        "totalArmorValue": 15,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 1
-        },
-        "sell_price": 1610,
-        "buy_price": 1771
-      },
-      {
-        "id": "PE_mail_chausses",
-        "name": "{=DoiwC1Qa}Mail Chausses",
-        "totalArmorValue": 20,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2495,
-        "buy_price": 2744
-      },
-      {
-        "id": "PE_strapped_mail_chausses",
-        "name": "{=aYoIrpe0}Strapped Mail Chausses",
-        "totalArmorValue": 20,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2495,
-        "buy_price": 2744
-      },
-      {
-        "id": "PE_plategreavesworn",
-        "name": "BatteredPlate Boots",
-        "totalArmorValue": 27,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 2
-        },
-        "sell_price": 4490,
-        "buy_price": 4939
-      },
-      {
-        "id": "PE_plategreaves",
-        "name": "Plate Boots",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 2
-        },
-        "sell_price": 4565,
-        "buy_price": 5021
-      },
-      {
-        "id": "PE_plategreavesgold",
-        "name": "Gold Plate Boots",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 2
-        },
-        "sell_price": 4565,
-        "buy_price": 5021
-      }
-    ],
-    "arm_armor": [
-      {
-        "id": "PE_mail_mitten",
-        "name": "{=g51zVsKU}Mail Mittens",
-        "totalArmorValue": 20,
-        "tier": 3,
-        "material_type": "Chainmail",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 1
-        },
-        "sell_price": 1685,
-        "buy_price": 1853
-      },
-      {
-        "id": "PE_reinforced_leather_vambraces",
-        "name": "{=2Ilvjlz9}Splint Vambraces",
-        "totalArmorValue": 20,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 1
-        },
-        "sell_price": 1685,
-        "buy_price": 1853
-      },
-      {
-        "id": "PE_reinforced_mail_mitten",
-        "name": "{=dPQGxmJ7}Reinforced Mail Mittens",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2620,
-        "buy_price": 2882
-      },
-      {
-        "id": "PE_lordly_mail_mitten",
-        "name": "{=VDMkVMxt}Heavy Mail Mittens",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Chainmail",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2620,
-        "buy_price": 2882
-      },
-      {
-        "id": "PE_plategauntletworn",
-        "name": "Battered Plate Gauntlets",
-        "totalArmorValue": 29,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 2
-        },
-        "sell_price": 4540,
-        "buy_price": 4994
-      },
-      {
-        "id": "PE_plategauntlet",
-        "name": "Plate Gauntlets",
-        "totalArmorValue": 30,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6610,
-        "buy_price": 7271
-      },
-      {
-        "id": "PE_plategauntletgold",
-        "name": "Gold Plate Gauntlets",
-        "totalArmorValue": 30,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6610,
-        "buy_price": 7271
-      }
-    ],
-    "shoulder_armor": [
-      {
-        "id": "PE_green_hood",
-        "name": "{=UvOa4elc}Green Hood",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_linen": 2
-        },
-        "sell_price": 325,
-        "buy_price": 357
-      },
-      {
-        "id": "PE_hood",
-        "name": "{=lbVB6KPl}Hood",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_linen": 2
-        },
-        "sell_price": 325,
-        "buy_price": 357
-      },
-      {
-        "id": "PE_chainmail_shoulder_armor",
-        "name": "{=P9wiCrIU}Reinforced Mail Shoulders",
-        "totalArmorValue": 20,
-        "tier": 3,
-        "material_type": "Chainmail",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2445,
-        "buy_price": 2689
-      },
-      {
-        "id": "PE_gorget",
-        "name": "Plate Gorget",
-        "totalArmorValue": 20,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2445,
-        "buy_price": 2689
-      },
-      {
-        "id": "PE_gorgetgold",
-        "name": "Gold Plate Gorget",
-        "totalArmorValue": 20,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2445,
-        "buy_price": 2689
-      },
-      {
-        "id": "PE_padded_leather_shoulders",
-        "name": "{=Bl72Ribb}Padded Leather Shoulders",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Cloth",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_cloth": 3
-        },
-        "sell_price": 1550,
-        "buy_price": 1705
-      },
-      {
-        "id": "PE_noble_pauldron",
-        "name": "{=NJSYumaV}Ornate Pauldrons",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 3
-        },
-        "sell_price": 3380,
-        "buy_price": 3718
-      },
-      {
-        "id": "PE_pauldron_with_cape",
-        "name": "{=re2oRFLW}Pauldrons with Cape",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 3
-        },
-        "sell_price": 3380,
-        "buy_price": 3718
-      },
-      {
-        "id": "PE_scale_shoulder_armor",
-        "name": "{=aChUcrRt}Scale Shoulderguards",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 3
-        },
-        "sell_price": 3380,
-        "buy_price": 3718
-      },
-      {
-        "id": "PE_noble_pauldron_with_cape",
-        "name": "{=SRyvwNd1}Ornate Pauldrons with Cape",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "PE_noble_pauldron_with_scarf",
-        "name": "{=wMsbMc2T}Reinforced Ornate Pauldrons",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "PE_pauldron_over_scale_armor",
-        "name": "{=C6f64ZyJ}Reinforced Ornate Pauldrons over Scale",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
       }
     ]
   },
@@ -8729,578 +8729,6 @@
       }
     ]
   },
-  "Culture.Highshop_BA": {
-    "head_armor": [
-      {
-        "id": "ba_openhelm2",
-        "name": "Battered Open Sallet",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "ba_sallet",
-        "name": "Worn Sallet",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "ba_salletclean",
-        "name": "Sallet",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "ba_salletpainted",
-        "name": "Painted Sallet",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "ba_sipahihelmet",
-        "name": "Chichak Helmet",
-        "totalArmorValue": 34,
-        "tier": 3,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2795,
-        "buy_price": 3074
-      },
-      {
-        "id": "ba_opensallet",
-        "name": "Worn Open Sallet",
-        "totalArmorValue": 40,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2995,
-        "buy_price": 3294
-      },
-      {
-        "id": "ba_opensalletclean",
-        "name": "Plate Open Sallet",
-        "totalArmorValue": 40,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2995,
-        "buy_price": 3294
-      },
-      {
-        "id": "ba_turbanhelmet_2",
-        "name": "Gold Open Turban Helmet",
-        "totalArmorValue": 40,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2995,
-        "buy_price": 3294
-      },
-      {
-        "id": "ba_turbanhelmet_2clean",
-        "name": "Open Turban Helmet",
-        "totalArmorValue": 40,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2995,
-        "buy_price": 3294
-      },
-      {
-        "id": "ba_closehelm",
-        "name": "Plate Close Helmet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "ba_bolzanogreathelmet",
-        "name": "Great Helmet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "ba_closehelmgold",
-        "name": "Gold Plate Close Helmet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "ba_closehelmworn",
-        "name": "Battered Close Helmet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "ba_closedsallet",
-        "name": "Worn Closed Sallet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "ba_closedsalletclean",
-        "name": "Plate Closed Sallet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "ba_closedsalletpainted",
-        "name": "Painted Closed Sallet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "ba_turban_helmet_1",
-        "name": "Gold Turban Helmet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      },
-      {
-        "id": "ba_turban_helmet_1clean",
-        "name": "Turban Helmet",
-        "totalArmorValue": 60,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
-        },
-        "sell_price": 8880,
-        "buy_price": 9768
-      }
-    ],
-    "body_armor": [
-      {
-        "id": "ba_platearmor",
-        "name": "Full Plate Armor with Rondel",
-        "totalArmorValue": 100,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14865,
-        "buy_price": 16351
-      },
-      {
-        "id": "ba_platearmor2",
-        "name": "Full Plate Armor ",
-        "totalArmorValue": 100,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14865,
-        "buy_price": 16351
-      },
-      {
-        "id": "ba_platearmor2gold",
-        "name": "Gold Full Plate Armor ",
-        "totalArmorValue": 100,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14865,
-        "buy_price": 16351
-      },
-      {
-        "id": "ba_platearmorgold",
-        "name": "Gold Full Plate Armor with Rondel",
-        "totalArmorValue": 100,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14865,
-        "buy_price": 16351
-      },
-      {
-        "id": "ba_platearmor2worn",
-        "name": "Battered Full Plate Armor ",
-        "totalArmorValue": 100,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14865,
-        "buy_price": 16351
-      },
-      {
-        "id": "ba_heraldictabard3",
-        "name": "Tabard over Plate Armor",
-        "totalArmorValue": 100,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_velvet": 3,
-          "pe_thamaskene_steel": 7
-        },
-        "sell_price": 14865,
-        "buy_price": 16351
-      }
-    ],
-    "leg_armor": [
-      {
-        "id": "ba_plategreaves",
-        "name": "Plate Boots",
-        "totalArmorValue": 25,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 2
-        },
-        "sell_price": 4440,
-        "buy_price": 4884
-      },
-      {
-        "id": "ba_plategreavesgold",
-        "name": "Gold Plate Boots",
-        "totalArmorValue": 25,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 2
-        },
-        "sell_price": 4440,
-        "buy_price": 4884
-      },
-      {
-        "id": "ba_plategreavesworn",
-        "name": "BatteredPlate Boots",
-        "totalArmorValue": 25,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 2
-        },
-        "sell_price": 4440,
-        "buy_price": 4884
-      }
-    ],
-    "arm_armor": [
-      {
-        "id": "ba_plategauntlet",
-        "name": "Plate Gauntlets",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2620,
-        "buy_price": 2882
-      },
-      {
-        "id": "ba_plategauntletgold",
-        "name": "Gold Plate Gauntlets",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2620,
-        "buy_price": 2882
-      },
-      {
-        "id": "ba_plategauntletworn",
-        "name": "Battered Plate Gauntlets",
-        "totalArmorValue": 25,
-        "tier": 4,
-        "material_type": "Plate",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2620,
-        "buy_price": 2882
-      }
-    ],
-    "shoulder_armor": [
-      {
-        "id": "ba_gorget",
-        "name": "Plate Gorget",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_gorgetgold",
-        "name": "Gold Plate Gorget",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_largepauldron",
-        "name": "Large Pauldrons",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_largepauldronclean",
-        "name": "Large Plate Pauldrons",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_knightpad2",
-        "name": "Plate Pauldrons",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_knightpad_gold1",
-        "name": "Gold Plate Pauldrons",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_knightpadgorget1",
-        "name": "Plate Pauldrons with Gorget",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_knightpadgorget_gold1",
-        "name": "Gold Plate Pauldrons with Gorget",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_knightpadcape3",
-        "name": "Plate Pauldrons with Cape",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      },
-      {
-        "id": "ba_knightpadcapegold",
-        "name": "Gold Plate Pauldrons with Cape",
-        "totalArmorValue": 30,
-        "tier": 5,
-        "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_velvet": 1,
-          "pe_thamaskene_steel": 3
-        },
-        "sell_price": 6085,
-        "buy_price": 6693
-      }
-    ]
-  },
   "Culture.looters": {
     "head_armor": [
       {
@@ -9645,6 +9073,190 @@
         },
         "sell_price": 5900,
         "buy_price": 6490
+      }
+    ],
+    "leg_armor": [],
+    "arm_armor": [],
+    "shoulder_armor": []
+  },
+  "undefined": {
+    "head_armor": [],
+    "body_armor": [],
+    "leg_armor": [],
+    "arm_armor": [],
+    "shoulder_armor": []
+  },
+  "Culture.Vaegir": {
+    "head_armor": [
+      {
+        "id": "PE_Rus_open_helm",
+        "name": "Vaegir Helmet",
+        "totalArmorValue": 140,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 4,
+          "pe_thamaskene_steel": 8
+        },
+        "sell_price": 17910,
+        "buy_price": 19701
+      },
+      {
+        "id": "PE_Vaegir_helm_open",
+        "name": "War helmet",
+        "totalArmorValue": 142,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 4,
+          "pe_thamaskene_steel": 8
+        },
+        "sell_price": 17960,
+        "buy_price": 19756
+      },
+      {
+        "id": "PE_Rus_helm_icon",
+        "name": "Vaegir Decorated Helmet",
+        "totalArmorValue": 151,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 5,
+          "pe_thamaskene_steel": 9
+        },
+        "sell_price": 20180,
+        "buy_price": 22198
+      },
+      {
+        "id": "PE_Rus_helm_noble",
+        "name": "Vaegir Noble Helmet",
+        "totalArmorValue": 151,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 5,
+          "pe_thamaskene_steel": 9
+        },
+        "sell_price": 20180,
+        "buy_price": 22198
+      },
+      {
+        "id": "PE_Rus_helm_noble_icon",
+        "name": "Vaegir Decorated Noble Helmet",
+        "totalArmorValue": 151,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 5,
+          "pe_thamaskene_steel": 9
+        },
+        "sell_price": 20180,
+        "buy_price": 22198
+      },
+      {
+        "id": "PE_Rus_helm_regular",
+        "name": "Vaegir Helmet",
+        "totalArmorValue": 151,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 5,
+          "pe_thamaskene_steel": 9
+        },
+        "sell_price": 20180,
+        "buy_price": 22198
+      },
+      {
+        "id": "PE_Rus_helm_regular2",
+        "name": "Vaegir Helmet",
+        "totalArmorValue": 151,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 5,
+          "pe_thamaskene_steel": 9
+        },
+        "sell_price": 20180,
+        "buy_price": 22198
+      },
+      {
+        "id": "PE_Va_NorseLord",
+        "name": "Northren lord helmet",
+        "totalArmorValue": 151,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 5,
+          "pe_thamaskene_steel": 9
+        },
+        "sell_price": 20180,
+        "buy_price": 22198
+      },
+      {
+        "id": "PE_Vaegir_helm",
+        "name": "War Mask",
+        "totalArmorValue": 152,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 5,
+          "pe_thamaskene_steel": 9
+        },
+        "sell_price": 20205,
+        "buy_price": 22225
+      }
+    ],
+    "body_armor": [
+      {
+        "id": "PE_Rus_armour",
+        "name": "Vaegir coat of plates",
+        "totalArmorValue": 355,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 10,
+          "pe_thamaskene_steel": 10
+        },
+        "sell_price": 29175,
+        "buy_price": 32092
+      },
+      {
+        "id": "PE_Rus_armour1",
+        "name": "Vaegir coat of plates",
+        "totalArmorValue": 355,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 10,
+          "pe_thamaskene_steel": 10
+        },
+        "sell_price": 29175,
+        "buy_price": 32092
+      },
+      {
+        "id": "PE_Rus_armour2",
+        "name": "Vaegir coat of plates",
+        "totalArmorValue": 355,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 10,
+          "pe_thamaskene_steel": 10
+        },
+        "sell_price": 29175,
+        "buy_price": 32092
       }
     ],
     "leg_armor": [],
@@ -10175,155 +9787,155 @@
         "id": "swa_pigface_bascinet",
         "name": "Western Bascinet",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_pigface_bascinet_feather",
         "name": "Western Bascinet with Plumes",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_pigface_bascinet_tail",
         "name": "Western Bascinet with mane",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_sa_1ChurburghHelm",
         "name": "Hounskull Bascinet",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_sa_2ChurburghHelm",
         "name": "Blackend Hounskull Bascinet",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_sa_ChurburghHelm",
         "name": "Trimmed Hounskull Bascinet",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_sa_churburghHelm_black_trimmed_feather",
         "name": "Trimmed Hounskull Bascinet With plume",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_sa_churburghHelm_feather",
         "name": "Hounskull Bascinet With plume",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_sa_churburghHelm_trimmed_feather",
         "name": "Hounskull Bascinet With plume",
         "totalArmorValue": 57,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8805,
-        "buy_price": 9685
+        "sell_price": 7235,
+        "buy_price": 7958
       },
       {
         "id": "swa_crowned_royal_vlandian_helm_with_visor",
         "name": "Ornate Western Helmet With Visor",
         "totalArmorValue": 58,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8830,
-        "buy_price": 9713
+        "sell_price": 7260,
+        "buy_price": 7986
       },
       {
         "id": "swa_crowned_vlandian_helm_with_visor",
         "name": "Crowned Western Helmet With Visor",
         "totalArmorValue": 58,
-        "tier": 6,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "head_armor",
         "crafting_recipe": {
           "pe_velvet": 2,
-          "pe_thamaskene_steel": 4
+          "pe_thamaskene_steel": 3
         },
-        "sell_price": 8830,
-        "buy_price": 9713
+        "sell_price": 7260,
+        "buy_price": 7986
       },
       {
         "id": "swa_sallet_crowned",
@@ -11273,11 +10885,576 @@
       }
     ]
   },
-  "undefined": {
-    "head_armor": [],
-    "body_armor": [],
-    "leg_armor": [],
-    "arm_armor": [],
-    "shoulder_armor": []
+  "Culture.Highshop_BA": {
+    "head_armor": [
+      {
+        "id": "ba_openhelm2",
+        "name": "Battered Open Sallet",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "ba_sallet",
+        "name": "Worn Sallet",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "ba_salletclean",
+        "name": "Sallet",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "ba_salletpainted",
+        "name": "Painted Sallet",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "ba_sipahihelmet",
+        "name": "Chichak Helmet",
+        "totalArmorValue": 34,
+        "tier": 3,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2795,
+        "buy_price": 3074
+      },
+      {
+        "id": "ba_opensallet",
+        "name": "Worn Open Sallet",
+        "totalArmorValue": 40,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2995,
+        "buy_price": 3294
+      },
+      {
+        "id": "ba_opensalletclean",
+        "name": "Plate Open Sallet",
+        "totalArmorValue": 40,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2995,
+        "buy_price": 3294
+      },
+      {
+        "id": "ba_turbanhelmet_2",
+        "name": "Gold Open Turban Helmet",
+        "totalArmorValue": 40,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2995,
+        "buy_price": 3294
+      },
+      {
+        "id": "ba_turbanhelmet_2clean",
+        "name": "Open Turban Helmet",
+        "totalArmorValue": 40,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2995,
+        "buy_price": 3294
+      },
+      {
+        "id": "ba_closehelm",
+        "name": "Plate Close Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "ba_bolzanogreathelmet",
+        "name": "Great Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "ba_closehelmgold",
+        "name": "Gold Plate Close Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "ba_closehelmworn",
+        "name": "Battered Close Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "ba_closedsallet",
+        "name": "Worn Closed Sallet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "ba_closedsalletclean",
+        "name": "Plate Closed Sallet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "ba_closedsalletpainted",
+        "name": "Painted Closed Sallet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "ba_turban_helmet_1",
+        "name": "Gold Turban Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "ba_turban_helmet_1clean",
+        "name": "Turban Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      }
+    ],
+    "body_armor": [
+      {
+        "id": "ba_platearmor",
+        "name": "Full Plate Armor with Rondel",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
+      },
+      {
+        "id": "ba_platearmor2",
+        "name": "Full Plate Armor ",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
+      },
+      {
+        "id": "ba_platearmor2gold",
+        "name": "Gold Full Plate Armor ",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
+      },
+      {
+        "id": "ba_platearmorgold",
+        "name": "Gold Full Plate Armor with Rondel",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
+      },
+      {
+        "id": "ba_platearmor2worn",
+        "name": "Battered Full Plate Armor ",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
+      },
+      {
+        "id": "ba_heraldictabard3",
+        "name": "Tabard over Plate Armor",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
+      }
+    ],
+    "leg_armor": [
+      {
+        "id": "ba_plategreaves",
+        "name": "Plate Boots",
+        "totalArmorValue": 25,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 2
+        },
+        "sell_price": 4440,
+        "buy_price": 4884
+      },
+      {
+        "id": "ba_plategreavesgold",
+        "name": "Gold Plate Boots",
+        "totalArmorValue": 25,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 2
+        },
+        "sell_price": 4440,
+        "buy_price": 4884
+      },
+      {
+        "id": "ba_plategreavesworn",
+        "name": "BatteredPlate Boots",
+        "totalArmorValue": 25,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 2
+        },
+        "sell_price": 4440,
+        "buy_price": 4884
+      }
+    ],
+    "arm_armor": [
+      {
+        "id": "ba_plategauntlet",
+        "name": "Plate Gauntlets",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2620,
+        "buy_price": 2882
+      },
+      {
+        "id": "ba_plategauntletgold",
+        "name": "Gold Plate Gauntlets",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2620,
+        "buy_price": 2882
+      },
+      {
+        "id": "ba_plategauntletworn",
+        "name": "Battered Plate Gauntlets",
+        "totalArmorValue": 25,
+        "tier": 4,
+        "material_type": "Plate",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2620,
+        "buy_price": 2882
+      }
+    ],
+    "shoulder_armor": [
+      {
+        "id": "ba_gorget",
+        "name": "Plate Gorget",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_gorgetgold",
+        "name": "Gold Plate Gorget",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_largepauldron",
+        "name": "Large Pauldrons",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_largepauldronclean",
+        "name": "Large Plate Pauldrons",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_knightpad2",
+        "name": "Plate Pauldrons",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_knightpad_gold1",
+        "name": "Gold Plate Pauldrons",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_knightpadgorget1",
+        "name": "Plate Pauldrons with Gorget",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_knightpadgorget_gold1",
+        "name": "Gold Plate Pauldrons with Gorget",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_knightpadcape3",
+        "name": "Plate Pauldrons with Cape",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      },
+      {
+        "id": "ba_knightpadcapegold",
+        "name": "Gold Plate Pauldrons with Cape",
+        "totalArmorValue": 30,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_velvet": 1,
+          "pe_thamaskene_steel": 3
+        },
+        "sell_price": 6085,
+        "buy_price": 6693
+      }
+    ]
   }
 }
