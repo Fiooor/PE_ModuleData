@@ -5474,6 +5474,20 @@
         "buy_price": 357
       },
       {
+        "id": "PE_chainmail_shoulder_armor",
+        "name": "{=P9wiCrIU}Reinforced Mail Shoulders",
+        "totalArmorValue": 20,
+        "tier": 3,
+        "material_type": "Chainmail",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_cloth": 1,
+          "pe_steel_ingot": 2
+        },
+        "sell_price": 2445,
+        "buy_price": 2689
+      },
+      {
         "id": "PE_gorget",
         "name": "Plate Gorget",
         "totalArmorValue": 20,
@@ -5493,20 +5507,6 @@
         "totalArmorValue": 20,
         "tier": 3,
         "material_type": "Plate",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_cloth": 1,
-          "pe_steel_ingot": 2
-        },
-        "sell_price": 2445,
-        "buy_price": 2689
-      },
-      {
-        "id": "PE_chainmail_shoulder_armor",
-        "name": "{=P9wiCrIU}Reinforced Mail Shoulders",
-        "totalArmorValue": 20,
-        "tier": 3,
-        "material_type": "Chainmail",
         "component_type": "shoulder_armor",
         "crafting_recipe": {
           "pe_cloth": 1,
@@ -8509,226 +8509,6 @@
       }
     ]
   },
-  "Culture.neutral_culture": {
-    "head_armor": [
-      {
-        "id": "PE_merchants_hat",
-        "name": "{=S9htzkbe}Merchant Hat",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Leather",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      }
-    ],
-    "body_armor": [
-      {
-        "id": "PE_half_apron",
-        "name": "{=FOJHPU5N}Half Apron",
-        "totalArmorValue": 3,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_leather_apron",
-        "name": "{=r0Ln9bAp}Leather Apron",
-        "totalArmorValue": 18,
-        "tier": 1,
-        "material_type": "Leather",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 850,
-        "buy_price": 935
-      },
-      {
-        "id": "PE_cloth_apron",
-        "name": "{=2WQTvOLF}Cloth Apron",
-        "totalArmorValue": 29,
-        "tier": 2,
-        "material_type": "Cloth",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 1175,
-        "buy_price": 1292
-      },
-      {
-        "id": "PE_merchants_fur_coat",
-        "name": "{=2KQbV4To}Merchant Fur Coat",
-        "totalArmorValue": 29,
-        "tier": 2,
-        "material_type": "Leather",
-        "component_type": "body_armor",
-        "crafting_recipe": {
-          "pe_linen": 3
-        },
-        "sell_price": 1175,
-        "buy_price": 1292
-      }
-    ],
-    "leg_armor": [
-      {
-        "id": "PE_ladys_shoe",
-        "name": "{=RU2EppgI}Ladies Shoes",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_leather_shoes",
-        "name": "{=Kgnm0FkE}Leather Shoes",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Leather",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_ragged_boots",
-        "name": "{=Szuxa9Bs}Ragged Boots",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      },
-      {
-        "id": "PE_strapped_shoes",
-        "name": "{=LOPavWRp}Strapped Shoes",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "leg_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 225,
-        "buy_price": 247
-      }
-    ],
-    "arm_armor": [
-      {
-        "id": "PE_leather_gloves",
-        "name": "{=lIJ1EVBh}Leather Gloves",
-        "totalArmorValue": 11,
-        "tier": 1,
-        "material_type": "Leather",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      },
-      {
-        "id": "PE_padded_vambrace",
-        "name": "{=MamotK0a}Padded Vambraces",
-        "totalArmorValue": 11,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "arm_armor",
-        "crafting_recipe": {
-          "pe_linen": 1
-        },
-        "sell_price": 475,
-        "buy_price": 522
-      }
-    ],
-    "shoulder_armor": [
-      {
-        "id": "PE_female_hood",
-        "name": "{=FItBDuqh}Cotton Hood",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_linen": 2
-        },
-        "sell_price": 325,
-        "buy_price": 357
-      },
-      {
-        "id": "PE_female_scarf",
-        "name": "{=HJdIkdm2}Thick Scarf",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_linen": 2
-        },
-        "sell_price": 325,
-        "buy_price": 357
-      },
-      {
-        "id": "PE_scarf",
-        "name": "{=GNdVXMue}Scarf",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_linen": 2
-        },
-        "sell_price": 325,
-        "buy_price": 357
-      },
-      {
-        "id": "PE_wrapped_scarf",
-        "name": "{=h1bcf5zn}Shawl",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_linen": 2
-        },
-        "sell_price": 325,
-        "buy_price": 357
-      },
-      {
-        "id": "PE_empire_cape_a",
-        "name": "{=KQ9h5eAe}Heavy Cloak",
-        "totalArmorValue": 1,
-        "tier": 1,
-        "material_type": "Cloth",
-        "component_type": "shoulder_armor",
-        "crafting_recipe": {
-          "pe_linen": 2
-        },
-        "sell_price": 325,
-        "buy_price": 357
-      }
-    ]
-  },
   "Culture.looters": {
     "head_armor": [
       {
@@ -9079,184 +8859,397 @@
     "arm_armor": [],
     "shoulder_armor": []
   },
-  "undefined": {
-    "head_armor": [],
-    "body_armor": [],
-    "leg_armor": [],
-    "arm_armor": [],
-    "shoulder_armor": []
-  },
-  "Culture.Vaegir": {
+  "Culture.neutral_culture": {
     "head_armor": [
       {
-        "id": "PE_Rus_open_helm",
-        "name": "Vaegir Helmet",
-        "totalArmorValue": 140,
-        "tier": 6,
-        "material_type": "Plate",
+        "id": "PE_merchants_hat",
+        "name": "{=S9htzkbe}Merchant Hat",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Leather",
         "component_type": "head_armor",
         "crafting_recipe": {
-          "pe_velvet": 4,
-          "pe_thamaskene_steel": 8
+          "pe_linen": 1
         },
-        "sell_price": 17910,
-        "buy_price": 19701
-      },
-      {
-        "id": "PE_Vaegir_helm_open",
-        "name": "War helmet",
-        "totalArmorValue": 142,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 4,
-          "pe_thamaskene_steel": 8
-        },
-        "sell_price": 17960,
-        "buy_price": 19756
-      },
-      {
-        "id": "PE_Rus_helm_icon",
-        "name": "Vaegir Decorated Helmet",
-        "totalArmorValue": 151,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 5,
-          "pe_thamaskene_steel": 9
-        },
-        "sell_price": 20180,
-        "buy_price": 22198
-      },
-      {
-        "id": "PE_Rus_helm_noble",
-        "name": "Vaegir Noble Helmet",
-        "totalArmorValue": 151,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 5,
-          "pe_thamaskene_steel": 9
-        },
-        "sell_price": 20180,
-        "buy_price": 22198
-      },
-      {
-        "id": "PE_Rus_helm_noble_icon",
-        "name": "Vaegir Decorated Noble Helmet",
-        "totalArmorValue": 151,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 5,
-          "pe_thamaskene_steel": 9
-        },
-        "sell_price": 20180,
-        "buy_price": 22198
-      },
-      {
-        "id": "PE_Rus_helm_regular",
-        "name": "Vaegir Helmet",
-        "totalArmorValue": 151,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 5,
-          "pe_thamaskene_steel": 9
-        },
-        "sell_price": 20180,
-        "buy_price": 22198
-      },
-      {
-        "id": "PE_Rus_helm_regular2",
-        "name": "Vaegir Helmet",
-        "totalArmorValue": 151,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 5,
-          "pe_thamaskene_steel": 9
-        },
-        "sell_price": 20180,
-        "buy_price": 22198
-      },
-      {
-        "id": "PE_Va_NorseLord",
-        "name": "Northren lord helmet",
-        "totalArmorValue": 151,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 5,
-          "pe_thamaskene_steel": 9
-        },
-        "sell_price": 20180,
-        "buy_price": 22198
-      },
-      {
-        "id": "PE_Vaegir_helm",
-        "name": "War Mask",
-        "totalArmorValue": 152,
-        "tier": 6,
-        "material_type": "Plate",
-        "component_type": "head_armor",
-        "crafting_recipe": {
-          "pe_velvet": 5,
-          "pe_thamaskene_steel": 9
-        },
-        "sell_price": 20205,
-        "buy_price": 22225
+        "sell_price": 225,
+        "buy_price": 247
       }
     ],
     "body_armor": [
       {
-        "id": "PE_Rus_armour",
-        "name": "Vaegir coat of plates",
-        "totalArmorValue": 355,
-        "tier": 6,
-        "material_type": "Plate",
+        "id": "PE_half_apron",
+        "name": "{=FOJHPU5N}Half Apron",
+        "totalArmorValue": 3,
+        "tier": 1,
+        "material_type": "Cloth",
         "component_type": "body_armor",
         "crafting_recipe": {
-          "pe_velvet": 10,
-          "pe_thamaskene_steel": 10
+          "pe_linen": 3
         },
-        "sell_price": 29175,
-        "buy_price": 32092
+        "sell_price": 475,
+        "buy_price": 522
       },
       {
-        "id": "PE_Rus_armour1",
-        "name": "Vaegir coat of plates",
-        "totalArmorValue": 355,
-        "tier": 6,
-        "material_type": "Plate",
+        "id": "PE_leather_apron",
+        "name": "{=r0Ln9bAp}Leather Apron",
+        "totalArmorValue": 18,
+        "tier": 1,
+        "material_type": "Leather",
         "component_type": "body_armor",
         "crafting_recipe": {
-          "pe_velvet": 10,
-          "pe_thamaskene_steel": 10
+          "pe_linen": 3
         },
-        "sell_price": 29175,
-        "buy_price": 32092
+        "sell_price": 850,
+        "buy_price": 935
       },
       {
-        "id": "PE_Rus_armour2",
-        "name": "Vaegir coat of plates",
-        "totalArmorValue": 355,
+        "id": "PE_cloth_apron",
+        "name": "{=2WQTvOLF}Cloth Apron",
+        "totalArmorValue": 29,
+        "tier": 2,
+        "material_type": "Cloth",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 1175,
+        "buy_price": 1292
+      },
+      {
+        "id": "PE_merchants_fur_coat",
+        "name": "{=2KQbV4To}Merchant Fur Coat",
+        "totalArmorValue": 29,
+        "tier": 2,
+        "material_type": "Leather",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_linen": 3
+        },
+        "sell_price": 1175,
+        "buy_price": 1292
+      }
+    ],
+    "leg_armor": [
+      {
+        "id": "PE_ladys_shoe",
+        "name": "{=RU2EppgI}Ladies Shoes",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_leather_shoes",
+        "name": "{=Kgnm0FkE}Leather Shoes",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Leather",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_ragged_boots",
+        "name": "{=Szuxa9Bs}Ragged Boots",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      },
+      {
+        "id": "PE_strapped_shoes",
+        "name": "{=LOPavWRp}Strapped Shoes",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "leg_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 225,
+        "buy_price": 247
+      }
+    ],
+    "arm_armor": [
+      {
+        "id": "PE_leather_gloves",
+        "name": "{=lIJ1EVBh}Leather Gloves",
+        "totalArmorValue": 11,
+        "tier": 1,
+        "material_type": "Leather",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      },
+      {
+        "id": "PE_padded_vambrace",
+        "name": "{=MamotK0a}Padded Vambraces",
+        "totalArmorValue": 11,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "arm_armor",
+        "crafting_recipe": {
+          "pe_linen": 1
+        },
+        "sell_price": 475,
+        "buy_price": 522
+      }
+    ],
+    "shoulder_armor": [
+      {
+        "id": "PE_female_hood",
+        "name": "{=FItBDuqh}Cotton Hood",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_linen": 2
+        },
+        "sell_price": 325,
+        "buy_price": 357
+      },
+      {
+        "id": "PE_female_scarf",
+        "name": "{=HJdIkdm2}Thick Scarf",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_linen": 2
+        },
+        "sell_price": 325,
+        "buy_price": 357
+      },
+      {
+        "id": "PE_scarf",
+        "name": "{=GNdVXMue}Scarf",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_linen": 2
+        },
+        "sell_price": 325,
+        "buy_price": 357
+      },
+      {
+        "id": "PE_wrapped_scarf",
+        "name": "{=h1bcf5zn}Shawl",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_linen": 2
+        },
+        "sell_price": 325,
+        "buy_price": 357
+      },
+      {
+        "id": "PE_empire_cape_a",
+        "name": "{=KQ9h5eAe}Heavy Cloak",
+        "totalArmorValue": 1,
+        "tier": 1,
+        "material_type": "Cloth",
+        "component_type": "shoulder_armor",
+        "crafting_recipe": {
+          "pe_linen": 2
+        },
+        "sell_price": 325,
+        "buy_price": 357
+      }
+    ]
+  },
+  "Culture.vaegir": {
+    "head_armor": [
+      {
+        "id": "Rus_helm_icon",
+        "name": "Vaegir Decorated Helmet",
+        "totalArmorValue": 60,
         "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "Rus_helm_noble",
+        "name": "Vaegir Noble Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "Rus_helm_noble_icon",
+        "name": "Vaegir Decorated Noble Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "Rus_helm_regular",
+        "name": "Vaegir Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "Rus_helm_regular2",
+        "name": "Vaegir Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "Rus_open_helm",
+        "name": "Vaegir Helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "Vaegir_helm",
+        "name": "War Mask",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "Vaegir_helm_open",
+        "name": "War helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      },
+      {
+        "id": "Va_NorseLord",
+        "name": "Northren lord helmet",
+        "totalArmorValue": 60,
+        "tier": 6,
+        "material_type": "Plate",
+        "component_type": "head_armor",
+        "crafting_recipe": {
+          "pe_velvet": 2,
+          "pe_thamaskene_steel": 4
+        },
+        "sell_price": 8880,
+        "buy_price": 9768
+      }
+    ],
+    "body_armor": [
+      {
+        "id": "Rus_armour",
+        "name": "Vaegir coat of plates",
+        "totalArmorValue": 100,
+        "tier": 5,
         "material_type": "Plate",
         "component_type": "body_armor",
         "crafting_recipe": {
-          "pe_velvet": 10,
-          "pe_thamaskene_steel": 10
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
         },
-        "sell_price": 29175,
-        "buy_price": 32092
+        "sell_price": 14865,
+        "buy_price": 16351
+      },
+      {
+        "id": "Rus_armour1",
+        "name": "Vaegir coat of plates",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
+      },
+      {
+        "id": "Rus_armour2",
+        "name": "Vaegir coat of plates",
+        "totalArmorValue": 100,
+        "tier": 5,
+        "material_type": "Plate",
+        "component_type": "body_armor",
+        "crafting_recipe": {
+          "pe_velvet": 3,
+          "pe_thamaskene_steel": 7
+        },
+        "sell_price": 14865,
+        "buy_price": 16351
       }
     ],
     "leg_armor": [],
@@ -10884,6 +10877,13 @@
         "buy_price": 6693
       }
     ]
+  },
+  "undefined": {
+    "head_armor": [],
+    "body_armor": [],
+    "leg_armor": [],
+    "arm_armor": [],
+    "shoulder_armor": []
   },
   "Culture.Highshop_BA": {
     "head_armor": [
