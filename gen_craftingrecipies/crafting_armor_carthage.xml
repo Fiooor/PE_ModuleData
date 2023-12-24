@@ -1,0 +1,11 @@
+<Recipies>
+	<Tier1Craftings>
+		5*cts_carthage_tunic_a*1=pe_linen*3|5*cts_carthage_tunic_b*1=pe_linen*3
+	</Tier1Craftings>
+	<Tier2Craftings>
+		5*cts_carthage_shoulder_lino_a*1=pe_cloth*3
+	</Tier2Craftings>
+	<Tier3Craftings>
+		5*cts_carthaginian_pylos*1=pe_velvet*3,pe_thamaskene_steel*5|5*cts_carthage_montferier*1=pe_velvet*3,pe_thamaskene_steel*5|5*cts_carthage_lino_a*1=pe_velvet*6|5*cts_carthage_lino_a1*1=pe_velvet*6|5*cts_carthage_lino_b*1=pe_velvet*6|5*cts_fenician_lino*1=pe_velvet*6|5*cts_fenician_lino_a*1=pe_velvet*6|5*cts_fenician_lino_b*1=pe_velvet*6
+	</Tier3Craftings>
+</Recipies>

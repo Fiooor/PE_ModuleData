@@ -1,0 +1,17 @@
+<Market>
+	<Tier1Items>
+		exomis_1*900*990|exomis_2*900*990|exomis_3*900*990|exomis_4*900*990
+	</Tier1Items>
+	<Tier2Items>
+		bronze_greave_2*2495*2744|linothorax_shoulders_5*1425*1567|linothorax_shoulders_6*1425*1567|linothorax_shoulders_8*1425*1567|linothorax_shoulders_9*1425*1567|linothorax_shoulders_3*1475*1622|linothorax_shoulders_1*1550*1705|linothorax_shoulders_7*1550*1705
+	</Tier2Items>
+	<Tier3Items>
+		pilos_1*7310*8041|pilos_2*7310*8041|pilos_3*7310*8041|pilos_4*7310*8041|pilos_6*9005*9905|phrygian_1*9030*9933|phrygian_2*9030*9933|chalcidian_2*11125*12237|chalcidian_3*11125*12237|chalcidian_6*11125*12237|phrygian_4*11125*12237|pilos_5*11125*12237|phrygian_3*11175*12292|boeotian_1*11225*12347|chalcidian_7*11250*12375|chalcidian_9*11250*12375|phrygian_5*11250*12375|phrygian_7*11275*12402|phrygian_8*11275*12402|chalcidian_1*11375*12512|chalcidian_4*11375*12512|chalcidian_5*11375*12512|chalcidian_8*11375*12512|boeotian_2*11475*12622|phrygian_6*11525*12677|phrygian_9*11525*12677|phrygian_10*11525*12677|phrygian_11*11525*12677|phrygian_12*11525*12677|cts_greek_corinthian*11525*12677|cts_greek_corinthian_crest_a*11525*12677|cts_greek_corinthian_crest_b*11525*12677|cts_greek_corinthian_horns*11525*12677|cts_greek_corinthian_horns1*11525*12677|cts_greek_corinthian_horns2*11525*12677|cts_greek_corinthian_horns3*11525*12677|cts_greek_corinthian_horns_a*11525*12677|cts_greek_corinthian_snake*11525*12677|cts_greek_corinthian_snake1*11525*12677|cts_greek_corinthian_snake_a*11525*12677|cts_greek_epirus_helmet*11525*12677|cts_greek_epirus_helmet_a*11525*12677|cts_thracian_phrygian*11525*12677|cts_thracian_phrygian_aged*11525*12677|cts_thracina_helmet_a*11525*12677|cts_thracina_helmet_a1*11525*12677|cts_thracina_helmet_b*11525*12677|cts_thracina_helmet_b1*11525*12677|cts_thracina_helmet_b2*11525*12677|cts_thracina_helmet_b3*11525*12677|cts_thracina_helmet_b4*11525*12677|linothorax_4*4775*5252|linothorax_5*4775*5252|linothorax_6*4900*5390|linothorax_3*4975*5472|linothorax_1*5025*5527|linothorax_2*5025*5527|linothorax_8*5100*5610|linothorax_7*5150*5665|linothorax_9*5200*5720|greek_musculata_2*14615*16076|greek_musculata_1*16735*18408|cts_thracian_linothorax_a*16735*18408|cts_thracian_linothorax_b*16735*18408|bronze_greave_1*4415*4856|bronze_greaves_dual_3*6860*7546|bronze_greaves_dual_1*6960*7656|bronze_greaves_dual_2*6960*7656|linothorax_shoulders_2*3000*3300|linothorax_shoulders_4*3000*3300
+	</Tier3Items>
+	<Tier4Items>
+		
+	</Tier4Items>
+	<CraftingBoxes>
+		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
+	</CraftingBoxes>
+</Market>

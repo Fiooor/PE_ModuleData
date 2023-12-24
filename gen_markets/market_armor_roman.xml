@@ -1,0 +1,17 @@
+<Market>
+	<Tier1Items>
+		cts_roman_tunic_a*950*1045|cts_roman_tunic_b*950*1045|cts_roman_tunic_a1*950*1045
+	</Tier1Items>
+	<Tier2Items>
+		cts_roman_gladiator_provocatores_b*2845*3129|cts_roman_gladiator_provocatores_a_iron*2845*3129|cts_roman_gladiator_provocatores_a_iron1*2845*3129|cts_roman_gladiator_provocatores_a*2845*3129|cts_roman_gladiator_provocatores_a1*2845*3129|cts_roman_gladiator_provocatores_c*2845*3129|cts_roman_gladiator_provocatores_c1*2845*3129|cts_roman_republican_helmet_a*2845*3129|cts_roman_republican_helmet_b*2845*3129|cts_roman_republican_helmet_feathers_red*2845*3129|cts_roman_republican_helmet_feathers_red_whiet*2845*3129|cts_roman_centurio_a*2845*3129|cts_roman_colus_a*2845*3129|cts_roman_colus_a_crossguard*2845*3129|cts_roman_colus2*2845*3129|cts_roman_colus2_iron*2845*3129|cts_roman_colus22*2845*3129|cts_roman_colus22_iron*2845*3129|cts_roman_feathers_a*2845*3129|cts_roman_helmet_cav_mask*2845*3129|cts_roman_helmet_cav_mask1*2845*3129|cts_roman_helmet_cav_mask3*2845*3129|cts_roman_helmet_cav_mask4*2845*3129|cts_roman_republican_helmet_horse_tail*2845*3129|cts_roman_republican_helmet_horse_tail_a*2845*3129|cts_roman_syrian_helmet_a*2845*3129|cts_gladiator_armor_a*4440*4884|cts_gladiator_armor_b*4440*4884|cts_gladiator_armor_c*4440*4884|cts_gladiator_armor_d*4440*4884|cts_roman_cardiophylax_a*4440*4884|cts_roman_cardiophylax_b*4440*4884|cts_roman_cardiophylax_c*4440*4884|cts_lorica_hamata_a*4690*5159|cts_lorica_hamata_a1*4690*5159|cts_lorica_hamata_a2*4690*5159|cts_lorica_hamata_b*4690*5159|cts_lorica_hamata_b1*4690*5159|cts_lorica_segmentata_a*4690*5159|cts_roman_cuiras_a*4690*5159|cts_roman_cuiras_medusa*4690*5159|cts_roman_cuiras_b*4690*5159|cts_roman_lorica_cav*4690*5159|cts_roman_lorica_cav_scale*4690*5159|cts_roman_lorica_cenurio_a*4690*5159|cts_roman_lorica_scale_pterges*4690*5159|cts_roman_lorica_scale_pterges_a*4690*5159|cts_roman_syrian_archer_armor_a*4690*5159|cts_roman_syrian_archer_armor_b*4690*5159|cts_roman_syrian_archer_armor_c*4690*5159|cts_roman_syrian_archer_armor_d*4690*5159|cts_cape_a1a*2320*2552|cts_lorica_segmentata_shoulder_a*2320*2552|cts_lorica_segmentata_shoulder_a1*2320*2552|cts_lorica_segmentata_shoulder_a2*2320*2552|cts_roma_lorica_shoulder_a*2320*2552|cts_roma_lorica_shoulder_a1*2320*2552|cts_roma_lorica_shoulder_a2*2320*2552|cts_roma_lorica_shoulder_a21*2320*2552|cts_roman_lorica_shoulder_b*2320*2552|cts_roman_lorica_shoulder_b1*2320*2552|cts_roman_shoulder_cuiras_a*2320*2552|cts_roman_shoulder_cuiras_a1*2320*2552
+	</Tier2Items>
+	<Tier3Items>
+		cts_roman_sandals_a*4365*4801|cts_roman_sandale_b*4365*4801|cts_roman_caligae_pants_a*4565*5021|cts_roman_general_boot*4565*5021|cts_roman_long_pants_graves*4565*5021|cts_roman_long_pants_graves_a*4565*5021|cts_roman_gladiator_greaves_a*4565*5021|cts_roman_gladiator_greaves_a1*4565*5021|cts_roman_gladiator_greaves_b*4565*5021|cts_roman_gladiator_greaves_b1*4565*5021
+	</Tier3Items>
+	<Tier4Items>
+		
+	</Tier4Items>
+	<CraftingBoxes>
+		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
+	</CraftingBoxes>
+</Market>

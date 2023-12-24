@@ -1,0 +1,17 @@
+<Market>
+	<Tier1Items>
+		cts_celtic_tunic_a*675*742|cts_celtic_tunic_a1*675*742|cts_celtic_tunic_a2*675*742|cts_celtic_tunic_b*675*742|cts_celtic_tunic_b1*675*742|cts_celtic_tunic_b2*675*742|cts_celt_tunic_c*675*742|cts_celt_tunic_c1*675*742|cts_celt_tunic_c2*675*742|cts_celt_tunic_cc*675*742|cts_celt_tunic_cc2*675*742|cts_celtic_graves_pants_a*375*412|cts_celtic_graves_pants_b*375*412|cts_celtic_pants_a*375*412|cts_celtic_pants_a1*375*412|cts_celtic_pants_a2*375*412|cts_celtic_pants_a3*375*412|cts_celtic_pants_a4*375*412|cts_celtic_pants_b*375*412|cts_celtic_pants_b1*375*412|cts_celtic_pants_b2*375*412|cts_celtic_pants_b3*375*412|cts_celtic_pants_b4*375*412|cts_celtic_pants_c*375*412|cts_celtic_pants_c1*375*412|cts_celtic_pants_c2*375*412|cts_celtic_pants_c3*375*412|cts_celtic_pants_c4*375*412|cts_bear_trofe*350*385|cts_wolf_trofe*350*385|cts_celtic_sash_lose*350*385|cts_celtic_sash_lose_a*350*385|cts_celtic_sash_lose_b*350*385|cts_sash_celt*350*385|cts_sash_celt1*350*385|cts_sash_celt2*350*385|cts_torc_c*1260*1386|cts_cape_celtic_a*350*385|cts_cape_celtic_a2*350*385|cts_cape_celtic_a1*350*385|cts_cape_celtic_b*350*385|cts_cape_celtic_b1*350*385|cts_cape_celtic_c*350*385|cts_cape_celtic_c1*350*385
+	</Tier1Items>
+	<Tier2Items>
+		cts_celtic_helm_c*2995*3294|cts_celtic_helm_c1*2995*3294|cts_celt_helmet_boar*2995*3294|cts_celtic_helm_b*2995*3294|cts_celtic_helm_b1*2995*3294|cts_celtic_helm_h*2995*3294|cts_celtic_helmet_f*2995*3294|cts_celtic_helmet_g*2995*3294|cts_celtic_scordisci_a*2995*3294|cts_celtic_scordisci_b*2995*3294|cts_celtic_linothorax_a*5750*6325|cts_celtic_mail_a*5750*6325|cts_celtic_short_mail_a*5750*6325|cts_chainmail_short_slevs_a*5750*6325|cts_chainmail_short_slevs_a1*5750*6325|cts_chainmail_short_slevs_a2*5750*6325|cts_celtic_shoulder_armor_a*925*1017|cts_celtic_shoulder_armor_aa*925*1017|cts_celtic_shoulder_armor_a1*2220*2442|cts_celtic_shoulder_armor_a11*2220*2442|cts_shoulder_chaimail_sash_a*2220*2442|cts_shoulder_chaimail_sash_a1*2220*2442|cts_shoulder_chaimail_sash_b*2220*2442|cts_celtic_hamata*2220*2442|cts_celtic_hamata_a*2220*2442|cts_celtic_hamata_a1*925*1017|cts_celtic_shoulder_lino_a*2220*2442
+	</Tier2Items>
+	<Tier3Items>
+		
+	</Tier3Items>
+	<Tier4Items>
+		
+	</Tier4Items>
+	<CraftingBoxes>
+		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
+	</CraftingBoxes>
+</Market>

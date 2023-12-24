@@ -1,0 +1,17 @@
+<Market>
+	<Tier1Items>
+		cts_persian_cloth_a*450*495|cts_persian_cloth_b*450*495|cts_persian_cloth_c*450*495|cts_persian_cloth_d*450*495|cts_persian_cloth_e*450*495|cts_persian_cloth_f*450*495|cts_persian_tunic_a*675*742|cts_persian_tunic_a1*675*742|cts_persian_tunic_a2*675*742|cts_persian_tunic_a3*675*742|cts_persian_tunic_a4*675*742|cts_persian_tunic_a5*675*742|cts_persian_tunic_b*675*742|cts_persian_tunic_b1*675*742|cts_persian_tunic_b2*675*742|cts_persian_tunic_b3*675*742|cts_persian_tunic_b4*675*742|cts_persian_tunic_b5*675*742|cts_persian_pants_a*375*412|cts_persian_pants_a1*375*412|cts_persian_pants_a2*375*412|cts_persian_pants_a3*375*412|cts_persian_pants_a4*375*412|cts_persian_pants_a5*375*412|cts_persian_pants_a6*375*412|cts_persian_pants_b*375*412|cts_persian_pants_b1*375*412|cts_persian_pants_b2*375*412|cts_persian_pants_b3*375*412|cts_persian_pants_b4*375*412|cts_persian_pants_b5*375*412|cts_persian_pants_b6*375*412
+	</Tier1Items>
+	<Tier2Items>
+		
+	</Tier2Items>
+	<Tier3Items>
+		
+	</Tier3Items>
+	<Tier4Items>
+		
+	</Tier4Items>
+	<CraftingBoxes>
+		pe_armor_crate_t1*1*1|pe_armor_crate_t2*2*2|pe_armor_crate_t3*3*3
+	</CraftingBoxes>
+</Market>
