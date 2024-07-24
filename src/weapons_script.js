@@ -38,7 +38,7 @@ function parseTierCraftings(tierCraftingsString, tier) {
   return parsedRecipes;
 }
 
-const tierPriceMultiplier = 500;
+const tierPriceMultiplier = 50;
 
 async function createCultureFiles(cultureList, baseData, outputFilePathBase) {
   try {

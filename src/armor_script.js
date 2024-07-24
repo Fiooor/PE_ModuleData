@@ -2,7 +2,7 @@ const fs = require('fs');
 const xml2js = require('xml2js');
 
 const parser = new xml2js.Parser();
-const fileNames = ['ModuleData/pe_head_armors.xml', 'ModuleData/pe_leg_armors.xml', 'ModuleData/pe_body_armors.xml', 'ModuleData/pe_arm_armors.xml', 'ModuleData/pe_shoulder_armors.xml', 'ModuleData/mpitems.xml', 'ModuleData/pe_ba_items.xml', 'ModuleData/pe_swadianarmory.xml', 'ModuleData/pe_vaegir_items.xml', 'ModuleData/cts_carthage_items.xml', 'ModuleData/cts_celtic_items.xml', 'ModuleData/cts_dacian_items.xml', 'ModuleData/cts_greek_items.xml', 'ModuleData/cts_persian_items.xml', 'ModuleData/cts_roman_items.xml'];
+const fileNames = ['ModuleData/pe_head_armors.xml', 'ModuleData/pe_leg_armors.xml', 'ModuleData/pe_body_armors.xml', 'ModuleData/pe_arm_armors.xml', 'ModuleData/pe_shoulder_armors.xml', 'ModuleData/mpitems.xml', 'ModuleData/pe_ba_items.xml', 'ModuleData/pe_swadianarmory.xml', 'ModuleData/pe_vaegir_items.xml'];
 
 const components = ['head_armor', 'body_armor', 'leg_armor', 'arm_armor', 'shoulder_armor'];
 const componentTypes = {
@@ -188,7 +188,7 @@ function generateMultipleCustomMarketXmls(shops, materialBasePrices) {
       const basePrice = materialBasePrices[material];
 
       if (basePrice) {
-        const minMultiplier = 0.9; // You can set your desired multiplier here
+        const minMultiplier = 1; // You can set your desired multiplier here
         const maxMultiplier = 1.25; // You can set your desired multiplier here
 
         customMarketItems[material] = {
